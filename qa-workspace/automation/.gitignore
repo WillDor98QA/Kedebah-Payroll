@@ -1,0 +1,7 @@
+node_modules/
+.env
+fixtures/.auth/
+../evidence/test-results/
+../reports/playwright-html/
+../reports/playwright-results.json
+*.log

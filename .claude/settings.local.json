@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "Bash(pkill -f \"playwright test\")",
+      "Bash(npx playwright *)",
+      "Bash(echo \"EXIT=$?\")"
+    ]
+  }
+}

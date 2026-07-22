@@ -1,0 +1,145 @@
+{
+  "id": 743,
+  "staff_id": 59,
+  "employee_name": "Khalifa  Sarabi",
+  "employee_code": "EMP10000",
+  "department": "Quality Assurance",
+  "status": "warning",
+  "status_label": "Warning",
+  "basic_salary": 0,
+  "gross_pay": 4500,
+  "total_benefits": 0,
+  "total_bik": 0,
+  "total_deductions": 0,
+  "total_statutory_employee": 450,
+  "total_statutory_employer": 0,
+  "taxable_income": 1800,
+  "net_pay": 4050,
+  "employer_cost": 4500,
+  "errors": [],
+  "warnings": [
+    "SOFT_WARNING: Bonus threshold exceeded; excess routed to PAYE."
+  ],
+  "payment_status": "paid",
+  "lines": [
+    {
+      "id": 1598,
+      "line_type": "earning",
+      "reference_type": "bonus",
+      "reference_id": null,
+      "name": "Bonus",
+      "code": "BONUS",
+      "amount": 4500,
+      "employer_amount": 0,
+      "rate": null,
+      "quantity": null,
+      "is_taxable": true,
+      "sort_order": 2
+    },
+    {
+      "id": 1599,
+      "line_type": "statutory",
+      "reference_type": "statutory_item",
+      "reference_id": 6,
+      "name": "Bonus Tax",
+      "code": "bonus_tax",
+      "amount": 135,
+      "employer_amount": 0,
+      "rate": 5,
+      "quantity": null,
+      "is_taxable": false,
+      "sort_order": 300
+    },
+    {
+      "id": 1600,
+      "line_type": "statutory",
+      "reference_type": "statutory_item",
+      "reference_id": 1,
+      "name": "PAYE (Income Tax)",
+      "code": "paye",
+      "amount": 315,
+      "employer_amount": 0,
+      "rate": null,
+      "quantity": null,
+      "is_taxable": false,
+      "sort_order": 301
+    }
+  ],
+  "gra_paye_payable": 450,
+  "calculation_breakdown": {
+    "chargeable_income": 1800,
+    "qualifying_employment_income": 4500,
+    "bik_value": 0,
+    "reliefs_monthly_total": 0,
+    "ssf_employee": 0,
+    "taxable_income_reduction_lines": [],
+    "before_tax_deductions": 0,
+    "after_tax_deductions": 0,
+    "gross_pay_for_paye_base": 4500,
+    "taxable_benefits_for_paye_base": 0,
+    "paye": 315,
+    "paye_band_trace": [
+      {
+        "to": 3896.67,
+        "tax": 315,
+        "from": 730,
+        "rate": 17.5,
+        "income_in_band": 1800
+      }
+    ],
+    "bonus_excess_paye_trace": {
+      "mode": "marginal",
+      "excess": 1800,
+      "reference": {
+        "bik": 100,
+        "mode": "marginal",
+        "basic": 1500,
+        "reliefs": 0,
+        "loan_bik": 0,
+        "chargeable": 2017.5,
+        "ssf_employee": 82.5,
+        "taxable_benefits": 500,
+        "before_tax_deductions": 0
+      },
+      "marginal_paye": 315,
+      "tax_with_excess": 558.81,
+      "tax_without_excess": 243.81,
+      "reference_band_trace": [
+        {
+          "to": 490,
+          "tax": 0,
+          "from": 0,
+          "rate": 0,
+          "income_in_band": 490
+        },
+        {
+          "to": 600,
+          "tax": 5.5,
+          "from": 490,
+          "rate": 5,
+          "income_in_band": 110
+        },
+        {
+          "to": 730,
+          "tax": 13,
+          "from": 600,
+          "rate": 10,
+          "income_in_band": 130
+        },
+        {
+          "to": 3896.67,
+          "tax": 225.31,
+          "from": 730,
+          "rate": 17.5,
+          "income_in_band": 1287.5
+        }
+      ]
+    },
+    "bonus_tax_trace": {
+      "final_tax": 135,
+      "threshold": 2700,
+      "ytd_bonus": 0,
+      "excess_routed": 1800
+    }
+  }
+}

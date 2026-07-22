@@ -1,0 +1,138 @@
+{
+  "id": 742,
+  "staff_id": 58,
+  "employee_name": "Asibe  Koni",
+  "employee_code": "EMP2026",
+  "department": "Quality Assurance",
+  "status": "warning",
+  "status_label": "Warning",
+  "basic_salary": 0,
+  "gross_pay": 10000.02,
+  "total_benefits": 0,
+  "total_bik": 0,
+  "total_deductions": 0,
+  "total_statutory_employee": 2500.01,
+  "total_statutory_employer": 0,
+  "taxable_income": 10000.02,
+  "net_pay": 7500.01,
+  "employer_cost": 10000.02,
+  "errors": [],
+  "warnings": [
+    "SOFT_WARNING: Bonus threshold exceeded; excess routed to PAYE."
+  ],
+  "payment_status": "pending",
+  "lines": [
+    {
+      "id": 1596,
+      "line_type": "earning",
+      "reference_type": "bonus",
+      "reference_id": null,
+      "name": "Bonus",
+      "code": "BONUS",
+      "amount": 10000.02,
+      "employer_amount": 0,
+      "rate": null,
+      "quantity": null,
+      "is_taxable": true,
+      "sort_order": 2
+    },
+    {
+      "id": 1597,
+      "line_type": "statutory",
+      "reference_type": "statutory_item",
+      "reference_id": 1,
+      "name": "PAYE (Income Tax)",
+      "code": "paye",
+      "amount": 2500.01,
+      "employer_amount": 0,
+      "rate": null,
+      "quantity": null,
+      "is_taxable": false,
+      "sort_order": 300
+    }
+  ],
+  "gra_paye_payable": 2500.01,
+  "calculation_breakdown": {
+    "chargeable_income": 10000.02,
+    "qualifying_employment_income": 10000.02,
+    "bik_value": 0,
+    "reliefs_monthly_total": 0,
+    "ssf_employee": 0,
+    "taxable_income_reduction_lines": [],
+    "before_tax_deductions": 0,
+    "after_tax_deductions": 0,
+    "gross_pay_for_paye_base": 10000.02,
+    "taxable_benefits_for_paye_base": 0,
+    "paye": 2500.01,
+    "paye_band_trace": [
+      {
+        "to": 19896.67,
+        "tax": 2500.01,
+        "from": 3896.67,
+        "rate": 25,
+        "income_in_band": 10000.02
+      }
+    ],
+    "bonus_excess_paye_trace": {
+      "mode": "marginal",
+      "excess": 10000.02,
+      "reference": {
+        "bik": 945,
+        "mode": "marginal",
+        "basic": 3000,
+        "reliefs": 50,
+        "loan_bik": 0,
+        "chargeable": 4930,
+        "ssf_employee": 165,
+        "taxable_benefits": 1200,
+        "before_tax_deductions": 0
+      },
+      "marginal_paye": 2500.01,
+      "tax_with_excess": 3331.01,
+      "tax_without_excess": 831,
+      "reference_band_trace": [
+        {
+          "to": 490,
+          "tax": 0,
+          "from": 0,
+          "rate": 0,
+          "income_in_band": 490
+        },
+        {
+          "to": 600,
+          "tax": 5.5,
+          "from": 490,
+          "rate": 5,
+          "income_in_band": 110
+        },
+        {
+          "to": 730,
+          "tax": 13,
+          "from": 600,
+          "rate": 10,
+          "income_in_band": 130
+        },
+        {
+          "to": 3896.67,
+          "tax": 554.17,
+          "from": 730,
+          "rate": 17.5,
+          "income_in_band": 3166.67
+        },
+        {
+          "to": 19896.67,
+          "tax": 258.33,
+          "from": 3896.67,
+          "rate": 25,
+          "income_in_band": 1033.33
+        }
+      ]
+    },
+    "bonus_tax_trace": {
+      "final_tax": 0,
+      "threshold": 5400,
+      "ytd_bonus": 18000,
+      "excess_routed": 10000.02
+    }
+  }
+}

@@ -1,0 +1,426 @@
+Test Case ID,In Catalogue,Requirement,Module,Feature,Scenario,Historical Verification,Current Execution,Product Health,Release Readiness,Certification Status,Linked Bug(s),Bug Severity,Bug Status,Last Run,Evidence
+TC-ALRT-001,Y,REQ-ALRT-002,Payroll,TC-ALRT-001,,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 21:16:53,test-cases/Payroll
+TC-ALRT-002,Y,REQ-ALRT-004,Payroll,TC-ALRT-002,,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 21:16:53,test-cases/Payroll
+TC-ALRT-003,Y,REQ-ALRT-005,Payroll,TC-ALRT-003,,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 21:16:53,test-cases/Payroll
+TC-ALRT-004,Y,REQ-ALRT-003,Payroll,TC-ALRT-004,,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 21:16:53,test-cases/Payroll
+TC-ALRT-005,Y,REQ-ALRT-003,Payroll,TC-ALRT-005,,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 21:16:53,test-cases/Payroll
+TC-ALRT-006,Y,REQ-ALRT-006,Payroll,TC-ALRT-006,,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 21:16:53,test-cases/Payroll
+TC-ALRT-007,Y,REQ-ALRT-007,Payroll,TC-ALRT-007,,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 21:16:53,test-cases/Payroll
+TC-ALRT-008,Y,REQ-ALRT-008,Payroll,TC-ALRT-008,,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 21:16:53,test-cases/Payroll
+TC-ALRT-009,Y,REQ-ALRT-009,Payroll,TC-ALRT-009,,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 21:16:53,test-cases/Payroll
+TC-ALRT-010,Y,REQ-ALRT-010,Payroll,TC-ALRT-010,,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 21:16:53,test-cases/Payroll
+TC-ALRT-011,Y,REQ-ALRT-011,Payroll,TC-ALRT-011,,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:36:07,test-cases/Payroll
+TC-ALRT-012,Y,REQ-ALRT-012,Payroll,TC-ALRT-012,,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 21:16:53,test-cases/Payroll
+TC-ALRT-013,Y,REQ-ALRT-013,Payroll,TC-ALRT-013,,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 21:16:53,test-cases/Payroll
+TC-ALRT-014,Y,REQ-ALRT-001,Payroll,Hard vs soft routing,Persona mixing hard + soft conditions,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 21:16:53,test-cases/Payroll
+TC-ALRT-015,Y,REQ-ALRT-014,Payroll,Alert persistence + acknowledgement,Run with alerts,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 21:16:53,run #88
+TC-ALRT-016,Y,REQ-ALRT-001,Payroll,Consolidated alerts on run,Multi-warning persona,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 21:16:53,test-cases/Payroll
+TC-AUTH-001,Y,REQ-AUTH-001,Authentication,Login by email,1. Open Login 2. Enter email in identifier 3. Enter password 4. Submit,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:30:45,evidence/screenshots/recon-william-dashboard.png
+TC-AUTH-002,Y,REQ-AUTH-001,Authentication,Login by username,Enterprise login with alphanumeric username,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 19:09:40,evidence/browser/auth-recovery/username.png
+TC-AUTH-003,Y,REQ-AUTH-001,Authentication,Login by 10-digit phone,Enterprise login with phone identifier,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 19:09:47,evidence/browser/auth-recovery/phone.png
+TC-AUTH-004,Y,REQ-AUTH-001,Authentication,Identifier auto-detection boundary,9-digit & 11-digit identifiers,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 22:20:36,evidence/browser/auth-recovery/identifier-boundary.png
+TC-AUTH-005,Y,REQ-AUTH-002,Authentication,Token + permissions persisted,Inspect cookies after login,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 19:09:56,evidence/browser/auth-recovery/token.png
+TC-AUTH-006,Y,REQ-AUTH-002,Authentication,Protected route after login,Navigate to a permitted route,NO,NOT APPLICABLE,NO KNOWN DEFECT,OUT OF SCOPE,OUT OF SCOPE,,,,2026-07-01 08:37:55,test-cases/Authentication
+TC-AUTH-007,Y,REQ-AUTH-003,Authentication,Redirect-after-expiry,1. Hit protected URL while expired 2. Re-login,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:30:45,test-cases/Authentication
+TC-AUTH-008,Y,REQ-AUTH-004,Authentication,Logout clears session,Click Logout,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 22:20:49,evidence/browser/auth-recovery/logout.png
+TC-AUTH-009,Y,REQ-AUTH-004,Authentication,Post-logout route guard,Navigate to protected route after logout,NO,NOT APPLICABLE,NO KNOWN DEFECT,OUT OF SCOPE,OUT OF SCOPE,,,,2026-06-30 22:20:52,evidence/browser/auth-recovery/post-logout-guard.png
+TC-AUTH-010,Y,REQ-AUTH-005,Authentication,Wrong password,Valid identifier + wrong password,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 19:10:03,evidence/browser/auth-recovery/wrong-pw.png
+TC-AUTH-011,Y,REQ-AUTH-005,Authentication,Unknown identifier,Non-existent identifier,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 19:10:10,evidence/browser/auth-recovery/unknown-id.png
+TC-AUTH-012,Y,REQ-AUTH-005,Authentication,Empty fields validation,Submit with empty identifier/password,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 19:10:16,evidence/browser/auth-recovery/empty.png
+TC-AUTH-013,Y,REQ-AUTH-007,Authentication,Admin full access,Visit each module; attempt view/create/edit/delete,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:30:50,test-cases/Authentication
+TC-AUTH-014,Y,REQ-AUTH-008,Authentication,Manager operational CRUD,"Create/edit/delete on operational module (e.g. catalog, pay run)",NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:30:50,test-cases/Authentication
+TC-AUTH-015,Y,REQ-AUTH-008,Authentication,Manager view-only on Banks (UI),Open Bank Setup,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:30:50,test-cases/Authentication
+TC-AUTH-016,Y,REQ-AUTH-009,Authentication,Menu gating by permission,Inspect nav menu,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-07-01 08:37:55,test-cases/Authentication
+TC-AUTH-017,Y,REQ-AUTH-010,Authentication,API enforcement despite hidden UI,Call bank-edit API directly (bypass UI),NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 02:36:07,test-cases/Authentication
+TC-AUTH-018,Y,REQ-AUTH-011,Authentication,Self-service own record,Access My Payslips (self-service),NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:30:45,test-cases/Authentication
+TC-AUTH-019,Y,REQ-AUTH-011,Authentication,Self-service cannot reach admin,Navigate to an admin route/API,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:30:45,test-cases/Authentication
+TC-BANK-001,Y,REQ-BANK-001,Payroll,Seed counts,Open Bank Setup; count banks/branches,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 04:55:52,test-cases/Payroll
+TC-BANK-002,Y,REQ-BANK-001,Payroll,Seed sort codes,Inspect sample branches,PASS,BLOCKED,OPEN DEFECT,BLOCKED,BLOCKED,BUG-008,Low,Open,2026-06-29 18:34:45,bank #3
+TC-BANK-003,Y,REQ-BANK-002,Payroll,Seeded identity not editable,Attempt edit name/sort code (UI + API),NO,BLOCKED,OPEN DEFECT,BLOCKED,BLOCKED,BUG-008,Low,Open,2026-06-30 02:36:11,test-cases/Payroll
+TC-BANK-004,Y,REQ-BANK-002,Payroll,Seeded record not deletable,Attempt delete (UI + API),PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:45,bank #3
+TC-BANK-005,Y,REQ-BANK-003,Payroll,Seeded status toggle,Set Inactive,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:47,bank #29
+TC-BANK-006,Y,REQ-BANK-004,Payroll,Add new bank,Create bank (name/short/institution code),PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:47,bank #29 (deleted)
+TC-BANK-007,Y,REQ-BANK-004,Payroll,Add new branch,Create branch (sort code/name),PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:24:54,test-cases/Payroll
+TC-BANK-008,Y,REQ-BANK-005,Payroll,Bank name unique,Create duplicate name,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:47,banks
+TC-BANK-009,Y,REQ-BANK-006,Payroll,Branch sort code unique,Create duplicate sort code,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:24:55,test-cases/Payroll
+TC-BANK-010,Y,REQ-BANK-007,Payroll,Edit non-seeded,Edit identity fields,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:24:55,test-cases/Payroll
+TC-BANK-011,Y,REQ-BANK-008,Payroll,Delete-bank guard,Delete bank,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:52,test-cases/Payroll
+TC-BANK-012,Y,REQ-BANK-009,Payroll,Delete-branch guard,Delete branch,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:24:55,test-cases/Payroll
+TC-BANK-013,Y,REQ-BANK-007,Payroll,Delete unlinked non-seeded branch,Delete,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:24:54,test-cases/Payroll
+TC-BANK-014,Y,REQ-BANK-010,Payroll,No free-text bank anywhere,Inspect bank-transfer entry,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:49,test-cases/Payroll
+TC-BANK-015,Y,REQ-BANK-011,Payroll,Manager view-only Banks (API),Direct API create/edit/delete bank,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:49,test-cases/Payroll
+TC-BANK-016,Y,REQ-BANK-003,Payroll,Inactive bank excluded from picker,Add employee → bank picker,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:49,test-cases/Payroll
+TC-BEN-001,Y,REQ-CAT-015,Benefits,Create earning item,"Create Category=Earning, Fixed amount",PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:31:20,test-cases/Benefits
+TC-BEN-002,Y,REQ-CAT-015,Benefits,Create benefit item,"Create Category=Benefit, Cash",PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:31:20,catalog CRUD
+TC-BEN-003,Y,REQ-CAT-001,Benefits,Earning → gross,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:31:51,test-cases/Benefits
+TC-BEN-004,Y,REQ-CAT-001,Benefits,"Benefit → pay, grouped as benefit",Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:08,test-cases/Benefits
+TC-BEN-005,Y,REQ-CAT-003,Benefits,Calc: Fixed amount,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:26,test-cases/Benefits
+TC-BEN-006,Y,REQ-CAT-003,Benefits,Calc: % of Basic,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:43,test-cases/Benefits
+TC-BEN-007,Y,REQ-CAT-003,Benefits,Calc: % of Cash Emoluments,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 21:43:39,test-cases/Benefits
+TC-BEN-008,Y,REQ-CAT-004,Benefits,Taxable benefit → PAYE base,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:07,test-cases/Benefits
+TC-BEN-009,Y,REQ-CAT-004,Benefits,Non-taxable benefit excluded from base,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 04:55:58,test-cases/Benefits
+TC-BEN-010,Y,REQ-CAT-005,Benefits,Effective window (catalog),Run before window,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 22:09:00,test-cases/Benefits
+TC-BEN-011,Y,REQ-CAT-006,Benefits,Inactive item skipped,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:36:09,test-cases/Benefits
+TC-BEN-012,Y,REQ-CAT-007,Benefits,Alert threshold breach,Run amount over threshold,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:36:07,test-cases/Benefits
+TC-BEN-013,Y,REQ-CAT-012,Benefits,Scope to department,Run dept A vs B,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 03:35:10,test-cases/Benefits
+TC-BEN-014,Y,REQ-CAT-013,Benefits,Per-employee override window,Run within vs outside window,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 22:09:00,test-cases/Benefits
+TC-BEN-015,Y,REQ-CAT-014,Benefits,Catalog approval workflow,Create change → before approval,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:31:17,test-cases/Benefits
+TC-BEN-016,Y,REQ-CAT-015,Benefits,Permission gating,CRUD via UI + API,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:31:17,catalog CRUD
+TC-BIK-001,Y,REQ-BIK-001,Benefits,BIK = Non-Cash benefit,Create benefit Nature=Non-Cash w/ rate/base/cap,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:30:46,catalog CRUD
+TC-BIK-002,Y,REQ-BIK-002,Benefits,Value = fixed,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:31:20,test-cases/Benefits
+TC-BIK-003,Y,REQ-BIK-002,Benefits,Value = rate% × base,Run,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:31:21,test-cases/Benefits
+TC-BIK-004,Y,REQ-BIK-003,Benefits,Base = Basic,Run,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:31:21,test-cases/Benefits
+TC-BIK-005,Y,REQ-BIK-003,Benefits,Base = Cash Emoluments excl BIK,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 21:56:54,test-cases/Benefits
+TC-BIK-006,Y,REQ-BIK-003,Benefits,Base = Cash Emoluments incl BIK,Run,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:31:21,test-cases/Benefits
+TC-BIK-007,Y,REQ-BIK-003,Benefits,Base = Qualifying Employment Income,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 21:39:54,test-cases/Benefits
+TC-BIK-008,Y,REQ-BIK-004,Benefits,Monthly cap bites,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:31:52,test-cases/Benefits
+TC-BIK-009,Y,REQ-BIK-005,Benefits,Cap warning,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:43:34,test-cases/Benefits
+TC-BIK-010,Y,REQ-BIK-004,Benefits,Cap does not bite,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:31:32,test-cases/Benefits
+TC-BIK-011,Y,REQ-BIK-006,Benefits,Taxable BIK not paid,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:31:53,test-cases/Benefits
+TC-BIK-012,Y,REQ-BIK-006,Benefits,BIK excluded from payslip earnings,Generate payslip,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 21:43:34,test-cases/Benefits
+TC-BIK-013,Y,REQ-BIK-007,Benefits,Country-scoped BIK match,Run matching vs non-matching tax profile,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 03:35:10,test-cases/Benefits
+TC-BIK-014,Y,REQ-BIK-007,Benefits,Auto-enrolled BIK no per-employee row,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 03:35:28,test-cases/Benefits
+TC-BIK-015,Y,REQ-BIK-008,Benefits,Pipeline position before % items,Inspect pipeline trace,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:31:53,test-cases/Benefits
+TC-BIK-016,Y,REQ-BIK-002,Benefits,Value re-derived via oracle,Compute expected,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:09,test-cases/Benefits
+TC-CAL-001,Y,REQ-CAL-001,Payroll,Basic per compensation type,Process run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:31,test-cases/Payroll
+TC-CAL-002,Y,REQ-CAL-002,Payroll,Run-type flags resolved,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:32,test-cases/Payroll
+TC-CAL-003,Y,REQ-CAL-003,Payroll,Bonus amount fixed,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:34,test-cases/Payroll
+TC-CAL-004,Y,REQ-CAL-003,Payroll,Bonus amount % basic,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:34,test-cases/Payroll
+TC-CAL-005,Y,REQ-CAL-004,Payroll,Recurring benefits resolved by scope,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:35,test-cases/Payroll
+TC-CAL-006,Y,REQ-CAL-004,Payroll,Earnings vs benefits categorised,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:35,test-cases/Payroll
+TC-CAL-007,Y,REQ-CAL-005,Payroll,Deductions before/after split,Process,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:33:33,evidence/network/run-86-employees-full.json
+TC-CAL-008,Y,REQ-CAL-005,Payroll,%-of-net deferred to pass 2,Process,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 21:39:55,test-cases/Payroll
+TC-CAL-009,Y,REQ-CAL-006,Payroll,Ad-hoc earnings + dedupe,Process,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:41:26,test-cases/Payroll
+TC-CAL-010,Y,REQ-CAL-006,Payroll,Catalog-linked no-amount inherits,Process,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:41:27,test-cases/Payroll
+TC-CAL-011,Y,REQ-CAL-007,Payroll,Gross pay sum,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:34,test-cases/Payroll
+TC-CAL-012,Y,REQ-CAL-008,Payroll,Ad-hoc deductions w/ treatment,Process,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:41:27,test-cases/Payroll
+TC-CAL-013,Y,REQ-CAL-009,Payroll,Tax pipeline order a→j,Inspect pipeline trace,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:46:11,test-cases/Payroll
+TC-CAL-014,Y,REQ-CAL-010,Payroll,Protected-pay step,Process,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:34,test-cases/Payroll
+TC-CAL-015,Y,REQ-CAL-011,Payroll,%-of-net second pass,Process,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:34,test-cases/Payroll
+TC-CAL-016,Y,REQ-CAL-012,Payroll,Net pay formula,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:35,test-cases/Payroll
+TC-CAL-017,Y,REQ-CAL-012,Payroll,Negative net → error,Process,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:33:35,test-cases/Payroll
+TC-CAL-018,Y,REQ-CAL-013,Payroll,Employer cost,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:36,test-cases/Payroll
+TC-CAL-019,Y,REQ-CAL-014,Payroll,Status: Calculated,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:35,test-cases/Payroll
+TC-CAL-020,Y,REQ-CAL-014,Payroll,Status: Warning,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:51,test-cases/Payroll
+TC-CAL-021,Y,REQ-CAL-014,Payroll,Status: Error,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:21,test-cases/Payroll
+TC-CAL-022,Y,REQ-CAL-015,Payroll,Snapshot fidelity,Open detail modal + payslip,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:21,test-cases/Payroll
+TC-CAL-023,Y,REQ-CAL-016,Payroll,Rounding consistency,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:22,test-cases/Payroll
+TC-CAL-024,Y,REQ-CAL-007/012,Payroll,End-to-end integration persona,Process,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:34:22,test-cases/Payroll
+TC-COMP-001,Y,REQ-COMP-001,Compliance,Every mutation logged,Perform mutation; check audit,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:31:21,/audit-trails
+TC-COMP-002,Y,REQ-COMP-002,Compliance,Change history,Open change history,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:31:21,test-cases/Compliance
+TC-COMP-003,Y,REQ-COMP-003,Compliance,Approval trail,Open approval trail,PASS,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:31:21,test-cases/Compliance
+TC-COMP-004,Y,REQ-COMP-004,Compliance,Statutory filing history,Open Compliance → Statutory Filings,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:31:23,test-cases/Compliance
+TC-COMP-005,Y,REQ-COMP-005,Compliance,Compliance alerts,Open compliance alerts,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:31:25,test-cases/Compliance
+TC-COMP-006,Y,REQ-COMP-006,Compliance,Dual audit trail immutable,Attempt to edit/delete audit entries (UI + API),PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:31:25,/audit-trails
+TC-COMP-007,Y,REQ-COMP-006,Compliance,Audit completeness across lifecycle,Inspect both trails,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:31:33,test-cases/Compliance
+TC-COMP-008,Y,REQ-COMP-007,Compliance,Gap: My Earnings placeholder,Open My Earnings,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:31:33,test-cases/Compliance
+TC-COMP-009,Y,REQ-COMP-007,Compliance,Gap: My Loans placeholder,Open My Loans,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:31:33,test-cases/Compliance
+TC-COMP-010,Y,REQ-COMP-007,Compliance,Gap: Queries placeholder,Open Queries,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:31:33,test-cases/Compliance
+TC-CYCLE-001,Y,REQ-CYCLE-001,Payroll,Each frequency selectable,Create schedule for Weekly/Bi-Weekly/Semi-Monthly/Monthly/Quarterly,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 05:00:20,test-cases/Payroll
+TC-CYCLE-002,Y,REQ-CYCLE-002,Payroll,First-period anchor (calendar-aligned),Create,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:38,test-cases/Payroll
+TC-CYCLE-003,Y,REQ-CYCLE-002,Payroll,First-period anchor (custom shape),Create + roll,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-07-01 08:37:55,test-cases/Payroll
+TC-CYCLE-004,Y,REQ-CYCLE-003,Payroll,Pay date offset,Create,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:46:10,test-cases/Payroll
+TC-CYCLE-005,Y,REQ-CYCLE-003,Payroll,Offset 0 = last day,Create,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:39,test-cases/Payroll
+TC-CYCLE-006,Y,REQ-CYCLE-004,Payroll,Cutoff days,Create,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:40,test-cases/Payroll
+TC-CYCLE-007,Y,REQ-CYCLE-005,Payroll,Buffer = 1 Current + 3 Scheduled,Inspect calendar,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:40,test-cases/Payroll
+TC-CYCLE-008,Y,REQ-CYCLE-006,Payroll,Lifecycle states,Inspect statuses,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:41,test-cases/Payroll
+TC-CYCLE-009,Y,REQ-CYCLE-007,Payroll,Regular-Paid advances + tops buffer,Mark Paid,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:33:41,run #86
+TC-CYCLE-010,Y,REQ-CYCLE-008,Payroll,Non-regular no advance,Mark Paid,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:33:41,run #85
+TC-CYCLE-011,Y,REQ-CYCLE-009,Payroll,Create-run default = Current,Open Create Regular Pay Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:46:10,test-cases/Payroll
+TC-CYCLE-012,Y,REQ-CYCLE-010,Payroll,Weekend pay-date → Friday,Inspect pay date,NO,FAIL,OPEN DEFECT,FAILED,FAILED,,,,2026-06-30 23:16:21,test-cases/Payroll
+TC-CYCLE-013,Y,REQ-CYCLE-010,Payroll,Saturday pay-date → Friday,Inspect,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 23:16:21,test-cases/Payroll
+TC-CYCLE-014,Y,REQ-CYCLE-011,Payroll,Monthly month-end snap,Roll calendar,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:40,test-cases/Payroll
+TC-CYCLE-015,Y,REQ-CYCLE-012,Payroll,Semi-monthly split incl. short Feb,Roll into Feb,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-07-01 08:37:55,test-cases/Payroll
+TC-CYCLE-016,Y,REQ-CYCLE-013,Payroll,Quarterly +3 months,Roll,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 23:28:46,test-cases/Payroll
+TC-CYCLE-017,Y,REQ-CYCLE-011,Payroll,Leap-year Feb 29,Roll,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-07-01 08:37:55,test-cases/Payroll
+TC-CYCLE-018,Y,REQ-CYCLE-014,Payroll,Change regenerates only empty future Scheduled,Change frequency,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-07-01 08:37:55,test-cases/Payroll
+TC-CYCLE-019,Y,REQ-CYCLE-015,Payroll,History preserved on change,Change frequency,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-07-01 08:37:56,test-cases/Payroll
+TC-CYCLE-020,Y,REQ-CYCLE-014,Payroll,Change effective next open period,Change,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-07-01 08:37:56,test-cases/Payroll
+TC-DASH-001,Y,REQ-DASH-001,Dashboard,Post-login landing renders,Land after login,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:31:38,test-cases/Dashboard
+TC-DASH-002,Y,REQ-DASH-001,Dashboard,No console/network errors (browser),Load Settings hub; capture console+network,NO,FAIL,OPEN DEFECT,FAILED,FAILED,,,,2026-06-30 08:59:37,evidence/browser/settings/hub-desktop.png
+TC-DASH-003,Y,REQ-DASH-001,Dashboard,Permission-appropriate widgets,Load per role,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 02:36:07,test-cases/Dashboard
+TC-DASH-004,Y,REQ-DASH-001,Dashboard,Navigation from dashboard,Click each nav entry point,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 23:28:45,test-cases/Dashboard
+TC-DASH-005,Y,REQ-DASH-001,Dashboard,Responsive rendering,View at desktop/tablet/mobile,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:31:40,test-cases/Dashboard
+TC-DED-001,Y,REQ-CAT-008,Deductions,Create each deduction type,Create Statutory/Voluntary/Loan/Benefit/Custom,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:31:40,catalog CRUD
+TC-DED-002,Y,REQ-CAT-009,Deductions,Calc: Fixed,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:31:56,test-cases/Deductions
+TC-DED-003,Y,REQ-CAT-009,Deductions,Calc: % of Basic,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:15,test-cases/Deductions
+TC-DED-004,Y,REQ-CAT-009,Deductions,Calc: % of Cash Emoluments,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 21:39:54,test-cases/Deductions
+TC-DED-005,Y,REQ-CAT-009,Deductions,Calc: % of Net Pay (second pass),Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 23:47:16,test-cases/Deductions
+TC-DED-006,Y,REQ-CAT-010,Deductions,Before-Tax reduces PAYE base,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:31,test-cases/Deductions
+TC-DED-007,Y,REQ-CAT-010,Deductions,After-Tax net only,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:53,test-cases/Deductions
+TC-DED-008,Y,REQ-CAT-010,Deductions,Default = After Tax,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:31:57,test-cases/Deductions
+TC-DED-009,Y,REQ-CAT-011,Deductions,Priority recorded,Inspect,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:00,test-cases/Deductions
+TC-DED-010,Y,REQ-CAT-012,Deductions,Eligibility scope,Run others,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 03:35:40,test-cases/Deductions
+TC-DED-011,Y,REQ-CAT-013,Deductions,Override window,Run inside/outside,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 22:09:00,test-cases/Deductions
+TC-DED-012,Y,REQ-CAT-015,Deductions,Permission gating,CRUD UI + API,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 23:28:45,test-cases/Deductions
+TC-DED-013,Y,REQ-CAT-009,Deductions,%-of-net not in pass 1,Inspect pipeline,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 21:39:55,test-cases/Deductions
+TC-EMP-001,Y,REQ-EMP-001,Employees,Add employee happy path,Complete personal→job→compensation→payment,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:10,test-cases/Employees
+TC-EMP-002,Y,REQ-EMP-001,Employees,Required-field validation per step,"Leave required field blank, advance",PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:10,test-cases/Employees
+TC-EMP-003,Y,REQ-EMP-001,Employees,Cancel mid-form,"Start, cancel",NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-07-01 08:37:55,test-cases/Employees
+TC-EMP-004,Y,REQ-EMP-002,Employees,Bulk import valid,Upload valid file → preview → process,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:32:10,test-cases/Employees
+TC-EMP-005,Y,REQ-EMP-002,Employees,Bulk import invalid rows,Upload → preview,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:32:10,test-cases/Employees
+TC-EMP-006,Y,REQ-EMP-002,Employees,Import History tracked,Open Import History,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:32:10,test-cases/Employees
+TC-EMP-007,Y,,Employees,TC-EMP-007,,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 03:35:12,test-cases/Employees
+TC-EMP-008,Y,REQ-EMP-004,Employees,Monthly basic,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:24,test-cases/Employees
+TC-EMP-009,Y,REQ-EMP-005,Employees,Daily basic,Run,PASS,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:32:24,test-cases/Employees
+TC-EMP-010,Y,REQ-EMP-006,Employees,Hourly basic,Run,PASS,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:32:16,test-cases/Employees
+TC-EMP-011,Y,REQ-EMP-007,Employees,Zero rate → error,Process run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:28,test-cases/Employees
+TC-EMP-012,Y,REQ-EMP-007,Employees,Missing quantity → error,Process,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:32:28,test-cases/Employees
+TC-EMP-013,Y,REQ-EMP-008,Employees,Bank Transfer all fields,Select Bank Transfer; fill Bank+Branch+Acct No+Acct Name,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:35,test-cases/Employees
+TC-EMP-014,Y,REQ-EMP-008,Employees,Bank Transfer missing field,Omit Account Name / Account Number,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:36,test-cases/Employees
+TC-EMP-015,Y,REQ-EMP-011,Employees,Cascading Bank→Branch,Pick bank then branch,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:32:36,test-cases/Employees
+TC-EMP-016,Y,REQ-EMP-008,Employees,No free-text bank,Try typing bank name freely,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:32:36,test-cases/Employees
+TC-EMP-017,Y,REQ-EMP-009,Employees,MoMo — no Account Name required,Select Mobile Money; enter Number + Network only,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:50,test-cases/Employees
+TC-EMP-018,Y,REQ-EMP-009,Employees,MoMo missing network,"Number only, no network",PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:51,test-cases/Employees
+TC-EMP-019,Y,REQ-EMP-010,Employees,Cash — no extra fields,Select Cash,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:33,test-cases/Employees
+TC-EMP-019n,N (exploratory),,,,,NO,NOT RUN,OPEN DEFECT,NOT VERIFIED,NOT VERIFIED,BUG-010,Low,Open,,
+TC-EMP-020,Y,REQ-EMP-012,Employees,Masked numbers,View details,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:32:33,test-cases/Employees
+TC-EMP-021,Y,REQ-EMP-013,Employees,Payroll Profile readiness,Open Payroll Profile tab,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:32:33,test-cases/Employees
+TC-EMP-022,Y,REQ-EMP-014,Employees,Salary assignment effective dates,Set base salary + effective dates,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:32:33,test-cases/Employees
+TC-EMP-023,Y,REQ-EMP-014,Employees,Mid-cycle date warns,Save,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 03:43:01,test-cases/Employees
+TC-EMP-024,Y,REQ-EMP-014,Employees,Gap: no auto-proration,Run that period,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-07-01 08:38:07,test-cases/Employees
+TC-EMP-025,Y,REQ-EMP-016,Employees,Tax & Pension tab,"Set TIN, NHIS, profile, enroll/exempt/preset, overrides, Tier3, reliefs",NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:32:33,test-cases/Employees
+TC-EMP-026,Y,REQ-EMP-016,Employees,Contract renewal alert,Open tab / run,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:32:33,test-cases/Employees
+TC-EMP-027,Y,REQ-EMP-017,Employees,Gap: Cost Center not saved,"Enter allocations (total 100%), save, reopen",PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 23:16:31,test-cases/Employees
+TC-EMP-028,Y,REQ-EMP-017,Employees,Cost Center 100% UI rule,Enter allocations ≠ 100%,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 23:28:45,test-cases/Employees
+TC-EMP-029,Y,REQ-EMP-018,Employees,Benefits & Deductions In-Effect,Open tab,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:32:49,test-cases/Employees
+TC-EMP-030,Y,REQ-EMP-019,Employees,Gap: Payroll Overrides not saved,"Enter override, save, reopen",PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 23:16:30,test-cases/Employees
+TC-EMP-031,Y,REQ-EMP-020,Employees,Not-ready excluded/flagged,Add to run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:06,test-cases/Employees
+TC-EMP-032,Y,REQ-EMP-020,Employees,Missing TIN warns only,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 21:16:52,test-cases/Employees
+TC-EMP-033,Y,REQ-EMP-020,Employees,Missing mandatory statutory blocks,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 21:16:52,test-cases/Employees
+TC-EMP-034,Y,REQ-EMP-021,Employees,Exclude incomplete on Process,Process → exclude incomplete,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 03:35:39,test-cases/Employees
+TC-ENT-004,N (exploratory),REQ-SETUP-001,Enterprise Onboarding,Enterprise Module Launcher,/clients/select-module — list Enterprise Modules,NO,BLOCKED,CRITICAL DEFECT,BLOCKED,BLOCKED,BUG-011,Critical,Open,2026-06-30 15:16:51,evidence/browser/enterprise/D-module-launcher.png
+TC-ENT-005,N (exploratory),REQ-SETUP-001,Enterprise Onboarding,Launch Payroll module → Payroll app,Click Payroll tile → payroll.kedebah.com,NO,BLOCKED,CRITICAL DEFECT,BLOCKED,BLOCKED,BUG-011,Critical,Open,2026-06-30 15:16:51,evidence/browser/enterprise/D-module-launcher.png
+TC-ENT-MOD-admin,N (exploratory),REQ-SETUP-001,Enterprise Onboarding,Admin module access,Enterprise Module Launcher after onboarding,NO,BLOCKED,CRITICAL DEFECT,BLOCKED,BLOCKED,BUG-011,Critical,Open,2026-06-30 15:38:12,evidence/browser/enterprise-admin/D-module-launcher.png
+TC-ENT-MOD-employee,N (exploratory),REQ-SETUP-001,Enterprise Onboarding,Employee module access,Enterprise Module Launcher after onboarding,NO,BLOCKED,CRITICAL DEFECT,BLOCKED,BLOCKED,BUG-011,Critical,Open,2026-06-30 15:38:12,evidence/browser/enterprise-employee/D-module-launcher.png
+TC-ENT-PW-manager,N (exploratory),REQ-AUTH-001,Enterprise Onboarding,Password reset + login (Manager),Login with reset password then forced change,PASS,PASS,OPEN DEFECT,BLOCKED,AFFECTED BY OPEN DEFECT,BUG-012,Major,Open,2026-06-30 16:18:54,evidence/browser/enterprise-manager/E-final.png
+TC-ENT-PW-reports,N (exploratory),REQ-AUTH-001,Enterprise Onboarding,Password reset (Reports),Login dwetornam+2@gmail.com with temp then target,NO,BLOCKED,OPEN DEFECT,BLOCKED,BLOCKED,BUG-012,Major,Open,2026-06-30 15:38:12,evidence/browser/enterprise-reports/A-after-login.png
+TC-FORM-001,Y,REQ-FORM-001,Payroll,Liabilities on approve,Approve,PASS,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:34:54,/tax-forms
+TC-FORM-002,Y,REQ-FORM-001,Payroll,Due dates from filing rules,Inspect liabilities,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:46:10,test-cases/Payroll
+TC-FORM-003,Y,REQ-FORM-002,Payroll,One form per filing period,Approve both,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:34:54,test-cases/Payroll
+TC-FORM-004,Y,REQ-FORM-003,Payroll,Attach to Pending form (recompute),Approve second run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:34:55,test-cases/Payroll
+TC-FORM-005,Y,REQ-FORM-004,Payroll,Locked form → supplementary,Approve another run,PASS,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:34:55,/tax-forms
+TC-FORM-006,Y,REQ-FORM-004,Payroll,Filed form not mutated,Approve run same bucket,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:34:55,test-cases/Payroll
+TC-FORM-007,Y,REQ-FORM-005,Payroll,Files modal 3 outputs enablement,Open Files,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:56,test-cases/Payroll
+TC-FORM-008,Y,REQ-FORM-006,Payroll,Muted unavailable note,Open Files,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:34:56,test-cases/Payroll
+TC-FORM-009,Y,REQ-FORM-007,Payroll,Forms own approval flow,Move through form approval,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:34:56,test-cases/Payroll
+TC-FORM-010,Y,REQ-FORM-008,Payroll,Filing status tracking,Open Taxes & Forms,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:57,test-cases/Payroll
+TC-FORM-011,Y,REQ-FORM-009,Payroll,GRA PAYE export integrity + speed,Export GRA PAYE Schedule,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:57,test-cases/Payroll
+TC-FORM-012,Y,REQ-FORM-001,Payroll,Liability amounts re-derived,Compare liabilities to oracle,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:46:11,test-cases/Payroll
+TC-LIFE-001,Y,REQ-LIFE-001,Payroll,Happy-path transitions,Draft→Process→Submit→Approve→Mark Paid,PASS,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:36,run #85
+TC-LIFE-002,Y,REQ-LIFE-001,Payroll,Illegal transition blocked,Attempt Mark Paid directly (skip approval),PASS,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:36,recon lifecycle
+TC-LIFE-003,Y,REQ-LIFE-001,Payroll,Reject → draft,Reject with reason,PASS,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:36,recon lifecycle
+TC-LIFE-004,Y,REQ-LIFE-001,Payroll,Return to previous stage,Return-to-previous,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:36,test-cases/Payroll
+TC-LIFE-005,Y,REQ-LIFE-002,Payroll,Draft editable + live preview,Edit employees/adjustments,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:33:36,test-cases/Payroll
+TC-LIFE-006,Y,REQ-LIFE-003,Payroll,Process persists results,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:39,test-cases/Payroll
+TC-LIFE-007,Y,REQ-LIFE-003,Payroll,Pre-process blockers listed,Process,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:33:39,run #85
+TC-LIFE-008,Y,REQ-LIFE-003,Payroll,Exclude incomplete to proceed,Process → exclude incomplete,PASS,BLOCKED,OPEN DEFECT,BLOCKED,BLOCKED,BUG-007,Medium,Open — needs confirmation,2026-06-29 18:33:39,recon lifecycle
+TC-LIFE-009,Y,REQ-LIFE-003,Payroll,Hard blockers stop affected only,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 03:35:40,test-cases/Payroll
+TC-LIFE-010,Y,REQ-LIFE-004,Payroll,Multi-stage approval enforced,Approve stage 1 then 2,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:39,test-cases/Payroll
+TC-LIFE-011,Y,REQ-LIFE-004,Payroll,Reject requires reason,Reject without reason,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:37,test-cases/Payroll
+TC-LIFE-012,Y,REQ-LIFE-004,Payroll,Approver permission,Attempt approve (UI + API),NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:37,test-cases/Payroll
+TC-LIFE-013,Y,REQ-LIFE-005,Payroll,On-Approve: liabilities + forms,Approve,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:37,test-cases/Payroll
+TC-LIFE-014,Y,REQ-LIFE-005,Payroll,Files available after approval (not gated on payment),Open Files,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:37,test-cases/Payroll
+TC-LIFE-015,Y,REQ-LIFE-006,Payroll,Gap: journal flag logged only,Approve; check Finance + audit,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:37,test-cases/Payroll
+TC-LIFE-016,Y,REQ-LIFE-007,Payroll,Mark Paid side-effects,Mark Paid,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 02:15:36,test-cases/Payroll
+TC-LIFE-017,Y,REQ-LIFE-007,Payroll,Mark Paid non-regular,Mark Paid,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 02:15:37,test-cases/Payroll
+TC-LIFE-018,Y,REQ-LIFE-008,Payroll,Cancel with reason,Cancel,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:39,test-cases/Payroll
+TC-LIFE-019,Y,REQ-LIFE-009,Payroll,Immutable audit per transition,Inspect pay-run audit log,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:33:39,test-cases/Payroll
+TC-LIFE-020,Y,REQ-LIFE-002,Payroll,Edit blocked after processing,Attempt edit employees,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:39,test-cases/Payroll
+TC-LOAN-001,Y,REQ-LOAN-001,Loans,Create loan,"Create loan: principal, rate, per-period repayment, term",PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:09,test-cases/Loans
+TC-LOAN-002,Y,REQ-LOAN-001,Loans,Edit/close loan,Edit terms; close,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:33:09,test-cases/Loans
+TC-LOAN-003,Y,REQ-LOAN-001,Loans,Permission gating,CRUD via UI + API,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 23:28:45,test-cases/Loans
+TC-LOAN-004,Y,REQ-LOAN-002,Loans,Loan BIK when rate < reference,Run regular payroll,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:33:09,test-cases/Loans
+TC-LOAN-005,Y,REQ-LOAN-002,Loans,No BIK when rate ≥ reference,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:34:10,test-cases/Loans
+TC-LOAN-006,Y,REQ-LOAN-008,Loans,Exempt loan → no BIK,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:34:23,test-cases/Loans
+TC-LOAN-007,Y,REQ-LOAN-003,Loans,Repayment from net after tax,Run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:23,test-cases/Loans
+TC-LOAN-008,Y,REQ-LOAN-003,Loans,Repayment clamped to balance,Run,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 02:15:47,test-cases/Loans
+TC-LOAN-009,Y,REQ-LOAN-005,Loans,Draft does NOT decrement balance,Process to draft/processed (not paid); check balance,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:35,test-cases/Loans
+TC-LOAN-010,Y,REQ-LOAN-005,Loans,Mark Paid decrements by actual taken,Mark Paid; check balance,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 02:15:48,test-cases/Loans
+TC-LOAN-011,Y,REQ-LOAN-006,Loans,Independent multi-loan balances,Run + Mark Paid,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:34:15,test-cases/Loans
+TC-LOAN-012,Y,REQ-LOAN-007,Loans,Combined payslip line,Generate payslip,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:34:10,test-cases/Loans
+TC-LOAN-013,Y,REQ-LOAN-004,Loans,Auto-stop when repaid,Run until balance 0; next run,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 02:15:35,test-cases/Loans
+TC-LOAN-014,Y,REQ-LOAN-004,Loans,Continue while balance remains,Multiple runs,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 02:15:36,test-cases/Loans
+TC-LOAN-015,Y,REQ-LOAN-009,Loans,Gap: Loans submenu previews,Open Loan Requests/Eligibility/Approval/Active/Repayments pages,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:12,test-cases/Loans
+TC-LOAN-016,Y,REQ-LOAN-002,Loans,Loan BIK value re-derived,Compute expected monthly subsidy via oracle,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 02:15:36,test-cases/Loans
+TC-PAYE-001,Y,REQ-PAYE-001,Payroll,490.00 (band-1 ceiling),490.00 (band-1 ceiling),PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:54,test-cases/Payroll
+TC-PAYE-002,Y,REQ-PAYE-001,Payroll,400.00 (within band 1),400.00 (within band 1),PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:16,test-cases/Payroll
+TC-PAYE-003,Y,REQ-PAYE-002,Payroll,600.00 (band-2 ceiling),600.00 (band-2 ceiling),PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:28,test-cases/Payroll
+TC-PAYE-004,Y,REQ-PAYE-002,Payroll,550.00 (within band 2),550.00 (within band 2),PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:42,test-cases/Payroll
+TC-PAYE-005,Y,REQ-PAYE-003,Payroll,730.00 (band-3 ceiling),730.00 (band-3 ceiling),PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:35:04,test-cases/Payroll
+TC-PAYE-006,Y,REQ-PAYE-004,Payroll,"3,896.67 (band-4 ceiling)","3,896.67 (band-4 ceiling)",PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:55,test-cases/Payroll
+TC-PAYE-007,Y,REQ-PAYE-005,Payroll,"19,896.67 (band-5 ceiling)","19,896.67 (band-5 ceiling)",PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:16,test-cases/Payroll
+TC-PAYE-008,Y,REQ-PAYE-006,Payroll,"50,416.67 (band-6 ceiling)","50,416.67 (band-6 ceiling)",PASS,PASS,OPEN DEFECT,READY,AFFECTED BY OPEN DEFECT,BUG-001,Low,Open,2026-06-29 18:34:29,test-cases/Payroll
+TC-PAYE-009,Y,REQ-PAYE-007,Payroll,"60,000.00 (into band 7)","60,000.00 (into band 7)",PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:29,run #89
+TC-PAYE-010,Y,REQ-PAYE-008,Payroll,490.01 (just over band 1),490.01 (just over band 1),PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:42,test-cases/Payroll
+TC-PAYE-011,Y,REQ-PAYE-008,Payroll,600.01 (just over band 2),600.01 (just over band 2),PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:33:55,test-cases/Payroll
+TC-PAYE-012,Y,REQ-PAYE-008,Payroll,"Mid-band 5,000","Mid-band 5,000",PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:33:55,evidence/network/run-86-employees-full.json
+TC-PAYE-013,Y,REQ-PAYE-008,Payroll,"Mid-band 25,000","Mid-band 25,000",PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:18,test-cases/Payroll
+TC-PAYE-014,Y,REQ-PAYE-009,Payroll,Chargeable base = qualifying income − reliefs + taxable BIK − before-tax deductions,Process,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:18,evidence/network/run-86-employees-full.json
+TC-PAYE-015,Y,REQ-PAYE-009,Payroll,Non-taxable items excluded from base,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:32,test-cases/Payroll
+TC-PAYE-016,Y,REQ-PAYE-010,Payroll,Band-by-band breakdown UI,Open detail modal,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:23,test-cases/Payroll
+TC-PAYE-017,Y,REQ-PAYE-008,Payroll,Zero chargeable income,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:35,test-cases/Payroll
+TC-PAYM-001,Y,REQ-PAYM-001,Payroll,Files action on Approved (Run Payroll tab),Open Files,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:39,recon lifecycle
+TC-PAYM-002,Y,REQ-PAYM-001,Payroll,Files action on Paid (History tab),Open Files (Payroll History),PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:39,evidence/network/bank-file-86.xlsx
+TC-PAYM-003,Y,REQ-PAYM-002,Payroll,Bank file structure,Generate Generic Bank Payment File,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:34:39,test-cases/Payroll
+TC-PAYM-004,Y,REQ-PAYM-003,Payroll,Bank file columns/order,Inspect header,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:39,evidence/network/bank-file-86.xlsx
+TC-PAYM-005,Y,REQ-PAYM-004,Payroll,Sort: bank then employee name,Generate,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:39,evidence/network/bank-file-86.xlsx
+TC-PAYM-006,Y,REQ-PAYM-010,Payroll,Correct sort code per employee,Generate,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:39,run #85
+TC-PAYM-007,Y,REQ-PAYM-005,Payroll,MoMo rows in file,Generate,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 02:36:10,test-cases/Payroll
+TC-PAYM-008,Y,REQ-PAYM-006,Payroll,Cash excluded,Generate,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 02:36:10,test-cases/Payroll
+TC-PAYM-009,Y,REQ-PAYM-007,Payroll,Missing-details excluded,Generate,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:39,evidence/network/bank-file-86.xlsx
+TC-PAYM-010,Y,REQ-PAYM-002,Payroll,TOTAL row correctness,Generate,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:39,evidence/network/bank-file-86.xlsx
+TC-PAYM-011,Y,REQ-PAYM-009,Payroll,Payment Reference dash,Inspect,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:39,evidence/network/bank-file-86.xlsx
+TC-PAYM-012,Y,REQ-PAYM-008,Payroll,Gap: skip reasons not in modal,Open Files modal,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:39,run #86 gen response
+TC-PAYM-013,Y,REQ-PAYM-014,Payroll,Export recorded in audit,Inspect run audit,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:40,test-cases/Payroll
+TC-PAYM-014,Y,REQ-PAYM-011,Payroll,Per-employee payment status,Update one employee's status,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 02:15:38,test-cases/Payroll
+TC-PAYM-015,Y,REQ-PAYM-011,Payroll,Mark all as paid,Mark all paid,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 02:15:38,test-cases/Payroll
+TC-PAYM-016,Y,REQ-PAYM-012,Payroll,Proof of payment upload,Upload evidence doc,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:40,test-cases/Payroll
+TC-PAYM-017,Y,REQ-PAYM-013,Payroll,Run currency default,Inspect currency,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:40,test-cases/Payroll
+TC-PAYM-018,Y,REQ-PAYM-015,Payroll,Gap: Payments submenu previews,Open Batches/Bank Files/Mobile Money/Multi-Currency/Failed,NO,NOT APPLICABLE,NO KNOWN DEFECT,OUT OF SCOPE,OUT OF SCOPE,,,,2026-06-30 23:28:45,test-cases/Payroll
+TC-PG-001,Y,REQ-PG-006,Pay Groups,Create pay group,Create group with name + members,PASS,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 05:00:26,test-cases/Pay Groups
+TC-PG-002,Y,REQ-PG-006,Pay Groups,Edit membership,Add/remove members,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 05:00:18,test-cases/Pay Groups
+TC-PG-003,Y,REQ-PG-006,Pay Groups,Delete pay group,Delete,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 04:55:44,test-cases/Pay Groups
+TC-PG-004,Y,REQ-PG-006,Pay Groups,Permission gating,Attempt CRUD (UI + API),NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:13,test-cases/Pay Groups
+TC-PG-005,Y,REQ-PG-001,Pay Groups,Group pre-populates run,Create run for that group,NO,BLOCKED,OPEN DEFECT,BLOCKED,BLOCKED,BUG-006,Medium,Open — needs confirmation,2026-06-30 05:00:28,test-cases/Pay Groups
+TC-PG-006,Y,REQ-PG-002,Pay Groups,No-group regular run = all active,Create regular run with no pay group,PASS,BLOCKED,OPEN DEFECT,BLOCKED,BLOCKED,BUG-006,Medium,Open — needs confirmation,2026-06-29 18:33:13,pay group #1
+TC-PG-007,Y,REQ-PG-002,Pay Groups,Eligibility at period end,Create regular run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-07-01 08:38:03,test-cases/Pay Groups
+TC-PG-008,Y,REQ-PG-003,Pay Groups,Shared benefit applies to members,Run for group,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:14,test-cases/Pay Groups
+TC-PG-009,Y,REQ-PG-003,Pay Groups,Shared deduction applies,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:14,test-cases/Pay Groups
+TC-PG-010,Y,REQ-PG-004,Pay Groups,Group protected-pay rule,Run heavy-deduction member,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:14,test-cases/Pay Groups
+TC-PG-011,Y,REQ-PG-005,Pay Groups,Layered resolution order,"Open employee ""In Effect"" view",NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:14,test-cases/Pay Groups
+TC-PG-012,Y,REQ-PG-005,Pay Groups,Individual override beats group,View In Effect + run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:33:14,test-cases/Pay Groups
+TC-PROT-001,Y,REQ-PROT-001,Deductions,Floor: absolute,Run heavy-deduction employee,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:32:00,test-cases/Deductions
+TC-PROT-002,Y,REQ-PROT-001,Deductions,Floor: % of gross,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:32:00,test-cases/Deductions
+TC-PROT-003,Y,REQ-PROT-001,Deductions,Floor: % of basic,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:32:00,test-cases/Deductions
+TC-PROT-004,Y,REQ-PROT-002,Deductions,Hard Block,Process run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:32:00,test-cases/Deductions
+TC-PROT-005,Y,REQ-PROT-003,Deductions,Partial Apply + Alert,Process,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:32:00,test-cases/Deductions
+TC-PROT-006,Y,REQ-PROT-004,Deductions,Alert Only,Process,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:32:00,test-cases/Deductions
+TC-PROT-007,Y,REQ-PROT-005,Deductions,Statutory never trimmed,Process,PASS,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:32:00,test-cases/Deductions
+TC-PROT-008,Y,REQ-PROT-006,Deductions,Priority trim order,Partial trim,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:32:00,test-cases/Deductions
+TC-PROT-009,Y,REQ-PROT-007,Deductions,Carryover recorded,Inspect run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:32:01,test-cases/Deductions
+TC-PROT-010,Y,REQ-PROT-008,Deductions,Gap: no auto-recovery,Next run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:32:01,test-cases/Deductions
+TC-PROT-011,Y,REQ-PROT-009,Deductions,Audit storage,Inspect snapshot,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:32:01,test-cases/Deductions
+TC-PROT-012,Y,REQ-PROT-003,Deductions,Floor exactly met (boundary),Process,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:32:01,test-cases/Deductions
+TC-RELF-001,Y,REQ-RELF-001,Tax,Fixed Annual ÷ 12,Run; inspect relief,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:41:32,test-cases/Tax
+TC-RELF-002,Y,REQ-RELF-002,Tax,Per-Unit annual × units ÷ 12,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:41:29,test-cases/Tax
+TC-RELF-003,Y,REQ-RELF-002,Tax,Per-Unit cap at max units,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:41:30,test-cases/Tax
+TC-RELF-004,Y,REQ-RELF-003,Tax,% assessable income,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:41:32,test-cases/Tax
+TC-RELF-005,Y,REQ-RELF-004,Tax,SSF auto from Tier1+Tier2 EE,Run,PASS,BLOCKED,OPEN DEFECT,BLOCKED,BLOCKED,BUG-003,Medium,Open — needs disposition by PRD owner,2026-06-29 18:35:07,evidence/network/run-86-employees-full.json
+TC-RELF-006,Y,REQ-RELF-005,Tax,Reliefs run first,Inspect pipeline trace,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 22:10:51,test-cases/Tax
+TC-RELF-007,Y,REQ-RELF-006,Tax,Per-employee assignment,Run both,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:41:29,test-cases/Tax
+TC-RELF-008,Y,REQ-RELF-001,Tax,Boundary: relief > base,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 23:28:46,test-cases/Tax
+TC-RPT-001,Y,REQ-RPT-001,Reports,TC-RPT-001,Open; export PDF + Excel,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:58,test-cases/Reports
+TC-RPT-002,Y,REQ-RPT-002,Reports,TC-RPT-002,Open; export,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:59,test-cases/Reports
+TC-RPT-003,Y,REQ-RPT-003,Reports,TC-RPT-003,Open; export,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:35:00,test-cases/Reports
+TC-RPT-004,Y,REQ-RPT-004,Reports,TC-RPT-004,Two periods,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:35:00,test-cases/Reports
+TC-RPT-005,Y,REQ-RPT-005,Reports,TC-RPT-005,Open; export,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:59,test-cases/Reports
+TC-RPT-006,Y,REQ-RPT-006,Reports,TC-RPT-006,Open; export,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:59,test-cases/Reports
+TC-RPT-007,Y,REQ-RPT-007,Reports,TC-RPT-007,Filter; export,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:35:00,test-cases/Reports
+TC-RPT-008,Y,REQ-RPT-008,Reports,TC-RPT-008,Open; export,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:35:00,test-cases/Reports
+TC-RPT-009,Y,REQ-RPT-001..008,Reports,Export format integrity,Export each report to PDF + Excel,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:35:00,test-cases/Reports
+TC-RPT-010,Y,REQ-RPT-001..008,Reports,Empty/edge data,Run report for period with no data,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:35:01,test-cases/Reports
+TC-RPT-011,Y,REQ-RPT-001..008,Reports,Permission gating,Non-permitted user,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 23:28:46,test-cases/Reports
+TC-RPT-012,Y,REQ-RPT-010,Reports,Per-employee detail = calc,Open employee detail on a run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 22:10:51,test-cases/Reports
+TC-RPT-013,Y,REQ-RPT-009,Reports,Gap: Payslips not a report,Reports Centre,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 23:28:46,test-cases/Reports
+TC-RPT-014,Y,REQ-RPT-011,Reports,Gap: redirect/unimplemented pages,Reports menu,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:35:01,test-cases/Reports
+TC-RPT-015,Y,REQ-RPT-011,Reports,Gap: AI Insights preview,AI Insights,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 23:28:46,test-cases/Reports
+TC-RUN-001,Y,REQ-RUN-001,Payroll,Regular includes everything,Create+process Regular,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:41,run #86
+TC-RUN-002,Y,REQ-RUN-001,Payroll,Regular only overtime ad-hoc,Add one-time earning (non-overtime) vs overtime adj,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:34:41,test-cases/Payroll
+TC-RUN-003,Y,REQ-RUN-002,Payroll,No-group population,"Create Regular, no pay group",PASS,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:34:41,run #88
+TC-RUN-004,Y,REQ-RUN-009,Payroll,Regular advances calendar,Mark Paid,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:43,test-cases/Payroll
+TC-RUN-005,Y,REQ-RUN-003,Payroll,Bonus excludes basic/benefits/deductions,Process,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:43,recon lifecycle
+TC-RUN-006,Y,REQ-RUN-003,Payroll,Bonus Tier1/2/3 = 0,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:43,test-cases/Payroll
+TC-RUN-007,Y,REQ-RUN-003,Payroll,Bonus tax applies,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:42,test-cases/Payroll
+TC-RUN-008,Y,REQ-RUN-004,Payroll,Bonus period optional,Process,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:42,run #89
+TC-RUN-009,Y,REQ-RUN-009,Payroll,Bonus does NOT advance calendar,Mark Paid,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:42,run #88
+TC-RUN-010,Y,REQ-RUN-005,Payroll,Default pays only entered amounts,Enter one-time amount; process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 03:35:48,test-cases/Payroll
+TC-RUN-011,Y,REQ-RUN-006,Payroll,Benefits flag Yes,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:42,test-cases/Payroll
+TC-RUN-012,Y,REQ-RUN-006,Payroll,Deductions flag Yes,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:42,test-cases/Payroll
+TC-RUN-013,Y,REQ-RUN-006,Payroll,Regular-salary flag Yes,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:43,test-cases/Payroll
+TC-RUN-014,Y,REQ-RUN-006,Payroll,Flag badges shown,Inspect,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 22:11:01,test-cases/Payroll
+TC-RUN-015,Y,REQ-RUN-007,Payroll,Own date range,Enter date range,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:43,test-cases/Payroll
+TC-RUN-016,Y,REQ-RUN-009,Payroll,Off-cycle no advance,Mark Paid,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:43,test-cases/Payroll
+TC-RUN-017,Y,REQ-RUN-008,Payroll,Termination includes basic + statutory,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:44,test-cases/Payroll
+TC-RUN-018,Y,REQ-RUN-008,Payroll,No recurring benefits/deductions,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:44,test-cases/Payroll
+TC-RUN-019,Y,REQ-RUN-008,Payroll,Entitlements/recoveries as adjustments,Add leave payout + recovery adjustments,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:41:27,test-cases/Payroll
+TC-RUN-020,Y,REQ-RUN-008,Payroll,Records last working day,Set last working day,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:43,test-cases/Payroll
+TC-RUN-021,Y,REQ-RUN-009,Payroll,Termination no advance,Mark Paid,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:43,run #89
+TC-RUN-022,Y,REQ-RUN-008,Payroll,Termination loans resolve,Process,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 03:36:06,test-cases/Payroll
+TC-SEC-001,Y,REQ-SEC-001,Security,API perm matrix — view,"For each protected GET, call with/without `view-*` perm",PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:35:01,sec pass
+TC-SEC-002,Y,REQ-SEC-001,Security,API perm matrix — create/edit/delete,"For each mutating route, call with/without perm",PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:46:12,test-cases/Security
+TC-SEC-003,Y,REQ-SEC-002,Security,Direct-URL access to forbidden page,Paste deep URL of forbidden module,NO,NOT APPLICABLE,NO KNOWN DEFECT,OUT OF SCOPE,OUT OF SCOPE,,,,2026-06-30 23:28:46,test-cases/Security
+TC-SEC-004,Y,REQ-SEC-003,Security,Expired token rejected,Call API with expired token,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 23:16:23,test-cases/Security
+TC-SEC-005,Y,REQ-SEC-003,Security,Tampered token rejected,Call API with altered token,PASS,PASS,OPEN DEFECT,READY,AFFECTED BY OPEN DEFECT,BUG-009,Medium,Open,2026-06-29 18:35:02,test-cases/Security
+TC-SEC-006,Y,REQ-SEC-004,Security,Manager → bank edit denied (API),Direct API edit/delete bank,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:35:01,test-cases/Security
+TC-SEC-007,Y,REQ-SEC-004,Security,Staff → admin API denied,Call admin payroll API,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:35:01,test-cases/Security
+TC-SEC-008,Y,REQ-SEC-005,Security,SQL injection in inputs,"Submit `'; DROP TABLE--`, `' OR 1=1--` in search/name/account fields",PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:35:11,test-cases/Security
+TC-SEC-009,Y,REQ-SEC-006,Security,Stored XSS,Save `<script>alert(1)</script>`; reopen + render in lists/exports,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:35:11,test-cases/Security
+TC-SEC-010,Y,REQ-SEC-006,Security,Reflected XSS via params,Inject script in URL param,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:35:13,test-cases/Security
+TC-SEC-011,Y,REQ-SEC-007,Security,Malformed input,"Send strings to numeric, oversized payloads, wrong types via API",PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:35:03,test-cases/Security
+TC-SEC-012,Y,REQ-SEC-008,Security,Duplicate approve,Double-click/replay Approve,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:35:03,test-cases/Security
+TC-SEC-013,Y,REQ-SEC-008,Security,Duplicate mark-paid,Replay Mark-Paid,PASS,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:35:03,run #87
+TC-SEC-014,Y,REQ-SEC-009,Security,IDOR on self-service payslips,Call `/my/payslips/{id}` with Staff B's payslip id,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:35:03,test-cases/Security
+TC-SEC-015,Y,REQ-SEC-009,Security,Self-service list scope,List payslips,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:35:03,test-cases/Security
+TC-SEC-016,Y,REQ-SEC-010,Security,Sensitive masking default,View payment details,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:35:03,test-cases/Security
+TC-SEC-017,Y,REQ-SEC-008,Security,Idempotent bank-file export,Generate bank file twice,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:35:03,test-cases/Security
+TC-SEC-018,Y,REQ-SEC-001,Security,Privilege escalation attempt,Attempt to assign self admin role / call role API,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:35:03,test-cases/Security
+TC-SLIP-001,Y,REQ-SLIP-001,Payroll,Download gated on Paid+Paid,Open employee row,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:40,run #85
+TC-SLIP-002,Y,REQ-SLIP-001,Payroll,Not available before Paid,Open employee row,PASS,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:34:40,evidence/network/payslip-86-asibe.pdf
+TC-SLIP-003,Y,REQ-SLIP-001,Payroll,Not available if employee not paid,Open row,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 23:28:46,test-cases/Payroll
+TC-SLIP-004,Y,REQ-SLIP-002,Payroll,Snapshot-based (no recompute),Download; compare to stored snapshot,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:40,test-cases/Payroll
+TC-SLIP-005,Y,REQ-SLIP-003,Payroll,PDF identity/header,Inspect PDF,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:40,evidence/network/payslip-86-asibe.pdf
+TC-SLIP-006,Y,REQ-SLIP-004,Payroll,PDF payment details masked,Inspect PDF,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:40,test-cases/Payroll
+TC-SLIP-007,Y,REQ-SLIP-005,Payroll,PDF earnings exclude BIK,Inspect Earnings section,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:40,evidence/network/payslip-86-asibe.pdf
+TC-SLIP-008,Y,REQ-SLIP-006,Payroll,Two deduction groups,Inspect PDF,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:40,evidence/network/payslip-86-asibe.pdf
+TC-SLIP-009,Y,REQ-SLIP-007,Payroll,Same-name combine (loans),Inspect PDF,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:40,test-cases/Payroll
+TC-SLIP-010,Y,REQ-SLIP-008,Payroll,PDF totals + words,Inspect PDF,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:40,evidence/network/payslip-86-asibe.pdf
+TC-SLIP-011,Y,REQ-SLIP-009,Payroll,List own payslips,GET `/my/payslips`,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 02:36:11,test-cases/Payroll
+TC-SLIP-012,Y,REQ-SLIP-009,Payroll,Current payslip,GET `/my/payslips/current`,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 02:36:11,test-cases/Payroll
+TC-SLIP-013,Y,REQ-SLIP-009,Payroll,Download one + all,Download single + bulk,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:40,test-cases/Payroll
+TC-SLIP-014,Y,REQ-SLIP-009,Payroll,No admin perm needed,Call self-service API,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:40,test-cases/Payroll
+TC-SLIP-015,Y,REQ-SLIP-009,Payroll,Cross-employee blocked (IDOR),Request Staff B's payslip id,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:40,test-cases/Payroll
+TC-SLIP-016,Y,REQ-SLIP-010,Payroll,Gap: this-app My Payslips placeholder,Open Self-Service → My Payslips,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:40,test-cases/Payroll
+TC-STAX-001,Y,REQ-STAX-001,Payroll,Annual cap = 15% × (12×monthly basic),Inspect cap,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:50,evidence/network/bonus-run-45-emp.json
+TC-STAX-002,Y,REQ-STAX-002,Payroll,Bonus within cap → 5% final,Bonus run,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:50,evidence/network/bonus-run-45-emp.json
+TC-STAX-003,Y,REQ-STAX-002,Payroll,YTD cumulative within cap,Bonus run,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:50,run #88 bonus_tax_trace
+TC-STAX-004,Y,REQ-STAX-003,Payroll,Excess over cap → marginal,Bonus run,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:50,evidence/network/bonus-run-45-emp.json
+TC-STAX-005,Y,REQ-STAX-003,Payroll,Fully over cap,Bonus run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 03:35:59,test-cases/Payroll
+TC-STAX-006,Y,REQ-STAX-004,Payroll,Reference = synthetic regular run,Bonus run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:34:51,test-cases/Payroll
+TC-STAX-007,Y,REQ-STAX-005,Payroll,Reconciliation invariant,Compute both,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:52,evidence/network/bonus-run-51-emp.json
+TC-STAX-008,Y,REQ-STAX-006,Payroll,Detail modal breakdown,Open detail modal,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:52,test-cases/Payroll
+TC-STAX-009,Y,REQ-STAX-007,Payroll,Threshold alert,Bonus run,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:35:04,test-cases/Payroll
+TC-STAX-010,Y,REQ-STAX-001,Payroll,Bonus run Tier1/2/3 = 0,Bonus run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:35:04,test-cases/Payroll
+TC-STAX-011,Y,REQ-STAX-004,Payroll,Bonus run no period (pay-date year),Bonus run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:35:04,test-cases/Payroll
+TC-STAX-012,Y,REQ-STAX-008,Payroll,Junior: 5% up to 50% basic,Add OT adj via API; run,PASS,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:35:04,test-cases/Payroll
+TC-STAX-013,Y,REQ-STAX-008,Payroll,Junior: 10% above 50% basic,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 23:46:59,test-cases/Payroll
+TC-STAX-014,Y,REQ-STAX-009,Payroll,Senior: marginal PAYE,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-07-01 08:37:57,test-cases/Payroll
+TC-STAX-015,Y,REQ-STAX-008,Payroll,Junior→senior boundary (18k),Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-07-01 08:37:57,test-cases/Payroll
+TC-STAX-016,Y,REQ-STAX-010,Payroll,Config drives rates,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:34:53,test-cases/Payroll
+TC-STAX-017,Y,REQ-STAX-010,Payroll,Statutory fallback,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:34:53,test-cases/Payroll
+TC-STAX-018,Y,REQ-STAX-011,Payroll,Junior threshold alert,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 23:47:00,test-cases/Payroll
+TC-STAX-019,Y,REQ-STAX-012,Payroll,Gap: no OT entry screen,Look for OT entry UI on pay run,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 18:34:54,test-cases/Payroll
+TC-STAX-020,Y,REQ-STAX-013,Payroll,Cap = 35% qualifying income,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 23:46:59,test-cases/Payroll
+TC-STAX-021,Y,REQ-STAX-013,Payroll,Pension within cap,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-07-01 08:37:57,test-cases/Payroll
+TC-STAX-022,Y,REQ-STAX-013,Payroll,Pension excess alert,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 23:47:00,test-cases/Payroll
+TC-STAX-023,Y,REQ-STAX-013,Payroll,Counting-items only,Run,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-07-01 08:37:57,test-cases/Payroll
+TC-TAX-001,Y,REQ-TAX-002,Tax,Seed verification — PAYE bands,Open Statutory Items → PAYE → bands,PASS,PASS,OPEN DEFECT,READY,AFFECTED BY OPEN DEFECT,BUG-001,Low,Open,2026-06-29 18:35:04,test-cases/Tax
+TC-TAX-002,Y,REQ-TAX-002,Tax,Seed — Tier 1/2/3,Inspect Tier items,PASS,PASS,OPEN DEFECT,READY,AFFECTED BY OPEN DEFECT,BUG-002,Medium,Open — needs disposition by PRD/config owner,2026-06-29 18:35:05,test-cases/Tax
+TC-TAX-003,Y,REQ-TAX-002,Tax,Seed — bonus/overtime/casual/pension,Inspect items,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:35:05,test-cases/Tax
+TC-TAX-004,Y,REQ-TAX-001,Tax,Configure statutory item fields,"Create/edit item: engine key, stage+sequence, base type, switches, cumulative window, rate version, bands",PASS,BLOCKED,OPEN DEFECT,BLOCKED,BLOCKED,BUG-004,High,Open,2026-06-29 18:35:05,evidence/network/tier1-original.json
+TC-TAX-005,Y,REQ-TAX-003,Tax,Rate version dating,Add new rate version with effective date,PASS,PASS,OPEN DEFECT,BLOCKED,AFFECTED BY OPEN DEFECT,BUG-004; BUG-005,High; High,Open; Open,2026-06-29 18:35:06,test-cases/Tax
+TC-TAX-006,Y,REQ-TAX-003,Tax,Calc uses dated rate,Run for period before vs after effective date,NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-29 19:46:12,test-cases/Tax
+TC-TAX-007,Y,REQ-TAX-004,Tax,Resolver — mandatory floor,Resolve items,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 22:10:51,test-cases/Tax
+TC-TAX-008,Y,REQ-TAX-004,Tax,Resolver — auto-enroll match,Resolve,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:35:06,test-cases/Tax
+TC-TAX-009,Y,REQ-TAX-004,Tax,Resolver — explicit exempt subtracts,Resolve,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:41:29,test-cases/Tax
+TC-TAX-010,Y,REQ-TAX-005,Tax,No income-tax engine → hard block,Process run,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-30 02:36:13,test-cases/Tax
+TC-TAX-011,Y,REQ-TAX-006,Tax,Eligibility OR combination,Employee matches one,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:46:12,test-cases/Tax
+TC-TAX-012,Y,REQ-TAX-006,Tax,Eligibility scope negative,Resolve,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 19:46:13,test-cases/Tax
+TC-TAX-013,Y,REQ-TAX-007,Tax,Tax preset one-click,Apply to new hire,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:41:30,test-cases/Tax
+TC-TAX-014,Y,REQ-TAX-008,Tax,Per-employee rate override,Set override rate,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:41:31,test-cases/Tax
+TC-TAX-015,Y,REQ-TAX-009,Tax,Voluntary Tier 3 scheme,Enroll employee,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:41:29,test-cases/Tax
+TC-TAX-016,Y,REQ-TAX-010,Tax,Exemption requires reason,Exempt item without reason,NO,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-30 02:41:30,test-cases/Tax
+TC-TAX-017,Y,REQ-TAX-012,Tax,Filing-rule due dates,Approve a run; inspect liabilities,PASS,BLOCKED,KNOWN LIMITATION,BLOCKED,BLOCKED,,,,2026-06-29 18:35:07,test-cases/Tax
+TC-TAX-018,Y,REQ-TAX-013,Tax,Statutory config permission,Attempt edit (UI + API),NO,BLOCKED,ENVIRONMENT ISSUE,BLOCKED,BLOCKED,,,,2026-06-30 02:36:12,test-cases/Tax
+TC-TAX-019,Y,REQ-TAX-001,Tax,Negative: invalid band overlap,Create bands with gap/overlap,PASS,PASS,NO KNOWN DEFECT,READY,READY,,,,2026-06-29 18:35:08,test-cases/Tax
+TC-URB-005,N (exploratory),REQ-AUTH-001,Users & Roles,Login as created user (admin-set password),"POST /login {with:email,identifier,password}",NO,BLOCKED,OPEN DEFECT,BLOCKED,BLOCKED,BUG-012,Major,Open,2026-06-30 12:44:36,evidence/browser/iam/2-after-login.png

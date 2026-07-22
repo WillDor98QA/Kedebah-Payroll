@@ -1,0 +1,30 @@
+{
+  "name": "kedebah-payroll-qa-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright + TypeScript automation suite for Kedebah Payroll QA. Traceable to PRD requirements (REQ-*) and test cases (TC-*).",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:p1": "playwright test --grep @p1",
+    "test:calc": "playwright test --grep @calc",
+    "test:security": "playwright test --grep @security",
+    "test:regression": "playwright test --grep @regression",
+    "test:gap": "playwright test --grep @gap",
+    "test:oracle": "playwright test tests/unit",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "pdf-parse": "^1.1.1",
+    "typescript": "^5.6.0"
+  }
+}

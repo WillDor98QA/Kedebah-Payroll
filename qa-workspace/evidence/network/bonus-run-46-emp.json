@@ -1,0 +1,133 @@
+{
+  "id": 529,
+  "staff_id": 57,
+  "employee_name": "Johnson Sabaali Abossey",
+  "employee_code": "EMP5000",
+  "department": "Quality Assurance",
+  "status": "warning",
+  "status_label": "Warning",
+  "basic_salary": 0,
+  "gross_pay": 5000,
+  "total_benefits": 0,
+  "total_bik": 0,
+  "total_deductions": 0,
+  "total_statutory_employee": 299.08,
+  "total_statutory_employer": 0,
+  "taxable_income": 1333.33,
+  "net_pay": 4700.92,
+  "employer_cost": 5000,
+  "errors": [],
+  "warnings": [
+    "SOFT_WARNING: Bonus threshold exceeded; excess routed to PAYE."
+  ],
+  "payment_status": "pending",
+  "lines": [
+    {
+      "id": 1563,
+      "line_type": "earning",
+      "reference_type": "bonus",
+      "reference_id": null,
+      "name": "Bonus",
+      "code": "BONUS",
+      "amount": 5000,
+      "employer_amount": 0,
+      "rate": null,
+      "quantity": null,
+      "is_taxable": true,
+      "sort_order": 2
+    },
+    {
+      "id": 1564,
+      "line_type": "relief",
+      "reference_type": "tax_relief",
+      "reference_id": 13,
+      "name": "Education Relief",
+      "code": "education_relief",
+      "amount": 166.67,
+      "employer_amount": 0,
+      "rate": null,
+      "quantity": null,
+      "is_taxable": false,
+      "sort_order": 300
+    },
+    {
+      "id": 1565,
+      "line_type": "statutory",
+      "reference_type": "statutory_item",
+      "reference_id": 6,
+      "name": "Bonus Tax",
+      "code": "bonus_tax",
+      "amount": 175,
+      "employer_amount": 0,
+      "rate": 5,
+      "quantity": null,
+      "is_taxable": false,
+      "sort_order": 301
+    },
+    {
+      "id": 1566,
+      "line_type": "statutory",
+      "reference_type": "statutory_item",
+      "reference_id": 1,
+      "name": "PAYE (Income Tax)",
+      "code": "paye",
+      "amount": 124.08,
+      "employer_amount": 0,
+      "rate": null,
+      "quantity": null,
+      "is_taxable": false,
+      "sort_order": 302
+    }
+  ],
+  "gra_paye_payable": 299.08,
+  "calculation_breakdown": {
+    "chargeable_income": 1333.33,
+    "qualifying_employment_income": 5000,
+    "bik_value": 0,
+    "reliefs_monthly_total": 166.67,
+    "ssf_employee": 0,
+    "taxable_income_reduction_lines": [],
+    "before_tax_deductions": 0,
+    "after_tax_deductions": 0,
+    "gross_pay_for_paye_base": 5000,
+    "taxable_benefits_for_paye_base": 0,
+    "paye": 124.08,
+    "paye_band_trace": [
+      {
+        "to": 490,
+        "tax": 0,
+        "from": 0,
+        "rate": 0,
+        "income_in_band": 490
+      },
+      {
+        "to": 600,
+        "tax": 5.5,
+        "from": 490,
+        "rate": 5,
+        "income_in_band": 110
+      },
+      {
+        "to": 730,
+        "tax": 13,
+        "from": 600,
+        "rate": 10,
+        "income_in_band": 130
+      },
+      {
+        "to": 3896.67,
+        "tax": 105.58,
+        "from": 730,
+        "rate": 17.5,
+        "income_in_band": 603.33
+      }
+    ],
+    "bonus_excess_paye_trace": null,
+    "bonus_tax_trace": {
+      "final_tax": 175,
+      "threshold": 4500,
+      "ytd_bonus": 1000,
+      "excess_routed": 1500
+    }
+  }
+}

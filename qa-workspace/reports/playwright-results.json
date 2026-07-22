@@ -1,0 +1,197 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/23.5.0/bin/node",
+      "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/node_modules/.bin/playwright",
+      "test",
+      "tests/pay-groups",
+      "--list"
+    ],
+    "configFile": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/playwright.config.ts",
+    "rootDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/evidence/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "unit",
+        "name": "unit",
+        "testDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests/unit",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/evidence/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "setup",
+        "name": "setup",
+        "testDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation",
+        "testIgnore": [],
+        "testMatch": [
+          "/fixtures[\\\\/]auth\\.setup\\.ts/"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/evidence/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "live",
+        "name": "live",
+        "testDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.cases.spec.ts",
+          "**/*.live.spec.ts"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/evidence/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests",
+        "testIgnore": [
+          "**/unit/**",
+          "**/*.live.spec.ts",
+          "**/*.cases.spec.ts"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/evidence/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests",
+        "testIgnore": [
+          "**/unit/**",
+          "**/*.live.spec.ts",
+          "**/*.cases.spec.ts"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/evidence/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests",
+        "testIgnore": [
+          "**/unit/**",
+          "**/*.live.spec.ts",
+          "**/*.cases.spec.ts"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/evidence/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests",
+        "testIgnore": [
+          "**/unit/**",
+          "**/*.live.spec.ts",
+          "**/*.cases.spec.ts"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "../reports/playwright-html",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../reports/playwright-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.61.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [],
+  "errors": [
+    {
+      "message": "SyntaxError: /Users/user/Projects/Kedebah Payroll/qa-workspace/automation/helpers/tc-registry.ts: Unexpected keyword 'const'. (298:0)\n\n  296 |\n  297 | // ── shared impl helpers (use discovered contracts) ──────────────────────────\n> 298 | const loanBody = (staff: number) => ({ staff_id: staff, principal_amount: 6000, term_months: 6, reference_rate_source: 'custom', custom_reference_rate: 0, interest_rate_annual: 0, start_date: '2026-02-01', per_period_repayment: 1000, auto_stop_when_repaid: true, bik_exemption_eligible: false, description: 'ZZ-QA Loan' });\n      | ^\n  299 |\n  300 | // Validation-alert verification against the engine's persisted alert ledger (/tax-alerts).\n  301 | // Every alert here was raised by the live engine on a real processed run (genuine evidence, no crafting).",
+      "stack": "SyntaxError: /Users/user/Projects/Kedebah Payroll/qa-workspace/automation/helpers/tc-registry.ts: Unexpected keyword 'const'. (298:0)\n\n  296 |\n  297 | // ── shared impl helpers (use discovered contracts) ──────────────────────────\n> 298 | const loanBody = (staff: number) => ({ staff_id: staff, principal_amount: 6000, term_months: 6, reference_rate_source: 'custom', custom_reference_rate: 0, interest_rate_annual: 0, start_date: '2026-02-01', per_period_repayment: 1000, auto_stop_when_repaid: true, bik_exemption_eligible: false, description: 'ZZ-QA Loan' });\n      | ^\n  299 |\n  300 | // Validation-alert verification against the engine's persisted alert ledger (/tax-alerts).\n  301 | // Every alert here was raised by the live engine on a real processed run (genuine evidence, no crafting).",
+      "location": {
+        "file": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests/pay-groups/pay-groups.cases.spec.ts",
+        "line": 298,
+        "column": 0
+      },
+      "snippet": "   at pay-groups/pay-groups.cases.spec.ts:298\n\n"
+    },
+    {
+      "message": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments.",
+      "stack": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."
+    }
+  ],
+  "stats": {
+    "startTime": "2026-06-30T04:53:11.468Z",
+    "duration": 83.85900000000004,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

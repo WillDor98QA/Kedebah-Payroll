@@ -1,0 +1,166 @@
+{
+  "id": 528,
+  "staff_id": 56,
+  "employee_name": "Vivian Abena Osei",
+  "employee_code": "EMP-1051",
+  "department": "Quality Assurance",
+  "status": "calculated",
+  "status_label": "Calculated",
+  "basic_salary": 4091,
+  "gross_pay": 5091,
+  "total_benefits": 0,
+  "total_bik": 0,
+  "total_deductions": 0,
+  "total_statutory_employee": 1090.01,
+  "total_statutory_employer": 531.83,
+  "taxable_income": 4865.99,
+  "net_pay": 4000.99,
+  "employer_cost": 5622.83,
+  "errors": [],
+  "warnings": [],
+  "payment_status": "pending",
+  "lines": [
+    {
+      "id": 1543,
+      "line_type": "earning",
+      "reference_type": "basic_salary",
+      "reference_id": null,
+      "name": "Basic Salary",
+      "code": "BASIC",
+      "amount": 4091,
+      "employer_amount": 0,
+      "rate": null,
+      "quantity": null,
+      "is_taxable": true,
+      "sort_order": 1
+    },
+    {
+      "id": 1544,
+      "line_type": "earning",
+      "reference_type": "bonus",
+      "reference_id": null,
+      "name": "Bonus",
+      "code": "BONUS",
+      "amount": 1000,
+      "employer_amount": 0,
+      "rate": null,
+      "quantity": null,
+      "is_taxable": true,
+      "sort_order": 2
+    },
+    {
+      "id": 1545,
+      "line_type": "statutory",
+      "reference_type": "statutory_item",
+      "reference_id": 2,
+      "name": "Tier 1",
+      "code": "tier_1",
+      "amount": 225.01,
+      "employer_amount": 327.28,
+      "rate": 13.5,
+      "quantity": null,
+      "is_taxable": false,
+      "sort_order": 300
+    },
+    {
+      "id": 1546,
+      "line_type": "statutory",
+      "reference_type": "statutory_item",
+      "reference_id": 3,
+      "name": "Tier 2",
+      "code": "tier_2",
+      "amount": 0,
+      "employer_amount": 204.55,
+      "rate": 5,
+      "quantity": null,
+      "is_taxable": false,
+      "sort_order": 301
+    },
+    {
+      "id": 1547,
+      "line_type": "statutory",
+      "reference_type": "statutory_item",
+      "reference_id": 6,
+      "name": "Bonus Tax",
+      "code": "bonus_tax",
+      "amount": 50,
+      "employer_amount": 0,
+      "rate": 5,
+      "quantity": null,
+      "is_taxable": false,
+      "sort_order": 302
+    },
+    {
+      "id": 1548,
+      "line_type": "statutory",
+      "reference_type": "statutory_item",
+      "reference_id": 1,
+      "name": "PAYE (Income Tax)",
+      "code": "paye",
+      "amount": 815,
+      "employer_amount": 0,
+      "rate": null,
+      "quantity": null,
+      "is_taxable": false,
+      "sort_order": 303
+    }
+  ],
+  "gra_paye_payable": 865,
+  "calculation_breakdown": {
+    "chargeable_income": 4865.99,
+    "qualifying_employment_income": 5091,
+    "bik_value": 0,
+    "reliefs_monthly_total": 0,
+    "ssf_employee": 225.01,
+    "taxable_income_reduction_lines": [],
+    "before_tax_deductions": 0,
+    "after_tax_deductions": 0,
+    "gross_pay_for_paye_base": 5091,
+    "taxable_benefits_for_paye_base": 0,
+    "paye": 815,
+    "paye_band_trace": [
+      {
+        "to": 490,
+        "tax": 0,
+        "from": 0,
+        "rate": 0,
+        "income_in_band": 490
+      },
+      {
+        "to": 600,
+        "tax": 5.5,
+        "from": 490,
+        "rate": 5,
+        "income_in_band": 110
+      },
+      {
+        "to": 730,
+        "tax": 13,
+        "from": 600,
+        "rate": 10,
+        "income_in_band": 130
+      },
+      {
+        "to": 3896.67,
+        "tax": 554.17,
+        "from": 730,
+        "rate": 17.5,
+        "income_in_band": 3166.67
+      },
+      {
+        "to": 19896.67,
+        "tax": 242.33,
+        "from": 3896.67,
+        "rate": 25,
+        "income_in_band": 969.32
+      }
+    ],
+    "bonus_excess_paye_trace": null,
+    "bonus_tax_trace": {
+      "final_tax": 50,
+      "threshold": 7363.8,
+      "ytd_bonus": 0,
+      "excess_routed": 0
+    }
+  }
+}
