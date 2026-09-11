@@ -1,0 +1,217 @@
+- generic [ref=f81e1]:
+  - generic [ref=f81e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f81e6]:
+      - generic [ref=f81e7]:
+        - generic [ref=f81e8]:
+          - link [ref=f81e165] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f81e166]
+          - generic [ref=f81e13]:
+            - textbox "Search anything here ..." [ref=f81e14]
+            - link "" [ref=f81e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f81e17]:
+          - text: 
+          - listitem [ref=f81e18]:
+            - link "" [ref=f81e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f81e21]:
+            - link "" [ref=f81e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f81e24]:
+            - link "" [ref=f81e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f81e27]:
+            - link "" [ref=f81e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f81e30]:
+            - button "" [ref=f81e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f81e33]:
+            - link "PM" [ref=f81e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f81e37]:
+      - navigation [ref=f81e40]:
+        - list [ref=f81e41]:
+          - listitem [ref=f81e42]:
+            - link " Dashboard" [ref=f81e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f81e44]: 
+              - generic [ref=f81e45]: Dashboard
+          - listitem [ref=f81e46]:
+            - generic [ref=f81e47]:
+              - link " Employees" [ref=f81e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f81e49]: 
+                - generic [ref=f81e50]: Employees
+              - button "Toggle submenu" [ref=f81e51] [cursor=pointer]:
+                - generic [ref=f81e52]: 
+          - listitem [ref=f81e53]:
+            - link " Run Payroll" [ref=f81e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f81e55]: 
+              - generic [ref=f81e56]: Run Payroll
+          - listitem [ref=f81e57]:
+            - generic [ref=f81e58]:
+              - link " Taxes & Forms" [ref=f81e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f81e60]: 
+                - generic [ref=f81e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f81e62] [cursor=pointer]:
+                - generic [ref=f81e63]: 
+          - listitem [ref=f81e64]:
+            - link " Reports" [ref=f81e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f81e66]: 
+              - generic [ref=f81e67]: Reports
+          - listitem [ref=f81e68]:
+            - link " Settings" [ref=f81e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f81e70]: 
+              - generic [ref=f81e71]: Settings
+    - generic [ref=f81e1193]:
+      - generic [ref=f81e1195]:
+        - link " Back to Pay Groups" [ref=f81e1197] [cursor=pointer]:
+          - /url: /setup/pay-groups
+          - generic [ref=f81e1198]: 
+          - text: Back to Pay Groups
+        - generic [ref=f81e1200]:
+          - heading "Create Pay Group" [level=1] [ref=f81e1201]
+          - paragraph [ref=f81e1202]: Define payroll rules and assign employees to this pay group
+      - generic [ref=f81e1203]:
+        - generic [ref=f81e1205]:
+          - generic [ref=f81e1207]:
+            - button "" [ref=f81e1287] [cursor=pointer]
+            - generic [ref=f81e1211]: Basic Info
+          - generic [ref=f81e1215]:
+            - button "" [ref=f81e1305] [cursor=pointer]
+            - generic [ref=f81e1219]: Pay Schedule
+          - generic [ref=f81e1223]:
+            - button "" [ref=f81e1453] [cursor=pointer]
+            - generic [ref=f81e1227]: Taxes
+          - generic [ref=f81e1231]:
+            - generic [ref=f81e1232]: "4"
+            - generic [ref=f81e1235]: Benefits & Deductions
+          - generic [ref=f81e1238]:
+            - generic [ref=f81e1239]: "5"
+            - generic [ref=f81e1242]: Employees
+          - generic [ref=f81e1246]:
+            - generic [ref=f81e1247]: "6"
+            - generic [ref=f81e1250]: Review
+        - generic [ref=f81e1252]:
+          - generic [ref=f81e1455]:
+            - generic [ref=f81e1456]:
+              - generic [ref=f81e1457]: "04"
+              - heading "Benefits & Deductions" [level=3] [ref=f81e1458]
+            - paragraph [ref=f81e1459]: Optionally link catalog benefits and deductions to this pay group. Amounts are defined in Setup — you can also configure these later.
+            - generic [ref=f81e1462]:
+              - generic [ref=f81e1464]: 
+              - paragraph [ref=f81e1466]: Selecting items here assigns this pay group on each catalog record. Employees in the group inherit these unless overridden on their profile.
+            - generic [ref=f81e1467]:
+              - generic [ref=f81e1468]:
+                - generic [ref=f81e1470]:
+                  - generic [ref=f81e1471]: 
+                  - generic [ref=f81e1472]: Benefits
+                - generic [ref=f81e1473]:
+                  - textbox "Search benefits…" [ref=f81e1474]
+                  - generic [ref=f81e1475]:
+                    - generic [ref=f81e1476] [cursor=pointer]:
+                      - checkbox "ZZQA Overtime Pay BEN-0002 GH₵ 1,000.00" [ref=f81e1477]
+                      - generic [ref=f81e1478]:
+                        - generic [ref=f81e1479]:
+                          - generic [ref=f81e1480]: ZZQA Overtime Pay
+                          - generic [ref=f81e1481]: BEN-0002
+                        - generic [ref=f81e1482]: GH₵ 1,000.00
+                    - generic [ref=f81e1484] [cursor=pointer]:
+                      - checkbox "ZZQA Transport Allowance BEN-0001 GH₵ 800.00" [ref=f81e1485]
+                      - generic [ref=f81e1486]:
+                        - generic [ref=f81e1487]:
+                          - generic [ref=f81e1488]: ZZQA Transport Allowance
+                          - generic [ref=f81e1489]: BEN-0001
+                        - generic [ref=f81e1490]: GH₵ 800.00
+                    - generic [ref=f81e1492] [cursor=pointer]:
+                      - checkbox "Shared Accommodation BIK-ACC-S 2.5%" [ref=f81e1493]
+                      - generic [ref=f81e1494]:
+                        - generic [ref=f81e1495]:
+                          - generic [ref=f81e1496]: Shared Accommodation
+                          - generic [ref=f81e1497]: BIK-ACC-S
+                        - generic [ref=f81e1498]: 2.5%
+                    - generic [ref=f81e1500] [cursor=pointer]:
+                      - checkbox "Furnishing Only BIK-ACC-F 2.5%" [ref=f81e1501]
+                      - generic [ref=f81e1502]:
+                        - generic [ref=f81e1503]:
+                          - generic [ref=f81e1504]: Furnishing Only
+                          - generic [ref=f81e1505]: BIK-ACC-F
+                        - generic [ref=f81e1506]: 2.5%
+                    - generic [ref=f81e1508] [cursor=pointer]:
+                      - checkbox "Accommodation Only BIK-ACC-A 7.5%" [ref=f81e1509]
+                      - generic [ref=f81e1510]:
+                        - generic [ref=f81e1511]:
+                          - generic [ref=f81e1512]: Accommodation Only
+                          - generic [ref=f81e1513]: BIK-ACC-A
+                        - generic [ref=f81e1514]: 7.5%
+                    - generic [ref=f81e1516] [cursor=pointer]:
+                      - checkbox "Accommodation with Furnishing BIK-ACC-AF 10%" [ref=f81e1517]
+                      - generic [ref=f81e1518]:
+                        - generic [ref=f81e1519]:
+                          - generic [ref=f81e1520]: Accommodation with Furnishing
+                          - generic [ref=f81e1521]: BIK-ACC-AF
+                        - generic [ref=f81e1522]: 10%
+                    - generic [ref=f81e1524] [cursor=pointer]:
+                      - checkbox "Fuel Only BIK-VEH-F 5%" [ref=f81e1525]
+                      - generic [ref=f81e1526]:
+                        - generic [ref=f81e1527]:
+                          - generic [ref=f81e1528]: Fuel Only
+                          - generic [ref=f81e1529]: BIK-VEH-F
+                        - generic [ref=f81e1530]: 5%
+                    - generic [ref=f81e1532] [cursor=pointer]:
+                      - checkbox "Vehicle Only BIK-VEH-V 5%" [ref=f81e1533]
+                      - generic [ref=f81e1534]:
+                        - generic [ref=f81e1535]:
+                          - generic [ref=f81e1536]: Vehicle Only
+                          - generic [ref=f81e1537]: BIK-VEH-V
+                        - generic [ref=f81e1538]: 5%
+                    - generic [ref=f81e1540] [cursor=pointer]:
+                      - checkbox "Vehicle with Fuel BIK-VEH-VF 10%" [ref=f81e1541]
+                      - generic [ref=f81e1542]:
+                        - generic [ref=f81e1543]:
+                          - generic [ref=f81e1544]: Vehicle with Fuel
+                          - generic [ref=f81e1545]: BIK-VEH-VF
+                        - generic [ref=f81e1546]: 10%
+                    - generic [ref=f81e1548] [cursor=pointer]:
+                      - checkbox "Driver, Vehicle and Fuel BIK-VEH-DVF 12.5%" [ref=f81e1549]
+                      - generic [ref=f81e1550]:
+                        - generic [ref=f81e1551]:
+                          - generic [ref=f81e1552]: Driver, Vehicle and Fuel
+                          - generic [ref=f81e1553]: BIK-VEH-DVF
+                        - generic [ref=f81e1554]: 12.5%
+              - generic [ref=f81e1556]:
+                - generic [ref=f81e1558]:
+                  - generic [ref=f81e1559]: 
+                  - generic [ref=f81e1560]: Deductions
+                - generic [ref=f81e1561]:
+                  - textbox "Search deductions…" [ref=f81e1562]
+                  - generic [ref=f81e1563]:
+                    - generic [ref=f81e1564]: 
+                    - paragraph [ref=f81e1565]: No deductions in catalog yet.
+                    - link "Set up deductions →" [ref=f81e1566] [cursor=pointer]:
+                      - /url: /setup/earnings-benefits-deductions?tab=deductions
+          - generic [ref=f81e1277]:
+            - button "Cancel" [ref=f81e1278] [cursor=pointer]
+            - generic [ref=f81e1279]:
+              - button "Previous" [ref=f81e1304] [cursor=pointer]
+              - button "Save & continue" [active] [ref=f81e1280] [cursor=pointer]
+    - contentinfo [ref=f81e137]:
+      - generic [ref=f81e139]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f81e140] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "Scroll to top" [ref=f81e1451] [cursor=pointer]:
+    - generic [aria-hidden] [ref=f81e1452]: 
+  - button "1 compliance alert(s) — open list" [ref=f81e161] [cursor=pointer]:
+    - generic [ref=f81e163]: 
+    - generic [ref=f81e164]: "1"

@@ -1,0 +1,253 @@
+- generic [active] [ref=f70e1]:
+  - generic [ref=f70e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f70e6]:
+      - generic [ref=f70e7]:
+        - generic [ref=f70e8]:
+          - link [ref=f70e117] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f70e118]
+          - generic [ref=f70e13]:
+            - textbox "Search anything here ..." [ref=f70e14]
+            - link "" [ref=f70e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f70e17]:
+          - text: 
+          - listitem [ref=f70e18]:
+            - link "" [ref=f70e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f70e21]:
+            - link "" [ref=f70e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f70e24]:
+            - link "" [ref=f70e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f70e27]:
+            - link "" [ref=f70e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f70e30]:
+            - button "" [ref=f70e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f70e33]:
+            - link "PM" [ref=f70e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f70e37]:
+      - navigation [ref=f70e40]:
+        - list [ref=f70e41]:
+          - listitem [ref=f70e42]:
+            - link " Dashboard" [ref=f70e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f70e44]: 
+              - generic [ref=f70e45]: Dashboard
+          - listitem [ref=f70e46]:
+            - generic [ref=f70e47]:
+              - link " Employees" [ref=f70e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f70e49]: 
+                - generic [ref=f70e50]: Employees
+              - button "Toggle submenu" [ref=f70e51] [cursor=pointer]:
+                - generic [ref=f70e52]: 
+          - listitem [ref=f70e53]:
+            - link " Run Payroll" [ref=f70e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f70e55]: 
+              - generic [ref=f70e56]: Run Payroll
+          - listitem [ref=f70e57]:
+            - generic [ref=f70e58]:
+              - link " Taxes & Forms" [ref=f70e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f70e60]: 
+                - generic [ref=f70e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f70e62] [cursor=pointer]:
+                - generic [ref=f70e63]: 
+          - listitem [ref=f70e64]:
+            - link " Reports" [ref=f70e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f70e66]: 
+              - generic [ref=f70e67]: Reports
+          - listitem [ref=f70e68]:
+            - link " Settings" [ref=f70e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f70e70]: 
+              - generic [ref=f70e71]: Settings
+    - generic [ref=f70e504]:
+      - generic [ref=f70e507]:
+        - generic [ref=f70e508]:
+          - heading "Payroll Runs" [level=1] [ref=f70e509]
+          - paragraph [ref=f70e510]: Process regular payroll, bonuses, off-cycle payments, and termination payroll.
+        - generic [ref=f70e512]:
+          - button " Reset" [ref=f70e513] [cursor=pointer]:
+            - generic [ref=f70e514]: 
+            - text: Reset
+          - button " Create Pay Run " [ref=f70e516] [cursor=pointer]:
+            - generic [ref=f70e517]: 
+            - text: Create Pay Run
+            - generic [ref=f70e518]: 
+      - generic [ref=f70e520]:
+        - navigation [ref=f70e522]:
+          - button " Run Payroll" [ref=f70e523] [cursor=pointer]:
+            - generic [ref=f70e524]: 
+            - generic [ref=f70e525]: Run Payroll
+          - button " Payroll History" [ref=f70e527] [cursor=pointer]:
+            - generic [ref=f70e528]: 
+            - generic [ref=f70e529]: Payroll History
+        - generic [ref=f70e531]:
+          - generic [ref=f70e532]:
+            - generic [ref=f70e533]:
+              - generic [ref=f70e534]: Search
+              - generic [ref=f70e535]:
+                - generic: 
+                - textbox "Search pay runs..." [ref=f70e536]
+            - generic [ref=f70e537]:
+              - generic [ref=f70e538]: Type
+              - button [ref=f70e541] [cursor=pointer]:
+                - generic [ref=f70e542]: All Types
+                - generic [aria-hidden] [ref=f70e543]: 
+            - generic [ref=f70e544]:
+              - generic [ref=f70e545]: Status
+              - button [ref=f70e548] [cursor=pointer]:
+                - generic [ref=f70e549]: All statuses
+                - generic [aria-hidden] [ref=f70e550]: 
+            - generic [ref=f70e551]:
+              - generic [ref=f70e552]: Pay date from
+              - textbox [ref=f70e553]
+            - generic [ref=f70e554]:
+              - generic [ref=f70e555]: Pay date to
+              - textbox [ref=f70e556]
+          - generic [ref=f70e650]:
+            - generic [ref=f70e652]:
+              - generic [ref=f70e653]:
+                - generic [ref=f70e654]:
+                  - generic [ref=f70e655]: 
+                  - generic [ref=f70e657]:
+                    - heading "ZZQA Backdate Test" [level=3] [ref=f70e658]
+                    - paragraph [ref=f70e659]: Jan 1, 2025 to Jan 31, 2025
+                  - generic [ref=f70e660]:
+                    - generic [ref=f70e661]:
+                      - generic [ref=f70e662]: 
+                      - text: Bonus
+                    - generic [ref=f70e663]: Draft
+                - generic [ref=f70e664]:
+                  - generic [ref=f70e665]:
+                    - paragraph [ref=f70e666]: Pay Date
+                    - paragraph [ref=f70e667]: Jan 15, 2025
+                  - generic [ref=f70e668]:
+                    - paragraph [ref=f70e669]: Employees
+                    - paragraph [ref=f70e670]: 0 employees
+                  - generic [ref=f70e671]:
+                    - paragraph [ref=f70e672]: Total Amount
+                    - paragraph [ref=f70e673]: Not yet calculated
+              - button " Edit Draft" [ref=f70e675] [cursor=pointer]:
+                - generic [ref=f70e676]: 
+                - text: Edit Draft
+            - generic [ref=f70e678]:
+              - generic [ref=f70e679]:
+                - generic [ref=f70e680]:
+                  - generic [ref=f70e681]: 
+                  - generic [ref=f70e683]:
+                    - heading "Regular Payroll - October 2026" [level=3] [ref=f70e684]
+                    - paragraph [ref=f70e685]: Oct 1, 2026 to Oct 31, 2026
+                  - generic [ref=f70e686]:
+                    - generic [ref=f70e687]:
+                      - generic [ref=f70e688]: 
+                      - text: Regular
+                    - generic [ref=f70e689]: Processed
+                - generic [ref=f70e690]:
+                  - generic [ref=f70e691]:
+                    - paragraph [ref=f70e692]: Pay Date
+                    - paragraph [ref=f70e693]: Oct 30, 2026
+                  - generic [ref=f70e694]:
+                    - paragraph [ref=f70e695]: Employees
+                    - paragraph [ref=f70e696]: 3 employees
+                  - generic [ref=f70e697]:
+                    - paragraph [ref=f70e698]: Total Amount
+                    - paragraph [ref=f70e699]: GH₵ 164,408.03
+              - button " Submit for Approval" [ref=f70e701] [cursor=pointer]:
+                - generic [ref=f70e702]: 
+                - text: Submit for Approval
+            - generic [ref=f70e704]:
+              - generic [ref=f70e705]:
+                - generic [ref=f70e706]:
+                  - generic [ref=f70e707]: 
+                  - generic [ref=f70e709]:
+                    - heading "Regular Payroll - October 2026" [level=3] [ref=f70e710]
+                    - paragraph [ref=f70e711]: Oct 1, 2026 to Oct 31, 2026
+                  - generic [ref=f70e712]:
+                    - generic [ref=f70e713]:
+                      - generic [ref=f70e714]: 
+                      - text: Regular
+                    - generic [ref=f70e715]: Processed
+                - generic [ref=f70e716]:
+                  - generic [ref=f70e717]:
+                    - paragraph [ref=f70e718]: Pay Date
+                    - paragraph [ref=f70e719]: Oct 30, 2026
+                  - generic [ref=f70e720]:
+                    - paragraph [ref=f70e721]: Employees
+                    - paragraph [ref=f70e722]: 3 employees
+                  - generic [ref=f70e723]:
+                    - paragraph [ref=f70e724]: Total Amount
+                    - paragraph [ref=f70e725]: GH₵ 166,077.66
+              - button " Submit for Approval" [ref=f70e727] [cursor=pointer]:
+                - generic [ref=f70e728]: 
+                - text: Submit for Approval
+            - generic [ref=f70e730]:
+              - generic [ref=f70e731]:
+                - generic [ref=f70e732]:
+                  - generic [ref=f70e733]: 
+                  - generic [ref=f70e735]:
+                    - heading "ZZQA Bonus Test Sep 2026" [level=3] [ref=f70e736]
+                    - paragraph [ref=f70e737]: Sep 1, 2026 to Sep 30, 2026
+                  - generic [ref=f70e738]:
+                    - generic [ref=f70e739]:
+                      - generic [ref=f70e740]: 
+                      - text: Bonus
+                    - generic [ref=f70e741]: Processed
+                - generic [ref=f70e742]:
+                  - generic [ref=f70e743]:
+                    - paragraph [ref=f70e744]: Pay Date
+                    - paragraph [ref=f70e745]: Sep 9, 2026
+                  - generic [ref=f70e746]:
+                    - paragraph [ref=f70e747]: Employees
+                    - paragraph [ref=f70e748]: 2 employees
+                  - generic [ref=f70e749]:
+                    - paragraph [ref=f70e750]: Total Amount
+                    - paragraph [ref=f70e751]: GH₵ 10,009.63
+              - button " Submit for Approval" [ref=f70e753] [cursor=pointer]:
+                - generic [ref=f70e754]: 
+                - text: Submit for Approval
+            - generic [ref=f70e756]:
+              - generic [ref=f70e757]:
+                - generic [ref=f70e758]:
+                  - generic [ref=f70e759]: 
+                  - generic [ref=f70e761]:
+                    - heading "Regular Payroll - October 2026" [level=3] [ref=f70e762]
+                    - paragraph [ref=f70e763]: Oct 1, 2026 to Oct 31, 2026
+                  - generic [ref=f70e764]:
+                    - generic [ref=f70e765]:
+                      - generic [ref=f70e766]: 
+                      - text: Regular
+                    - generic [ref=f70e767]: Processed
+                - generic [ref=f70e768]:
+                  - generic [ref=f70e769]:
+                    - paragraph [ref=f70e770]: Pay Date
+                    - paragraph [ref=f70e771]: Oct 30, 2026
+                  - generic [ref=f70e772]:
+                    - paragraph [ref=f70e773]: Employees
+                    - paragraph [ref=f70e774]: 3 employees
+                  - generic [ref=f70e775]:
+                    - paragraph [ref=f70e776]: Total Amount
+                    - paragraph [ref=f70e777]: GH₵ 163,748.03
+              - button " Submit for Approval" [ref=f70e779] [cursor=pointer]:
+                - generic [ref=f70e780]: 
+                - text: Submit for Approval
+    - contentinfo [ref=f70e108]:
+      - generic [ref=f70e110]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f70e111] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f70e113] [cursor=pointer]:
+    - generic [ref=f70e115]: 
+    - generic [ref=f70e116]: "1"

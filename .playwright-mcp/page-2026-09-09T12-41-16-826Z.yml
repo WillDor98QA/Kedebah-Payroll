@@ -1,0 +1,222 @@
+- generic [ref=f137e1]:
+  - generic [ref=f137e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f137e6]:
+      - generic [ref=f137e7]:
+        - generic [ref=f137e8]:
+          - link [ref=f137e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Kedebah logo" [ref=f137e12]
+          - generic [ref=f137e13]:
+            - textbox "Search anything here ..." [ref=f137e14]
+            - link "" [ref=f137e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f137e17]:
+          - text: 
+          - listitem [ref=f137e18]:
+            - link "" [ref=f137e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f137e21]:
+            - link "" [ref=f137e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f137e24]:
+            - link "" [ref=f137e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f137e27]:
+            - link "" [ref=f137e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f137e30]:
+            - button "" [ref=f137e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f137e33]:
+            - link "PM" [ref=f137e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f137e37]:
+      - navigation [ref=f137e40]:
+        - list [ref=f137e41]:
+          - listitem [ref=f137e42]:
+            - link " Dashboard" [ref=f137e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f137e44]: 
+              - generic [ref=f137e45]: Dashboard
+          - listitem [ref=f137e46]:
+            - link " Reports" [ref=f137e47] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f137e48]: 
+              - generic [ref=f137e49]: Reports
+    - generic [ref=f137e855]:
+      - generic [ref=f137e857]:
+        - link " Back to Settings" [ref=f137e859] [cursor=pointer]:
+          - /url: /settings
+          - generic [ref=f137e860]: 
+          - text: Back to Settings
+        - generic [ref=f137e861]:
+          - generic [ref=f137e862]:
+            - heading "Budgets" [level=1] [ref=f137e863]
+            - paragraph [ref=f137e864]: Plan payroll spend by period and track deviation against actuals.
+          - button " Create Budget" [active] [ref=f137e866] [cursor=pointer]:
+            - generic [ref=f137e867]: 
+            - text: Create Budget
+      - generic [ref=f137e869]:
+        - generic [ref=f137e870]:
+          - generic [ref=f137e1006]:
+            - generic [ref=f137e1008]:
+              - generic [ref=f137e1009]: 1 result
+              - button " Refresh" [ref=f137e1012] [cursor=pointer]:
+                - generic [ref=f137e1013]: 
+                - text: Refresh
+            - generic [ref=f137e1017]:
+              - generic [aria-hidden]:
+                - generic: 
+              - textbox "Search budgets…" [ref=f137e1018]
+          - table [ref=f137e1022]:
+            - rowgroup [ref=f137e1031]:
+              - row [ref=f137e1032]:
+                - columnheader "Year" [ref=f137e1033] [cursor=pointer]
+                - columnheader "Name" [ref=f137e1037] [cursor=pointer]
+                - columnheader "Scope" [ref=f137e1041]
+                - columnheader "Period" [ref=f137e1044]
+                - columnheader "Total Annual" [ref=f137e1047]
+                - columnheader "Primary" [ref=f137e1050]
+                - columnheader [ref=f137e1053]
+            - rowgroup [ref=f137e1054]:
+              - row [ref=f137e1055]:
+                - cell "2026" [ref=f137e1056]
+                - cell "ZZQA FY2026 Payroll Budget" [ref=f137e1057]:
+                  - generic "ZZQA FY2026 Payroll Budget" [ref=f137e1060]
+                - cell "Organisation-wide" [ref=f137e1061]
+                - cell "Monthly" [ref=f137e1063]
+                - cell "₵ 3,000,000.00" [ref=f137e1065]
+                - cell "Primary" [ref=f137e1067]
+                - cell [ref=f137e1070]:
+                  - generic [ref=f137e1072]:
+                    - button "" [ref=f137e1073] [cursor=pointer]
+                    - button "" [ref=f137e1075] [cursor=pointer]
+                    - button "" [ref=f137e1077] [cursor=pointer]
+                    - button "" [ref=f137e1079] [cursor=pointer]
+        - generic [ref=f137e1081]:
+          - generic [ref=f137e1082]:
+            - generic [ref=f137e1083]:
+              - generic [ref=f137e1084]: Rows per page
+              - button [ref=f137e1087] [cursor=pointer]:
+                - generic [ref=f137e1088]: "10"
+                - generic [aria-hidden] [ref=f137e1089]: 
+            - generic [ref=f137e1090]: Showing 1-1 of 1 entries
+          - generic [ref=f137e1091]:
+            - generic [ref=f137e1092]: Page 1 of 1
+            - generic [ref=f137e1093]:
+              - button "" [disabled] [ref=f137e1094] [cursor=pointer]
+              - button "1" [ref=f137e1096] [cursor=pointer]
+              - button "" [disabled] [ref=f137e1097] [cursor=pointer]
+    - contentinfo [ref=f137e138]:
+      - generic [ref=f137e140]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f137e141] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f137e143] [cursor=pointer]:
+    - generic [ref=f137e145]: 
+    - generic [ref=f137e146]: "1"
+  - dialog [ref=f137e1099]:
+    - generic [ref=f137e1100]:
+      - generic [ref=f137e1101]:
+        - heading "Create Budget" [level=3] [ref=f137e1102]
+        - button "Close" [ref=f137e1103] [cursor=pointer]:
+          - generic [ref=f137e1104]: 
+      - generic [ref=f137e1105]:
+        - generic [ref=f137e1106]:
+          - generic [ref=f137e1107]:
+            - generic [ref=f137e1108]: Budget Year *
+            - spinbutton [ref=f137e1109]: "2026"
+          - generic [ref=f137e1110]:
+            - generic [ref=f137e1111]: Name *
+            - textbox "e.g. FY2026 Payroll Budget" [ref=f137e1112]
+          - generic [ref=f137e1113]:
+            - generic [ref=f137e1114]: Scope
+            - button [ref=f137e1117] [cursor=pointer]:
+              - generic [ref=f137e1118]: Organisation-wide
+              - generic [aria-hidden] [ref=f137e1119]: 
+          - generic [ref=f137e1120]:
+            - generic [ref=f137e1121]: Period Type
+            - button [ref=f137e1124] [cursor=pointer]:
+              - generic [ref=f137e1125]: Monthly
+              - generic [aria-hidden] [ref=f137e1126]: 
+          - generic [ref=f137e1127]:
+            - generic [ref=f137e1128]: Currency
+            - textbox [disabled] [ref=f137e1129]: ₵ GHS
+            - paragraph [ref=f137e1130]: Uses your organisation's default currency.
+          - generic [ref=f137e1131]:
+            - generic [ref=f137e1132]: Deviation Threshold (%)
+            - spinbutton [ref=f137e1133]: "5"
+          - generic [ref=f137e1134]:
+            - generic [ref=f137e1135]: Notes
+            - textbox "Optional context for this budget" [ref=f137e1136]
+        - generic [ref=f137e1137]:
+          - generic [ref=f137e1138]:
+            - heading "Budget Amounts" [level=4] [ref=f137e1139]
+            - generic [ref=f137e1140]: "Total Annual: ₵ 0.00"
+          - table [ref=f137e1143]:
+            - rowgroup [ref=f137e1144]:
+              - row [ref=f137e1145]:
+                - columnheader "Period" [ref=f137e1146]
+                - columnheader "Amount" [ref=f137e1147]
+              - row [ref=f137e1148]:
+                - columnheader "Fill column →" [ref=f137e1149]
+                - columnheader [ref=f137e1150]:
+                  - generic [ref=f137e1151]:
+                    - spinbutton "0.00" [ref=f137e1152]
+                    - button "" [ref=f137e1153] [cursor=pointer]
+            - rowgroup [ref=f137e1155]:
+              - row [ref=f137e1156]:
+                - cell "Jan" [ref=f137e1157]
+                - cell [ref=f137e1158]:
+                  - spinbutton "0.00" [ref=f137e1159]
+              - row [ref=f137e1160]:
+                - cell "Feb" [ref=f137e1161]
+                - cell [ref=f137e1162]:
+                  - spinbutton "0.00" [ref=f137e1163]
+              - row [ref=f137e1164]:
+                - cell "Mar" [ref=f137e1165]
+                - cell [ref=f137e1166]:
+                  - spinbutton "0.00" [ref=f137e1167]
+              - row [ref=f137e1168]:
+                - cell "Apr" [ref=f137e1169]
+                - cell [ref=f137e1170]:
+                  - spinbutton "0.00" [ref=f137e1171]
+              - row [ref=f137e1172]:
+                - cell "May" [ref=f137e1173]
+                - cell [ref=f137e1174]:
+                  - spinbutton "0.00" [ref=f137e1175]
+              - row [ref=f137e1176]:
+                - cell "Jun" [ref=f137e1177]
+                - cell [ref=f137e1178]:
+                  - spinbutton "0.00" [ref=f137e1179]
+              - row [ref=f137e1180]:
+                - cell "Jul" [ref=f137e1181]
+                - cell [ref=f137e1182]:
+                  - spinbutton "0.00" [ref=f137e1183]
+              - row [ref=f137e1184]:
+                - cell "Aug" [ref=f137e1185]
+                - cell [ref=f137e1186]:
+                  - spinbutton "0.00" [ref=f137e1187]
+              - row [ref=f137e1188]:
+                - cell "Sep" [ref=f137e1189]
+                - cell [ref=f137e1190]:
+                  - spinbutton "0.00" [ref=f137e1191]
+              - row [ref=f137e1192]:
+                - cell "Oct" [ref=f137e1193]
+                - cell [ref=f137e1194]:
+                  - spinbutton "0.00" [ref=f137e1195]
+              - row [ref=f137e1196]:
+                - cell "Nov" [ref=f137e1197]
+                - cell [ref=f137e1198]:
+                  - spinbutton "0.00" [ref=f137e1199]
+              - row [ref=f137e1200]:
+                - cell "Dec" [ref=f137e1201]
+                - cell [ref=f137e1202]:
+                  - spinbutton "0.00" [ref=f137e1203]
+      - generic [ref=f137e1204]:
+        - button "Cancel" [ref=f137e1205] [cursor=pointer]
+        - button "Create Budget" [ref=f137e1206] [cursor=pointer]

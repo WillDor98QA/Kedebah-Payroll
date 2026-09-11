@@ -1,0 +1,12 @@
+[     699ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff2?t=1708865856766 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88
+[     699ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88
+[     699ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff?t=1708865856766 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88
+[     699ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88
+[     699ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.ttf?t=1708865856766 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88
+[     699ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88
+[    7760ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff2?t=1708865856766 @ https://v2payroll.kedebahlite.com/payroll:0
+[    7760ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/payroll:0
+[    8822ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff?t=1708865856766 @ https://v2payroll.kedebahlite.com/payroll:0
+[    8822ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/payroll:0
+[    9893ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.ttf?t=1708865856766 @ https://v2payroll.kedebahlite.com/payroll:0
+[    9893ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/payroll:0

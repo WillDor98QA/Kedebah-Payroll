@@ -1,0 +1,201 @@
+- generic [active] [ref=f102e1]:
+  - generic [ref=f102e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f102e6]:
+      - generic [ref=f102e7]:
+        - generic [ref=f102e8]:
+          - link [ref=f102e223] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f102e224]
+          - generic [ref=f102e13]:
+            - textbox "Search anything here ..." [ref=f102e14]
+            - link "" [ref=f102e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f102e17]:
+          - text: 
+          - listitem [ref=f102e18]:
+            - link "" [ref=f102e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f102e21]:
+            - link "" [ref=f102e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f102e24]:
+            - link "" [ref=f102e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f102e27]:
+            - link "" [ref=f102e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f102e30]:
+            - button "" [ref=f102e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f102e33]:
+            - link "PM" [ref=f102e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f102e37]:
+      - navigation [ref=f102e40]:
+        - list [ref=f102e41]:
+          - listitem [ref=f102e42]:
+            - link " Dashboard" [ref=f102e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f102e44]: 
+              - generic [ref=f102e45]: Dashboard
+          - listitem [ref=f102e46]:
+            - generic [ref=f102e47]:
+              - link " Employees" [ref=f102e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f102e49]: 
+                - generic [ref=f102e50]: Employees
+              - button "Toggle submenu" [ref=f102e51] [cursor=pointer]:
+                - generic [ref=f102e52]: 
+          - listitem [ref=f102e53]:
+            - link " Run Payroll" [ref=f102e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f102e55]: 
+              - generic [ref=f102e56]: Run Payroll
+          - listitem [ref=f102e57]:
+            - generic [ref=f102e58]:
+              - link " Taxes & Forms" [ref=f102e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f102e60]: 
+                - generic [ref=f102e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f102e62] [cursor=pointer]:
+                - generic [ref=f102e63]: 
+          - listitem [ref=f102e64]:
+            - link " Reports" [ref=f102e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f102e66]: 
+              - generic [ref=f102e67]: Reports
+          - listitem [ref=f102e68]:
+            - link " Settings" [ref=f102e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f102e70]: 
+              - generic [ref=f102e71]: Settings
+    - generic [ref=f102e74]:
+      - generic [ref=f102e76]:
+        - link " Back to Settings" [ref=f102e78] [cursor=pointer]:
+          - /url: /settings
+          - generic [ref=f102e79]: 
+          - text: Back to Settings
+        - generic [ref=f102e80]:
+          - generic [ref=f102e81]:
+            - heading "User Roles" [level=1] [ref=f102e82]
+            - paragraph [ref=f102e83]: Create, update, and manage payroll access roles and permissions.
+          - button " Create Role" [ref=f102e85] [cursor=pointer]:
+            - generic [ref=f102e86]: 
+            - text: Create Role
+      - generic [ref=f102e249]:
+        - generic [ref=f102e250]:
+          - generic [ref=f102e251]:
+            - heading "Role Management" [level=6] [ref=f102e252]
+            - paragraph [ref=f102e253]: Create, update, and manage roles with their associated permissions
+          - generic [ref=f102e255]:
+            - generic [aria-hidden]:
+              - generic: 
+            - textbox "Search roles..." [ref=f102e256]
+        - generic [ref=f102e257]:
+          - generic [ref=f102e258]:
+            - generic [ref=f102e259]:
+              - generic [ref=f102e260]:
+                - heading "ZZQA Test Role" [level=5] [ref=f102e261]
+                - paragraph [ref=f102e262]: No description
+              - generic [ref=f102e263]:
+                - button "" [ref=f102e264] [cursor=pointer]
+                - button "" [ref=f102e266] [cursor=pointer]
+                - button "" [ref=f102e268] [cursor=pointer]
+            - generic [ref=f102e270]:
+              - generic [ref=f102e271]:
+                - generic [ref=f102e272]: 
+                - generic [ref=f102e273]: 3 Permissions
+              - button " 0 Users" [ref=f102e274] [cursor=pointer]:
+                - generic [ref=f102e275]: 
+                - generic [ref=f102e276]: 0 Users
+            - button " Manage Permissions" [ref=f102e278] [cursor=pointer]:
+              - generic [ref=f102e279]: 
+              - text: Manage Permissions
+          - generic [ref=f102e280]:
+            - generic [ref=f102e281]:
+              - generic [ref=f102e282]:
+                - heading "Payroll Manager" [level=5] [ref=f102e283]
+                - paragraph [ref=f102e284]: Manage pay runs, employees, and reports
+              - generic [ref=f102e285]:
+                - button "" [ref=f102e286] [cursor=pointer]
+                - button "" [ref=f102e288] [cursor=pointer]
+                - button "" [ref=f102e290] [cursor=pointer]
+            - generic [ref=f102e292]:
+              - generic [ref=f102e293]:
+                - generic [ref=f102e294]: 
+                - generic [ref=f102e295]: 27 Permissions
+              - button " 1 Users" [ref=f102e296] [cursor=pointer]:
+                - generic [ref=f102e297]: 
+                - generic [ref=f102e298]: 1 Users
+            - button " Manage Permissions" [ref=f102e300] [cursor=pointer]:
+              - generic [ref=f102e301]: 
+              - text: Manage Permissions
+          - generic [ref=f102e302]:
+            - generic [ref=f102e303]:
+              - generic [ref=f102e304]:
+                - heading "Payroll Employee" [level=5] [ref=f102e305]
+                - paragraph [ref=f102e306]: View own dashboard and payslips
+              - generic [ref=f102e307]:
+                - button "" [ref=f102e308] [cursor=pointer]
+                - button "" [ref=f102e310] [cursor=pointer]
+                - button "" [ref=f102e312] [cursor=pointer]
+            - generic [ref=f102e314]:
+              - generic [ref=f102e315]:
+                - generic [ref=f102e316]: 
+                - generic [ref=f102e317]: 4 Permissions
+              - button " 1 Users" [ref=f102e318] [cursor=pointer]:
+                - generic [ref=f102e319]: 
+                - generic [ref=f102e320]: 1 Users
+            - button " Manage Permissions" [ref=f102e322] [cursor=pointer]:
+              - generic [ref=f102e323]: 
+              - text: Manage Permissions
+          - generic [ref=f102e324]:
+            - generic [ref=f102e325]:
+              - generic [ref=f102e326]:
+                - heading "Payroll Reports" [level=5] [ref=f102e327]
+                - paragraph [ref=f102e328]: View dashboard and reports
+              - generic [ref=f102e329]:
+                - button "" [ref=f102e330] [cursor=pointer]
+                - button "" [ref=f102e332] [cursor=pointer]
+                - button "" [ref=f102e334] [cursor=pointer]
+            - generic [ref=f102e336]:
+              - generic [ref=f102e337]:
+                - generic [ref=f102e338]: 
+                - generic [ref=f102e339]: 5 Permissions
+              - button " 0 Users" [ref=f102e340] [cursor=pointer]:
+                - generic [ref=f102e341]: 
+                - generic [ref=f102e342]: 0 Users
+            - button " Manage Permissions" [ref=f102e344] [cursor=pointer]:
+              - generic [ref=f102e345]: 
+              - text: Manage Permissions
+          - generic [ref=f102e346]:
+            - generic [ref=f102e347]:
+              - generic [ref=f102e348]:
+                - heading "Payroll Admin" [level=5] [ref=f102e349]
+                - paragraph [ref=f102e350]: Full access to all payroll features
+              - generic [ref=f102e351]:
+                - button "" [ref=f102e352] [cursor=pointer]
+                - button "" [ref=f102e354] [cursor=pointer]
+                - button "" [ref=f102e356] [cursor=pointer]
+            - generic [ref=f102e358]:
+              - generic [ref=f102e359]:
+                - generic [ref=f102e360]: 
+                - generic [ref=f102e361]: 56 Permissions
+              - button " 1 Users" [ref=f102e362] [cursor=pointer]:
+                - generic [ref=f102e363]: 
+                - generic [ref=f102e364]: 1 Users
+            - button " Manage Permissions" [ref=f102e366] [cursor=pointer]:
+              - generic [ref=f102e367]: 
+              - text: Manage Permissions
+    - contentinfo [ref=f102e208]:
+      - generic [ref=f102e210]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f102e211] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f102e213] [cursor=pointer]:
+    - generic [ref=f102e215]: 
+    - generic [ref=f102e216]: "1"

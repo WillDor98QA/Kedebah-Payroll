@@ -1,0 +1,183 @@
+- generic [active] [ref=f45e1]:
+  - generic [ref=f45e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f45e6]:
+      - generic [ref=f45e7]:
+        - generic [ref=f45e8]:
+          - link [ref=f45e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f45e12]
+          - generic [ref=f45e13]:
+            - textbox "Search anything here ..." [ref=f45e14]
+            - link "" [ref=f45e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f45e17]:
+          - text: 
+          - listitem [ref=f45e18]:
+            - link "" [ref=f45e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f45e21]:
+            - link "" [ref=f45e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f45e24]:
+            - link "" [ref=f45e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f45e27]:
+            - link "" [ref=f45e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f45e30]:
+            - button "" [ref=f45e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f45e33]:
+            - link "PM" [ref=f45e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f45e37]:
+      - navigation [ref=f45e40]:
+        - list [ref=f45e41]:
+          - listitem [ref=f45e42]:
+            - link " Dashboard" [ref=f45e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f45e44]: 
+              - generic [ref=f45e45]: Dashboard
+          - listitem [ref=f45e46]:
+            - generic [ref=f45e47]:
+              - link " Employees" [ref=f45e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f45e49]: 
+                - generic [ref=f45e50]: Employees
+              - button "Toggle submenu" [ref=f45e51] [cursor=pointer]:
+                - generic [ref=f45e52]: 
+          - listitem [ref=f45e53]:
+            - link " Run Payroll" [ref=f45e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f45e55]: 
+              - generic [ref=f45e56]: Run Payroll
+          - listitem [ref=f45e57]:
+            - generic [ref=f45e58]:
+              - link " Taxes & Forms" [ref=f45e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f45e60]: 
+                - generic [ref=f45e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f45e62] [cursor=pointer]:
+                - generic [ref=f45e63]: 
+          - listitem [ref=f45e64]:
+            - link " Reports" [ref=f45e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f45e66]: 
+              - generic [ref=f45e67]: Reports
+          - listitem [ref=f45e68]:
+            - link " Settings" [ref=f45e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f45e70]: 
+              - generic [ref=f45e71]: Settings
+    - generic [ref=f45e74]:
+      - generic [ref=f45e76]:
+        - link " Back to Employees" [ref=f45e78] [cursor=pointer]:
+          - /url: /employees
+          - generic [ref=f45e79]: 
+          - text: Back to Employees
+        - generic [ref=f45e81]:
+          - heading "Adjustments" [level=1] [ref=f45e82]
+          - paragraph [ref=f45e83]: Adjust salaries, benefits and deductions for many employees at once.
+      - generic [ref=f45e84]:
+        - generic [ref=f45e86]:
+          - button " Salary Adjustments" [ref=f45e87] [cursor=pointer]:
+            - generic [ref=f45e88]: 
+            - text: Salary Adjustments
+          - button " Bulk Adjustments" [ref=f45e89] [cursor=pointer]:
+            - generic [ref=f45e90]: 
+            - text: Bulk Adjustments
+        - generic [ref=f45e197]:
+          - generic [ref=f45e198]:
+            - heading "1. Choose what to adjust" [level=3] [ref=f45e199]
+            - paragraph [ref=f45e200]: The sheet contains only what you pick here, so you are not editing around rows you did not ask for.
+            - generic [ref=f45e201]:
+              - button " Benefits" [ref=f45e202] [cursor=pointer]:
+                - generic [ref=f45e203]: 
+                - text: Benefits
+              - button " Deductions" [ref=f45e204] [cursor=pointer]:
+                - generic [ref=f45e205]: 
+                - text: Deductions
+              - button " Salary" [ref=f45e206] [cursor=pointer]:
+                - generic [ref=f45e207]: 
+                - text: Salary
+            - generic [ref=f45e208]:
+              - generic [ref=f45e209]:
+                - generic [ref=f45e210]: Which benefits?
+                - button "Leave empty for all" [ref=f45e213] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f45e217]: 
+                - paragraph [ref=f45e218]: Leave empty to include every active item.
+              - generic [ref=f45e219]:
+                - generic [ref=f45e220]: Which employees?
+                - button [ref=f45e223] [cursor=pointer]:
+                  - generic [ref=f45e224]: Employees who already have it
+                  - generic [aria-hidden] [ref=f45e225]: 
+          - generic [ref=f45e226]:
+            - heading "2. Download, edit, upload" [level=3] [ref=f45e227]
+            - paragraph [ref=f45e228]:
+              - text: Export the sheet with current amounts filled in, change the
+              - code [ref=f45e229]: amount
+              - text: column, and upload it back. Every row is checked before anything is saved.
+            - paragraph [ref=f45e231]:
+              - generic [ref=f45e232]: 
+              - generic [ref=f45e233]: Benefit and deduction amounts apply as soon as you confirm. Salary rows are different — they are drafted as a salary adjustment and still have to go through approval before anyone's pay changes.
+            - generic [ref=f45e234]:
+              - button " Start a bulk adjustment" [ref=f45e235] [cursor=pointer]:
+                - generic [ref=f45e236]: 
+                - text: Start a bulk adjustment
+              - generic [ref=f45e237]: Benefits · all items · employees who already have it
+    - contentinfo [ref=f45e188]:
+      - generic [ref=f45e190]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f45e191] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f45e193] [cursor=pointer]:
+    - generic [ref=f45e195]: 
+    - generic [ref=f45e196]: "1"
+  - generic [ref=f45e239]:
+    - generic [ref=f45e240]:
+      - generic [ref=f45e241]:
+        - heading "Import / Export — Bulk Adjustments" [level=3] [ref=f45e242]
+        - paragraph [ref=f45e243]: Download a template, fill it in, and upload to bulk-create or update bulk adjustments.
+      - button "" [ref=f45e244] [cursor=pointer]
+    - generic [ref=f45e246]:
+      - generic [ref=f45e247]:
+        - generic [ref=f45e248]:
+          - generic [ref=f45e249]: "01"
+          - heading "Get a starter file" [level=4] [ref=f45e250]
+        - paragraph [ref=f45e251]: A blank template documents the expected columns; an export of current rows is editable for bulk updates.
+        - generic [ref=f45e252]:
+          - button " Template (CSV)" [ref=f45e253] [cursor=pointer]:
+            - generic [ref=f45e254]: 
+            - text: Template (CSV)
+          - button " Template (Excel)" [ref=f45e255] [cursor=pointer]:
+            - generic [ref=f45e256]: 
+            - text: Template (Excel)
+          - generic [ref=f45e257]: ·
+          - button " Export current (CSV)" [ref=f45e258] [cursor=pointer]:
+            - generic [ref=f45e259]: 
+            - text: Export current (CSV)
+          - button " Export current (Excel)" [ref=f45e260] [cursor=pointer]:
+            - generic [ref=f45e261]: 
+            - text: Export current (Excel)
+      - generic [ref=f45e262]:
+        - generic [ref=f45e263]:
+          - generic [ref=f45e264]: "02"
+          - heading "Upload + preview" [level=4] [ref=f45e265]
+        - paragraph [ref=f45e266]: Drag and drop your file or browse to select.
+        - generic [ref=f45e268]:
+          - generic [ref=f45e269]: 
+          - paragraph [ref=f45e270]: Drag and drop your file here
+          - paragraph [ref=f45e271]: or
+          - generic [ref=f45e272] [cursor=pointer]:
+            - generic [ref=f45e273]: 
+            - text: Browse files
+          - paragraph [ref=f45e274]: "Accepted formats: CSV, XLSX, XLS, TXT"
+    - generic [ref=f45e275]:
+      - button "Cancel" [ref=f45e276] [cursor=pointer]
+      - button " Confirm import" [disabled] [ref=f45e277] [cursor=pointer]:
+        - generic [ref=f45e278]: 
+        - text: Confirm import

@@ -1,0 +1,166 @@
+- generic [active] [ref=f81e1]:
+  - generic [ref=f81e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f81e6]:
+      - generic [ref=f81e7]:
+        - generic [ref=f81e8]:
+          - link [ref=f81e165] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f81e166]
+          - generic [ref=f81e13]:
+            - textbox "Search anything here ..." [ref=f81e14]
+            - link "" [ref=f81e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f81e17]:
+          - text: 
+          - listitem [ref=f81e18]:
+            - link "" [ref=f81e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f81e21]:
+            - link "" [ref=f81e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f81e24]:
+            - link "" [ref=f81e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f81e27]:
+            - link "" [ref=f81e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f81e30]:
+            - button "" [ref=f81e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f81e33]:
+            - link "PM" [ref=f81e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f81e37]:
+      - navigation [ref=f81e40]:
+        - list [ref=f81e41]:
+          - listitem [ref=f81e42]:
+            - link " Dashboard" [ref=f81e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f81e44]: 
+              - generic [ref=f81e45]: Dashboard
+          - listitem [ref=f81e46]:
+            - generic [ref=f81e47]:
+              - link " Employees" [ref=f81e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f81e49]: 
+                - generic [ref=f81e50]: Employees
+              - button "Toggle submenu" [ref=f81e51] [cursor=pointer]:
+                - generic [ref=f81e52]: 
+          - listitem [ref=f81e53]:
+            - link " Run Payroll" [ref=f81e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f81e55]: 
+              - generic [ref=f81e56]: Run Payroll
+          - listitem [ref=f81e57]:
+            - generic [ref=f81e58]:
+              - link " Taxes & Forms" [ref=f81e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f81e60]: 
+                - generic [ref=f81e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f81e62] [cursor=pointer]:
+                - generic [ref=f81e63]: 
+          - listitem [ref=f81e64]:
+            - link " Reports" [ref=f81e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f81e66]: 
+              - generic [ref=f81e67]: Reports
+          - listitem [ref=f81e68]:
+            - link " Settings" [ref=f81e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f81e70]: 
+              - generic [ref=f81e71]: Settings
+    - generic [ref=f81e1648]:
+      - generic [ref=f81e1650]:
+        - link " Back to Settings" [ref=f81e1652] [cursor=pointer]:
+          - /url: /settings
+          - generic [ref=f81e1653]: 
+          - text: Back to Settings
+        - generic [ref=f81e1654]:
+          - generic [ref=f81e1655]:
+            - heading "Pay Groups" [level=1] [ref=f81e1656]
+            - paragraph [ref=f81e1657]: Organize employees into groups that share payroll schedules, taxes, benefits, and deductions.
+          - button " Create Pay Group" [ref=f81e1659] [cursor=pointer]:
+            - generic [ref=f81e1660]: 
+            - text: Create Pay Group
+      - generic [ref=f81e1662]:
+        - generic [ref=f81e1663]:
+          - generic [ref=f81e1786]:
+            - generic [ref=f81e1787]:
+              - generic [ref=f81e1788]:
+                - generic [ref=f81e1789]: 1 result
+                - generic [ref=f81e1791]:
+                  - button " Filters " [ref=f81e1793] [cursor=pointer]:
+                    - generic [ref=f81e1794]: 
+                    - text: Filters
+                    - generic [ref=f81e1795]: 
+                  - button " Columns " [ref=f81e1797] [cursor=pointer]:
+                    - generic [ref=f81e1798]: 
+                    - text: Columns
+                    - generic [ref=f81e1799]: 
+                  - button " Refresh" [ref=f81e1800] [cursor=pointer]:
+                    - generic [ref=f81e1801]: 
+                    - text: Refresh
+              - button " Export" [ref=f81e1803] [cursor=pointer]:
+                - generic [ref=f81e1804]: 
+                - text: Export
+            - generic [ref=f81e1806]:
+              - generic [ref=f81e1808]:
+                - generic [ref=f81e1809]: Status
+                - button [ref=f81e1812] [cursor=pointer]:
+                  - generic [ref=f81e1813]: All Status
+                  - generic [aria-hidden] [ref=f81e1814]: 
+                - button "Clear Status" [ref=f81e1815] [cursor=pointer]:
+                  - generic [ref=f81e1816]: 
+              - generic [ref=f81e1818]:
+                - generic [aria-hidden]:
+                  - generic: 
+                - textbox "Search pay groups…" [ref=f81e1819]
+          - table [ref=f81e1823]:
+            - rowgroup [ref=f81e1831]:
+              - row [ref=f81e1832]:
+                - columnheader "Name" [ref=f81e1833] [cursor=pointer]
+                - columnheader "Code" [ref=f81e1837] [cursor=pointer]
+                - columnheader "Pay Schedule" [ref=f81e1841]
+                - columnheader "Employees" [ref=f81e1844]
+                - columnheader "Status" [ref=f81e1847] [cursor=pointer]
+                - columnheader [ref=f81e1851]
+            - rowgroup [ref=f81e1852]:
+              - row [ref=f81e1853]:
+                - cell "ZZQA Test Pay Group" [ref=f81e1854]:
+                  - generic "ZZQA Test Pay Group" [ref=f81e1857]
+                - cell [ref=f81e1858]:
+                  - code [ref=f81e1860]: PG-ZZQA-T-P-G
+                - cell "Monthly" [ref=f81e1861]
+                - cell " 1" [ref=f81e1863]:
+                  - generic [ref=f81e1865]:
+                    - generic [ref=f81e1866]: 
+                    - generic [ref=f81e1867]: "1"
+                - cell "Active" [ref=f81e1868]
+                - cell [ref=f81e1871]:
+                  - button "" [ref=f81e1874] [cursor=pointer]
+        - generic [ref=f81e1876]:
+          - generic [ref=f81e1877]:
+            - generic [ref=f81e1878]:
+              - generic [ref=f81e1879]: Rows per page
+              - button [ref=f81e1882] [cursor=pointer]:
+                - generic [ref=f81e1883]: "10"
+                - generic [aria-hidden] [ref=f81e1884]: 
+            - generic [ref=f81e1885]: Showing 1-1 of 1 entries
+          - generic [ref=f81e1886]:
+            - generic [ref=f81e1887]: Page 1 of 1
+            - generic [ref=f81e1888]:
+              - button "" [disabled] [ref=f81e1889] [cursor=pointer]
+              - button "1" [ref=f81e1891] [cursor=pointer]
+              - button "" [disabled] [ref=f81e1892] [cursor=pointer]
+    - contentinfo [ref=f81e137]:
+      - generic [ref=f81e139]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f81e140] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f81e161] [cursor=pointer]:
+    - generic [ref=f81e163]: 
+    - generic [ref=f81e164]: "1"

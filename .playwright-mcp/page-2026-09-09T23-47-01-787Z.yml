@@ -1,0 +1,139 @@
+- generic [ref=f33e1]:
+  - generic [ref=f33e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f33e6]:
+      - generic [ref=f33e7]:
+        - generic [ref=f33e8]:
+          - link [ref=f33e200] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f33e201]
+          - generic [ref=f33e13]:
+            - textbox "Search anything here ..." [ref=f33e14]
+            - link "" [ref=f33e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f33e17]:
+          - text: 
+          - listitem [ref=f33e18]:
+            - link "" [ref=f33e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f33e21]:
+            - link "" [ref=f33e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f33e24]:
+            - link "" [ref=f33e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f33e27]:
+            - link "" [ref=f33e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f33e30]:
+            - button "" [ref=f33e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f33e33]:
+            - link "PM" [ref=f33e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f33e37]:
+      - navigation [ref=f33e40]:
+        - list [ref=f33e41]:
+          - listitem [ref=f33e42]:
+            - link " Dashboard" [ref=f33e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f33e44]: 
+              - generic [ref=f33e45]: Dashboard
+          - listitem [ref=f33e46]:
+            - generic [ref=f33e47]:
+              - link " Employees" [ref=f33e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f33e49]: 
+                - generic [ref=f33e50]: Employees
+              - button "Toggle submenu" [ref=f33e51] [cursor=pointer]:
+                - generic [ref=f33e52]: 
+          - listitem [ref=f33e53]:
+            - link " Run Payroll" [ref=f33e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f33e55]: 
+              - generic [ref=f33e56]: Run Payroll
+          - listitem [ref=f33e57]:
+            - generic [ref=f33e58]:
+              - link " Taxes & Forms" [ref=f33e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f33e60]: 
+                - generic [ref=f33e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f33e62] [cursor=pointer]:
+                - generic [ref=f33e63]: 
+          - listitem [ref=f33e64]:
+            - link " Reports" [ref=f33e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f33e66]: 
+              - generic [ref=f33e67]: Reports
+          - listitem [ref=f33e68]:
+            - link " Settings" [ref=f33e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f33e70]: 
+              - generic [ref=f33e71]: Settings
+    - generic [ref=f33e442]:
+      - generic [ref=f33e444]:
+        - link " Back to Employees" [ref=f33e446] [cursor=pointer]:
+          - /url: /employees
+          - generic [ref=f33e447]: 
+          - text: Back to Employees
+        - generic [ref=f33e449]:
+          - heading "Add Employee" [level=1] [ref=f33e450]
+          - paragraph [ref=f33e451]: Add a new employee to your payroll system
+      - generic [ref=f33e452]:
+        - generic [ref=f33e454]:
+          - generic [ref=f33e456]:
+            - button "" [ref=f33e630] [cursor=pointer]
+            - generic [ref=f33e460]: Basic details
+          - generic [ref=f33e464]:
+            - button "" [ref=f33e684] [cursor=pointer]
+            - generic [ref=f33e468]: Compensation
+          - generic [ref=f33e472]:
+            - button "" [ref=f33e1035] [cursor=pointer]
+            - generic [ref=f33e476]: Personal details
+          - generic [ref=f33e480]:
+            - button "" [ref=f33e1221] [cursor=pointer]
+            - generic [ref=f33e484]: Tax details
+          - generic [ref=f33e488]:
+            - generic [ref=f33e489]: "5"
+            - generic [ref=f33e492]: Payment details
+          - generic [ref=f33e496]:
+            - button "6" [ref=f33e1410] [cursor=pointer]
+            - generic [ref=f33e500]: Benefits & Deductions
+        - generic [ref=f33e502]:
+          - generic [ref=f33e1412]:
+            - generic [ref=f33e1413]:
+              - generic [ref=f33e1414]: "05"
+              - heading "Payment details" [level=3] [ref=f33e1415]
+            - paragraph [ref=f33e1416]: Configure how the employee will receive their salary payments.
+            - generic [ref=f33e1417]:
+              - generic [ref=f33e1418]:
+                - generic [ref=f33e1419]: Payment Method *
+                - generic [ref=f33e1420]:
+                  - generic [ref=f33e1421] [cursor=pointer]:
+                    - radio "Bank Transfer" [ref=f33e1422]
+                    - generic [ref=f33e1423]: Bank Transfer
+                  - generic [ref=f33e1424] [cursor=pointer]:
+                    - radio "Cash" [checked] [ref=f33e1425]
+                    - generic [ref=f33e1426]: Cash
+                  - generic [ref=f33e1427] [cursor=pointer]:
+                    - radio "Mobile Money" [ref=f33e1428]
+                    - generic [ref=f33e1429]: Mobile Money
+              - paragraph [ref=f33e1432]:
+                - generic [ref=f33e1433]: 
+                - text: Cash payments will be processed manually. No additional details required.
+          - generic [ref=f33e594]:
+            - button "Cancel" [ref=f33e595] [cursor=pointer]
+            - generic [ref=f33e596]:
+              - button "Previous" [active] [ref=f33e681] [cursor=pointer]
+              - button "Save & continue" [ref=f33e1434] [cursor=pointer]
+    - contentinfo [ref=f33e196]:
+      - generic [ref=f33e198]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f33e199] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f33e203] [cursor=pointer]:
+    - generic [ref=f33e205]: 
+    - generic [ref=f33e206]: "1"

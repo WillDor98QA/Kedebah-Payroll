@@ -1,0 +1,16 @@
+[    8571ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff2?t=1708865856766 @ https://v2payroll.kedebahlite.com/setup/statutory-rules:0
+[    8572ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/setup/statutory-rules:0
+[    9555ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://v2payroll.kedebahlite.com/api/v1/payrollApi/organization-data:0
+[    9555ms] [ERROR] Failed to fetch organization data: {is422: false, message: You do not have permission to perform this action, errors: Object, data: Object} @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:1
+[    9566ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff?t=1708865856766 @ https://v2payroll.kedebahlite.com/setup/statutory-rules:0
+[    9567ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/setup/statutory-rules:0
+[   10579ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.ttf?t=1708865856766 @ https://v2payroll.kedebahlite.com/setup/statutory-rules:0
+[   10579ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/setup/statutory-rules:0
+[   11555ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://v2payroll.kedebahlite.com/api/v1/payrollApi/organization-data:0
+[   11557ms] [ERROR] Failed to fetch organization data: {is422: false, message: You do not have permission to perform this action, errors: Object, data: Object} @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:1
+[   11558ms] [ERROR] Failed to resolve organization currency: {is422: false, message: You do not have permission to perform this action, errors: Object, data: Object} @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:1
+[   13666ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://v2payroll.kedebahlite.com/api/v1/payrollApi/organization-data:0
+[   13666ms] [ERROR] Failed to fetch organization data: {is422: false, message: You do not have permission to perform this action, errors: Object, data: Object} @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:1
+[   15888ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://v2payroll.kedebahlite.com/api/v1/payrollApi/organization-data:0
+[   15890ms] [ERROR] Failed to fetch organization data: {is422: false, message: You do not have permission to perform this action, errors: Object, data: Object} @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:1
+[   15890ms] [ERROR] Failed to resolve organization currency: {is422: false, message: You do not have permission to perform this action, errors: Object, data: Object} @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:1

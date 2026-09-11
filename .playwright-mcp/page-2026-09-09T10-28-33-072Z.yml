@@ -1,0 +1,455 @@
+- generic [active] [ref=f82e1]:
+  - generic [ref=f82e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f82e6]:
+      - generic [ref=f82e7]:
+        - generic [ref=f82e8]:
+          - link [ref=f82e130] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f82e131]
+          - generic [ref=f82e13]:
+            - textbox "Search anything here ..." [ref=f82e14]
+            - link "" [ref=f82e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f82e17]:
+          - text: 
+          - listitem [ref=f82e18]:
+            - link "" [ref=f82e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f82e21]:
+            - link "" [ref=f82e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f82e24]:
+            - link "" [ref=f82e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f82e27]:
+            - link "" [ref=f82e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f82e30]:
+            - button "" [ref=f82e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f82e33]:
+            - link "PM" [ref=f82e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f82e37]:
+      - navigation [ref=f82e40]:
+        - list [ref=f82e41]:
+          - listitem [ref=f82e42]:
+            - link " Dashboard" [ref=f82e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f82e44]: 
+              - generic [ref=f82e45]: Dashboard
+          - listitem [ref=f82e46]:
+            - generic [ref=f82e47]:
+              - link " Employees" [ref=f82e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f82e49]: 
+                - generic [ref=f82e50]: Employees
+              - button "Toggle submenu" [ref=f82e51] [cursor=pointer]:
+                - generic [ref=f82e52]: 
+          - listitem [ref=f82e53]:
+            - link " Run Payroll" [ref=f82e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f82e55]: 
+              - generic [ref=f82e56]: Run Payroll
+          - listitem [ref=f82e57]:
+            - generic [ref=f82e58]:
+              - link " Taxes & Forms" [ref=f82e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f82e60]: 
+                - generic [ref=f82e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f82e62] [cursor=pointer]:
+                - generic [ref=f82e63]: 
+          - listitem [ref=f82e64]:
+            - link " Reports" [ref=f82e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f82e66]: 
+              - generic [ref=f82e67]: Reports
+          - listitem [ref=f82e68]:
+            - link " Settings" [ref=f82e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f82e70]: 
+              - generic [ref=f82e71]: Settings
+    - generic [ref=f82e74]:
+      - generic [ref=f82e76]:
+        - link " Back to Employees" [ref=f82e133] [cursor=pointer]:
+          - /url: /employees
+          - generic [ref=f82e134]: 
+          - text: Back to Employees
+        - generic [ref=f82e136]:
+          - heading "Employee profile" [level=1] [ref=f82e137]
+          - paragraph [ref=f82e138]: View and update payroll-related employee information.
+      - generic [ref=f82e139]:
+        - generic [ref=f82e140]:
+          - generic [ref=f82e141]: 
+          - generic [ref=f82e142]:
+            - paragraph [ref=f82e143]: Payroll ready, with notes
+            - list [ref=f82e144]:
+              - listitem [ref=f82e145]: No TIN on file — add it under Tax & Pension before GRA filing
+        - generic [ref=f82e146]:
+          - generic [ref=f82e148]:
+            - generic [ref=f82e149]:
+              - generic [ref=f82e150]: ZZ
+              - generic [ref=f82e151]:
+                - generic [ref=f82e152]:
+                  - heading "ZZQA HighEarner" [level=2] [ref=f82e153]
+                  - generic [ref=f82e154]: Active
+                - generic [ref=f82e155]:
+                  - generic [ref=f82e156]:
+                    - generic [ref=f82e157]: 
+                    - generic [ref=f82e158]:
+                      - paragraph [ref=f82e159]: Employee ID
+                      - paragraph [ref=f82e160]: ZZQA-HI1
+                  - generic [ref=f82e161]:
+                    - generic [ref=f82e162]: 
+                    - generic [ref=f82e163]:
+                      - paragraph [ref=f82e164]: Designation/Position
+                      - paragraph [ref=f82e165]: Software Engineer
+                  - generic [ref=f82e166]:
+                    - generic [ref=f82e167]: 
+                    - generic [ref=f82e168]:
+                      - paragraph [ref=f82e169]: Location
+                      - paragraph [ref=f82e170]: Organization Address
+            - generic [ref=f82e171]:
+              - link " Tax Setup" [ref=f82e172] [cursor=pointer]:
+                - /url: /employees/4?tab=tax
+                - generic [ref=f82e173]: 
+                - text: Tax Setup
+              - button " Exclude from Payroll" [ref=f82e174] [cursor=pointer]:
+                - generic [ref=f82e175]: 
+                - text: Exclude from Payroll
+              - button " Edit Employee" [ref=f82e176] [cursor=pointer]:
+                - generic [ref=f82e177]: 
+                - text: Edit Employee
+          - generic [ref=f82e178]:
+            - generic [ref=f82e179]:
+              - generic [ref=f82e180]: 
+              - generic [ref=f82e182]:
+                - paragraph [ref=f82e183]: Department
+                - paragraph [ref=f82e184]: Software Engineer
+            - generic [ref=f82e185]:
+              - generic [ref=f82e186]: 
+              - generic [ref=f82e188]:
+                - paragraph [ref=f82e189]: Pay Group
+                - paragraph [ref=f82e190]: Not assigned
+            - generic [ref=f82e191]:
+              - generic [ref=f82e192]: 
+              - generic [ref=f82e194]:
+                - paragraph [ref=f82e195]: Compensation
+                - paragraph [ref=f82e196]: ₵ 250,000.00
+            - generic [ref=f82e197]:
+              - generic [ref=f82e198]: 
+              - generic [ref=f82e200]:
+                - paragraph [ref=f82e201]: Payment
+                - paragraph [ref=f82e202]: Cash
+        - generic [ref=f82e203]:
+          - generic [ref=f82e204]:
+            - generic [ref=f82e205]:
+              - heading "Basic Details" [level=3] [ref=f82e206]
+              - button " Edit" [ref=f82e207] [cursor=pointer]:
+                - generic [ref=f82e208]: 
+                - text: Edit
+            - generic [ref=f82e209]:
+              - generic [ref=f82e210]:
+                - paragraph [ref=f82e211]: Title
+                - paragraph [ref=f82e212]: Dame
+              - generic [ref=f82e213]:
+                - paragraph [ref=f82e214]: Full Name
+                - paragraph [ref=f82e215]: ZZQA HighEarner
+              - generic [ref=f82e216]:
+                - paragraph [ref=f82e217]: Preferred Name
+                - paragraph [ref=f82e218]: ZZQA Hi
+              - generic [ref=f82e219]:
+                - paragraph [ref=f82e220]: Employee ID
+                - paragraph [ref=f82e221]: ZZQA-HI1
+              - generic [ref=f82e222]:
+                - paragraph [ref=f82e223]: Work Email
+                - paragraph [ref=f82e224]: dwilliametornam+zzqahi1@gmail.com
+              - generic [ref=f82e225]:
+                - paragraph [ref=f82e226]: Personal Email
+                - paragraph [ref=f82e227]: dwilliametornam+zzqahi1@gmail.com
+              - generic [ref=f82e228]:
+                - paragraph [ref=f82e229]: Mobile Number
+                - paragraph [ref=f82e230]: N/A
+              - generic [ref=f82e231]:
+                - paragraph [ref=f82e232]: Employment Type
+                - paragraph [ref=f82e233]: Board
+              - generic [ref=f82e234]:
+                - paragraph [ref=f82e235]: Employment Status
+                - generic [ref=f82e236]: Active
+              - generic [ref=f82e238]:
+                - paragraph [ref=f82e239]: Department
+                - paragraph [ref=f82e240]: Software Engineer
+              - generic [ref=f82e241]:
+                - paragraph [ref=f82e242]: Designation/Position
+                - paragraph [ref=f82e243]: Software Engineer
+              - generic [ref=f82e244]:
+                - paragraph [ref=f82e245]: Work Location
+                - paragraph [ref=f82e246]: Organization Address
+              - generic [ref=f82e247]:
+                - paragraph [ref=f82e248]: First Day of Work
+                - paragraph [ref=f82e249]: Jan 1, 2026
+          - generic [ref=f82e250]:
+            - generic [ref=f82e251]:
+              - heading "Compensation" [level=3] [ref=f82e252]
+              - button " Edit" [ref=f82e253] [cursor=pointer]:
+                - generic [ref=f82e254]: 
+                - text: Edit
+            - generic [ref=f82e255]:
+              - generic [ref=f82e256]:
+                - paragraph [ref=f82e257]: Mode
+                - paragraph [ref=f82e258]: Follows regular payroll
+              - generic [ref=f82e259]:
+                - paragraph [ref=f82e260]: Rate type
+                - paragraph [ref=f82e261]: Monthly
+              - generic [ref=f82e262]:
+                - paragraph [ref=f82e263]: Amount
+                - paragraph [ref=f82e264]: ₵ 250,000.00
+              - generic [ref=f82e265]:
+                - paragraph [ref=f82e266]: Pay group
+                - paragraph [ref=f82e267]: N/A
+              - generic [ref=f82e268]:
+                - paragraph [ref=f82e269]: Hire date
+                - paragraph [ref=f82e270]: Jan 1, 2026
+              - generic [ref=f82e271]:
+                - paragraph [ref=f82e272]: Recurring pay components
+                - paragraph [ref=f82e273]:
+                  - text: Benefits and deductions from your catalog are assigned per employee below.
+                  - link "Go to Benefits & Deductions" [ref=f82e274] [cursor=pointer]:
+                    - /url: "#employee-benefits-deductions"
+          - generic [ref=f82e275]:
+            - generic [ref=f82e276]:
+              - heading "Personal Details" [level=3] [ref=f82e277]
+              - button " Edit" [ref=f82e278] [cursor=pointer]:
+                - generic [ref=f82e279]: 
+                - text: Edit
+            - generic [ref=f82e280]:
+              - generic [ref=f82e281]:
+                - paragraph [ref=f82e282]: Date of Birth
+                - paragraph [ref=f82e283]: Jan 1, 1985
+              - generic [ref=f82e284]:
+                - paragraph [ref=f82e285]: Gender
+                - paragraph [ref=f82e286]: Male
+              - generic [ref=f82e287]:
+                - paragraph [ref=f82e288]: Country of Origin
+                - paragraph [ref=f82e289]: Ghana
+              - generic [ref=f82e290]:
+                - paragraph [ref=f82e291]: Marital Status
+                - paragraph [ref=f82e292]: Single
+              - generic [ref=f82e293]:
+                - paragraph [ref=f82e294]: Residential Address
+                - paragraph [ref=f82e295]: N/A
+              - generic [ref=f82e296]:
+                - paragraph [ref=f82e297]: ID Type
+                - paragraph [ref=f82e298]: N/A
+              - generic [ref=f82e299]:
+                - paragraph [ref=f82e300]: ID Number
+                - paragraph [ref=f82e301]: N/A
+          - generic [ref=f82e302]:
+            - generic [ref=f82e303]:
+              - generic [ref=f82e304]:
+                - heading "Tax & Statutory" [level=3] [ref=f82e305]
+                - paragraph [ref=f82e306]: 6 active statutory items resolved for this employee.
+              - generic [ref=f82e307]:
+                - link " View Rules" [ref=f82e308] [cursor=pointer]:
+                  - /url: /setup/statutory-rules
+                  - generic [ref=f82e309]: 
+                  - text: View Rules
+                - link " Manage Tax Setup" [ref=f82e310] [cursor=pointer]:
+                  - /url: /employees/4?tab=tax
+                  - generic [ref=f82e311]: 
+                  - text: Manage Tax Setup
+            - generic [ref=f82e312]:
+              - generic [ref=f82e313]:
+                - generic [ref=f82e314]: 
+                - generic [ref=f82e315]:
+                  - paragraph [ref=f82e316]: "Active tax profile: TIN missing"
+                  - paragraph [ref=f82e317]: TIN is not configured — update under Tax & Pension. Profile effective from Jan 1, 2026; pay runs ending before this date won't pick it up.
+              - link " Edit profile" [ref=f82e318] [cursor=pointer]:
+                - /url: /employees/4?tab=tax
+                - generic [ref=f82e319]: 
+                - text: Edit profile
+            - generic [ref=f82e320]:
+              - generic [ref=f82e321]:
+                - generic [ref=f82e322]:
+                  - generic [ref=f82e323]: 
+                  - generic [ref=f82e325]: Mandatory
+                - paragraph [ref=f82e326]: Tier 1
+                - paragraph [ref=f82e327]: tier_1 · NPRA
+                - generic [ref=f82e328]:
+                  - generic [ref=f82e329]:
+                    - generic [ref=f82e330]: Engine
+                    - generic [ref=f82e331]: Percentage Split
+                  - generic [ref=f82e332]:
+                    - generic [ref=f82e333]: Base
+                    - generic [ref=f82e334]: Basic Salary
+                  - generic [ref=f82e335]:
+                    - generic [ref=f82e336]: Effective
+                    - generic [ref=f82e337]: Resolved by current rules
+              - generic [ref=f82e338]:
+                - generic [ref=f82e339]:
+                  - generic [ref=f82e340]: 
+                  - generic [ref=f82e342]: Mandatory
+                - paragraph [ref=f82e343]: Tier 2
+                - paragraph [ref=f82e344]: tier_2 · NPRA
+                - generic [ref=f82e345]:
+                  - generic [ref=f82e346]:
+                    - generic [ref=f82e347]: Engine
+                    - generic [ref=f82e348]: Percentage Split
+                  - generic [ref=f82e349]:
+                    - generic [ref=f82e350]: Base
+                    - generic [ref=f82e351]: Basic Salary
+                  - generic [ref=f82e352]:
+                    - generic [ref=f82e353]: Effective
+                    - generic [ref=f82e354]: Resolved by current rules
+              - generic [ref=f82e355]:
+                - generic [ref=f82e356]:
+                  - generic [ref=f82e357]: 
+                  - generic [ref=f82e359]: Automatic
+                - paragraph [ref=f82e360]: Bonus Tax
+                - paragraph [ref=f82e361]: bonus_tax · GRA
+                - generic [ref=f82e362]:
+                  - generic [ref=f82e363]:
+                    - generic [ref=f82e364]: Engine
+                    - generic [ref=f82e365]: Bonus Tax
+                  - generic [ref=f82e366]:
+                    - generic [ref=f82e367]: Base
+                    - generic [ref=f82e368]: Bonus Amount
+                  - generic [ref=f82e369]:
+                    - generic [ref=f82e370]: Effective
+                    - generic [ref=f82e371]: Resolved by current rules
+              - generic [ref=f82e372]:
+                - generic [ref=f82e373]:
+                  - generic [ref=f82e374]: 
+                  - generic [ref=f82e376]: Automatic
+                - paragraph [ref=f82e377]: Overtime Tax (Junior)
+                - paragraph [ref=f82e378]: overtime_junior · GRA
+                - generic [ref=f82e379]:
+                  - generic [ref=f82e380]:
+                    - generic [ref=f82e381]: Engine
+                    - generic [ref=f82e382]: Overtime Junior
+                  - generic [ref=f82e383]:
+                    - generic [ref=f82e384]: Base
+                    - generic [ref=f82e385]: Overtime Amount
+                  - generic [ref=f82e386]:
+                    - generic [ref=f82e387]: Effective
+                    - generic [ref=f82e388]: Resolved by current rules
+              - generic [ref=f82e389]:
+                - generic [ref=f82e390]:
+                  - generic [ref=f82e391]: 
+                  - generic [ref=f82e393]: Mandatory
+                - paragraph [ref=f82e394]: PAYE (Income Tax)
+                - paragraph [ref=f82e395]: paye · GRA
+                - generic [ref=f82e396]:
+                  - generic [ref=f82e397]:
+                    - generic [ref=f82e398]: Engine
+                    - generic [ref=f82e399]: Progressive Bands
+                  - generic [ref=f82e400]:
+                    - generic [ref=f82e401]: Base
+                    - generic [ref=f82e402]: Qualifying Employment Income
+                  - generic [ref=f82e403]:
+                    - generic [ref=f82e404]: Effective
+                    - generic [ref=f82e405]: Resolved by current rules
+              - generic [ref=f82e406]:
+                - generic [ref=f82e407]:
+                  - generic [ref=f82e408]: 
+                  - generic [ref=f82e410]: Automatic
+                - paragraph [ref=f82e411]: Pension Excess
+                - paragraph [ref=f82e412]: pension_excess · GRA
+                - generic [ref=f82e413]:
+                  - generic [ref=f82e414]:
+                    - generic [ref=f82e415]: Engine
+                    - generic [ref=f82e416]: Pension Excess
+                  - generic [ref=f82e417]:
+                    - generic [ref=f82e418]: Base
+                    - generic [ref=f82e419]: Qualifying Employment Income
+                  - generic [ref=f82e420]:
+                    - generic [ref=f82e421]: Effective
+                    - generic [ref=f82e422]: Resolved by current rules
+            - generic [ref=f82e423]:
+              - generic [ref=f82e424]: 
+              - text: This summary only shows currently active statutory items for this employee. Exempted or inactive items remain visible in the full tax enrollment tab.
+            - generic [ref=f82e425]:
+              - paragraph [ref=f82e426]: Source legend
+              - list [ref=f82e427]:
+                - listitem [ref=f82e428]:
+                  - strong [ref=f82e429]: Mandatory
+                  - text: — applies because the statutory item is mandatory for every employee in this country.
+                - listitem [ref=f82e430]:
+                  - strong [ref=f82e431]: Rule based
+                  - text: — applies because an eligibility rule with auto-enroll matches this employee (department, employment type, pay group, etc.).
+                - listitem [ref=f82e432]:
+                  - strong [ref=f82e433]: Explicit
+                  - text: — applies because a per-employee assignment exists for this staff record (added via Manage Tax Setup or a preset).
+          - generic [ref=f82e434]:
+            - generic [ref=f82e435]:
+              - heading "Payment Details" [level=3] [ref=f82e436]
+              - button " Edit" [ref=f82e437] [cursor=pointer]:
+                - generic [ref=f82e438]: 
+                - text: Edit
+            - generic [ref=f82e440]:
+              - paragraph [ref=f82e441]: Payment method
+              - generic [ref=f82e442]: Cash
+          - generic [ref=f82e444]:
+            - generic [ref=f82e445]:
+              - heading "Benefits & Deductions" [level=3] [ref=f82e446]
+              - button " Edit" [ref=f82e447] [cursor=pointer]:
+                - generic [ref=f82e448]: 
+                - text: Edit
+            - generic [ref=f82e449]:
+              - generic [ref=f82e450]:
+                - paragraph [ref=f82e451]: Benefits in effect
+                - paragraph [ref=f82e452]: No benefits apply to this employee
+              - generic [ref=f82e453]:
+                - paragraph [ref=f82e454]: Deductions in effect
+                - paragraph [ref=f82e455]: No deductions apply to this employee
+        - generic [ref=f82e458]:
+          - generic [ref=f82e459]:
+            - paragraph [ref=f82e460]: At a glance
+            - paragraph [ref=f82e461]: ZZQA HighEarner
+          - generic [ref=f82e462]:
+            - generic [ref=f82e463]:
+              - generic [ref=f82e464]: 
+              - generic [ref=f82e466]:
+                - paragraph [ref=f82e467]: Employee ID
+                - paragraph [ref=f82e468]: ZZQA-HI1
+            - generic [ref=f82e469]:
+              - generic [ref=f82e470]: 
+              - generic [ref=f82e472]:
+                - paragraph [ref=f82e473]: Status
+                - generic [ref=f82e474]:
+                  - generic [ref=f82e475]: Active
+                  - button " Deactivate" [ref=f82e476] [cursor=pointer]:
+                    - generic [ref=f82e477]: 
+                    - text: Deactivate
+            - generic [ref=f82e478]:
+              - generic [ref=f82e479]: 
+              - generic [ref=f82e481]:
+                - paragraph [ref=f82e482]: Department
+                - paragraph [ref=f82e483]: Software Engineer
+            - generic [ref=f82e484]:
+              - generic [ref=f82e485]: 
+              - generic [ref=f82e487]:
+                - paragraph [ref=f82e488]: Payroll
+                - paragraph [ref=f82e489]: "Included: Yes"
+            - generic [ref=f82e490]:
+              - generic [ref=f82e491]: 
+              - generic [ref=f82e493]:
+                - paragraph [ref=f82e494]: Pay group
+                - paragraph [ref=f82e495]: Not assigned
+            - generic [ref=f82e496]:
+              - generic [ref=f82e497]: 
+              - generic [ref=f82e499]:
+                - paragraph [ref=f82e500]: Portal access
+                - paragraph [ref=f82e501]: Disabled
+    - contentinfo [ref=f82e121]:
+      - generic [ref=f82e123]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f82e124] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f82e126] [cursor=pointer]:
+    - generic [ref=f82e128]: 
+    - generic [ref=f82e129]: "1"

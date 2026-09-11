@@ -1,0 +1,595 @@
+- generic [ref=f142e1]:
+  - generic [ref=f142e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f142e6]:
+      - generic [ref=f142e7]:
+        - generic [ref=f142e8]:
+          - link [ref=f142e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Kedebah logo" [ref=f142e12]
+          - generic [ref=f142e13]:
+            - textbox "Search anything here ..." [ref=f142e14]
+            - link "" [ref=f142e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f142e17]:
+          - text: 
+          - listitem [ref=f142e18]:
+            - link "" [ref=f142e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f142e21]:
+            - link "" [ref=f142e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f142e24]:
+            - link "" [ref=f142e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f142e27]:
+            - link "" [ref=f142e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f142e30]:
+            - button "" [ref=f142e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f142e33]:
+            - link "PM" [ref=f142e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f142e37]:
+      - navigation [ref=f142e40]:
+        - list [ref=f142e41]:
+          - listitem [ref=f142e42]:
+            - link " Dashboard" [ref=f142e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f142e44]: 
+              - generic [ref=f142e45]: Dashboard
+          - listitem [ref=f142e46]:
+            - link " Reports" [ref=f142e47] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f142e48]: 
+              - generic [ref=f142e49]: Reports
+    - generic [ref=f142e170]:
+      - generic [ref=f142e172]:
+        - generic [ref=f142e173]:
+          - button "" [ref=f142e174] [cursor=pointer]
+          - generic [ref=f142e176]:
+            - heading "Audit & Compliance Logs" [level=1] [ref=f142e177]
+            - paragraph [ref=f142e178]: Complete visibility into payroll changes, approvals, and system activities.
+        - button " Export " [ref=f142e180] [cursor=pointer]:
+          - generic [ref=f142e181]: 
+          - text: Export
+          - generic [ref=f142e182]: 
+      - generic [ref=f142e183]:
+        - generic [ref=f142e185]:
+          - button " Full Audit Log" [active] [ref=f142e186] [cursor=pointer]:
+            - generic [ref=f142e187]: 
+            - generic [ref=f142e188]: Full Audit Log
+          - button " Approval Logs" [ref=f142e189] [cursor=pointer]:
+            - generic [ref=f142e190]: 
+            - generic [ref=f142e191]: Approval Logs
+          - button " Activity Monitoring" [ref=f142e192] [cursor=pointer]:
+            - generic [ref=f142e193]: 
+            - generic [ref=f142e194]: Activity Monitoring
+        - generic [ref=f142e195]:
+          - generic [ref=f142e196]:
+            - generic [ref=f142e326]:
+              - generic [ref=f142e328]:
+                - generic [ref=f142e329]: 25 results
+                - generic [ref=f142e331]:
+                  - button " Filters " [ref=f142e333] [cursor=pointer]:
+                    - generic [ref=f142e334]: 
+                    - text: Filters
+                    - generic [ref=f142e335]: 
+                  - generic [ref=f142e336]:
+                    - generic [ref=f142e337]: "From:"
+                    - textbox [ref=f142e338]: 2026-01-01
+                    - generic [ref=f142e339]: "To:"
+                    - textbox [ref=f142e340]: 2026-12-31
+              - generic [ref=f142e342]:
+                - generic [ref=f142e343]:
+                  - generic [ref=f142e344]:
+                    - generic [ref=f142e345]: Action
+                    - button [ref=f142e348] [cursor=pointer]:
+                      - generic [ref=f142e349]: All Actions
+                      - generic [aria-hidden] [ref=f142e350]: 
+                    - button "Clear Action" [ref=f142e351] [cursor=pointer]:
+                      - generic [ref=f142e352]: 
+                  - generic [ref=f142e353]:
+                    - generic [ref=f142e354]: Entity
+                    - button [ref=f142e357] [cursor=pointer]:
+                      - generic [ref=f142e358]: All Entities
+                      - generic [aria-hidden] [ref=f142e359]: 
+                    - button "Clear Entity" [ref=f142e360] [cursor=pointer]:
+                      - generic [ref=f142e361]: 
+                - generic [ref=f142e363]:
+                  - generic [aria-hidden]:
+                    - generic: 
+                  - textbox "Search descriptions..." [ref=f142e364]
+            - table [ref=f142e368]:
+              - rowgroup [ref=f142e376]:
+                - row [ref=f142e377]:
+                  - columnheader "Timestamp" [ref=f142e378]
+                  - columnheader "User" [ref=f142e381]
+                  - columnheader "Action" [ref=f142e384]
+                  - columnheader "Entity" [ref=f142e387]
+                  - columnheader "Description" [ref=f142e390]
+                  - columnheader [ref=f142e393]
+              - rowgroup [ref=f142e466]:
+                - row [ref=f142e467]:
+                  - cell "9 Sept 2026 12:27:46" [ref=f142e468]:
+                    - generic [ref=f142e470]:
+                      - generic [ref=f142e471]: 9 Sept 2026
+                      - generic [ref=f142e472]: 12:27:46
+                  - cell "Z ZZQA Admin Persona" [ref=f142e473]:
+                    - generic [ref=f142e475]:
+                      - generic [ref=f142e476]: Z
+                      - generic [ref=f142e477]: ZZQA Admin Persona
+                  - cell "paid" [ref=f142e478]
+                  - 'cell "Pay Run #3" [ref=f142e481]':
+                    - generic [ref=f142e483]:
+                      - generic [ref=f142e484]: Pay Run
+                      - generic [ref=f142e485]: "#3"
+                  - cell "Pay run marked as paid" [ref=f142e486]:
+                    - generic "Pay run marked as paid" [ref=f142e488]
+                  - cell [ref=f142e489]:
+                    - button "" [ref=f142e491] [cursor=pointer]
+                - row [ref=f142e493]:
+                  - cell "9 Sept 2026 12:26:23" [ref=f142e494]:
+                    - generic [ref=f142e496]:
+                      - generic [ref=f142e497]: 9 Sept 2026
+                      - generic [ref=f142e498]: 12:26:23
+                  - cell "Z ZZQA Admin Persona" [ref=f142e499]:
+                    - generic [ref=f142e501]:
+                      - generic [ref=f142e502]: Z
+                      - generic [ref=f142e503]: ZZQA Admin Persona
+                  - cell "update" [ref=f142e504]
+                  - 'cell "Tax Form #8" [ref=f142e507]':
+                    - generic [ref=f142e509]:
+                      - generic [ref=f142e510]: Tax Form
+                      - generic [ref=f142e511]: "#8"
+                  - cell "Updated tax form GRA-PAYE-Sep-2026-SUPP" [ref=f142e512]:
+                    - generic "Updated tax form GRA-PAYE-Sep-2026-SUPP" [ref=f142e514]
+                  - cell [ref=f142e515]:
+                    - button "" [ref=f142e517] [cursor=pointer]
+                - row [ref=f142e519]:
+                  - cell "9 Sept 2026 12:26:20" [ref=f142e520]:
+                    - generic [ref=f142e522]:
+                      - generic [ref=f142e523]: 9 Sept 2026
+                      - generic [ref=f142e524]: 12:26:20
+                  - cell "Z ZZQA Admin Persona" [ref=f142e525]:
+                    - generic [ref=f142e527]:
+                      - generic [ref=f142e528]: Z
+                      - generic [ref=f142e529]: ZZQA Admin Persona
+                  - cell "create" [ref=f142e530]
+                  - 'cell "Tax Form #8" [ref=f142e533]':
+                    - generic [ref=f142e535]:
+                      - generic [ref=f142e536]: Tax Form
+                      - generic [ref=f142e537]: "#8"
+                  - cell "Created tax form GRA-PAYE-Sep-2026-SUPP" [ref=f142e538]:
+                    - generic "Created tax form GRA-PAYE-Sep-2026-SUPP" [ref=f142e540]
+                  - cell [ref=f142e541]:
+                    - button "" [ref=f142e543] [cursor=pointer]
+                - row [ref=f142e545]:
+                  - cell "9 Sept 2026 12:26:19" [ref=f142e546]:
+                    - generic [ref=f142e548]:
+                      - generic [ref=f142e549]: 9 Sept 2026
+                      - generic [ref=f142e550]: 12:26:19
+                  - cell "Z ZZQA Admin Persona" [ref=f142e551]:
+                    - generic [ref=f142e553]:
+                      - generic [ref=f142e554]: Z
+                      - generic [ref=f142e555]: ZZQA Admin Persona
+                  - cell "update" [ref=f142e556]
+                  - 'cell "Tax Form #7" [ref=f142e559]':
+                    - generic [ref=f142e561]:
+                      - generic [ref=f142e562]: Tax Form
+                      - generic [ref=f142e563]: "#7"
+                  - cell "Updated tax form GRA-BONUS_TAX-Sep-2026" [ref=f142e564]:
+                    - generic "Updated tax form GRA-BONUS_TAX-Sep-2026" [ref=f142e566]
+                  - cell [ref=f142e567]:
+                    - button "" [ref=f142e569] [cursor=pointer]
+                - row [ref=f142e571]:
+                  - cell "9 Sept 2026 12:26:16" [ref=f142e572]:
+                    - generic [ref=f142e574]:
+                      - generic [ref=f142e575]: 9 Sept 2026
+                      - generic [ref=f142e576]: 12:26:16
+                  - cell "Z ZZQA Admin Persona" [ref=f142e577]:
+                    - generic [ref=f142e579]:
+                      - generic [ref=f142e580]: Z
+                      - generic [ref=f142e581]: ZZQA Admin Persona
+                  - cell "create" [ref=f142e582]
+                  - 'cell "Tax Form #7" [ref=f142e585]':
+                    - generic [ref=f142e587]:
+                      - generic [ref=f142e588]: Tax Form
+                      - generic [ref=f142e589]: "#7"
+                  - cell "Created tax form GRA-BONUS_TAX-Sep-2026" [ref=f142e590]:
+                    - generic "Created tax form GRA-BONUS_TAX-Sep-2026" [ref=f142e592]
+                  - cell [ref=f142e593]:
+                    - button "" [ref=f142e595] [cursor=pointer]
+                - row [ref=f142e597]:
+                  - cell "9 Sept 2026 12:26:14" [ref=f142e598]:
+                    - generic [ref=f142e600]:
+                      - generic [ref=f142e601]: 9 Sept 2026
+                      - generic [ref=f142e602]: 12:26:14
+                  - cell "Z ZZQA Admin Persona" [ref=f142e603]:
+                    - generic [ref=f142e605]:
+                      - generic [ref=f142e606]: Z
+                      - generic [ref=f142e607]: ZZQA Admin Persona
+                  - cell "create" [ref=f142e608]
+                  - 'cell "Tax Liability #11" [ref=f142e611]':
+                    - generic [ref=f142e613]:
+                      - generic [ref=f142e614]: Tax Liability
+                      - generic [ref=f142e615]: "#11"
+                  - cell "Created tax liability PAYE (Income Tax)" [ref=f142e616]:
+                    - generic "Created tax liability PAYE (Income Tax)" [ref=f142e618]
+                  - cell [ref=f142e619]:
+                    - button "" [ref=f142e621] [cursor=pointer]
+                - row [ref=f142e623]:
+                  - cell "9 Sept 2026 12:26:13" [ref=f142e624]:
+                    - generic [ref=f142e626]:
+                      - generic [ref=f142e627]: 9 Sept 2026
+                      - generic [ref=f142e628]: 12:26:13
+                  - cell "Z ZZQA Admin Persona" [ref=f142e629]:
+                    - generic [ref=f142e631]:
+                      - generic [ref=f142e632]: Z
+                      - generic [ref=f142e633]: ZZQA Admin Persona
+                  - cell "create" [ref=f142e634]
+                  - 'cell "Tax Liability #10" [ref=f142e637]':
+                    - generic [ref=f142e639]:
+                      - generic [ref=f142e640]: Tax Liability
+                      - generic [ref=f142e641]: "#10"
+                  - cell "Created tax liability Bonus Tax" [ref=f142e642]:
+                    - generic "Created tax liability Bonus Tax" [ref=f142e644]
+                  - cell [ref=f142e645]:
+                    - button "" [ref=f142e647] [cursor=pointer]
+                - row [ref=f142e649]:
+                  - cell "9 Sept 2026 12:26:12" [ref=f142e650]:
+                    - generic [ref=f142e652]:
+                      - generic [ref=f142e653]: 9 Sept 2026
+                      - generic [ref=f142e654]: 12:26:12
+                  - cell "Z ZZQA Admin Persona" [ref=f142e655]:
+                    - generic [ref=f142e657]:
+                      - generic [ref=f142e658]: Z
+                      - generic [ref=f142e659]: ZZQA Admin Persona
+                  - cell "approved" [ref=f142e660]
+                  - 'cell "Pay Run #3" [ref=f142e663]':
+                    - generic [ref=f142e665]:
+                      - generic [ref=f142e666]: Pay Run
+                      - generic [ref=f142e667]: "#3"
+                  - 'cell "QA: stage-2 admin sign-off — workflow end-to-end verification" [ref=f142e668]':
+                    - 'generic "QA: stage-2 admin sign-off — workflow end-to-end verification" [ref=f142e670]'
+                  - cell [ref=f142e671]:
+                    - button "" [ref=f142e673] [cursor=pointer]
+                - row [ref=f142e675]:
+                  - cell "9 Sept 2026 11:05:44" [ref=f142e676]:
+                    - generic [ref=f142e678]:
+                      - generic [ref=f142e679]: 9 Sept 2026
+                      - generic [ref=f142e680]: 11:05:44
+                  - cell "B Broni Danso" [ref=f142e681]:
+                    - generic [ref=f142e683]:
+                      - generic [ref=f142e684]: B
+                      - generic [ref=f142e685]: Broni Danso
+                  - cell "submitted_for_approval" [ref=f142e686]
+                  - 'cell "Pay Run #3" [ref=f142e689]':
+                    - generic [ref=f142e691]:
+                      - generic [ref=f142e692]: Pay Run
+                      - generic [ref=f142e693]: "#3"
+                  - cell "Submitted for approval" [ref=f142e694]:
+                    - generic "Submitted for approval" [ref=f142e696]
+                  - cell [ref=f142e697]:
+                    - button "" [ref=f142e699] [cursor=pointer]
+                - row [ref=f142e701]:
+                  - cell "9 Sept 2026 11:04:40" [ref=f142e702]:
+                    - generic [ref=f142e704]:
+                      - generic [ref=f142e705]: 9 Sept 2026
+                      - generic [ref=f142e706]: 11:04:40
+                  - cell "B Broni Danso" [ref=f142e707]:
+                    - generic [ref=f142e709]:
+                      - generic [ref=f142e710]: B
+                      - generic [ref=f142e711]: Broni Danso
+                  - cell "update" [ref=f142e712]
+                  - 'cell "Approval Workflow #1" [ref=f142e715]':
+                    - generic [ref=f142e717]:
+                      - generic [ref=f142e718]: Approval Workflow
+                      - generic [ref=f142e719]: "#1"
+                  - cell "Approval workflow \"Pay Run Approval Workflow\" was updated" [ref=f142e720]:
+                    - generic "Approval workflow \"Pay Run Approval Workflow\" was updated" [ref=f142e722]
+                  - cell [ref=f142e723]:
+                    - button "" [ref=f142e725] [cursor=pointer]
+                - row [ref=f142e727]:
+                  - cell "9 Sept 2026 11:03:23" [ref=f142e728]:
+                    - generic [ref=f142e730]:
+                      - generic [ref=f142e731]: 9 Sept 2026
+                      - generic [ref=f142e732]: 11:03:23
+                  - cell "B Broni Danso" [ref=f142e733]:
+                    - generic [ref=f142e735]:
+                      - generic [ref=f142e736]: B
+                      - generic [ref=f142e737]: Broni Danso
+                  - cell "update" [ref=f142e738]
+                  - 'cell "Approval Workflow #1" [ref=f142e741]':
+                    - generic [ref=f142e743]:
+                      - generic [ref=f142e744]: Approval Workflow
+                      - generic [ref=f142e745]: "#1"
+                  - cell "Approval workflow \"Pay Run Approval Workflow\" was updated" [ref=f142e746]:
+                    - generic "Approval workflow \"Pay Run Approval Workflow\" was updated" [ref=f142e748]
+                  - cell [ref=f142e749]:
+                    - button "" [ref=f142e751] [cursor=pointer]
+                - row [ref=f142e753]:
+                  - cell "9 Sept 2026 10:58:56" [ref=f142e754]:
+                    - generic [ref=f142e756]:
+                      - generic [ref=f142e757]: 9 Sept 2026
+                      - generic [ref=f142e758]: 10:58:56
+                  - cell "B Broni Danso" [ref=f142e759]:
+                    - generic [ref=f142e761]:
+                      - generic [ref=f142e762]: B
+                      - generic [ref=f142e763]: Broni Danso
+                  - cell "create" [ref=f142e764]
+                  - 'cell "User #" [ref=f142e767]':
+                    - generic [ref=f142e769]:
+                      - generic [ref=f142e770]: User
+                      - generic [ref=f142e771]: "#"
+                  - cell "Created new user via Onboarding service" [ref=f142e772]:
+                    - generic "Created new user via Onboarding service" [ref=f142e774]
+                  - cell [ref=f142e775]:
+                    - button "" [ref=f142e777] [cursor=pointer]
+                - row [ref=f142e779]:
+                  - cell "9 Sept 2026 10:58:12" [ref=f142e780]:
+                    - generic [ref=f142e782]:
+                      - generic [ref=f142e783]: 9 Sept 2026
+                      - generic [ref=f142e784]: 10:58:12
+                  - cell "B Broni Danso" [ref=f142e785]:
+                    - generic [ref=f142e787]:
+                      - generic [ref=f142e788]: B
+                      - generic [ref=f142e789]: Broni Danso
+                  - cell "create" [ref=f142e790]
+                  - 'cell "User #" [ref=f142e793]':
+                    - generic [ref=f142e795]:
+                      - generic [ref=f142e796]: User
+                      - generic [ref=f142e797]: "#"
+                  - cell "Created new user via Onboarding service" [ref=f142e798]:
+                    - generic "Created new user via Onboarding service" [ref=f142e800]
+                  - cell [ref=f142e801]:
+                    - button "" [ref=f142e803] [cursor=pointer]
+                - row [ref=f142e805]:
+                  - cell "9 Sept 2026 10:57:03" [ref=f142e806]:
+                    - generic [ref=f142e808]:
+                      - generic [ref=f142e809]: 9 Sept 2026
+                      - generic [ref=f142e810]: 10:57:03
+                  - cell "B Broni Danso" [ref=f142e811]:
+                    - generic [ref=f142e813]:
+                      - generic [ref=f142e814]: B
+                      - generic [ref=f142e815]: Broni Danso
+                  - cell "create" [ref=f142e816]
+                  - 'cell "User #" [ref=f142e819]':
+                    - generic [ref=f142e821]:
+                      - generic [ref=f142e822]: User
+                      - generic [ref=f142e823]: "#"
+                  - cell "Created new user via Onboarding service" [ref=f142e824]:
+                    - generic "Created new user via Onboarding service" [ref=f142e826]
+                  - cell [ref=f142e827]:
+                    - button "" [ref=f142e829] [cursor=pointer]
+                - row [ref=f142e831]:
+                  - cell "9 Sept 2026 10:53:25" [ref=f142e832]:
+                    - generic [ref=f142e834]:
+                      - generic [ref=f142e835]: 9 Sept 2026
+                      - generic [ref=f142e836]: 10:53:25
+                  - cell "B Broni Danso" [ref=f142e837]:
+                    - generic [ref=f142e839]:
+                      - generic [ref=f142e840]: B
+                      - generic [ref=f142e841]: Broni Danso
+                  - cell "create" [ref=f142e842]
+                  - 'cell "User #" [ref=f142e845]':
+                    - generic [ref=f142e847]:
+                      - generic [ref=f142e848]: User
+                      - generic [ref=f142e849]: "#"
+                  - cell "Created new user via Onboarding service" [ref=f142e850]:
+                    - generic "Created new user via Onboarding service" [ref=f142e852]
+                  - cell [ref=f142e853]:
+                    - button "" [ref=f142e855] [cursor=pointer]
+                - row [ref=f142e857]:
+                  - cell "9 Sept 2026 10:27:49" [ref=f142e858]:
+                    - generic [ref=f142e860]:
+                      - generic [ref=f142e861]: 9 Sept 2026
+                      - generic [ref=f142e862]: 10:27:49
+                  - cell "B Broni Danso" [ref=f142e863]:
+                    - generic [ref=f142e865]:
+                      - generic [ref=f142e866]: B
+                      - generic [ref=f142e867]: Broni Danso
+                  - cell "create" [ref=f142e868]
+                  - 'cell "Pay Group #1" [ref=f142e871]':
+                    - generic [ref=f142e873]:
+                      - generic [ref=f142e874]: Pay Group
+                      - generic [ref=f142e875]: "#1"
+                  - cell "Pay group \"ZZQA Test Pay Group\" was created" [ref=f142e876]:
+                    - generic "Pay group \"ZZQA Test Pay Group\" was created" [ref=f142e878]
+                  - cell [ref=f142e879]:
+                    - button "" [ref=f142e881] [cursor=pointer]
+                - row [ref=f142e883]:
+                  - cell "9 Sept 2026 09:09:24" [ref=f142e884]:
+                    - generic [ref=f142e886]:
+                      - generic [ref=f142e887]: 9 Sept 2026
+                      - generic [ref=f142e888]: 09:09:24
+                  - cell "B Broni Danso" [ref=f142e889]:
+                    - generic [ref=f142e891]:
+                      - generic [ref=f142e892]: B
+                      - generic [ref=f142e893]: Broni Danso
+                  - cell "create" [ref=f142e894]
+                  - 'cell "Budget #1" [ref=f142e897]':
+                    - generic [ref=f142e899]:
+                      - generic [ref=f142e900]: Budget
+                      - generic [ref=f142e901]: "#1"
+                  - cell "Created Budget ZZQA FY2026 Payroll Budget (2026)" [ref=f142e902]:
+                    - generic "Created Budget ZZQA FY2026 Payroll Budget (2026)" [ref=f142e904]
+                  - cell [ref=f142e905]:
+                    - button "" [ref=f142e907] [cursor=pointer]
+                - row [ref=f142e909]:
+                  - cell "9 Sept 2026 09:04:04" [ref=f142e910]:
+                    - generic [ref=f142e912]:
+                      - generic [ref=f142e913]: 9 Sept 2026
+                      - generic [ref=f142e914]: 09:04:04
+                  - cell "B Broni Danso" [ref=f142e915]:
+                    - generic [ref=f142e917]:
+                      - generic [ref=f142e918]: B
+                      - generic [ref=f142e919]: Broni Danso
+                  - cell "processed" [ref=f142e920]
+                  - 'cell "Pay Run #9" [ref=f142e923]':
+                    - generic [ref=f142e925]:
+                      - generic [ref=f142e926]: Pay Run
+                      - generic [ref=f142e927]: "#9"
+                  - cell "Payroll calculation completed" [ref=f142e928]:
+                    - generic "Payroll calculation completed" [ref=f142e930]
+                  - cell [ref=f142e931]:
+                    - button "" [ref=f142e933] [cursor=pointer]
+                - row [ref=f142e935]:
+                  - cell "9 Sept 2026 09:02:59" [ref=f142e936]:
+                    - generic [ref=f142e938]:
+                      - generic [ref=f142e939]: 9 Sept 2026
+                      - generic [ref=f142e940]: 09:02:59
+                  - cell "B Broni Danso" [ref=f142e941]:
+                    - generic [ref=f142e943]:
+                      - generic [ref=f142e944]: B
+                      - generic [ref=f142e945]: Broni Danso
+                  - cell "processing_started" [ref=f142e946]
+                  - 'cell "Pay Run #9" [ref=f142e949]':
+                    - generic [ref=f142e951]:
+                      - generic [ref=f142e952]: Pay Run
+                      - generic [ref=f142e953]: "#9"
+                  - cell "Payroll calculation started" [ref=f142e954]:
+                    - generic "Payroll calculation started" [ref=f142e956]
+                  - cell [ref=f142e957]:
+                    - button "" [ref=f142e959] [cursor=pointer]
+                - row [ref=f142e961]:
+                  - cell "9 Sept 2026 09:02:32" [ref=f142e962]:
+                    - generic [ref=f142e964]:
+                      - generic [ref=f142e965]: 9 Sept 2026
+                      - generic [ref=f142e966]: 09:02:32
+                  - cell "B Broni Danso" [ref=f142e967]:
+                    - generic [ref=f142e969]:
+                      - generic [ref=f142e970]: B
+                      - generic [ref=f142e971]: Broni Danso
+                  - cell "employees_added" [ref=f142e972]
+                  - 'cell "Pay Run #9" [ref=f142e975]':
+                    - generic [ref=f142e977]:
+                      - generic [ref=f142e978]: Pay Run
+                      - generic [ref=f142e979]: "#9"
+                  - cell "Added 3 employee(s)" [ref=f142e980]:
+                    - generic "Added 3 employee(s)" [ref=f142e982]
+                  - cell [ref=f142e983]:
+                    - button "" [ref=f142e985] [cursor=pointer]
+                - row [ref=f142e987]:
+                  - cell "9 Sept 2026 09:01:52" [ref=f142e988]:
+                    - generic [ref=f142e990]:
+                      - generic [ref=f142e991]: 9 Sept 2026
+                      - generic [ref=f142e992]: 09:01:52
+                  - cell "B Broni Danso" [ref=f142e993]:
+                    - generic [ref=f142e995]:
+                      - generic [ref=f142e996]: B
+                      - generic [ref=f142e997]: Broni Danso
+                  - cell "created" [ref=f142e998]
+                  - 'cell "Pay Run #9" [ref=f142e1001]':
+                    - generic [ref=f142e1003]:
+                      - generic [ref=f142e1004]: Pay Run
+                      - generic [ref=f142e1005]: "#9"
+                  - cell "Pay run created" [ref=f142e1006]:
+                    - generic "Pay run created" [ref=f142e1008]
+                  - cell [ref=f142e1009]:
+                    - button "" [ref=f142e1011] [cursor=pointer]
+                - row [ref=f142e1013]:
+                  - cell "9 Sept 2026 08:51:13" [ref=f142e1014]:
+                    - generic [ref=f142e1016]:
+                      - generic [ref=f142e1017]: 9 Sept 2026
+                      - generic [ref=f142e1018]: 08:51:13
+                  - cell "B Broni Danso" [ref=f142e1019]:
+                    - generic [ref=f142e1021]:
+                      - generic [ref=f142e1022]: B
+                      - generic [ref=f142e1023]: Broni Danso
+                  - cell "processed" [ref=f142e1024]
+                  - 'cell "Pay Run #7" [ref=f142e1027]':
+                    - generic [ref=f142e1029]:
+                      - generic [ref=f142e1030]: Pay Run
+                      - generic [ref=f142e1031]: "#7"
+                  - cell "Payroll calculation completed" [ref=f142e1032]:
+                    - generic "Payroll calculation completed" [ref=f142e1034]
+                  - cell [ref=f142e1035]:
+                    - button "" [ref=f142e1037] [cursor=pointer]
+                - row [ref=f142e1039]:
+                  - cell "9 Sept 2026 08:50:08" [ref=f142e1040]:
+                    - generic [ref=f142e1042]:
+                      - generic [ref=f142e1043]: 9 Sept 2026
+                      - generic [ref=f142e1044]: 08:50:08
+                  - cell "B Broni Danso" [ref=f142e1045]:
+                    - generic [ref=f142e1047]:
+                      - generic [ref=f142e1048]: B
+                      - generic [ref=f142e1049]: Broni Danso
+                  - cell "processing_started" [ref=f142e1050]
+                  - 'cell "Pay Run #7" [ref=f142e1053]':
+                    - generic [ref=f142e1055]:
+                      - generic [ref=f142e1056]: Pay Run
+                      - generic [ref=f142e1057]: "#7"
+                  - cell "Payroll calculation started" [ref=f142e1058]:
+                    - generic "Payroll calculation started" [ref=f142e1060]
+                  - cell [ref=f142e1061]:
+                    - button "" [ref=f142e1063] [cursor=pointer]
+                - row [ref=f142e1065]:
+                  - cell "9 Sept 2026 08:28:19" [ref=f142e1066]:
+                    - generic [ref=f142e1068]:
+                      - generic [ref=f142e1069]: 9 Sept 2026
+                      - generic [ref=f142e1070]: 08:28:19
+                  - cell "B Broni Danso" [ref=f142e1071]:
+                    - generic [ref=f142e1073]:
+                      - generic [ref=f142e1074]: B
+                      - generic [ref=f142e1075]: Broni Danso
+                  - cell "processed" [ref=f142e1076]
+                  - 'cell "Pay Run #7" [ref=f142e1079]':
+                    - generic [ref=f142e1081]:
+                      - generic [ref=f142e1082]: Pay Run
+                      - generic [ref=f142e1083]: "#7"
+                  - cell "Payroll calculation completed" [ref=f142e1084]:
+                    - generic "Payroll calculation completed" [ref=f142e1086]
+                  - cell [ref=f142e1087]:
+                    - button "" [ref=f142e1089] [cursor=pointer]
+                - row [ref=f142e1091]:
+                  - cell "9 Sept 2026 08:27:13" [ref=f142e1092]:
+                    - generic [ref=f142e1094]:
+                      - generic [ref=f142e1095]: 9 Sept 2026
+                      - generic [ref=f142e1096]: 08:27:13
+                  - cell "B Broni Danso" [ref=f142e1097]:
+                    - generic [ref=f142e1099]:
+                      - generic [ref=f142e1100]: B
+                      - generic [ref=f142e1101]: Broni Danso
+                  - cell "processing_started" [ref=f142e1102]
+                  - 'cell "Pay Run #7" [ref=f142e1105]':
+                    - generic [ref=f142e1107]:
+                      - generic [ref=f142e1108]: Pay Run
+                      - generic [ref=f142e1109]: "#7"
+                  - cell "Payroll calculation started" [ref=f142e1110]:
+                    - generic "Payroll calculation started" [ref=f142e1112]
+                  - cell [ref=f142e1113]:
+                    - button "" [ref=f142e1115] [cursor=pointer]
+          - generic [ref=f142e1117]:
+            - generic [ref=f142e1118]:
+              - generic [ref=f142e1119]:
+                - generic [ref=f142e1120]: Rows per page
+                - button [ref=f142e1123] [cursor=pointer]:
+                  - generic [ref=f142e1124]: "25"
+                  - generic [aria-hidden] [ref=f142e1125]: 
+              - generic [ref=f142e1126]: Showing 1-25 of 25 entries
+            - generic [ref=f142e1127]:
+              - generic [ref=f142e1128]: Page 1 of 1
+              - generic [ref=f142e1129]:
+                - button "" [disabled] [ref=f142e1130] [cursor=pointer]
+                - button "1" [ref=f142e1132] [cursor=pointer]
+                - button "" [disabled] [ref=f142e1133] [cursor=pointer]
+        - generic [ref=f142e319]:
+          - generic [ref=f142e320]:
+            - generic [ref=f142e321]: 
+            - generic [ref=f142e322]: All logs are read-only and immutable for compliance purposes.
+          - generic [ref=f142e323]:
+            - generic [ref=f142e324]: 
+            - generic [ref=f142e325]: "Log retention: 7 years"
+    - contentinfo [ref=f142e115]:
+      - generic [ref=f142e117]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f142e118] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f142e166] [cursor=pointer]:
+    - generic [ref=f142e168]: 
+    - generic [ref=f142e169]: "1"

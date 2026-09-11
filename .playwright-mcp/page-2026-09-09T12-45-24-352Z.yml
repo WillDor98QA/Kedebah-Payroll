@@ -1,0 +1,111 @@
+- generic [ref=f142e5]:
+  - region "Notifications alt+T":
+    - list
+  - banner [ref=f142e6]:
+    - generic [ref=f142e7]:
+      - generic [ref=f142e8]:
+        - link [ref=f142e11] [cursor=pointer]:
+          - /url: /dashboard
+          - img "Kedebah logo" [ref=f142e12]
+        - generic [ref=f142e13]:
+          - textbox "Search anything here ..." [ref=f142e14]
+          - link "" [ref=f142e15] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - list [ref=f142e17]:
+        - text: 
+        - listitem [ref=f142e18]:
+          - link "" [ref=f142e19] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - listitem [ref=f142e21]:
+          - link "" [ref=f142e22] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - listitem [ref=f142e24]:
+          - link "" [ref=f142e25] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - listitem [ref=f142e27]:
+          - link "" [ref=f142e28] [cursor=pointer]:
+            - /url: /chat
+        - listitem [ref=f142e30]:
+          - button "" [ref=f142e31] [cursor=pointer]
+          - text: 
+        - listitem [ref=f142e33]:
+          - link "PM" [ref=f142e34] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - text:   
+  - complementary [ref=f142e37]:
+    - navigation [ref=f142e40]:
+      - list [ref=f142e41]:
+        - listitem [ref=f142e42]:
+          - link " Dashboard" [ref=f142e43] [cursor=pointer]:
+            - /url: /dashboard
+            - generic [ref=f142e44]: 
+            - generic [ref=f142e45]: Dashboard
+        - listitem [ref=f142e46]:
+          - link " Reports" [ref=f142e47] [cursor=pointer]:
+            - /url: /reports
+            - generic [ref=f142e48]: 
+            - generic [ref=f142e49]: Reports
+  - generic [ref=f142e52]:
+    - generic [ref=f142e57]:
+      - generic [ref=f142e58]:
+        - generic [ref=f142e59]: 
+        - text: Payroll Intelligence
+      - heading "Reports Centre" [level=1] [ref=f142e60]
+      - paragraph [ref=f142e61]: Precision payroll insights. Data-driven decisions for compensation, taxes & compliance.
+      - generic [ref=f142e65]:
+        - generic: 
+        - textbox "Search reports..." [ref=f142e66]
+      - generic [ref=f142e67]:
+        - generic [ref=f142e68]: Popular
+        - button "Payroll Summary" [ref=f142e69] [cursor=pointer]
+        - button "PAYE Reconciliation" [ref=f142e70] [cursor=pointer]
+        - button "Annual Payroll Report" [ref=f142e71] [cursor=pointer]
+        - button "Statutory Remittance" [ref=f142e72] [cursor=pointer]
+    - generic [ref=f142e75]:
+      - button " Payroll Summary 1" [ref=f142e76] [cursor=pointer]:
+        - generic [ref=f142e77]: 
+        - text: Payroll Summary
+        - generic [ref=f142e78]: "1"
+      - button " Statutory & Compliance 1" [ref=f142e79] [cursor=pointer]:
+        - generic [ref=f142e80]: 
+        - text: Statutory & Compliance
+        - generic [ref=f142e81]: "1"
+      - button " Variance & Analysis 1" [ref=f142e82] [cursor=pointer]:
+        - generic [ref=f142e83]: 
+        - text: Variance & Analysis
+        - generic [ref=f142e84]: "1"
+      - button " Annual & Year-End 2" [ref=f142e85] [cursor=pointer]:
+        - generic [ref=f142e86]: 
+        - text: Annual & Year-End
+        - generic [ref=f142e87]: "2"
+      - button " Tax & PAYE 1" [ref=f142e88] [cursor=pointer]:
+        - generic [ref=f142e89]: 
+        - text: Tax & PAYE
+        - generic [ref=f142e90]: "1"
+      - button " Audit & Compliance 5" [ref=f142e91] [cursor=pointer]:
+        - generic [ref=f142e92]: 
+        - text: Audit & Compliance
+        - generic [ref=f142e93]: "5"
+      - button " AI & Predictive Insights 1" [ref=f142e94] [cursor=pointer]:
+        - generic [ref=f142e95]: 
+        - text: AI & Predictive Insights
+        - generic [ref=f142e96]: "1"
+    - generic [ref=f142e97]:
+      - generic [ref=f142e98]:
+        - generic [ref=f142e101]:
+          - heading "Payroll Summary" [level=2] [ref=f142e102]
+          - paragraph [ref=f142e103]: Access comprehensive payroll summary reports and statements.
+        - generic [ref=f142e104]: 1 report
+      - button " Payroll Summary Report View total payroll cost, net pay, employee count, taxes, benefits, and deductions for a selected period. View Report " [ref=f142e106] [cursor=pointer]:
+        - generic [ref=f142e107]: 
+        - heading "Payroll Summary Report" [level=3] [ref=f142e110]
+        - paragraph [ref=f142e111]: View total payroll cost, net pay, employee count, taxes, benefits, and deductions for a selected period.
+        - generic [ref=f142e112]:
+          - generic [ref=f142e113]: View Report
+          - generic [ref=f142e114]: 
+  - contentinfo [ref=f142e115]:
+    - generic [ref=f142e117]:
+      - text: Copyright © 2026
+      - link "Payroll" [ref=f142e118] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - text: . All rights reserved.

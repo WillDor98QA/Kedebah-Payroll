@@ -1,0 +1,178 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f4e6]:
+      - generic [ref=f4e7]:
+        - generic [ref=f4e8]:
+          - link [ref=f4e169] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f4e170]
+          - generic [ref=f4e13]:
+            - textbox "Search anything here ..." [ref=f4e14]
+            - link "" [ref=f4e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f4e17]:
+          - text: 
+          - listitem [ref=f4e18]:
+            - link "" [ref=f4e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f4e21]:
+            - link "" [ref=f4e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f4e24]:
+            - link "" [ref=f4e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f4e27]:
+            - link "" [ref=f4e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f4e30]:
+            - button "" [ref=f4e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f4e33]:
+            - link "PM" [ref=f4e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f4e37]:
+      - navigation [ref=f4e40]:
+        - list [ref=f4e41]:
+          - listitem [ref=f4e42]:
+            - link " Dashboard" [ref=f4e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f4e44]: 
+              - generic [ref=f4e45]: Dashboard
+          - listitem [ref=f4e46]:
+            - generic [ref=f4e47]:
+              - link " Employees" [ref=f4e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f4e49]: 
+                - generic [ref=f4e50]: Employees
+              - button "Toggle submenu" [ref=f4e51] [cursor=pointer]:
+                - generic [ref=f4e52]: 
+          - listitem [ref=f4e53]:
+            - link " Run Payroll" [ref=f4e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f4e55]: 
+              - generic [ref=f4e56]: Run Payroll
+          - listitem [ref=f4e57]:
+            - generic [ref=f4e58]:
+              - link " Taxes & Forms" [ref=f4e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f4e60]: 
+                - generic [ref=f4e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f4e62] [cursor=pointer]:
+                - generic [ref=f4e63]: 
+          - listitem [ref=f4e64]:
+            - link " Reports" [ref=f4e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f4e66]: 
+              - generic [ref=f4e67]: Reports
+          - listitem [ref=f4e68]:
+            - link " Settings" [ref=f4e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f4e70]: 
+              - generic [ref=f4e71]: Settings
+    - generic [ref=f4e74]:
+      - generic [ref=f4e75]:
+        - heading "Payroll Dashboard" [level=1] [ref=f4e76]
+        - paragraph [ref=f4e77]: Payroll insights, trends, and compliance exposure
+      - generic [ref=f4e171]:
+        - paragraph [ref=f4e172]: No pay run for this period.
+        - button "View Payroll " [ref=f4e173] [cursor=pointer]:
+          - text: View Payroll
+          - generic [ref=f4e174]: 
+      - generic [ref=f4e97]:
+        - generic [ref=f4e175]:
+          - generic [ref=f4e176]:
+            - generic [ref=f4e177]:
+              - heading " Budget vs Actual" [level=3] [ref=f4e178]:
+                - generic [ref=f4e179]: 
+                - text: Budget vs Actual
+              - paragraph [ref=f4e180]: Primary budget deviation trend
+            - generic [ref=f4e181]:
+              - spinbutton [ref=f4e182]: "2026"
+              - button "View Budgets " [ref=f4e183] [cursor=pointer]:
+                - text: View Budgets
+                - generic [ref=f4e184]: 
+          - generic [ref=f4e185]:
+            - generic [ref=f4e186]: 
+            - paragraph [ref=f4e187]: No primary budget for 2026
+            - paragraph [ref=f4e188]: Create a budget and set it as primary to track deviation against actual cost.
+            - button " Create Budget" [ref=f4e189] [cursor=pointer]:
+              - generic [ref=f4e190]: 
+              - text: Create Budget
+        - generic [ref=f4e191]:
+          - generic [ref=f4e192]:
+            - generic [ref=f4e193]:
+              - heading " Employee Summary" [level=3] [ref=f4e194]:
+                - generic [ref=f4e195]: 
+                - text: Employee Summary
+              - button "This Month " [ref=f4e197] [cursor=pointer]:
+                - text: This Month
+                - generic [ref=f4e198]: 
+            - generic [ref=f4e199]:
+              - img [ref=f4e203]:
+                - generic [ref=f4e214]:
+                  - generic: Total Active
+                  - generic: "2"
+              - generic [ref=f4e215]:
+                - text: By Employment Type
+                - generic [ref=f4e216]:
+                  - generic [ref=f4e217]: Unassigned
+                  - generic [ref=f4e220]:
+                    - generic [ref=f4e221]: "1"
+                    - generic [ref=f4e222]: 50%
+                - generic [ref=f4e223]:
+                  - generic [ref=f4e224]: Full-time
+                  - generic [ref=f4e227]:
+                    - generic [ref=f4e228]: "1"
+                    - generic [ref=f4e229]: 50%
+            - button "View Employees " [ref=f4e231] [cursor=pointer]:
+              - text: View Employees
+              - generic [ref=f4e232]: 
+          - generic [ref=f4e233]:
+            - generic [ref=f4e234]:
+              - heading " Employer Cost by Tier" [level=3] [ref=f4e235]:
+                - generic [ref=f4e236]: 
+                - text: Employer Cost by Tier
+              - button "This Year " [ref=f4e238] [cursor=pointer]:
+                - text: This Year
+                - generic [ref=f4e239]: 
+            - paragraph [ref=f4e240]: Employer's share of statutory/pension contributions, by tier.
+            - generic [ref=f4e241]:
+              - generic [ref=f4e242]: 
+              - paragraph [ref=f4e243]: No employer statutory contributions for this period.
+        - generic [ref=f4e244]:
+          - generic [ref=f4e245]:
+            - generic [ref=f4e246]:
+              - heading " Payroll Cost Summary" [level=3] [ref=f4e247]:
+                - generic [ref=f4e248]: 
+                - text: Payroll Cost Summary
+              - button "This Year " [ref=f4e250] [cursor=pointer]:
+                - text: This Year
+                - generic [ref=f4e251]: 
+            - generic [ref=f4e252]:
+              - generic [ref=f4e253]: 
+              - paragraph [ref=f4e254]: No payroll data for selected period
+              - paragraph [ref=f4e255]: Try selecting a different time range or run payroll for this period
+            - paragraph [ref=f4e256]: "Bars stack to the total employer cost: gross pay + employer statutory (SSNIT/pension). Hover a bar for the tier-level breakdown."
+          - generic [ref=f4e257]:
+            - heading " Quick Insights" [level=3] [ref=f4e258]:
+              - generic [ref=f4e259]: 
+              - text: Quick Insights
+            - generic [ref=f4e260]:
+              - generic [ref=f4e261]:
+                - generic [ref=f4e262]: 
+                - paragraph [ref=f4e264]: Unassigned employees make up 50% of your workforce.
+              - generic [ref=f4e265]:
+                - generic [ref=f4e266]: 
+                - paragraph [ref=f4e268]: No statutory filings due for this period.
+    - contentinfo [ref=f4e160]:
+      - generic [ref=f4e162]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f4e163] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f4e165] [cursor=pointer]:
+    - generic [ref=f4e167]: 
+    - generic [ref=f4e168]: "1"

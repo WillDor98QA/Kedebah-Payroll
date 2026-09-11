@@ -1,0 +1,207 @@
+- generic [active] [ref=f79e1]:
+  - generic [ref=f79e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f79e6]:
+      - generic [ref=f79e7]:
+        - generic [ref=f79e8]:
+          - link [ref=f79e232] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f79e233]
+          - generic [ref=f79e13]:
+            - textbox "Search anything here ..." [ref=f79e14]
+            - link "" [ref=f79e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f79e17]:
+          - text: 
+          - listitem [ref=f79e18]:
+            - link "" [ref=f79e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f79e21]:
+            - link "" [ref=f79e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f79e24]:
+            - link "" [ref=f79e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f79e27]:
+            - link "" [ref=f79e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f79e30]:
+            - button "" [ref=f79e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f79e33]:
+            - link "PM" [ref=f79e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f79e37]:
+      - navigation [ref=f79e40]:
+        - list [ref=f79e41]:
+          - listitem [ref=f79e42]:
+            - link " Dashboard" [ref=f79e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f79e44]: 
+              - generic [ref=f79e45]: Dashboard
+          - listitem [ref=f79e46]:
+            - generic [ref=f79e47]:
+              - link " Employees" [ref=f79e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f79e49]: 
+                - generic [ref=f79e50]: Employees
+              - button "Toggle submenu" [ref=f79e51] [cursor=pointer]:
+                - generic [ref=f79e52]: 
+          - listitem [ref=f79e53]:
+            - link " Run Payroll" [ref=f79e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f79e55]: 
+              - generic [ref=f79e56]: Run Payroll
+          - listitem [ref=f79e57]:
+            - generic [ref=f79e58]:
+              - link " Taxes & Forms" [ref=f79e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f79e60]: 
+                - generic [ref=f79e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f79e62] [cursor=pointer]:
+                - generic [ref=f79e63]: 
+          - listitem [ref=f79e64]:
+            - link " Reports" [ref=f79e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f79e66]: 
+              - generic [ref=f79e67]: Reports
+          - listitem [ref=f79e68]:
+            - link " Settings" [ref=f79e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f79e70]: 
+              - generic [ref=f79e71]: Settings
+    - generic [ref=f79e500]:
+      - generic [ref=f79e564]:
+        - link "Reports Centre" [ref=f79e565] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - generic [ref=f79e566]: 
+        - generic [ref=f79e567]: Variance & Comparison Reports
+      - generic [ref=f79e568]:
+        - generic [ref=f79e569]:
+          - generic [ref=f79e570]:
+            - generic [ref=f79e571]:
+              - generic [ref=f79e572]:
+                - heading "Variance & Comparison Reports" [level=1] [ref=f79e573]
+                - generic [ref=f79e574]:
+                  - generic [ref=f79e575]:
+                    - generic [ref=f79e576]: "Base Period:"
+                    - generic [ref=f79e577]: September 2026
+                  - generic [ref=f79e578]:
+                    - generic [ref=f79e579]: "Comparison:"
+                    - generic [ref=f79e580]: September 2026
+                  - generic [ref=f79e581]:
+                    - generic [ref=f79e582]: "Group By:"
+                    - generic [ref=f79e583]: Total
+              - generic [ref=f79e584]:
+                - generic [ref=f79e585] [cursor=pointer]:
+                  - generic [ref=f79e586]: Show Zero Balances
+                  - checkbox "Show Zero Balances" [ref=f79e588]
+                - generic [ref=f79e591]:
+                  - button " Export " [ref=f79e592] [cursor=pointer]:
+                    - generic [ref=f79e593]: 
+                    - text: Export
+                    - generic [ref=f79e594]: 
+                  - text:   
+            - button " Edit report filters" [ref=f79e596] [cursor=pointer]:
+              - generic [ref=f79e597]: 
+              - text: Edit report filters
+          - generic [ref=f79e598]:
+            - generic [ref=f79e599]:
+              - generic [ref=f79e600]:
+                - generic [ref=f79e601]: Base Period
+                - generic [ref=f79e602]: September 2026
+              - generic [ref=f79e603]:
+                - generic [ref=f79e604]: Comparison Period
+                - generic [ref=f79e605]: September 2026
+              - generic [ref=f79e606]:
+                - generic [ref=f79e607]: Net Variance %
+                - generic [ref=f79e608]: +0%
+              - generic [ref=f79e609]:
+                - generic [ref=f79e610]: Employee Variance
+                - generic [ref=f79e611]: "+0"
+            - generic [ref=f79e612]:
+              - generic [ref=f79e613]:
+                - generic [ref=f79e614]: Gross Pay Variance
+                - generic [ref=f79e615]: GH₵ 0.00
+              - generic [ref=f79e616]:
+                - generic [ref=f79e617]: Net Pay Variance
+                - generic [ref=f79e618]: GH₵ 0.00
+              - generic [ref=f79e619]:
+                - generic [ref=f79e620]: Currency
+                - generic [ref=f79e621]: GHS
+          - table [ref=f79e623]:
+            - rowgroup [ref=f79e624]:
+              - row [ref=f79e625]:
+                - columnheader "Category" [ref=f79e626]
+                - columnheader "Current Period" [ref=f79e627]
+                - columnheader "Previous Period" [ref=f79e628]
+                - columnheader "Variance" [ref=f79e629]
+                - columnheader "% Change" [ref=f79e630]
+            - rowgroup [ref=f79e631]:
+              - row [ref=f79e632]:
+                - cell "Gross Pay" [ref=f79e633]
+                - cell "GH₵ 8,000.00" [ref=f79e635]
+                - cell "GH₵ 8,000.00" [ref=f79e636]
+                - cell "GH₵ 0.00" [ref=f79e637]
+                - cell "+0.0%" [ref=f79e638]
+              - row [ref=f79e639]:
+                - cell "Benefits" [ref=f79e640]
+                - cell "GH₵ 0.00" [ref=f79e642]
+                - cell "GH₵ 0.00" [ref=f79e643]
+                - cell "GH₵ 0.00" [ref=f79e644]
+                - cell "+0.0%" [ref=f79e645]
+              - row [ref=f79e646]:
+                - cell "Deductions" [ref=f79e647]
+                - cell "GH₵ 0.00" [ref=f79e649]
+                - cell "GH₵ 0.00" [ref=f79e650]
+                - cell "GH₵ 0.00" [ref=f79e651]
+                - cell "+0.0%" [ref=f79e652]
+              - row [ref=f79e653]:
+                - cell "Statutory Contributions" [ref=f79e654]
+                - cell "GH₵ 2,771.63" [ref=f79e656]
+                - cell "GH₵ 2,771.63" [ref=f79e657]
+                - cell "GH₵ 0.00" [ref=f79e658]
+                - cell "+0.0%" [ref=f79e659]
+              - row [ref=f79e660]:
+                - cell "Net Pay" [ref=f79e661]
+                - cell "GH₵ 6,268.37" [ref=f79e663]
+                - cell "GH₵ 6,268.37" [ref=f79e664]
+                - cell "GH₵ 0.00" [ref=f79e665]
+                - cell "+0.0%" [ref=f79e666]
+              - row [ref=f79e667]:
+                - cell "Employer Cost" [ref=f79e668]
+                - cell "GH₵ 9,040.00" [ref=f79e670]
+                - cell "GH₵ 9,040.00" [ref=f79e671]
+                - cell "GH₵ 0.00" [ref=f79e672]
+                - cell "+0.0%" [ref=f79e673]
+              - row [ref=f79e674]:
+                - cell "Employee Count" [ref=f79e675]
+                - cell "2" [ref=f79e677]
+                - cell "2" [ref=f79e678]
+                - cell "—" [ref=f79e679]
+                - cell "+0.0%" [ref=f79e680]
+          - generic [ref=f79e682]:
+            - generic [ref=f79e683]: "Generated: 9 Sept 2026, 09:57"
+            - generic [ref=f79e684]: Kedebah Payroll · Variance & Comparison Reports
+        - generic [ref=f79e685]:
+          - button " Back to Reports Centre" [ref=f79e686] [cursor=pointer]:
+            - generic [ref=f79e687]: 
+            - text: Back to Reports Centre
+          - generic [ref=f79e688]:
+            - button " Edit Filters" [ref=f79e689] [cursor=pointer]:
+              - generic [ref=f79e690]: 
+              - text: Edit Filters
+            - button " Print Report" [ref=f79e691] [cursor=pointer]:
+              - generic [ref=f79e692]: 
+              - text: Print Report
+    - contentinfo [ref=f79e160]:
+      - generic [ref=f79e162]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f79e163] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f79e228] [cursor=pointer]:
+    - generic [ref=f79e230]: 
+    - generic [ref=f79e231]: "1"

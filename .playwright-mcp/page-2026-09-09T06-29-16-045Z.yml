@@ -1,0 +1,129 @@
+- generic [active] [ref=f52e1]:
+  - generic [ref=f52e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f52e6]:
+      - generic [ref=f52e7]:
+        - generic [ref=f52e8]:
+          - link [ref=f52e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f52e12]
+          - generic [ref=f52e13]:
+            - textbox "Search anything here ..." [ref=f52e14]
+            - link "" [ref=f52e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f52e17]:
+          - text: 
+          - listitem [ref=f52e18]:
+            - link "" [ref=f52e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f52e21]:
+            - link "" [ref=f52e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f52e24]:
+            - link "" [ref=f52e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f52e27]:
+            - link "" [ref=f52e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f52e30]:
+            - button "" [ref=f52e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f52e33]:
+            - link "PM" [ref=f52e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f52e37]:
+      - navigation [ref=f52e40]:
+        - list [ref=f52e41]:
+          - listitem [ref=f52e42]:
+            - link " Dashboard" [ref=f52e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f52e44]: 
+              - generic [ref=f52e45]: Dashboard
+          - listitem [ref=f52e46]:
+            - generic [ref=f52e47]:
+              - link " Employees" [ref=f52e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f52e49]: 
+                - generic [ref=f52e50]: Employees
+              - button "Toggle submenu" [ref=f52e51] [cursor=pointer]:
+                - generic [ref=f52e52]: 
+          - listitem [ref=f52e53]:
+            - link " Run Payroll" [ref=f52e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f52e55]: 
+              - generic [ref=f52e56]: Run Payroll
+          - listitem [ref=f52e57]:
+            - generic [ref=f52e58]:
+              - link " Taxes & Forms" [ref=f52e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f52e60]: 
+                - generic [ref=f52e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f52e62] [cursor=pointer]:
+                - generic [ref=f52e63]: 
+          - listitem [ref=f52e64]:
+            - link " Reports" [ref=f52e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f52e66]: 
+              - generic [ref=f52e67]: Reports
+          - listitem [ref=f52e68]:
+            - link " Settings" [ref=f52e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f52e70]: 
+              - generic [ref=f52e71]: Settings
+    - contentinfo [ref=f52e156]:
+      - generic [ref=f52e158]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f52e159] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f52e161] [cursor=pointer]:
+    - generic [ref=f52e163]: 
+    - generic [ref=f52e164]: "1"
+  - generic [ref=f52e1884]:
+    - generic [ref=f52e1886]:
+      - heading "Mark as Paid" [level=3] [ref=f52e1887]
+      - button "" [ref=f52e1888] [cursor=pointer]
+    - generic [ref=f52e1890]:
+      - generic [ref=f52e1892]:
+        - generic [ref=f52e1893]: 
+        - generic [ref=f52e1894]:
+          - paragraph [ref=f52e1895]: External Payment Confirmation
+          - paragraph [ref=f52e1896]: Confirm that this payroll has been paid externally. This will update the payroll status to PAID.
+      - generic [ref=f52e1897]:
+        - heading "Payment Details" [level=4] [ref=f52e1898]
+        - generic [ref=f52e1899]:
+          - generic [ref=f52e1900]:
+            - generic [ref=f52e1901]: Payment Date *
+            - textbox [disabled] [ref=f52e1902]: 2026-09-09
+          - generic [ref=f52e1903]:
+            - generic [ref=f52e1904]:
+              - text: Payment Method
+              - generic [ref=f52e1905]: "*"
+            - button "Payment Method *" [disabled] [ref=f52e1907] [cursor=pointer]:
+              - generic [ref=f52e1908]: Bank Transfer
+              - generic [aria-hidden] [ref=f52e1909]: 
+        - generic [ref=f52e1910]:
+          - generic [ref=f52e1911]:
+            - generic [ref=f52e1912]: Paid-Through Account (Optional)
+            - button "Paid-Through Account (Optional)" [disabled] [ref=f52e1914] [cursor=pointer]:
+              - generic [ref=f52e1915]: Select account (optional)
+              - generic [aria-hidden] [ref=f52e1916]: 
+          - generic [ref=f52e1917] [cursor=pointer]:
+            - checkbox "Send pay stub notification Notify employees via email about their pay stub availability." [disabled] [ref=f52e1918]
+            - generic [ref=f52e1919]:
+              - text: Send pay stub notification
+              - paragraph [ref=f52e1920]: Notify employees via email about their pay stub availability.
+      - generic [ref=f52e1921]:
+        - generic [ref=f52e1922]:
+          - heading "Payment Documents (Optional)" [level=4] [ref=f52e1923]
+          - button " Add Document" [disabled] [ref=f52e1924] [cursor=pointer]:
+            - generic [ref=f52e1925]: 
+            - text: Add Document
+        - paragraph [ref=f52e1926]: Bank confirmation or remittance advice — PDF, Word, or Excel, up to 10MB each. You can also add, download, or remove documents later.
+    - generic [ref=f52e1927]:
+      - button "Cancel" [disabled] [ref=f52e1928] [cursor=pointer]
+      - button " Mark as Paid" [disabled] [ref=f52e1995] [cursor=pointer]:
+        - generic [ref=f52e1996]: 
+        - text: Mark as Paid

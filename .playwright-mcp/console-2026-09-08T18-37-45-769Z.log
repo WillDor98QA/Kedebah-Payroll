@@ -1,0 +1,28 @@
+[    8644ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff2?t=1708865856766 @ https://v2payroll.kedebahlite.com/employees:0
+[    8644ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/employees:0
+[    9869ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff?t=1708865856766 @ https://v2payroll.kedebahlite.com/employees:0
+[    9869ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/employees:0
+[   11006ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.ttf?t=1708865856766 @ https://v2payroll.kedebahlite.com/employees:0
+[   11006ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/employees:0
+[   63398ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff2?t=1708865856766 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   63398ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   63398ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff?t=1708865856766 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   63398ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   63398ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.ttf?t=1708865856766 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   63399ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   63442ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff2?t=1708865856766 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   63442ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   63442ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff?t=1708865856766 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   63442ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   63442ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.ttf?t=1708865856766 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   63442ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   64665ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/bootstrap-icons/icons/font/fonts/bootstrap-icons.woff2?2820a3852bdb9a5832199cc61cec4e65 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   64665ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   64665ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/bootstrap-icons/icons/font/fonts/bootstrap-icons.woff2?2820a3852bdb9a5832199cc61cec4e65 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   64665ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   65847ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/bootstrap-icons/icons/font/fonts/bootstrap-icons.woff?2820a3852bdb9a5832199cc61cec4e65 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   65847ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   65847ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/bootstrap-icons/icons/font/fonts/bootstrap-icons.woff?2820a3852bdb9a5832199cc61cec4e65 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   65847ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/employees/2:0
+[   68849ms] [WARNING] The resource https://v2payroll.kedebahlite.com/build/assets/main-swWEpL5L.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://v2payroll.kedebahlite.com/employees/2:0
+[   68849ms] [WARNING] The resource https://v2payroll.kedebahlite.com/build/assets/app-BDow-Spr.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://v2payroll.kedebahlite.com/employees/2:0

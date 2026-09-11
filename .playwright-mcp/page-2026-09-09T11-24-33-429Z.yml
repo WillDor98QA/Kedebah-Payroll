@@ -1,0 +1,155 @@
+- generic [ref=f114e1]:
+  - generic [ref=f114e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f114e6]:
+      - generic [ref=f114e7]:
+        - generic [ref=f114e8]:
+          - link [ref=f114e169] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f114e170]
+          - generic [ref=f114e13]:
+            - textbox "Search anything here ..." [ref=f114e14]
+            - link "" [ref=f114e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f114e17]:
+          - text: 
+          - listitem [ref=f114e18]:
+            - link "" [ref=f114e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f114e21]:
+            - link "" [ref=f114e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f114e24]:
+            - link "" [ref=f114e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f114e27]:
+            - link "" [ref=f114e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f114e30]:
+            - button "" [ref=f114e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f114e33]:
+            - link "PM" [ref=f114e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f114e37]:
+      - navigation [ref=f114e40]:
+        - list [ref=f114e41]:
+          - listitem [ref=f114e42]:
+            - link " Dashboard" [ref=f114e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f114e44]: 
+              - generic [ref=f114e45]: Dashboard
+          - listitem [ref=f114e46]:
+            - generic [ref=f114e47]:
+              - link " Employees" [ref=f114e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f114e49]: 
+                - generic [ref=f114e50]: Employees
+              - button "Toggle submenu" [ref=f114e51] [cursor=pointer]:
+                - generic [ref=f114e52]: 
+          - listitem [ref=f114e53]:
+            - link " Run Payroll" [active] [ref=f114e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f114e55]: 
+              - generic [ref=f114e56]: Run Payroll
+          - listitem [ref=f114e57]:
+            - generic [ref=f114e58]:
+              - link " Taxes & Forms" [ref=f114e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f114e60]: 
+                - generic [ref=f114e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f114e62] [cursor=pointer]:
+                - generic [ref=f114e63]: 
+          - listitem [ref=f114e64]:
+            - link " Reports" [ref=f114e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f114e66]: 
+              - generic [ref=f114e67]: Reports
+          - listitem [ref=f114e68]:
+            - link " Settings" [ref=f114e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f114e70]: 
+              - generic [ref=f114e71]: Settings
+    - generic [ref=f114e171]:
+      - generic [ref=f114e174]:
+        - generic [ref=f114e175]:
+          - heading "Payroll Runs" [level=1] [ref=f114e176]
+          - paragraph [ref=f114e177]: Process regular payroll, bonuses, off-cycle payments, and termination payroll.
+        - generic [ref=f114e179]:
+          - button " Reset" [ref=f114e180] [cursor=pointer]:
+            - generic [ref=f114e181]: 
+            - text: Reset
+          - button " Create Pay Run " [ref=f114e183] [cursor=pointer]:
+            - generic [ref=f114e184]: 
+            - text: Create Pay Run
+            - generic [ref=f114e185]: 
+      - generic [ref=f114e187]:
+        - navigation [ref=f114e189]:
+          - button " Run Payroll" [ref=f114e190] [cursor=pointer]:
+            - generic [ref=f114e191]: 
+            - generic [ref=f114e192]: Run Payroll
+          - button " Payroll History" [ref=f114e194] [cursor=pointer]:
+            - generic [ref=f114e195]: 
+            - generic [ref=f114e196]: Payroll History
+        - generic [ref=f114e198]:
+          - generic [ref=f114e199]:
+            - generic [ref=f114e200]:
+              - generic [ref=f114e201]: Search
+              - generic [ref=f114e202]:
+                - generic: 
+                - textbox "Search pay runs..." [ref=f114e203]
+            - generic [ref=f114e204]:
+              - generic [ref=f114e205]: Type
+              - button [ref=f114e208] [cursor=pointer]:
+                - generic [ref=f114e209]: All Types
+                - generic [aria-hidden] [ref=f114e210]: 
+            - generic [ref=f114e211]:
+              - generic [ref=f114e212]: Status
+              - button [ref=f114e215] [cursor=pointer]:
+                - generic [ref=f114e216]: All statuses
+                - generic [aria-hidden] [ref=f114e217]: 
+            - generic [ref=f114e218]:
+              - generic [ref=f114e219]: Pay date from · Jun 9, 2026
+              - textbox [ref=f114e220]: 2026-06-09
+            - generic [ref=f114e221]:
+              - generic [ref=f114e222]: Pay date to · Sep 9, 2026
+              - textbox [ref=f114e223]: 2026-09-09
+            - button " Clear filters" [ref=f114e224] [cursor=pointer]:
+              - generic [ref=f114e225]: 
+              - text: Clear filters
+          - generic [ref=f114e292]:
+            - generic [ref=f114e293]:
+              - generic [ref=f114e294]:
+                - generic [ref=f114e295]: 
+                - generic [ref=f114e297]:
+                  - heading "ZZQA Bonus Test Sep 2026" [level=3] [ref=f114e298]
+                  - paragraph [ref=f114e299]: Sep 1, 2026 to Sep 30, 2026
+                - generic [ref=f114e300]:
+                  - generic [ref=f114e301]:
+                    - generic [ref=f114e302]: 
+                    - text: Bonus
+                  - generic [ref=f114e303]: Pending Approval
+              - generic [ref=f114e304]:
+                - generic [ref=f114e305]:
+                  - paragraph [ref=f114e306]: Pay Date
+                  - paragraph [ref=f114e307]: Sep 9, 2026
+                - generic [ref=f114e308]:
+                  - paragraph [ref=f114e309]: Employees
+                  - paragraph [ref=f114e310]: 2 employees
+                - generic [ref=f114e311]:
+                  - paragraph [ref=f114e312]: Total Amount
+                  - paragraph [ref=f114e313]: GH₵ 10,009.63
+            - button " Review & Approve" [ref=f114e315] [cursor=pointer]:
+              - generic [ref=f114e316]: 
+              - text: Review & Approve
+    - contentinfo [ref=f114e160]:
+      - generic [ref=f114e162]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f114e163] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f114e165] [cursor=pointer]:
+    - generic [ref=f114e167]: 
+    - generic [ref=f114e168]: "1"

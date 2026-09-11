@@ -1,0 +1,98 @@
+- generic [active] [ref=f141e1]:
+  - generic [ref=f141e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f141e6]:
+      - generic [ref=f141e7]:
+        - generic [ref=f141e8]:
+          - link [ref=f141e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Kedebah logo" [ref=f141e12]
+          - generic [ref=f141e13]:
+            - textbox "Search anything here ..." [ref=f141e14]
+            - link "" [ref=f141e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f141e17]:
+          - text: 
+          - listitem [ref=f141e18]:
+            - link "" [ref=f141e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f141e21]:
+            - link "" [ref=f141e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f141e24]:
+            - link "" [ref=f141e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f141e27]:
+            - link "" [ref=f141e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f141e30]:
+            - button "" [ref=f141e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f141e33]:
+            - link "PM" [ref=f141e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f141e37]:
+      - navigation [ref=f141e40]:
+        - list [ref=f141e41]:
+          - listitem [ref=f141e42]:
+            - link " Dashboard" [ref=f141e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f141e44]: 
+              - generic [ref=f141e45]: Dashboard
+          - listitem [ref=f141e46]:
+            - link " Reports" [ref=f141e47] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f141e48]: 
+              - generic [ref=f141e49]: Reports
+    - generic [ref=f141e124]:
+      - generic [ref=f141e125]:
+        - generic [ref=f141e128]:
+          - link "Reports Centre" [ref=f141e129] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=f141e130]: 
+          - generic [ref=f141e131]: Payroll Summary Report
+        - generic [ref=f141e133]:
+          - heading "Payroll Summary Report" [level=1] [ref=f141e134]
+          - paragraph [ref=f141e135]: View total payroll cost, net pay, employee count, taxes, benefits, and deductions for a selected period.
+      - generic [ref=f141e136]:
+        - generic [ref=f141e137]:
+          - heading "Report Filters" [level=2] [ref=f141e139]
+          - generic [ref=f141e140]:
+            - generic [ref=f141e141]:
+              - generic [ref=f141e142]:
+                - generic [ref=f141e143]:
+                  - text: Payroll Period
+                  - generic [ref=f141e144]: "*"
+                - button "Payroll Period *" [ref=f141e146] [cursor=pointer]:
+                  - generic [ref=f141e147]: September 2026
+                  - generic [aria-hidden] [ref=f141e148]: 
+              - generic [ref=f141e164]:
+                - generic [ref=f141e165]: Pay Group (Optional)
+                - button "Pay Group (Optional)" [ref=f141e167] [cursor=pointer]:
+                  - generic [ref=f141e168]: All Pay Groups
+                  - generic [aria-hidden] [ref=f141e169]: 
+              - generic [ref=f141e149]:
+                - generic [ref=f141e150]:
+                  - text: Employee Scope
+                  - generic [ref=f141e151]: "*"
+                - button "Employee Scope *" [ref=f141e153] [cursor=pointer]:
+                  - generic [ref=f141e154]: All Employees
+                  - generic [aria-hidden] [ref=f141e155]: 
+            - generic [ref=f141e156]:
+              - button "Reset Filters" [ref=f141e157] [cursor=pointer]
+              - button "Generate Report" [ref=f141e158] [cursor=pointer]
+        - generic [ref=f141e159]:
+          - generic [ref=f141e160]: 
+          - heading "No report generated yet" [level=3] [ref=f141e162]
+          - paragraph [ref=f141e163]: Select your filters above, then click Generate Report.
+    - contentinfo [ref=f141e115]:
+      - generic [ref=f141e117]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f141e118] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f141e120] [cursor=pointer]:
+    - generic [ref=f141e122]: 
+    - generic [ref=f141e123]: "1"

@@ -1,0 +1,76 @@
+- generic [ref=f1e124]:
+  - navigation [ref=f1e125]:
+    - generic [ref=f1e126]:
+      - link [ref=f1e127] [cursor=pointer]:
+        - /url: https://sbxkedebah-v2.npontu.com/R-2171-WRY
+      - button "Etornam Etornam eetornam5@gmail.com EE" [ref=f1e130] [cursor=pointer]:
+        - generic [ref=f1e131]:
+          - paragraph [ref=f1e132]: Etornam Etornam
+          - paragraph [ref=f1e133]: eetornam5@gmail.com
+        - generic [ref=f1e134]: EE
+  - main [ref=f1e138]:
+    - generic [ref=f1e143]:
+      - heading "Welcome back, Etornam Etornam!" [level=1] [ref=f1e145]
+      - generic [ref=f1e148]:
+        - textbox "Search modules, features, or settings..." [ref=f1e152]
+        - generic [ref=f1e153]: ⌘K
+      - generic [ref=f1e154]:
+        - heading "Enterprise Modules" [level=2] [ref=f1e155]
+        - button "Current Business Mary and Co" [ref=f1e157] [cursor=pointer]:
+          - generic [ref=f1e163]:
+            - generic [ref=f1e164]: Current Business
+            - generic [ref=f1e165]: Mary and Co
+      - generic [ref=f1e168]:
+        - generic [ref=f1e171] [cursor=pointer]:
+          - generic [ref=f1e172]:
+            - img "Administration" [ref=f1e174]
+            - generic [ref=f1e175]:
+              - heading "Administration" [level=5] [ref=f1e176]
+              - generic [ref=f1e177]: ACTIVE
+          - paragraph [ref=f1e178]: Centralized oversight for system permissions, security protocols, and global configurations
+        - generic [ref=f1e184] [cursor=pointer]:
+          - generic [ref=f1e185]:
+            - img "Payroll Manager" [ref=f1e187]
+            - generic [ref=f1e188]:
+              - heading "Payroll Manager" [level=5] [ref=f1e189]
+              - generic [ref=f1e190]: ACTIVE
+          - paragraph [ref=f1e191]: Automates salary calculations, tax withholdings, and direct deposits for the entire workforce
+        - generic [ref=f1e197] [cursor=pointer]:
+          - generic [ref=f1e198]:
+            - img "HR Manager" [ref=f1e200]
+            - generic [ref=f1e201]:
+              - heading "HR Manager" [level=5] [ref=f1e202]
+              - generic [ref=f1e203]: ACTIVE
+          - paragraph [ref=f1e204]: Manages the entire employee lifecycle from onboarding to performance reviews, contracts, workforce planning and offboarding
+        - generic [ref=f1e210] [cursor=pointer]:
+          - generic [ref=f1e211]:
+            - img "CRM" [ref=f1e213]
+            - generic [ref=f1e214]:
+              - heading "CRM" [level=5] [ref=f1e215]
+              - generic [ref=f1e216]: ACTIVE
+          - paragraph [ref=f1e217]: Manages lead pipelines, maintain long-term loyalty, customer interactions, and sales history
+        - generic [ref=f1e223] [cursor=pointer]:
+          - generic [ref=f1e224]:
+            - img "PIM" [ref=f1e226]
+            - generic [ref=f1e227]:
+              - heading "PIM" [level=5] [ref=f1e228]
+              - generic [ref=f1e229]: ACTIVE
+          - paragraph [ref=f1e230]: Secure repository for employee profiles, credentials, and personal documentation
+        - generic [ref=f1e236] [cursor=pointer]:
+          - generic [ref=f1e237]:
+            - img "Procurement Manager" [ref=f1e239]
+            - generic [ref=f1e240]:
+              - heading "Procurement Manager" [level=5] [ref=f1e241]
+              - generic [ref=f1e242]: ACTIVE
+          - paragraph [ref=f1e243]: Streamlines the purchasing process, from vendor selection to purchase orders, approvals and replenishments
+        - generic [ref=f1e249] [cursor=pointer]:
+          - generic [ref=f1e250]:
+            - img "Project Tracker" [ref=f1e252]
+            - generic [ref=f1e253]:
+              - heading "Project Tracker" [level=5] [ref=f1e254]
+              - generic [ref=f1e255]: ACTIVE
+          - paragraph [ref=f1e256]: Tracks tasks, timelines, and resource allocation to ensure projects stay on schedule
+      - generic [ref=f1e260]:
+        - paragraph [ref=f1e261]: Need to add another company?
+        - link "Add New Business" [ref=f1e262] [cursor=pointer]:
+          - /url: https://sbxkedebah-v2.npontu.com/R-2171-WRY/clients/add-business

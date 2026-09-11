@@ -1,0 +1,6 @@
+[    8680ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff2?t=1708865856766 @ https://v2payroll.kedebahlite.com/taxes:0
+[    8680ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/taxes:0
+[    9808ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff?t=1708865856766 @ https://v2payroll.kedebahlite.com/taxes:0
+[    9808ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/taxes:0
+[   10814ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.ttf?t=1708865856766 @ https://v2payroll.kedebahlite.com/taxes:0
+[   10814ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/taxes:0

@@ -1,0 +1,137 @@
+- generic [ref=f10e1]:
+  - generic [ref=f10e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f10e6]:
+      - generic [ref=f10e7]:
+        - generic [ref=f10e8]:
+          - link [ref=f10e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f10e12]
+          - generic [ref=f10e13]:
+            - textbox "Search anything here ..." [ref=f10e14]
+            - link "" [ref=f10e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f10e17]:
+          - text: 
+          - listitem [ref=f10e18]:
+            - link "" [ref=f10e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f10e21]:
+            - link "" [ref=f10e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f10e24]:
+            - link "" [ref=f10e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f10e27]:
+            - link "" [ref=f10e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f10e30]:
+            - button "" [ref=f10e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f10e33]:
+            - link "PM" [ref=f10e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f10e37]:
+      - navigation [ref=f10e40]:
+        - list [ref=f10e41]:
+          - listitem [ref=f10e42]:
+            - link " Dashboard" [ref=f10e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f10e44]: 
+              - generic [ref=f10e45]: Dashboard
+          - listitem [ref=f10e46]:
+            - generic [ref=f10e47]:
+              - link " Employees" [ref=f10e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f10e49]: 
+                - generic [ref=f10e50]: Employees
+              - button "Toggle submenu" [ref=f10e51] [cursor=pointer]:
+                - generic [ref=f10e52]: 
+          - listitem [ref=f10e53]:
+            - link " Run Payroll" [ref=f10e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f10e55]: 
+              - generic [ref=f10e56]: Run Payroll
+          - listitem [ref=f10e57]:
+            - generic [ref=f10e58]:
+              - link " Taxes & Forms" [ref=f10e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f10e60]: 
+                - generic [ref=f10e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f10e62] [cursor=pointer]:
+                - generic [ref=f10e63]: 
+          - listitem [ref=f10e64]:
+            - link " Reports" [ref=f10e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f10e66]: 
+              - generic [ref=f10e67]: Reports
+          - listitem [ref=f10e68]:
+            - link " Settings" [ref=f10e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f10e70]: 
+              - generic [ref=f10e71]: Settings
+    - generic [ref=f10e74]:
+      - generic [ref=f10e77]:
+        - generic [ref=f10e78]:
+          - heading "Payroll Runs" [level=1] [ref=f10e79]
+          - paragraph [ref=f10e80]: Process regular payroll, bonuses, off-cycle payments, and termination payroll.
+        - generic [ref=f10e82]:
+          - button " Reset" [ref=f10e83] [cursor=pointer]:
+            - generic [ref=f10e84]: 
+            - text: Reset
+          - button " Create Pay Run " [ref=f10e86] [cursor=pointer]:
+            - generic [ref=f10e87]: 
+            - text: Create Pay Run
+            - generic [ref=f10e88]: 
+      - generic [ref=f10e90]:
+        - navigation [ref=f10e92]:
+          - button " Run Payroll" [ref=f10e93] [cursor=pointer]:
+            - generic [ref=f10e94]: 
+            - generic [ref=f10e95]: Run Payroll
+          - button " Payroll History" [ref=f10e97] [cursor=pointer]:
+            - generic [ref=f10e98]: 
+            - generic [ref=f10e99]: Payroll History
+        - generic [ref=f10e101]:
+          - generic [ref=f10e102]:
+            - generic [ref=f10e103]:
+              - generic [ref=f10e104]: Search
+              - generic [ref=f10e105]:
+                - generic: 
+                - textbox "Search pay runs..." [ref=f10e106]
+            - generic [ref=f10e107]:
+              - generic [ref=f10e108]: Type
+              - button [ref=f10e111] [cursor=pointer]:
+                - generic [ref=f10e112]: All Types
+                - generic [aria-hidden] [ref=f10e113]: 
+            - generic [ref=f10e114]:
+              - generic [ref=f10e115]: Status
+              - button [ref=f10e118] [cursor=pointer]:
+                - generic [ref=f10e119]: All statuses
+                - generic [aria-hidden] [ref=f10e120]: 
+            - generic [ref=f10e121]:
+              - generic [ref=f10e122]: Pay date from · Jun 8, 2026
+              - textbox [ref=f10e123]: 2026-06-08
+            - generic [ref=f10e124]:
+              - generic [ref=f10e125]: Pay date to · Sep 8, 2026
+              - textbox [ref=f10e126]: 2026-09-08
+            - button " Clear filters" [ref=f10e127] [cursor=pointer]:
+              - generic [ref=f10e128]: 
+              - text: Clear filters
+          - generic [ref=f10e129]:
+            - generic [ref=f10e130]: 
+            - heading "No Active Payrolls" [level=3] [ref=f10e132]
+            - paragraph [ref=f10e133]: You don't have any payrolls in draft or approved status. Create a new payroll run to get started.
+            - button " Create Pay Run" [active] [ref=f10e134] [cursor=pointer]:
+              - generic [ref=f10e135]: 
+              - text: Create Pay Run
+    - contentinfo [ref=f10e136]:
+      - generic [ref=f10e138]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f10e139] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f10e141] [cursor=pointer]:
+    - generic [ref=f10e143]: 
+    - generic [ref=f10e144]: "1"

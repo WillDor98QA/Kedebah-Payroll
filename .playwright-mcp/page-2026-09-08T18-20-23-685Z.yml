@@ -1,0 +1,32 @@
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - generic [ref=e11]:
+      - link:
+        - /url: /
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - heading "Welcome Back!" [level=5] [ref=e17]
+        - paragraph [ref=e18]: Sign in to continue to Kedebah.
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]: Email Address *
+          - textbox "Email Address *" [ref=e23]:
+            - /placeholder: Enter your email
+        - link "Forgot password?" [ref=e28] [cursor=pointer]:
+          - /url: https://v2super-admin.kedebahlite.com/forgot-password
+        - generic [ref=e29]:
+          - generic [ref=e30]: Password *
+          - generic [ref=e31]:
+            - textbox "Password *" [ref=e32]:
+              - /placeholder: Enter your password
+            - button:
+              - img [ref=e36] [cursor=pointer]
+        - generic [ref=e39]:
+          - checkbox "Remember me" [ref=e40] [cursor=pointer]
+          - generic [ref=e41] [cursor=pointer]: Remember me
+        - button "Sign In" [ref=e44] [cursor=pointer]
+  - contentinfo [ref=e45]:
+    - paragraph [ref=e50]:
+      - text: © 2026 Kedebah. Crafted with
+      - generic [ref=e51]: 󰋑
+      - text: by Npontu Technologies

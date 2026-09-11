@@ -1,0 +1,213 @@
+- generic [active] [ref=f42e1]:
+  - generic [ref=f42e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f42e6]:
+      - generic [ref=f42e7]:
+        - generic [ref=f42e8]:
+          - link [ref=f42e202] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f42e203]
+          - generic [ref=f42e13]:
+            - textbox "Search anything here ..." [ref=f42e14]
+            - link "" [ref=f42e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f42e17]:
+          - text: 
+          - listitem [ref=f42e18]:
+            - link "" [ref=f42e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f42e21]:
+            - link "" [ref=f42e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f42e24]:
+            - link "" [ref=f42e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f42e27]:
+            - link "" [ref=f42e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f42e30]:
+            - button "" [ref=f42e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f42e33]:
+            - link "PM" [ref=f42e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f42e37]:
+      - navigation [ref=f42e40]:
+        - list [ref=f42e41]:
+          - listitem [ref=f42e42]:
+            - link " Dashboard" [ref=f42e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f42e44]: 
+              - generic [ref=f42e45]: Dashboard
+          - listitem [ref=f42e46]:
+            - generic [ref=f42e47]:
+              - link " Employees" [ref=f42e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f42e49]: 
+                - generic [ref=f42e50]: Employees
+              - button "Toggle submenu" [ref=f42e51] [cursor=pointer]:
+                - generic [ref=f42e52]: 
+          - listitem [ref=f42e53]:
+            - link " Run Payroll" [ref=f42e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f42e55]: 
+              - generic [ref=f42e56]: Run Payroll
+          - listitem [ref=f42e57]:
+            - generic [ref=f42e58]:
+              - link " Taxes & Forms" [ref=f42e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f42e60]: 
+                - generic [ref=f42e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f42e62] [cursor=pointer]:
+                - generic [ref=f42e63]: 
+          - listitem [ref=f42e64]:
+            - link " Reports" [ref=f42e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f42e66]: 
+              - generic [ref=f42e67]: Reports
+          - listitem [ref=f42e68]:
+            - link " Settings" [ref=f42e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f42e70]: 
+              - generic [ref=f42e71]: Settings
+    - generic [ref=f42e402]:
+      - generic [ref=f42e403]:
+        - generic [ref=f42e404]:
+          - generic [ref=f42e405]:
+            - heading "ZZQA PAYE Band-Edge Test" [level=1] [ref=f42e406]
+            - generic [ref=f42e407]:
+              - generic [ref=f42e408]:
+                - generic [ref=f42e409]: 
+                - text: Off-Cycle Payroll
+              - generic [ref=f42e410]: Draft
+          - generic [ref=f42e411]:
+            - button " Back" [ref=f42e412] [cursor=pointer]:
+              - generic [ref=f42e413]: 
+              - text: Back
+            - button " Process" [disabled] [ref=f42e414] [cursor=pointer]:
+              - generic [ref=f42e415]: 
+              - text: Process
+        - generic [ref=f42e417]:
+          - generic [ref=f42e418]:
+            - generic [ref=f42e419]: 
+            - generic [ref=f42e420]: Sep 9, 2026 – Sep 9, 2026
+          - generic [ref=f42e421]:
+            - generic [ref=f42e422]: 
+            - text: Pay date
+            - generic [ref=f42e423]: Sep 9, 2026
+          - generic [ref=f42e424]:
+            - generic [ref=f42e425]: 
+            - generic [ref=f42e426]: "1"
+            - text: employees
+      - generic [ref=f42e428]:
+        - generic [ref=f42e429]: 
+        - generic [ref=f42e430]:
+          - paragraph [ref=f42e431]: Setup from create (used when processing)
+          - generic [ref=f42e432]:
+            - generic [ref=f42e433]: "Benefits: No"
+            - generic [ref=f42e434]: "Deductions: No"
+            - generic [ref=f42e435]: "Regular salary: No"
+          - paragraph [ref=f42e436]: 1 employee(s) with custom earnings/deductions configured
+      - generic [ref=f42e438]:
+        - generic [ref=f42e439]: 
+        - generic [ref=f42e440]:
+          - paragraph [ref=f42e441]: Draft — Not Yet Processed
+          - paragraph [ref=f42e442]:
+            - text: Pay amounts are hidden until this payroll is processed. Click
+            - strong [ref=f42e443]: Process
+            - text: to calculate gross pay, taxes, deductions, and net pay for all employees.
+      - generic [ref=f42e444]:
+        - heading "Overview" [level=2] [ref=f42e445]
+        - generic [ref=f42e446]:
+          - generic [ref=f42e447]:
+            - paragraph [ref=f42e448]: Period
+            - paragraph [ref=f42e449]: Sep 9, 2026 – Sep 9, 2026
+          - generic [ref=f42e450]:
+            - paragraph [ref=f42e451]: Pay date
+            - paragraph [ref=f42e452]: Sep 9, 2026
+          - generic [ref=f42e453]:
+            - paragraph [ref=f42e454]: Employees
+            - paragraph [ref=f42e455]: "1"
+      - generic [ref=f42e457]:
+        - button "Employee Summary" [ref=f42e458] [cursor=pointer]
+        - button "Tax Summary" [ref=f42e459] [cursor=pointer]
+        - button "Benefits & Deductions Summary" [ref=f42e460] [cursor=pointer]
+        - button "Leave Review" [ref=f42e461] [cursor=pointer]
+        - button "Attendance Review" [ref=f42e462] [cursor=pointer]
+      - generic [ref=f42e464]:
+        - generic [ref=f42e465]:
+          - generic [ref=f42e467]:
+            - generic [ref=f42e468]: 
+            - text: 1 on this pay run
+          - generic [ref=f42e469]:
+            - paragraph [ref=f42e470]:
+              - generic [ref=f42e471]: 
+              - text: Reading Status & Issues columns
+            - generic [ref=f42e472]:
+              - generic [ref=f42e473]:
+                - generic [ref=f42e474]: Status
+                - paragraph [ref=f42e475]: "Worst signal wins: Blocked → Ineligible → Incomplete → Warning → Ready. Hover the badge for detail."
+              - generic [ref=f42e476]:
+                - generic [ref=f42e477]: Issues
+                - paragraph [ref=f42e478]:
+                  - text: Blockers, warnings, and profile gaps. Use the
+                  - generic [ref=f42e479]: 
+                  - text: action for the full breakdown.
+        - generic [ref=f42e480]:
+          - generic [ref=f42e481]:
+            - generic [ref=f42e482]:
+              - generic [ref=f42e483]:
+                - generic [ref=f42e484]: 1 result
+                - button " Add Employees" [ref=f42e489] [cursor=pointer]:
+                  - generic [ref=f42e490]: 
+                  - text: Add Employees
+              - generic [ref=f42e494]:
+                - generic [aria-hidden]:
+                  - generic: 
+                - textbox "Search by name, ID, or department..." [ref=f42e495]
+            - table [ref=f42e499]:
+              - rowgroup [ref=f42e506]:
+                - row [ref=f42e507]:
+                  - columnheader "Employee" [ref=f42e508]
+                  - columnheader "Department" [ref=f42e511]
+                  - columnheader "Status" [ref=f42e514]
+                  - columnheader "Issues" [ref=f42e517]
+                  - columnheader [ref=f42e520]
+              - rowgroup [ref=f42e521]:
+                - row [ref=f42e522]:
+                  - cell "ZZQA AlphaOne ZZQA-001 · Software Engineer" [ref=f42e523]:
+                    - generic [ref=f42e525]:
+                      - generic "ZZQA AlphaOne" [ref=f42e526]
+                      - generic "ZZQA-001 · Software Engineer" [ref=f42e528]
+                  - cell "Software Engineer" [ref=f42e529]
+                  - cell "Ready" [ref=f42e530]
+                  - cell "—" [ref=f42e534]
+                  - cell [ref=f42e538]:
+                    - generic [ref=f42e540]:
+                      - button "" [ref=f42e541] [cursor=pointer]
+                      - button "" [ref=f42e543] [cursor=pointer]
+          - generic [ref=f42e545]:
+            - generic [ref=f42e546]:
+              - generic [ref=f42e547]:
+                - generic [ref=f42e548]: Rows per page
+                - button [ref=f42e551] [cursor=pointer]:
+                  - generic [ref=f42e552]: "10"
+                  - generic [aria-hidden] [ref=f42e553]: 
+              - generic [ref=f42e554]: Showing 1-1 of 1 entries
+            - generic [ref=f42e555]:
+              - generic [ref=f42e556]: Page 1 of 1
+              - generic [ref=f42e557]:
+                - button "" [disabled] [ref=f42e558] [cursor=pointer]
+                - button "1" [ref=f42e560] [cursor=pointer]
+                - button "" [disabled] [ref=f42e561] [cursor=pointer]
+    - contentinfo [ref=f42e193]:
+      - generic [ref=f42e195]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f42e196] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f42e198] [cursor=pointer]:
+    - generic [ref=f42e200]: 
+    - generic [ref=f42e201]: "1"

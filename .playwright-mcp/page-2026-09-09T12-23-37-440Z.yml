@@ -1,0 +1,232 @@
+- generic [ref=f129e1]:
+  - generic [ref=f129e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f129e6]:
+      - generic [ref=f129e7]:
+        - generic [ref=f129e8]:
+          - link [ref=f129e169] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f129e170]
+          - generic [ref=f129e13]:
+            - textbox "Search anything here ..." [ref=f129e14]
+            - link "" [ref=f129e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f129e17]:
+          - text: 
+          - listitem [ref=f129e18]:
+            - link "" [ref=f129e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f129e21]:
+            - link "" [ref=f129e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f129e24]:
+            - link "" [ref=f129e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f129e27]:
+            - link "" [ref=f129e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f129e30]:
+            - button "" [ref=f129e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f129e33]:
+            - link "PM" [active] [ref=f129e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - menu [ref=f129e1784]:
+              - listitem [ref=f129e1785]:
+                - generic [ref=f129e1786]:
+                  - text: User
+                  - generic [ref=f129e1787]: dwilliametornam+32@gmail.com
+              - listitem [ref=f129e1788]:
+                - link " Profile" [ref=f129e1789] [cursor=pointer]:
+                  - /url: /settings
+                  - generic [ref=f129e1790]: 
+                  - text: Profile
+              - listitem [ref=f129e1791]:
+                - link " Settings" [ref=f129e1792] [cursor=pointer]:
+                  - /url: /settings
+                  - generic [ref=f129e1793]: 
+                  - text: Settings
+              - listitem [ref=f129e1794]:
+                - link " Log Out" [ref=f129e1795] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=f129e1796]: 
+                  - text: Log Out
+    - complementary [ref=f129e37]:
+      - navigation [ref=f129e40]:
+        - list [ref=f129e41]:
+          - listitem [ref=f129e42]:
+            - link " Dashboard" [ref=f129e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f129e44]: 
+              - generic [ref=f129e45]: Dashboard
+          - listitem [ref=f129e46]:
+            - generic [ref=f129e47]:
+              - link " Employees" [ref=f129e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f129e49]: 
+                - generic [ref=f129e50]: Employees
+              - button "Toggle submenu" [ref=f129e51] [cursor=pointer]:
+                - generic [ref=f129e52]: 
+          - listitem [ref=f129e53]:
+            - link " Run Payroll" [ref=f129e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f129e55]: 
+              - generic [ref=f129e56]: Run Payroll
+          - listitem [ref=f129e57]:
+            - generic [ref=f129e58]:
+              - link " Taxes & Forms" [ref=f129e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f129e60]: 
+                - generic [ref=f129e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f129e62] [cursor=pointer]:
+                - generic [ref=f129e63]: 
+          - listitem [ref=f129e64]:
+            - link " Reports" [ref=f129e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f129e66]: 
+              - generic [ref=f129e67]: Reports
+          - listitem [ref=f129e68]:
+            - link " Settings" [ref=f129e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f129e70]: 
+              - generic [ref=f129e71]: Settings
+    - generic [ref=f129e1799]:
+      - generic [ref=f129e1802]:
+        - button " Back to Payroll Review" [ref=f129e1803] [cursor=pointer]:
+          - generic [ref=f129e1804]: 
+          - text: Back to Payroll Review
+        - generic [ref=f129e1805]:
+          - heading "ZZQA Bonus Test Sep 2026" [level=1] [ref=f129e1806]
+          - generic [ref=f129e1807]:
+            - generic [ref=f129e1808]: 
+            - text: Bonus
+          - generic [ref=f129e1809]: Pending Approval
+        - paragraph [ref=f129e1810]: "Sep 1, 2026 – Sep 30, 2026 · Pay date: Sep 9, 2026"
+      - generic [ref=f129e1812]:
+        - generic [ref=f129e1813]:
+          - generic [ref=f129e1814]: 
+          - generic [ref=f129e1815]:
+            - paragraph [ref=f129e1816]: Tax Safeguards
+            - paragraph [ref=f129e1817]: 0 hard blockers and 0 unacknowledged warnings. Open the list to review and acknowledge before approving.
+        - button " View safeguards (3)" [ref=f129e1819] [cursor=pointer]:
+          - generic [ref=f129e1820]: 
+          - text: View safeguards (3)
+      - generic [ref=f129e1821]:
+        - generic [ref=f129e1822]:
+          - generic [ref=f129e1823]:
+            - heading "Finance Journal Preview" [level=4] [ref=f129e1824]
+            - paragraph [ref=f129e1825]: How this pay run will post to finance. Read-only — nothing is sent yet.
+          - generic [ref=f129e1826]:
+            - generic [ref=f129e1827]: 
+            - text: Balanced
+        - generic [ref=f129e1828]:
+          - generic [ref=f129e1829]:
+            - text: 4 line(s) have no account. Set a default account on
+            - link "Finance Posting" [ref=f129e1830] [cursor=pointer]:
+              - /url: /setup/finance-posting
+            - text: before posting.
+          - generic [ref=f129e1831]:
+            - generic [ref=f129e1832]:
+              - generic [ref=f129e1833]: Debit — what the company spent
+              - table [ref=f129e1834]:
+                - rowgroup [ref=f129e1835]:
+                  - row [ref=f129e1836]:
+                    - cell "Bonus Unmapped — set a default" [ref=f129e1837]:
+                      - generic [ref=f129e1838]: Bonus
+                      - generic [ref=f129e1839]: Unmapped — set a default
+                    - cell "GH₵ 11,000.00" [ref=f129e1840]
+                - rowgroup [ref=f129e1841]:
+                  - row [ref=f129e1842]:
+                    - cell "Total Debits" [ref=f129e1843]
+                    - cell "GH₵ 11,000.00" [ref=f129e1844]
+            - generic [ref=f129e1845]:
+              - generic [ref=f129e1846]: Credit — what it owes / pays out
+              - table [ref=f129e1847]:
+                - rowgroup [ref=f129e1848]:
+                  - row [ref=f129e1849]:
+                    - cell "Net Salaries Payable Unmapped — set a default" [ref=f129e1850]:
+                      - generic [ref=f129e1851]: Net Salaries Payable
+                      - generic [ref=f129e1852]: Unmapped — set a default
+                    - cell "GH₵ 10,009.63" [ref=f129e1853]
+                  - row [ref=f129e1854]:
+                    - cell "Bonus Tax (Employee) Unmapped — set a default" [ref=f129e1855]:
+                      - generic [ref=f129e1856]: Bonus Tax (Employee)
+                      - generic [ref=f129e1857]: Unmapped — set a default
+                    - cell "GH₵ 420.00" [ref=f129e1858]
+                  - row [ref=f129e1859]:
+                    - cell "PAYE (Income Tax) (Employee) Unmapped — set a default" [ref=f129e1860]:
+                      - generic [ref=f129e1861]: PAYE (Income Tax) (Employee)
+                      - generic [ref=f129e1862]: Unmapped — set a default
+                    - cell "GH₵ 570.37" [ref=f129e1863]
+                - rowgroup [ref=f129e1864]:
+                  - row [ref=f129e1865]:
+                    - cell "Total Credits" [ref=f129e1866]
+                    - cell "GH₵ 11,000.00" [ref=f129e1867]
+      - generic [ref=f129e1868]:
+        - generic [ref=f129e1869]:
+          - heading " Workflow Steps" [level=2] [ref=f129e1871]:
+            - generic [ref=f129e1872]: 
+            - text: Workflow Steps
+          - generic [ref=f129e1873]:
+            - generic [ref=f129e1877]:
+              - generic [ref=f129e1878]: 
+              - generic [ref=f129e1880]:
+                - generic [ref=f129e1881]:
+                  - generic [ref=f129e1882]: ZZQA Manager Review
+                  - generic [ref=f129e1883]: approved
+                - generic [ref=f129e1884]:
+                  - generic [ref=f129e1885]: Sequential
+                  - generic [ref=f129e1886]: User
+                - generic [ref=f129e1887]: "Approvers: ZZQA Manager Persona"
+                - generic [ref=f129e1888]:
+                  - generic [ref=f129e1889]:
+                    - text: Submitted for approval
+                    - generic [ref=f129e1890]: 9 Sept 2026, 11:05
+                  - generic [ref=f129e1891]:
+                    - text: ZZQA Manager Persona approved
+                    - generic [ref=f129e1892]: 9 Sept 2026, 11:48
+                    - paragraph [ref=f129e1893]: "\"QA: stage-1 manager approval — workflow verification\""
+            - generic [ref=f129e1896]:
+              - generic [ref=f129e1897]: "2"
+              - generic [ref=f129e1899]:
+                - generic [ref=f129e1900]:
+                  - generic [ref=f129e1901]: ZZQA Admin Signoff
+                  - generic [ref=f129e1902]: pending
+                  - generic [ref=f129e1903]: Current
+                - generic [ref=f129e1904]:
+                  - generic [ref=f129e1905]: Sequential
+                  - generic [ref=f129e1906]: User
+                - generic [ref=f129e1907]: "Approvers: ZZQA Admin Persona"
+                - paragraph [ref=f129e1909]: Awaiting approval
+        - generic [ref=f129e1910]:
+          - heading " Activity History" [level=2] [ref=f129e1912]:
+            - generic [ref=f129e1913]: 
+            - text: Activity History
+          - generic [ref=f129e1915]:
+            - generic [ref=f129e1917]:
+              - generic [ref=f129e1918]: 
+              - generic [ref=f129e1921]:
+                - generic [ref=f129e1922]:
+                  - generic [ref=f129e1923]: ZZQA Manager Persona
+                  - generic [ref=f129e1924]: 9 Sept 2026, 11:48
+                - generic [ref=f129e1925]: Approved · ZZQA Manager Review
+                - paragraph [ref=f129e1926]: "\"QA: stage-1 manager approval — workflow verification\""
+            - generic [ref=f129e1927]:
+              - generic [ref=f129e1928]: 
+              - generic [ref=f129e1931]:
+                - generic [ref=f129e1932]:
+                  - generic [ref=f129e1933]: Broni Danso
+                  - generic [ref=f129e1934]: 9 Sept 2026, 11:05
+                - generic [ref=f129e1935]: Submitted · ZZQA Manager Review
+    - contentinfo [ref=f129e160]:
+      - generic [ref=f129e162]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f129e163] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "Scroll to top" [ref=f129e1936] [cursor=pointer]:
+    - generic [aria-hidden] [ref=f129e1937]: 
+  - button "1 compliance alert(s) — open list" [ref=f129e165] [cursor=pointer]:
+    - generic [ref=f129e167]: 
+    - generic [ref=f129e168]: "1"

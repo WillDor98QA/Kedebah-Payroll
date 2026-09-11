@@ -1,0 +1,121 @@
+- generic [ref=f74e1]:
+  - generic [ref=f74e5]:
+    - region "Notifications alt+T":
+      - list:
+        - listitem [ref=f74e1400]:
+          - generic [ref=f74e1404]: Please select a Payroll Period
+    - banner [ref=f74e6]:
+      - generic [ref=f74e7]:
+        - generic [ref=f74e8]:
+          - link [ref=f74e117] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f74e118]
+          - generic [ref=f74e13]:
+            - textbox "Search anything here ..." [ref=f74e14]
+            - link "" [ref=f74e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f74e17]:
+          - text: 
+          - listitem [ref=f74e18]:
+            - link "" [ref=f74e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f74e21]:
+            - link "" [ref=f74e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f74e24]:
+            - link "" [ref=f74e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f74e27]:
+            - link "" [ref=f74e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f74e30]:
+            - button "" [ref=f74e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f74e33]:
+            - link "PM" [ref=f74e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f74e37]:
+      - navigation [ref=f74e40]:
+        - list [ref=f74e41]:
+          - listitem [ref=f74e42]:
+            - link " Dashboard" [ref=f74e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f74e44]: 
+              - generic [ref=f74e45]: Dashboard
+          - listitem [ref=f74e46]:
+            - generic [ref=f74e47]:
+              - link " Employees" [ref=f74e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f74e49]: 
+                - generic [ref=f74e50]: Employees
+              - button "Toggle submenu" [ref=f74e51] [cursor=pointer]:
+                - generic [ref=f74e52]: 
+          - listitem [ref=f74e53]:
+            - link " Run Payroll" [ref=f74e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f74e55]: 
+              - generic [ref=f74e56]: Run Payroll
+          - listitem [ref=f74e57]:
+            - generic [ref=f74e58]:
+              - link " Taxes & Forms" [ref=f74e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f74e60]: 
+                - generic [ref=f74e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f74e62] [cursor=pointer]:
+                - generic [ref=f74e63]: 
+          - listitem [ref=f74e64]:
+            - link " Reports" [ref=f74e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f74e66]: 
+              - generic [ref=f74e67]: Reports
+          - listitem [ref=f74e68]:
+            - link " Settings" [ref=f74e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f74e70]: 
+              - generic [ref=f74e71]: Settings
+    - generic [ref=f74e1360]:
+      - generic [ref=f74e1361]:
+        - generic [ref=f74e1364]:
+          - link "Reports Centre" [ref=f74e1365] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=f74e1366]: 
+          - generic [ref=f74e1367]: Payroll Summary Report
+        - generic [ref=f74e1369]:
+          - heading "Payroll Summary Report" [level=1] [ref=f74e1370]
+          - paragraph [ref=f74e1371]: View total payroll cost, net pay, employee count, taxes, benefits, and deductions for a selected period.
+      - generic [ref=f74e1372]:
+        - generic [ref=f74e1373]:
+          - heading "Report Filters" [level=2] [ref=f74e1375]
+          - generic [ref=f74e1376]:
+            - generic [ref=f74e1377]:
+              - generic [ref=f74e1378]:
+                - generic [ref=f74e1379]:
+                  - text: Payroll Period
+                  - generic [ref=f74e1380]: "*"
+                - button "Payroll Period *" [ref=f74e1382] [cursor=pointer]:
+                  - generic [ref=f74e1383]: Select a period
+                  - generic [aria-hidden] [ref=f74e1384]: 
+              - generic [ref=f74e1385]:
+                - generic [ref=f74e1386]:
+                  - text: Employee Scope
+                  - generic [ref=f74e1387]: "*"
+                - button "Employee Scope *" [ref=f74e1389] [cursor=pointer]:
+                  - generic [ref=f74e1390]: All Employees
+                  - generic [aria-hidden] [ref=f74e1391]: 
+            - generic [ref=f74e1392]:
+              - button "Reset Filters" [ref=f74e1393] [cursor=pointer]
+              - button "Generate Report" [active] [ref=f74e1394] [cursor=pointer]
+        - generic [ref=f74e1395]:
+          - generic [ref=f74e1396]: 
+          - heading "No report generated yet" [level=3] [ref=f74e1398]
+          - paragraph [ref=f74e1399]: Select your filters above, then click Generate Report.
+    - contentinfo [ref=f74e108]:
+      - generic [ref=f74e110]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f74e111] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f74e113] [cursor=pointer]:
+    - generic [ref=f74e115]: 
+    - generic [ref=f74e116]: "1"

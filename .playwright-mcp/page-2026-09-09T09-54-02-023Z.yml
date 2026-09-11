@@ -1,0 +1,104 @@
+- generic [active] [ref=f75e1]:
+  - generic [ref=f75e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f75e6]:
+      - generic [ref=f75e7]:
+        - generic [ref=f75e8]:
+          - link [ref=f75e192] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f75e193]
+          - generic [ref=f75e13]:
+            - textbox "Search anything here ..." [ref=f75e14]
+            - link "" [ref=f75e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f75e17]:
+          - text: 
+          - listitem [ref=f75e18]:
+            - link "" [ref=f75e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f75e21]:
+            - link "" [ref=f75e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f75e24]:
+            - link "" [ref=f75e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f75e27]:
+            - link "" [ref=f75e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f75e30]:
+            - button "" [ref=f75e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f75e33]:
+            - link "PM" [ref=f75e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f75e37]:
+      - navigation [ref=f75e40]:
+        - list [ref=f75e41]:
+          - listitem [ref=f75e42]:
+            - link " Dashboard" [ref=f75e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f75e44]: 
+              - generic [ref=f75e45]: Dashboard
+          - listitem [ref=f75e46]:
+            - generic [ref=f75e47]:
+              - link " Employees" [ref=f75e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f75e49]: 
+                - generic [ref=f75e50]: Employees
+              - button "Toggle submenu" [ref=f75e51] [cursor=pointer]:
+                - generic [ref=f75e52]: 
+          - listitem [ref=f75e53]:
+            - link " Run Payroll" [ref=f75e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f75e55]: 
+              - generic [ref=f75e56]: Run Payroll
+          - listitem [ref=f75e57]:
+            - generic [ref=f75e58]:
+              - link " Taxes & Forms" [ref=f75e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f75e60]: 
+                - generic [ref=f75e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f75e62] [cursor=pointer]:
+                - generic [ref=f75e63]: 
+          - listitem [ref=f75e64]:
+            - link " Reports" [ref=f75e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f75e66]: 
+              - generic [ref=f75e67]: Reports
+          - listitem [ref=f75e68]:
+            - link " Settings" [ref=f75e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f75e70]: 
+              - generic [ref=f75e71]: Settings
+    - generic [ref=f75e194]:
+      - generic [ref=f75e196]:
+        - generic [ref=f75e197]:
+          - button "" [ref=f75e198] [cursor=pointer]
+          - generic [ref=f75e200]:
+            - heading "Compensation Change History" [level=1] [ref=f75e201]
+            - paragraph [ref=f75e202]: Every change to a benefit amount, deduction amount or salary — what it was, what it became, and who changed it.
+        - button " Export " [ref=f75e204] [cursor=pointer]:
+          - generic [ref=f75e205]: 
+          - text: Export
+          - generic [ref=f75e206]: 
+      - generic [ref=f75e209]:
+        - generic [ref=f75e210]:
+          - text: Changed from
+          - textbox "Changed from" [ref=f75e211]
+        - generic [ref=f75e212]:
+          - text: Changed to
+          - textbox "Changed to" [ref=f75e213]
+        - button " Apply" [ref=f75e214] [cursor=pointer]:
+          - generic [ref=f75e215]: 
+          - text: Apply
+    - contentinfo [ref=f75e137]:
+      - generic [ref=f75e139]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f75e140] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f75e142] [cursor=pointer]:
+    - generic [ref=f75e144]: 
+    - generic [ref=f75e145]: "1"

@@ -1,0 +1,413 @@
+- generic [ref=f16e1]:
+  - generic [ref=f16e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f16e6]:
+      - generic [ref=f16e7]:
+        - generic [ref=f16e8]:
+          - link [ref=f16e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f16e12]
+          - generic [ref=f16e13]:
+            - textbox "Search anything here ..." [ref=f16e14]
+            - link "" [ref=f16e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f16e17]:
+          - text: 
+          - listitem [ref=f16e18]:
+            - link "" [ref=f16e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f16e21]:
+            - link "" [ref=f16e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f16e24]:
+            - link "" [ref=f16e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f16e27]:
+            - link "" [ref=f16e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f16e30]:
+            - button "" [ref=f16e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f16e33]:
+            - link "PM" [ref=f16e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f16e37]:
+      - navigation [ref=f16e40]:
+        - list [ref=f16e41]:
+          - listitem [ref=f16e42]:
+            - link " Dashboard" [ref=f16e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f16e44]: 
+              - generic [ref=f16e45]: Dashboard
+          - listitem [ref=f16e46]:
+            - generic [ref=f16e47]:
+              - link " Employees" [ref=f16e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f16e49]: 
+                - generic [ref=f16e50]: Employees
+              - button "Toggle submenu" [ref=f16e51] [cursor=pointer]:
+                - generic [ref=f16e52]: 
+          - listitem [ref=f16e53]:
+            - link " Run Payroll" [ref=f16e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f16e55]: 
+              - generic [ref=f16e56]: Run Payroll
+          - listitem [ref=f16e57]:
+            - generic [ref=f16e58]:
+              - link " Taxes & Forms" [ref=f16e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f16e60]: 
+                - generic [ref=f16e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f16e62] [cursor=pointer]:
+                - generic [ref=f16e63]: 
+          - listitem [ref=f16e64]:
+            - link " Reports" [ref=f16e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f16e66]: 
+              - generic [ref=f16e67]: Reports
+          - listitem [ref=f16e68]:
+            - link " Settings" [ref=f16e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f16e70]: 
+              - generic [ref=f16e71]: Settings
+    - generic [ref=f16e74]:
+      - generic [ref=f16e76]:
+        - link " Back to Employees" [ref=f16e78] [cursor=pointer]:
+          - /url: /employees
+          - generic [ref=f16e79]: 
+          - text: Back to Employees
+        - generic [ref=f16e81]:
+          - heading "Add Employee" [level=1] [ref=f16e82]
+          - paragraph [ref=f16e83]: Add a new employee to your payroll system
+      - generic [ref=f16e84]:
+        - generic [ref=f16e86]:
+          - generic [ref=f16e88]:
+            - button "" [ref=f16e270] [cursor=pointer]
+            - generic [ref=f16e92]: Basic details
+          - generic [ref=f16e96]:
+            - button "" [ref=f16e335] [cursor=pointer]
+            - generic [ref=f16e100]: Compensation
+          - generic [ref=f16e104]:
+            - generic [ref=f16e105]: "3"
+            - generic [ref=f16e108]: Personal details
+          - generic [ref=f16e112]:
+            - generic [ref=f16e113]: "4"
+            - generic [ref=f16e116]: Tax details
+          - generic [ref=f16e120]:
+            - generic [ref=f16e121]: "5"
+            - generic [ref=f16e124]: Payment details
+          - generic [ref=f16e128]:
+            - generic [ref=f16e129]: "6"
+            - generic [ref=f16e132]: Benefits & Deductions
+        - generic [ref=f16e134]:
+          - generic [ref=f16e337]:
+            - generic [ref=f16e338]:
+              - generic [ref=f16e339]: "03"
+              - heading "Personal details" [level=3] [ref=f16e340]
+            - paragraph [ref=f16e341]: Enter personal information required for payroll processing.
+            - generic [ref=f16e342]:
+              - generic [ref=f16e343]:
+                - generic [ref=f16e344]:
+                  - generic [ref=f16e345]: Country of Origin *
+                  - button [expanded] [ref=f16e348] [cursor=pointer]:
+                    - generic [ref=f16e349]: Select country of origin
+                    - generic [aria-hidden] [ref=f16e350]: 
+                - generic [ref=f16e351]:
+                  - generic [ref=f16e352]: Marital Status *
+                  - button [ref=f16e355] [cursor=pointer]:
+                    - generic [ref=f16e356]: Select marital status
+                    - generic [aria-hidden] [ref=f16e357]: 
+                - generic [ref=f16e358]:
+                  - generic [ref=f16e359]: Date of Birth *
+                  - textbox [ref=f16e360]
+                - generic [ref=f16e361]:
+                  - generic [ref=f16e362]: Gender *
+                  - button [ref=f16e365] [cursor=pointer]:
+                    - generic [ref=f16e366]: Select gender
+                    - generic [aria-hidden] [ref=f16e367]: 
+              - generic [ref=f16e368]:
+                - generic [ref=f16e369]: Residential Address
+                - textbox "Enter full residential address" [ref=f16e370]
+              - generic [ref=f16e371]:
+                - generic [ref=f16e372]:
+                  - generic [ref=f16e373]: ID Type
+                  - button [ref=f16e376] [cursor=pointer]:
+                    - generic [ref=f16e377]: Select ID type
+                    - generic [aria-hidden] [ref=f16e378]: 
+                - generic [ref=f16e379]:
+                  - generic [ref=f16e380]: ID Number
+                  - textbox [ref=f16e381]
+                  - paragraph [ref=f16e382]: Optional. Number for the selected ID type above.
+          - generic [ref=f16e226]:
+            - button "Cancel" [ref=f16e227] [cursor=pointer]
+            - generic [ref=f16e228]:
+              - button "Previous" [ref=f16e321] [cursor=pointer]
+              - button "Save & continue" [ref=f16e229] [cursor=pointer]
+    - contentinfo [ref=f16e230]:
+      - generic [ref=f16e232]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f16e233] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f16e235] [cursor=pointer]:
+    - generic [ref=f16e237]: 
+    - generic [ref=f16e238]: "1"
+  - listbox [ref=f16e384]:
+    - generic [ref=f16e386]:
+      - generic [aria-hidden]:
+        - generic: 
+      - textbox "Search…" [active] [ref=f16e387]
+    - list [ref=f16e388]:
+      - option "Select country of origin" [selected] [ref=f16e389] [cursor=pointer]
+      - option "Afghanistan" [ref=f16e390] [cursor=pointer]
+      - option "Aland Islands" [ref=f16e391] [cursor=pointer]
+      - option "Albania" [ref=f16e392] [cursor=pointer]
+      - option "Algeria" [ref=f16e393] [cursor=pointer]
+      - option "American Samoa" [ref=f16e394] [cursor=pointer]
+      - option "Andorra" [ref=f16e395] [cursor=pointer]
+      - option "Angola" [ref=f16e396] [cursor=pointer]
+      - option "Anguilla" [ref=f16e397] [cursor=pointer]
+      - option "Antarctica" [ref=f16e398] [cursor=pointer]
+      - option "Antigua And Barbuda" [ref=f16e399] [cursor=pointer]
+      - option "Argentina" [ref=f16e400] [cursor=pointer]
+      - option "Armenia" [ref=f16e401] [cursor=pointer]
+      - option "Aruba" [ref=f16e402] [cursor=pointer]
+      - option "Australia" [ref=f16e403] [cursor=pointer]
+      - option "Austria" [ref=f16e404] [cursor=pointer]
+      - option "Azerbaijan" [ref=f16e405] [cursor=pointer]
+      - option "Bahrain" [ref=f16e406] [cursor=pointer]
+      - option "Bangladesh" [ref=f16e407] [cursor=pointer]
+      - option "Barbados" [ref=f16e408] [cursor=pointer]
+      - option "Belarus" [ref=f16e409] [cursor=pointer]
+      - option "Belgium" [ref=f16e410] [cursor=pointer]
+      - option "Belize" [ref=f16e411] [cursor=pointer]
+      - option "Benin" [ref=f16e412] [cursor=pointer]
+      - option "Bermuda" [ref=f16e413] [cursor=pointer]
+      - option "Bhutan" [ref=f16e414] [cursor=pointer]
+      - option "Bolivia" [ref=f16e415] [cursor=pointer]
+      - option "Bonaire, Sint Eustatius and Saba" [ref=f16e416] [cursor=pointer]
+      - option "Bosnia and Herzegovina" [ref=f16e417] [cursor=pointer]
+      - option "Botswana" [ref=f16e418] [cursor=pointer]
+      - option "Bouvet Island" [ref=f16e419] [cursor=pointer]
+      - option "Brazil" [ref=f16e420] [cursor=pointer]
+      - option "British Indian Ocean Territory" [ref=f16e421] [cursor=pointer]
+      - option "Brunei" [ref=f16e422] [cursor=pointer]
+      - option "Bulgaria" [ref=f16e423] [cursor=pointer]
+      - option "Burkina Faso" [ref=f16e424] [cursor=pointer]
+      - option "Burundi" [ref=f16e425] [cursor=pointer]
+      - option "Cambodia" [ref=f16e426] [cursor=pointer]
+      - option "Cameroon" [ref=f16e427] [cursor=pointer]
+      - option "Canada" [ref=f16e428] [cursor=pointer]
+      - option "Cape Verde" [ref=f16e429] [cursor=pointer]
+      - option "Cayman Islands" [ref=f16e430] [cursor=pointer]
+      - option "Central African Republic" [ref=f16e431] [cursor=pointer]
+      - option "Chad" [ref=f16e432] [cursor=pointer]
+      - option "Chile" [ref=f16e433] [cursor=pointer]
+      - option "China" [ref=f16e434] [cursor=pointer]
+      - option "Christmas Island" [ref=f16e435] [cursor=pointer]
+      - option "Cocos (Keeling) Islands" [ref=f16e436] [cursor=pointer]
+      - option "Colombia" [ref=f16e437] [cursor=pointer]
+      - option "Comoros" [ref=f16e438] [cursor=pointer]
+      - option "Congo" [ref=f16e439] [cursor=pointer]
+      - option "Cook Islands" [ref=f16e440] [cursor=pointer]
+      - option "Costa Rica" [ref=f16e441] [cursor=pointer]
+      - option "Cote D'Ivoire (Ivory Coast)" [ref=f16e442] [cursor=pointer]
+      - option "Croatia" [ref=f16e443] [cursor=pointer]
+      - option "Cuba" [ref=f16e444] [cursor=pointer]
+      - option "Curaçao" [ref=f16e445] [cursor=pointer]
+      - option "Cyprus" [ref=f16e446] [cursor=pointer]
+      - option "Czech Republic" [ref=f16e447] [cursor=pointer]
+      - option "Democratic Republic of the Congo" [ref=f16e448] [cursor=pointer]
+      - option "Denmark" [ref=f16e449] [cursor=pointer]
+      - option "Djibouti" [ref=f16e450] [cursor=pointer]
+      - option "Dominica" [ref=f16e451] [cursor=pointer]
+      - option "Dominican Republic" [ref=f16e452] [cursor=pointer]
+      - option "East Timor" [ref=f16e453] [cursor=pointer]
+      - option "Ecuador" [ref=f16e454] [cursor=pointer]
+      - option "Egypt" [ref=f16e455] [cursor=pointer]
+      - option "El Salvador" [ref=f16e456] [cursor=pointer]
+      - option "Equatorial Guinea" [ref=f16e457] [cursor=pointer]
+      - option "Eritrea" [ref=f16e458] [cursor=pointer]
+      - option "Estonia" [ref=f16e459] [cursor=pointer]
+      - option "Ethiopia" [ref=f16e460] [cursor=pointer]
+      - option "Falkland Islands" [ref=f16e461] [cursor=pointer]
+      - option "Faroe Islands" [ref=f16e462] [cursor=pointer]
+      - option "Fiji Islands" [ref=f16e463] [cursor=pointer]
+      - option "Finland" [ref=f16e464] [cursor=pointer]
+      - option "France" [ref=f16e465] [cursor=pointer]
+      - option "French Guiana" [ref=f16e466] [cursor=pointer]
+      - option "French Polynesia" [ref=f16e467] [cursor=pointer]
+      - option "French Southern Territories" [ref=f16e468] [cursor=pointer]
+      - option "Gabon" [ref=f16e469] [cursor=pointer]
+      - option "Gambia The" [ref=f16e470] [cursor=pointer]
+      - option "Georgia" [ref=f16e471] [cursor=pointer]
+      - option "Germany" [ref=f16e472] [cursor=pointer]
+      - option "Ghana" [ref=f16e473] [cursor=pointer]
+      - option "Gibraltar" [ref=f16e474] [cursor=pointer]
+      - option "Greece" [ref=f16e475] [cursor=pointer]
+      - option "Greenland" [ref=f16e476] [cursor=pointer]
+      - option "Grenada" [ref=f16e477] [cursor=pointer]
+      - option "Guadeloupe" [ref=f16e478] [cursor=pointer]
+      - option "Guam" [ref=f16e479] [cursor=pointer]
+      - option "Guatemala" [ref=f16e480] [cursor=pointer]
+      - option "Guernsey and Alderney" [ref=f16e481] [cursor=pointer]
+      - option "Guinea" [ref=f16e482] [cursor=pointer]
+      - option "Guinea-Bissau" [ref=f16e483] [cursor=pointer]
+      - option "Guyana" [ref=f16e484] [cursor=pointer]
+      - option "Haiti" [ref=f16e485] [cursor=pointer]
+      - option "Heard Island and McDonald Islands" [ref=f16e486] [cursor=pointer]
+      - option "Honduras" [ref=f16e487] [cursor=pointer]
+      - option "Hong Kong S.A.R." [ref=f16e488] [cursor=pointer]
+      - option "Hungary" [ref=f16e489] [cursor=pointer]
+      - option "Iceland" [ref=f16e490] [cursor=pointer]
+      - option "India" [ref=f16e491] [cursor=pointer]
+      - option "Indonesia" [ref=f16e492] [cursor=pointer]
+      - option "Iran" [ref=f16e493] [cursor=pointer]
+      - option "Iraq" [ref=f16e494] [cursor=pointer]
+      - option "Ireland" [ref=f16e495] [cursor=pointer]
+      - option "Israel" [ref=f16e496] [cursor=pointer]
+      - option "Italy" [ref=f16e497] [cursor=pointer]
+      - option "Jamaica" [ref=f16e498] [cursor=pointer]
+      - option "Japan" [ref=f16e499] [cursor=pointer]
+      - option "Jersey" [ref=f16e500] [cursor=pointer]
+      - option "Jordan" [ref=f16e501] [cursor=pointer]
+      - option "Kazakhstan" [ref=f16e502] [cursor=pointer]
+      - option "Kenya" [ref=f16e503] [cursor=pointer]
+      - option "Kiribati" [ref=f16e504] [cursor=pointer]
+      - option "Kosovo" [ref=f16e505] [cursor=pointer]
+      - option "Kuwait" [ref=f16e506] [cursor=pointer]
+      - option "Kyrgyzstan" [ref=f16e507] [cursor=pointer]
+      - option "Laos" [ref=f16e508] [cursor=pointer]
+      - option "Latvia" [ref=f16e509] [cursor=pointer]
+      - option "Lebanon" [ref=f16e510] [cursor=pointer]
+      - option "Lesotho" [ref=f16e511] [cursor=pointer]
+      - option "Liberia" [ref=f16e512] [cursor=pointer]
+      - option "Libya" [ref=f16e513] [cursor=pointer]
+      - option "Liechtenstein" [ref=f16e514] [cursor=pointer]
+      - option "Lithuania" [ref=f16e515] [cursor=pointer]
+      - option "Luxembourg" [ref=f16e516] [cursor=pointer]
+      - option "Macau S.A.R." [ref=f16e517] [cursor=pointer]
+      - option "Macedonia" [ref=f16e518] [cursor=pointer]
+      - option "Madagascar" [ref=f16e519] [cursor=pointer]
+      - option "Malawi" [ref=f16e520] [cursor=pointer]
+      - option "Malaysia" [ref=f16e521] [cursor=pointer]
+      - option "Maldives" [ref=f16e522] [cursor=pointer]
+      - option "Mali" [ref=f16e523] [cursor=pointer]
+      - option "Malta" [ref=f16e524] [cursor=pointer]
+      - option "Man (Isle of)" [ref=f16e525] [cursor=pointer]
+      - option "Marshall Islands" [ref=f16e526] [cursor=pointer]
+      - option "Martinique" [ref=f16e527] [cursor=pointer]
+      - option "Mauritania" [ref=f16e528] [cursor=pointer]
+      - option "Mauritius" [ref=f16e529] [cursor=pointer]
+      - option "Mayotte" [ref=f16e530] [cursor=pointer]
+      - option "Mexico" [ref=f16e531] [cursor=pointer]
+      - option "Micronesia" [ref=f16e532] [cursor=pointer]
+      - option "Moldova" [ref=f16e533] [cursor=pointer]
+      - option "Monaco" [ref=f16e534] [cursor=pointer]
+      - option "Mongolia" [ref=f16e535] [cursor=pointer]
+      - option "Montenegro" [ref=f16e536] [cursor=pointer]
+      - option "Montserrat" [ref=f16e537] [cursor=pointer]
+      - option "Morocco" [ref=f16e538] [cursor=pointer]
+      - option "Mozambique" [ref=f16e539] [cursor=pointer]
+      - option "Myanmar" [ref=f16e540] [cursor=pointer]
+      - option "Namibia" [ref=f16e541] [cursor=pointer]
+      - option "Nauru" [ref=f16e542] [cursor=pointer]
+      - option "Nepal" [ref=f16e543] [cursor=pointer]
+      - option "Netherlands" [ref=f16e544] [cursor=pointer]
+      - option "New Caledonia" [ref=f16e545] [cursor=pointer]
+      - option "New Zealand" [ref=f16e546] [cursor=pointer]
+      - option "Nicaragua" [ref=f16e547] [cursor=pointer]
+      - option "Niger" [ref=f16e548] [cursor=pointer]
+      - option "Nigeria" [ref=f16e549] [cursor=pointer]
+      - option "Niue" [ref=f16e550] [cursor=pointer]
+      - option "Norfolk Island" [ref=f16e551] [cursor=pointer]
+      - option "Northern Mariana Islands" [ref=f16e552] [cursor=pointer]
+      - option "North Korea" [ref=f16e553] [cursor=pointer]
+      - option "Norway" [ref=f16e554] [cursor=pointer]
+      - option "Oman" [ref=f16e555] [cursor=pointer]
+      - option "Pakistan" [ref=f16e556] [cursor=pointer]
+      - option "Palau" [ref=f16e557] [cursor=pointer]
+      - option "Palestinian Territory Occupied" [ref=f16e558] [cursor=pointer]
+      - option "Panama" [ref=f16e559] [cursor=pointer]
+      - option "Papua new Guinea" [ref=f16e560] [cursor=pointer]
+      - option "Paraguay" [ref=f16e561] [cursor=pointer]
+      - option "Peru" [ref=f16e562] [cursor=pointer]
+      - option "Philippines" [ref=f16e563] [cursor=pointer]
+      - option "Pitcairn Island" [ref=f16e564] [cursor=pointer]
+      - option "Poland" [ref=f16e565] [cursor=pointer]
+      - option "Portugal" [ref=f16e566] [cursor=pointer]
+      - option "Puerto Rico" [ref=f16e567] [cursor=pointer]
+      - option "Qatar" [ref=f16e568] [cursor=pointer]
+      - option "Reunion" [ref=f16e569] [cursor=pointer]
+      - option "Romania" [ref=f16e570] [cursor=pointer]
+      - option "Russia" [ref=f16e571] [cursor=pointer]
+      - option "Rwanda" [ref=f16e572] [cursor=pointer]
+      - option "Saint-Barthelemy" [ref=f16e573] [cursor=pointer]
+      - option "Saint Helena" [ref=f16e574] [cursor=pointer]
+      - option "Saint Kitts And Nevis" [ref=f16e575] [cursor=pointer]
+      - option "Saint Lucia" [ref=f16e576] [cursor=pointer]
+      - option "Saint-Martin (French part)" [ref=f16e577] [cursor=pointer]
+      - option "Saint Pierre and Miquelon" [ref=f16e578] [cursor=pointer]
+      - option "Saint Vincent And The Grenadines" [ref=f16e579] [cursor=pointer]
+      - option "Samoa" [ref=f16e580] [cursor=pointer]
+      - option "San Marino" [ref=f16e581] [cursor=pointer]
+      - option "Sao Tome and Principe" [ref=f16e582] [cursor=pointer]
+      - option "Saudi Arabia" [ref=f16e583] [cursor=pointer]
+      - option "Senegal" [ref=f16e584] [cursor=pointer]
+      - option "Serbia" [ref=f16e585] [cursor=pointer]
+      - option "Seychelles" [ref=f16e586] [cursor=pointer]
+      - option "Sierra Leone" [ref=f16e587] [cursor=pointer]
+      - option "Singapore" [ref=f16e588] [cursor=pointer]
+      - option "Sint Maarten (Dutch part)" [ref=f16e589] [cursor=pointer]
+      - option "Slovakia" [ref=f16e590] [cursor=pointer]
+      - option "Slovenia" [ref=f16e591] [cursor=pointer]
+      - option "Solomon Islands" [ref=f16e592] [cursor=pointer]
+      - option "Somalia" [ref=f16e593] [cursor=pointer]
+      - option "South Africa" [ref=f16e594] [cursor=pointer]
+      - option "South Georgia" [ref=f16e595] [cursor=pointer]
+      - option "South Korea" [ref=f16e596] [cursor=pointer]
+      - option "South Sudan" [ref=f16e597] [cursor=pointer]
+      - option "Spain" [ref=f16e598] [cursor=pointer]
+      - option "Sri Lanka" [ref=f16e599] [cursor=pointer]
+      - option "Sudan" [ref=f16e600] [cursor=pointer]
+      - option "Suriname" [ref=f16e601] [cursor=pointer]
+      - option "Svalbard And Jan Mayen Islands" [ref=f16e602] [cursor=pointer]
+      - option "Swaziland" [ref=f16e603] [cursor=pointer]
+      - option "Sweden" [ref=f16e604] [cursor=pointer]
+      - option "Switzerland" [ref=f16e605] [cursor=pointer]
+      - option "Syria" [ref=f16e606] [cursor=pointer]
+      - option "Taiwan" [ref=f16e607] [cursor=pointer]
+      - option "Tajikistan" [ref=f16e608] [cursor=pointer]
+      - option "Tanzania" [ref=f16e609] [cursor=pointer]
+      - option "Thailand" [ref=f16e610] [cursor=pointer]
+      - option "The Bahamas" [ref=f16e611] [cursor=pointer]
+      - option "Togo" [ref=f16e612] [cursor=pointer]
+      - option "Tokelau" [ref=f16e613] [cursor=pointer]
+      - option "Tonga" [ref=f16e614] [cursor=pointer]
+      - option "Trinidad And Tobago" [ref=f16e615] [cursor=pointer]
+      - option "Tunisia" [ref=f16e616] [cursor=pointer]
+      - option "Turkey" [ref=f16e617] [cursor=pointer]
+      - option "Turkmenistan" [ref=f16e618] [cursor=pointer]
+      - option "Turks And Caicos Islands" [ref=f16e619] [cursor=pointer]
+      - option "Tuvalu" [ref=f16e620] [cursor=pointer]
+      - option "Uganda" [ref=f16e621] [cursor=pointer]
+      - option "Ukraine" [ref=f16e622] [cursor=pointer]
+      - option "United Arab Emirates" [ref=f16e623] [cursor=pointer]
+      - option "United Kingdom" [ref=f16e624] [cursor=pointer]
+      - option "United States" [ref=f16e625] [cursor=pointer]
+      - option "United States Minor Outlying Islands" [ref=f16e626] [cursor=pointer]
+      - option "Uruguay" [ref=f16e627] [cursor=pointer]
+      - option "Uzbekistan" [ref=f16e628] [cursor=pointer]
+      - option "Vanuatu" [ref=f16e629] [cursor=pointer]
+      - option "Vatican City State (Holy See)" [ref=f16e630] [cursor=pointer]
+      - option "Venezuela" [ref=f16e631] [cursor=pointer]
+      - option "Vietnam" [ref=f16e632] [cursor=pointer]
+      - option "Virgin Islands (British)" [ref=f16e633] [cursor=pointer]
+      - option "Virgin Islands (US)" [ref=f16e634] [cursor=pointer]
+      - option "Wallis And Futuna Islands" [ref=f16e635] [cursor=pointer]
+      - option "Western Sahara" [ref=f16e636] [cursor=pointer]
+      - option "Yemen" [ref=f16e637] [cursor=pointer]
+      - option "Zambia" [ref=f16e638] [cursor=pointer]
+      - option "Zimbabwe" [ref=f16e639] [cursor=pointer]

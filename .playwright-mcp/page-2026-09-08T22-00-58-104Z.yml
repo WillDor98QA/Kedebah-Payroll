@@ -1,0 +1,204 @@
+- generic [active] [ref=f13e1]:
+  - generic [ref=f13e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f13e6]:
+      - generic [ref=f13e7]:
+        - generic [ref=f13e8]:
+          - generic:
+            - generic:
+              - link "Glenn and Co logo":
+                - /url: /dashboard
+                - img "Glenn and Co logo"
+          - generic [ref=f13e9]:
+            - textbox "Search anything here ..." [ref=f13e10]
+            - link "" [ref=f13e11] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f13e13]:
+          - text: 
+          - listitem [ref=f13e14]:
+            - link "" [ref=f13e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f13e17]:
+            - link "" [ref=f13e18] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f13e20]:
+            - link "" [ref=f13e21] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f13e23]:
+            - link "" [ref=f13e24] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f13e26]:
+            - button "" [ref=f13e27] [cursor=pointer]
+            - text: 
+          - listitem [ref=f13e29]:
+            - link "PM" [ref=f13e30] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f13e33]:
+      - navigation [ref=f13e36]:
+        - list [ref=f13e37]:
+          - listitem [ref=f13e38]:
+            - link " Dashboard" [ref=f13e39] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f13e40]: 
+              - generic [ref=f13e41]: Dashboard
+          - listitem [ref=f13e42]:
+            - generic [ref=f13e43]:
+              - link " Employees" [ref=f13e44] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f13e45]: 
+                - generic [ref=f13e46]: Employees
+              - button "Toggle submenu" [ref=f13e47] [cursor=pointer]:
+                - generic [ref=f13e48]: 
+          - listitem [ref=f13e49]:
+            - link " Run Payroll" [ref=f13e50] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f13e51]: 
+              - generic [ref=f13e52]: Run Payroll
+          - listitem [ref=f13e53]:
+            - generic [ref=f13e54]:
+              - link " Taxes & Forms" [ref=f13e55] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f13e56]: 
+                - generic [ref=f13e57]: Taxes & Forms
+              - button "Toggle submenu" [ref=f13e58] [cursor=pointer]:
+                - generic [ref=f13e59]: 
+          - listitem [ref=f13e60]:
+            - link " Reports" [ref=f13e61] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f13e62]: 
+              - generic [ref=f13e63]: Reports
+          - listitem [ref=f13e64]:
+            - link " Settings" [ref=f13e65] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f13e66]: 
+              - generic [ref=f13e67]: Settings
+    - generic [ref=f13e70]:
+      - generic [ref=f13e74]:
+        - heading "Taxes" [level=1] [ref=f13e75]
+        - paragraph [ref=f13e76]: View and manage tax liabilities generated from payroll runs.
+      - generic [ref=f13e78]:
+        - generic [ref=f13e79]:
+          - generic [ref=f13e80]:
+            - generic [ref=f13e82]:
+              - generic [ref=f13e83]: 4 results
+              - generic [ref=f13e85]:
+                - button " Filters " [ref=f13e87] [cursor=pointer]:
+                  - generic [ref=f13e88]: 
+                  - text: Filters
+                  - generic [ref=f13e89]: 
+                - button " Columns " [ref=f13e91] [cursor=pointer]:
+                  - generic [ref=f13e92]: 
+                  - text: Columns
+                  - generic [ref=f13e93]: 
+                - button " Refresh" [ref=f13e94] [cursor=pointer]:
+                  - generic [ref=f13e95]: 
+                  - text: Refresh
+            - generic [ref=f13e97]:
+              - generic [ref=f13e98]:
+                - generic [ref=f13e99]:
+                  - generic [ref=f13e100]: Statuses
+                  - button [ref=f13e103] [cursor=pointer]:
+                    - generic [ref=f13e104]: All Statuses
+                    - generic [aria-hidden] [ref=f13e105]: 
+                  - button "Clear Statuses" [ref=f13e106] [cursor=pointer]:
+                    - generic [ref=f13e107]: 
+                - generic [ref=f13e108]:
+                  - generic [ref=f13e109]: All
+                  - button [ref=f13e112] [cursor=pointer]:
+                    - generic [ref=f13e113]: All
+                    - generic [aria-hidden] [ref=f13e114]: 
+                  - button "Clear All" [ref=f13e115] [cursor=pointer]:
+                    - generic [ref=f13e116]: 
+              - generic [ref=f13e118]:
+                - generic [aria-hidden]:
+                  - generic: 
+                - textbox "Search by name, code..." [ref=f13e119]
+          - table [ref=f13e123]:
+            - rowgroup [ref=f13e133]:
+              - row [ref=f13e134]:
+                - columnheader "Tax Name" [ref=f13e135]
+                - columnheader "Type" [ref=f13e138]
+                - columnheader "Amount Due" [ref=f13e141] [cursor=pointer]
+                - columnheader "Due Date" [ref=f13e145] [cursor=pointer]
+                - columnheader "Pay Period" [ref=f13e149]
+                - columnheader "Status" [ref=f13e152] [cursor=pointer]
+                - columnheader "Overdue" [ref=f13e156]
+                - columnheader [ref=f13e159]
+            - rowgroup [ref=f13e160]:
+              - row [ref=f13e161]:
+                - cell "PAYE (Income Tax) Code paye" [ref=f13e162]:
+                  - generic [ref=f13e164]:
+                    - generic "PAYE (Income Tax)" [ref=f13e165]
+                    - generic "Code paye" [ref=f13e167]
+                - cell "Employee" [ref=f13e168]
+                - cell "₵ 1,291.63" [ref=f13e171]
+                - cell "Oct 15, 2026" [ref=f13e173]
+                - cell "Sep 1, 2026 – Sep 30, 2026" [ref=f13e175]
+                - cell "Pending" [ref=f13e177]
+                - cell "—" [ref=f13e180]
+                - cell [ref=f13e182]:
+                  - button "" [ref=f13e184] [cursor=pointer]
+              - row [ref=f13e186]:
+                - cell "Tier 1 Code tier_1" [ref=f13e187]:
+                  - generic [ref=f13e189]:
+                    - generic "Tier 1" [ref=f13e190]
+                    - generic "Code tier_1" [ref=f13e192]
+                - cell "Employer" [ref=f13e193]
+                - cell "₵ 640.00" [ref=f13e196]
+                - cell "Oct 14, 2026" [ref=f13e198]
+                - cell "Sep 1, 2026 – Sep 30, 2026" [ref=f13e200]
+                - cell "Pending" [ref=f13e202]
+                - cell "—" [ref=f13e205]
+                - cell [ref=f13e207]:
+                  - button "" [ref=f13e209] [cursor=pointer]
+              - row [ref=f13e211]:
+                - cell "Tier 2 Code tier_2" [ref=f13e212]:
+                  - generic [ref=f13e214]:
+                    - generic "Tier 2" [ref=f13e215]
+                    - generic "Code tier_2" [ref=f13e217]
+                - cell "Employer" [ref=f13e218]
+                - cell "₵ 400.00" [ref=f13e221]
+                - cell "Oct 14, 2026" [ref=f13e223]
+                - cell "Sep 1, 2026 – Sep 30, 2026" [ref=f13e225]
+                - cell "Pending" [ref=f13e227]
+                - cell "—" [ref=f13e230]
+                - cell [ref=f13e232]:
+                  - button "" [ref=f13e234] [cursor=pointer]
+              - row [ref=f13e236]:
+                - cell "Tier 1 Code tier_1" [ref=f13e237]:
+                  - generic [ref=f13e239]:
+                    - generic "Tier 1" [ref=f13e240]
+                    - generic "Code tier_1" [ref=f13e242]
+                - cell "Employee" [ref=f13e243]
+                - cell "₵ 440.00" [ref=f13e246]
+                - cell "Oct 14, 2026" [ref=f13e248]
+                - cell "Sep 1, 2026 – Sep 30, 2026" [ref=f13e250]
+                - cell "Pending" [ref=f13e252]
+                - cell "—" [ref=f13e255]
+                - cell [ref=f13e257]:
+                  - button "" [ref=f13e259] [cursor=pointer]
+        - generic [ref=f13e261]:
+          - generic [ref=f13e262]:
+            - generic [ref=f13e263]:
+              - generic [ref=f13e264]: Rows per page
+              - button [ref=f13e267] [cursor=pointer]:
+                - generic [ref=f13e268]: "10"
+                - generic [aria-hidden] [ref=f13e269]: 
+            - generic [ref=f13e270]: Showing 1-4 of 4 entries
+          - generic [ref=f13e271]:
+            - generic [ref=f13e272]: Page 1 of 1
+            - generic [ref=f13e273]:
+              - button "" [disabled] [ref=f13e274] [cursor=pointer]
+              - button "1" [ref=f13e276] [cursor=pointer]
+              - button "" [disabled] [ref=f13e277] [cursor=pointer]
+    - contentinfo [ref=f13e279]:
+      - generic [ref=f13e281]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f13e282] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f13e284] [cursor=pointer]:
+    - generic [ref=f13e286]: 
+    - generic [ref=f13e287]: "1"

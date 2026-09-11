@@ -1,0 +1,201 @@
+- generic [active] [ref=f46e1]:
+  - generic [ref=f46e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f46e6]:
+      - generic [ref=f46e7]:
+        - generic [ref=f46e8]:
+          - link [ref=f46e186] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f46e187]
+          - generic [ref=f46e13]:
+            - textbox "Search anything here ..." [ref=f46e14]
+            - link "" [ref=f46e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f46e17]:
+          - text: 
+          - listitem [ref=f46e18]:
+            - link "" [ref=f46e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f46e21]:
+            - link "" [ref=f46e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f46e24]:
+            - link "" [ref=f46e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f46e27]:
+            - link "" [ref=f46e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f46e30]:
+            - button "" [ref=f46e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f46e33]:
+            - link "PM" [ref=f46e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f46e37]:
+      - navigation [ref=f46e40]:
+        - list [ref=f46e41]:
+          - listitem [ref=f46e42]:
+            - link " Dashboard" [ref=f46e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f46e44]: 
+              - generic [ref=f46e45]: Dashboard
+          - listitem [ref=f46e46]:
+            - generic [ref=f46e47]:
+              - link " Employees" [ref=f46e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f46e49]: 
+                - generic [ref=f46e50]: Employees
+              - button "Toggle submenu" [ref=f46e51] [cursor=pointer]:
+                - generic [ref=f46e52]: 
+          - listitem [ref=f46e53]:
+            - link " Run Payroll" [ref=f46e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f46e55]: 
+              - generic [ref=f46e56]: Run Payroll
+          - listitem [ref=f46e57]:
+            - generic [ref=f46e58]:
+              - link " Taxes & Forms" [ref=f46e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f46e60]: 
+                - generic [ref=f46e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f46e62] [cursor=pointer]:
+                - generic [ref=f46e63]: 
+          - listitem [ref=f46e64]:
+            - link " Reports" [ref=f46e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f46e66]: 
+              - generic [ref=f46e67]: Reports
+          - listitem [ref=f46e68]:
+            - link " Settings" [ref=f46e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f46e70]: 
+              - generic [ref=f46e71]: Settings
+    - generic [ref=f46e74]:
+      - generic [ref=f46e77]:
+        - generic [ref=f46e78]:
+          - heading "Payroll Runs" [level=1] [ref=f46e79]
+          - paragraph [ref=f46e80]: Process regular payroll, bonuses, off-cycle payments, and termination payroll.
+        - generic [ref=f46e82]:
+          - button " Reset" [ref=f46e83] [cursor=pointer]:
+            - generic [ref=f46e84]: 
+            - text: Reset
+          - button " Create Pay Run " [ref=f46e86] [cursor=pointer]:
+            - generic [ref=f46e87]: 
+            - text: Create Pay Run
+            - generic [ref=f46e88]: 
+      - generic [ref=f46e89]:
+        - generic [ref=f46e90]:
+          - generic [ref=f46e91]:
+            - generic [ref=f46e92]: 
+            - generic [ref=f46e93]: 1 approved pay run(s) haven't posted to finance yet. Map accounts on Finance Posting, then push them here.
+          - button " Sync to finance (1)" [ref=f46e95] [cursor=pointer]:
+            - generic [ref=f46e96]: 
+            - text: Sync to finance (1)
+        - generic [ref=f46e97]:
+          - navigation [ref=f46e99]:
+            - button " Run Payroll" [ref=f46e100] [cursor=pointer]:
+              - generic [ref=f46e101]: 
+              - generic [ref=f46e102]: Run Payroll
+            - button " Payroll History" [ref=f46e104] [cursor=pointer]:
+              - generic [ref=f46e105]: 
+              - generic [ref=f46e106]: Payroll History
+          - generic [ref=f46e108]:
+            - generic [ref=f46e109]:
+              - generic [ref=f46e110]:
+                - generic [ref=f46e111]: Search
+                - generic [ref=f46e112]:
+                  - generic: 
+                  - textbox "Search pay runs..." [ref=f46e113]
+              - generic [ref=f46e114]:
+                - generic [ref=f46e115]: Type
+                - button [ref=f46e118] [cursor=pointer]:
+                  - generic [ref=f46e119]: All Types
+                  - generic [aria-hidden] [ref=f46e120]: 
+              - generic [ref=f46e121]:
+                - generic [ref=f46e122]: Status
+                - button [ref=f46e125] [cursor=pointer]:
+                  - generic [ref=f46e126]: All statuses
+                  - generic [aria-hidden] [ref=f46e127]: 
+              - generic [ref=f46e128]:
+                - generic [ref=f46e129]: Pay date from · Jun 10, 2026
+                - textbox [ref=f46e130]: 2026-06-10
+              - generic [ref=f46e131]:
+                - generic [ref=f46e132]: Pay date to · Sep 10, 2026
+                - textbox [ref=f46e133]: 2026-09-10
+              - button " Clear filters" [ref=f46e134] [cursor=pointer]:
+                - generic [ref=f46e135]: 
+                - text: Clear filters
+            - generic [ref=f46e138]:
+              - generic [ref=f46e139]:
+                - generic [ref=f46e140]:
+                  - generic [ref=f46e141]: 
+                  - generic [ref=f46e143]:
+                    - heading "ZZQA PAYE Band-Edge Test" [level=3] [ref=f46e144]
+                    - paragraph [ref=f46e145]: Sep 9, 2026 to Sep 9, 2026
+                  - generic [ref=f46e146]:
+                    - generic [ref=f46e147]:
+                      - generic [ref=f46e148]: 
+                      - text: Off-Cycle
+                    - generic [ref=f46e149]: Processed
+                - generic [ref=f46e150]:
+                  - generic [ref=f46e151]:
+                    - paragraph [ref=f46e152]: Pay Date
+                    - paragraph [ref=f46e153]: Sep 9, 2026
+                  - generic [ref=f46e154]:
+                    - paragraph [ref=f46e155]: Employees
+                    - paragraph [ref=f46e156]: 1 employees
+                  - generic [ref=f46e157]:
+                    - paragraph [ref=f46e158]: Total Amount
+                    - paragraph [ref=f46e159]: GH₵ 0.00
+              - button " Submit for Approval" [ref=f46e161] [cursor=pointer]:
+                - generic [ref=f46e162]: 
+                - text: Submit for Approval
+    - contentinfo [ref=f46e163]:
+      - generic [ref=f46e165]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f46e166] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - generic [ref=f46e189]:
+    - generic [ref=f46e191]:
+      - heading "Create Bonus Payroll" [level=3] [ref=f46e192]
+      - button "" [ref=f46e193] [cursor=pointer]
+    - generic [ref=f46e195]:
+      - generic [ref=f46e196]:
+        - generic [ref=f46e197]: Bonus Payroll Name *
+        - textbox "e.g. End of Year Bonus 2024" [ref=f46e198]: ZZQA Bonus Cap Boundary Test
+      - generic [ref=f46e199]:
+        - generic [ref=f46e200]: Pay Date *
+        - textbox [ref=f46e201]: 2026-09-10
+        - generic [ref=f46e202]:
+          - generic [ref=f46e203]: 
+          - generic [ref=f46e204]: "Tax year: 2026"
+        - paragraph [ref=f46e205]: A bonus is annual remuneration — no payroll period is needed. The first 15% of annual basic salary (cumulative across the tax year) is taxed at 5% final; any excess is taxed at graduated PAYE rates in the month it is paid.
+      - generic [ref=f46e206]:
+        - generic [ref=f46e207]: Bonus Type *
+        - generic [ref=f46e208]:
+          - generic [ref=f46e209] [cursor=pointer]:
+            - radio "Fixed Amount" [checked] [ref=f46e210]
+            - generic [ref=f46e211]: Fixed Amount
+          - generic [ref=f46e212] [cursor=pointer]:
+            - radio "Percentage of Salary" [ref=f46e213]
+            - generic [ref=f46e214]: Percentage of Salary
+      - generic [ref=f46e215]:
+        - generic [ref=f46e216]: Fixed Amount per Employee (GHS) *
+        - spinbutton "0.00" [ref=f46e217]: "5400"
+      - generic [ref=f46e218]:
+        - generic [ref=f46e219]: Description (Optional)
+        - textbox "Add notes about this bonus payroll..." [ref=f46e220]
+      - paragraph [ref=f46e222]:
+        - generic [ref=f46e223]: 
+        - text: You'll pick employees on the next step using the standardized, paginated picker.
+    - generic [ref=f46e224]:
+      - button "Cancel" [ref=f46e225] [cursor=pointer]
+      - button " Creating..." [disabled] [ref=f46e228] [cursor=pointer]:
+        - generic [ref=f46e229]: 
+        - text: Creating...
+  - button "1 compliance alert(s) — open list" [ref=f46e168] [cursor=pointer]:
+    - generic [ref=f46e170]: 
+    - generic [ref=f46e171]: "1"

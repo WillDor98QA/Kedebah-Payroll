@@ -1,0 +1,267 @@
+- generic [active] [ref=f40e1]:
+  - generic [ref=f40e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f40e6]:
+      - generic [ref=f40e7]:
+        - generic [ref=f40e8]:
+          - link [ref=f40e150] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f40e151]
+          - generic [ref=f40e13]:
+            - textbox "Search anything here ..." [ref=f40e14]
+            - link "" [ref=f40e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f40e17]:
+          - text: 
+          - listitem [ref=f40e18]:
+            - link "" [ref=f40e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f40e21]:
+            - link "" [ref=f40e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f40e24]:
+            - link "" [ref=f40e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f40e27]:
+            - link "" [ref=f40e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f40e30]:
+            - button "" [ref=f40e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f40e33]:
+            - link "PM" [ref=f40e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f40e37]:
+      - navigation [ref=f40e40]:
+        - list [ref=f40e41]:
+          - listitem [ref=f40e42]:
+            - link " Dashboard" [ref=f40e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f40e44]: 
+              - generic [ref=f40e45]: Dashboard
+          - listitem [ref=f40e46]:
+            - generic [ref=f40e47]:
+              - link " Employees" [ref=f40e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f40e49]: 
+                - generic [ref=f40e50]: Employees
+              - button "Toggle submenu" [ref=f40e51] [cursor=pointer]:
+                - generic [ref=f40e52]: 
+          - listitem [ref=f40e53]:
+            - link " Run Payroll" [ref=f40e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f40e55]: 
+              - generic [ref=f40e56]: Run Payroll
+          - listitem [ref=f40e57]:
+            - generic [ref=f40e58]:
+              - link " Taxes & Forms" [ref=f40e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f40e60]: 
+                - generic [ref=f40e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f40e62] [cursor=pointer]:
+                - generic [ref=f40e63]: 
+          - listitem [ref=f40e64]:
+            - link " Reports" [ref=f40e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f40e66]: 
+              - generic [ref=f40e67]: Reports
+          - listitem [ref=f40e68]:
+            - link " Settings" [ref=f40e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f40e70]: 
+              - generic [ref=f40e71]: Settings
+    - generic [ref=f40e153]:
+      - generic [ref=f40e154]:
+        - generic [ref=f40e155]:
+          - generic [ref=f40e156]:
+            - heading "Regular Payroll - October 2026" [level=1] [ref=f40e157]
+            - generic [ref=f40e158]:
+              - generic [ref=f40e159]:
+                - generic [ref=f40e160]: 
+                - text: Regular Payroll
+              - generic [ref=f40e161]: Draft
+          - generic [ref=f40e162]:
+            - button " Back" [ref=f40e163] [cursor=pointer]:
+              - generic [ref=f40e164]: 
+              - text: Back
+            - button " Add bonuses" [ref=f40e165] [cursor=pointer]:
+              - generic [ref=f40e169]: 
+              - text: Add bonuses
+            - button " Process" [disabled] [ref=f40e170] [cursor=pointer]:
+              - generic [ref=f40e171]: 
+              - text: Process
+        - generic [ref=f40e173]:
+          - generic [ref=f40e174]:
+            - generic [ref=f40e175]: 
+            - generic [ref=f40e176]: Oct 1, 2026 – Oct 31, 2026
+          - generic [ref=f40e177]:
+            - generic [ref=f40e178]: 
+            - text: Pay date
+            - generic [ref=f40e179]: Oct 30, 2026
+          - generic [ref=f40e180]:
+            - generic [ref=f40e181]: 
+            - generic [ref=f40e182]: "4"
+            - text: employees
+      - generic [ref=f40e383]:
+        - button " Needs attention " [expanded] [ref=f40e384] [cursor=pointer]:
+          - generic [ref=f40e385]: 
+          - generic [ref=f40e386]: Needs attention
+          - generic [ref=f40e387]: 
+        - generic [ref=f40e390]:
+          - generic [ref=f40e391]:
+            - generic [ref=f40e392]: 
+            - generic [ref=f40e393]:
+              - paragraph [ref=f40e394]: 2 employees have incomplete payroll profiles (organization-wide)
+              - paragraph [ref=f40e395]: Organization-wide profile gaps. You can still process this pay run; employees who are incomplete or ineligible for this period can be excluded when you process, or fix profiles and add them to a later run.
+          - button " View Details" [ref=f40e396] [cursor=pointer]:
+            - generic [ref=f40e397]: 
+            - text: View Details
+      - generic [ref=f40e184]:
+        - generic [ref=f40e185]: 
+        - generic [ref=f40e186]:
+          - paragraph [ref=f40e187]: Draft — Not Yet Processed
+          - paragraph [ref=f40e188]:
+            - text: Pay amounts are hidden until this payroll is processed. Click
+            - strong [ref=f40e189]: Process
+            - text: to calculate gross pay, taxes, deductions, and net pay for all employees.
+      - generic [ref=f40e190]:
+        - heading "Overview" [level=2] [ref=f40e191]
+        - generic [ref=f40e192]:
+          - generic [ref=f40e193]:
+            - paragraph [ref=f40e194]: Period
+            - paragraph [ref=f40e195]: Oct 1, 2026 – Oct 31, 2026
+          - generic [ref=f40e196]:
+            - paragraph [ref=f40e197]: Pay date
+            - paragraph [ref=f40e198]: Oct 30, 2026
+          - generic [ref=f40e199]:
+            - paragraph [ref=f40e200]: Employees
+            - paragraph [ref=f40e201]: "4"
+      - generic [ref=f40e203]:
+        - button "Employee Summary" [ref=f40e204] [cursor=pointer]
+        - button "Tax Summary" [ref=f40e205] [cursor=pointer]
+        - button "Benefits & Deductions Summary" [ref=f40e206] [cursor=pointer]
+        - button "Leave Review" [ref=f40e207] [cursor=pointer]
+        - button "Attendance Review" [ref=f40e208] [cursor=pointer]
+      - generic [ref=f40e210]:
+        - generic [ref=f40e211]:
+          - generic [ref=f40e212]:
+            - generic [ref=f40e213]:
+              - generic [ref=f40e214]: 
+              - text: 4 on this pay run
+            - generic [ref=f40e398]:
+              - generic [ref=f40e399]: 
+              - generic [ref=f40e400]:
+                - strong [ref=f40e401]: "2"
+                - text: org-wide gaps — see banner above
+          - generic [ref=f40e215]:
+            - paragraph [ref=f40e216]:
+              - generic [ref=f40e217]: 
+              - text: Reading Status & Issues columns
+            - generic [ref=f40e218]:
+              - generic [ref=f40e219]:
+                - generic [ref=f40e220]: Status
+                - paragraph [ref=f40e221]: "Worst signal wins: Blocked → Ineligible → Incomplete → Warning → Ready. Hover the badge for detail."
+              - generic [ref=f40e222]:
+                - generic [ref=f40e223]: Issues
+                - paragraph [ref=f40e224]:
+                  - text: Blockers, warnings, and profile gaps. Use the
+                  - generic [ref=f40e225]: 
+                  - text: action for the full breakdown.
+        - generic [ref=f40e226]:
+          - generic [ref=f40e227]:
+            - generic [ref=f40e228]:
+              - generic [ref=f40e229]:
+                - generic [ref=f40e230]: 4 results
+                - generic [ref=f40e234]:
+                  - button " Add bonuses" [ref=f40e235] [cursor=pointer]:
+                    - generic [ref=f40e239]: 
+                    - text: Add bonuses
+                  - button " Add Employees" [ref=f40e240] [cursor=pointer]:
+                    - generic [ref=f40e241]: 
+                    - text: Add Employees
+              - generic [ref=f40e245]:
+                - generic [aria-hidden]:
+                  - generic: 
+                - textbox "Search by name, ID, or department..." [ref=f40e246]
+            - table [ref=f40e250]:
+              - rowgroup [ref=f40e257]:
+                - row [ref=f40e258]:
+                  - columnheader "Employee" [ref=f40e259]
+                  - columnheader "Department" [ref=f40e262]
+                  - columnheader "Status" [ref=f40e265]
+                  - columnheader "Issues" [ref=f40e268]
+                  - columnheader [ref=f40e271]
+              - rowgroup [ref=f40e272]:
+                - row [ref=f40e273]:
+                  - cell "TaShya Xavier Avila Cabrera tesyID22 · Software Engineer" [ref=f40e274]:
+                    - generic [ref=f40e276]:
+                      - generic "TaShya Xavier Avila Cabrera" [ref=f40e277]
+                      - generic "tesyID22 · Software Engineer" [ref=f40e279]
+                  - cell "Software Engineer" [ref=f40e280]
+                  - cell "Ready" [ref=f40e281]
+                  - cell "—" [ref=f40e285]
+                  - cell [ref=f40e289]:
+                    - generic [ref=f40e291]:
+                      - button "" [ref=f40e292] [cursor=pointer]
+                      - button "" [ref=f40e294] [cursor=pointer]
+                - row [ref=f40e296]:
+                  - cell "ZZQA AlphaOne ZZQA-001 · Software Engineer" [ref=f40e297]:
+                    - generic [ref=f40e299]:
+                      - generic "ZZQA AlphaOne" [ref=f40e300]
+                      - generic "ZZQA-001 · Software Engineer" [ref=f40e302]
+                  - cell "Software Engineer" [ref=f40e303]
+                  - cell "Ready" [ref=f40e304]
+                  - cell "—" [ref=f40e308]
+                  - cell [ref=f40e312]:
+                    - generic [ref=f40e314]:
+                      - button "" [ref=f40e315] [cursor=pointer]
+                      - button "" [ref=f40e317] [cursor=pointer]
+                - row [ref=f40e319]:
+                  - cell "ZZQA HighEarner ZZQA-HI1 · Software Engineer" [ref=f40e320]:
+                    - generic [ref=f40e322]:
+                      - generic "ZZQA HighEarner" [ref=f40e323]
+                      - generic "ZZQA-HI1 · Software Engineer" [ref=f40e325]
+                  - cell "Software Engineer" [ref=f40e326]
+                  - cell "Ready" [ref=f40e327]
+                  - cell "—" [ref=f40e331]
+                  - cell [ref=f40e335]:
+                    - generic [ref=f40e337]:
+                      - button "" [ref=f40e338] [cursor=pointer]
+                      - button "" [ref=f40e340] [cursor=pointer]
+                - row [ref=f40e342]:
+                  - cell "ZZQA MidHire ZZQA-MH1 · Software Engineer" [ref=f40e343]:
+                    - generic [ref=f40e345]:
+                      - generic "ZZQA MidHire" [ref=f40e346]
+                      - generic "ZZQA-MH1 · Software Engineer" [ref=f40e348]
+                  - cell "Software Engineer" [ref=f40e349]
+                  - cell "Ready" [ref=f40e350]
+                  - cell "—" [ref=f40e354]
+                  - cell [ref=f40e358]:
+                    - generic [ref=f40e360]:
+                      - button "" [ref=f40e361] [cursor=pointer]
+                      - button "" [ref=f40e363] [cursor=pointer]
+          - generic [ref=f40e365]:
+            - generic [ref=f40e366]:
+              - generic [ref=f40e367]:
+                - generic [ref=f40e368]: Rows per page
+                - button [ref=f40e371] [cursor=pointer]:
+                  - generic [ref=f40e372]: "10"
+                  - generic [aria-hidden] [ref=f40e373]: 
+              - generic [ref=f40e374]: Showing 1-4 of 4 entries
+            - generic [ref=f40e375]:
+              - generic [ref=f40e376]: Page 1 of 1
+              - generic [ref=f40e377]:
+                - button "" [disabled] [ref=f40e378] [cursor=pointer]
+                - button "1" [ref=f40e380] [cursor=pointer]
+                - button "" [disabled] [ref=f40e381] [cursor=pointer]
+    - contentinfo [ref=f40e141]:
+      - generic [ref=f40e143]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f40e144] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f40e146] [cursor=pointer]:
+    - generic [ref=f40e148]: 
+    - generic [ref=f40e149]: "1"

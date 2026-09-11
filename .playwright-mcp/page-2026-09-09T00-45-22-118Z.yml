@@ -1,0 +1,83 @@
+- generic [active] [ref=f27e1]:
+  - generic [ref=f27e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f27e6]:
+      - generic [ref=f27e7]:
+        - generic [ref=f27e8]:
+          - link [ref=f27e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f27e12]
+          - generic [ref=f27e13]:
+            - textbox "Search anything here ..." [ref=f27e14]
+            - link "" [ref=f27e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f27e17]:
+          - text: 
+          - listitem [ref=f27e18]:
+            - link "" [ref=f27e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f27e21]:
+            - link "" [ref=f27e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f27e24]:
+            - link "" [ref=f27e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f27e27]:
+            - link "" [ref=f27e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f27e30]:
+            - button "" [ref=f27e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f27e33]:
+            - link "PM" [ref=f27e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f27e37]:
+      - navigation [ref=f27e40]:
+        - list [ref=f27e41]:
+          - listitem [ref=f27e42]:
+            - link " Dashboard" [ref=f27e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f27e44]: 
+              - generic [ref=f27e45]: Dashboard
+          - listitem [ref=f27e46]:
+            - generic [ref=f27e47]:
+              - link " Employees" [ref=f27e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f27e49]: 
+                - generic [ref=f27e50]: Employees
+              - button "Toggle submenu" [ref=f27e51] [cursor=pointer]:
+                - generic [ref=f27e52]: 
+          - listitem [ref=f27e53]:
+            - link " Run Payroll" [ref=f27e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f27e55]: 
+              - generic [ref=f27e56]: Run Payroll
+          - listitem [ref=f27e57]:
+            - generic [ref=f27e58]:
+              - link " Taxes & Forms" [ref=f27e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f27e60]: 
+                - generic [ref=f27e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f27e62] [cursor=pointer]:
+                - generic [ref=f27e63]: 
+          - listitem [ref=f27e64]:
+            - link " Reports" [ref=f27e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f27e66]: 
+              - generic [ref=f27e67]: Reports
+          - listitem [ref=f27e68]:
+            - link " Settings" [ref=f27e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f27e70]: 
+              - generic [ref=f27e71]: Settings
+    - contentinfo [ref=f27e136]:
+      - generic [ref=f27e138]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f27e139] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f27e141] [cursor=pointer]:
+    - generic [ref=f27e143]: 
+    - generic [ref=f27e144]: "1"

@@ -1,0 +1,204 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f5e6]:
+      - generic [ref=f5e7]:
+        - generic [ref=f5e8]:
+          - link [ref=f5e129] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f5e130]
+          - generic [ref=f5e13]:
+            - textbox "Search anything here ..." [ref=f5e14]
+            - link "" [ref=f5e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f5e17]:
+          - text: 
+          - listitem [ref=f5e18]:
+            - link "" [ref=f5e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f5e21]:
+            - link "" [ref=f5e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f5e24]:
+            - link "" [ref=f5e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f5e27]:
+            - link "" [ref=f5e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f5e30]:
+            - button "" [ref=f5e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f5e33]:
+            - link "PM" [ref=f5e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f5e37]:
+      - navigation [ref=f5e40]:
+        - list [ref=f5e41]:
+          - listitem [ref=f5e42]:
+            - link " Dashboard" [ref=f5e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f5e44]: 
+              - generic [ref=f5e45]: Dashboard
+          - listitem [ref=f5e46]:
+            - generic [ref=f5e47]:
+              - link " Employees" [ref=f5e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f5e49]: 
+                - generic [ref=f5e50]: Employees
+              - button "Toggle submenu" [ref=f5e51] [cursor=pointer]:
+                - generic [ref=f5e52]: 
+          - listitem [ref=f5e53]:
+            - link " Run Payroll" [ref=f5e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f5e55]: 
+              - generic [ref=f5e56]: Run Payroll
+          - listitem [ref=f5e57]:
+            - generic [ref=f5e58]:
+              - link " Taxes & Forms" [ref=f5e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f5e60]: 
+                - generic [ref=f5e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f5e62] [cursor=pointer]:
+                - generic [ref=f5e63]: 
+          - listitem [ref=f5e64]:
+            - link " Reports" [ref=f5e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f5e66]: 
+              - generic [ref=f5e67]: Reports
+          - listitem [ref=f5e68]:
+            - link " Settings" [ref=f5e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f5e70]: 
+              - generic [ref=f5e71]: Settings
+    - generic [ref=f5e75]:
+      - generic [ref=f5e77]:
+        - link " Back to Settings" [ref=f5e79] [cursor=pointer]:
+          - /url: /settings
+          - generic [ref=f5e80]: 
+          - text: Back to Settings
+        - generic [ref=f5e82]:
+          - heading "Tax & Statutory Configuration" [level=1] [ref=f5e83]
+          - paragraph [ref=f5e84]: Configure statutory items, eligibility, presets, reliefs, filing rules, penalties, and the loan BIK reference rate.
+      - generic [ref=f5e131]:
+        - navigation [ref=f5e132]:
+          - button " Statutory Items" [ref=f5e133] [cursor=pointer]:
+            - generic [ref=f5e134]: 
+            - text: Statutory Items
+          - button " Eligibility" [ref=f5e135] [cursor=pointer]:
+            - generic [ref=f5e136]: 
+            - text: Eligibility
+          - button " Presets" [ref=f5e137] [cursor=pointer]:
+            - generic [ref=f5e138]: 
+            - text: Presets
+          - button " Reliefs" [ref=f5e139] [cursor=pointer]:
+            - generic [ref=f5e140]: 
+            - text: Reliefs
+          - button " Filing" [ref=f5e141] [cursor=pointer]:
+            - generic [ref=f5e142]: 
+            - text: Filing
+          - button " Penalties" [ref=f5e143] [cursor=pointer]:
+            - generic [ref=f5e144]: 
+            - text: Penalties
+          - button " Loan Rate" [active] [ref=f5e145] [cursor=pointer]:
+            - generic [ref=f5e146]: 
+            - text: Loan Rate
+          - button " Voluntary Schemes" [ref=f5e147] [cursor=pointer]:
+            - generic [ref=f5e148]: 
+            - text: Voluntary Schemes
+          - button " Authorities" [ref=f5e149] [cursor=pointer]:
+            - generic [ref=f5e150]: 
+            - text: Authorities
+        - generic [ref=f5e1013]:
+          - generic [ref=f5e1015]:
+            - generic [ref=f5e1017]: 
+            - generic [ref=f5e1018]:
+              - paragraph [ref=f5e1019]: What is this rate? The benchmark a staff loan's interest is compared against. Charge an employee less than this and the shortfall is a taxable benefit under Act 896, unless the loan is exempt — 12 months or less, and no more than 3× basic salary. Where to get it. The Bank of Ghana publishes the policy rate after each Monetary Policy Committee meeting, roughly every two months. Add a new row with the date it took effect rather than editing the old one — each loan keeps the rate that applied when it started. If you leave it unset, no benefit-in-kind is applied to staff loans at all.
+              - button " See an example" [ref=f5e1020] [cursor=pointer]:
+                - generic [ref=f5e1021]: 
+                - text: See an example
+          - generic [ref=f5e1022]:
+            - generic [ref=f5e1023]:
+              - generic [ref=f5e1024]:
+                - generic [ref=f5e1025]:
+                  - generic [ref=f5e1026]:
+                    - generic [ref=f5e1027]:
+                      - heading "Loan reference rate" [level=3] [ref=f5e1028]
+                      - paragraph [ref=f5e1029]: The rate staff-loan benefit-in-kind is measured against. Charge an employee less than this and the difference is taxable (Act 896), unless the loan is exempt.
+                    - generic [ref=f5e1030]: No records
+                    - generic [ref=f5e1032]:
+                      - button " Filters " [ref=f5e1034] [cursor=pointer]:
+                        - generic [ref=f5e1035]: 
+                        - text: Filters
+                        - generic [ref=f5e1036]: 
+                      - button " Columns " [ref=f5e1038] [cursor=pointer]:
+                        - generic [ref=f5e1039]: 
+                        - text: Columns
+                        - generic [ref=f5e1040]: 
+                      - button " Refresh" [ref=f5e1041] [cursor=pointer]:
+                        - generic [ref=f5e1042]: 
+                        - text: Refresh
+                  - button " Add reference rate" [ref=f5e1044] [cursor=pointer]:
+                    - generic [ref=f5e1045]: 
+                    - text: Add reference rate
+                - generic [ref=f5e1047]:
+                  - generic [ref=f5e1048]:
+                    - generic [ref=f5e1049]:
+                      - generic [ref=f5e1050]: Country
+                      - button [ref=f5e1053] [cursor=pointer]:
+                        - generic [ref=f5e1054]: All countries
+                        - generic [aria-hidden] [ref=f5e1055]: 
+                      - button "Clear Country" [ref=f5e1056] [cursor=pointer]:
+                        - generic [ref=f5e1057]: 
+                    - generic [ref=f5e1058]:
+                      - generic [ref=f5e1059]: Status
+                      - button [ref=f5e1062] [cursor=pointer]:
+                        - generic [ref=f5e1063]: All status
+                        - generic [aria-hidden] [ref=f5e1064]: 
+                      - button "Clear Status" [ref=f5e1065] [cursor=pointer]:
+                        - generic [ref=f5e1066]: 
+                  - generic [ref=f5e1068]:
+                    - generic [aria-hidden]:
+                      - generic: 
+                    - textbox "Search rate source…" [ref=f5e1069]
+              - generic [ref=f5e1072]:
+                - table [ref=f5e1073]:
+                  - rowgroup [ref=f5e1081]:
+                    - row [ref=f5e1082]:
+                      - columnheader "Reference rate" [ref=f5e1083] [cursor=pointer]
+                      - columnheader "Rate" [ref=f5e1087]
+                      - columnheader "Effective" [ref=f5e1090] [cursor=pointer]
+                      - columnheader "Exemption" [ref=f5e1094]
+                      - columnheader "Status" [ref=f5e1097] [cursor=pointer]
+                      - columnheader [ref=f5e1101]
+                  - rowgroup
+                - generic [ref=f5e1103]:
+                  - generic [ref=f5e1104]: 
+                  - paragraph [ref=f5e1106]: Set your reference rate (e.g. the Bank of Ghana policy rate) so the taxable concession on below-rate staff loans is applied. Until one is set, staff-loan BIK stays at zero.
+                  - button " Add reference rate" [ref=f5e1108] [cursor=pointer]:
+                    - generic [ref=f5e1109]: 
+                    - text: Add reference rate
+            - generic [ref=f5e1110]:
+              - generic [ref=f5e1111]:
+                - generic [ref=f5e1112]:
+                  - generic [ref=f5e1113]: Rows per page
+                  - button [ref=f5e1116] [cursor=pointer]:
+                    - generic [ref=f5e1117]: "10"
+                    - generic [aria-hidden] [ref=f5e1118]: 
+                - generic [ref=f5e1119]: Showing 0-0 of 0 entries
+              - generic [ref=f5e1120]:
+                - generic [ref=f5e1121]: Page 1 of 0
+                - generic [ref=f5e1122]:
+                  - button "" [disabled] [ref=f5e1123] [cursor=pointer]
+                  - button "1" [ref=f5e1125] [cursor=pointer]
+                  - button "" [disabled] [ref=f5e1126] [cursor=pointer]
+    - contentinfo [ref=f5e120]:
+      - generic [ref=f5e122]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f5e123] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f5e125] [cursor=pointer]:
+    - generic [ref=f5e127]: 
+    - generic [ref=f5e128]: "1"

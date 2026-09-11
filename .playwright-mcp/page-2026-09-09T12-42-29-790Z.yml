@@ -1,0 +1,136 @@
+- generic [ref=f138e5]:
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f138e6]:
+        - generic [ref=f138e10]: You do not have permission to perform this action
+  - banner [ref=f138e12]:
+    - generic [ref=f138e13]:
+      - generic [ref=f138e14]:
+        - link [ref=f138e17] [cursor=pointer]:
+          - /url: /dashboard
+          - img "Kedebah logo" [ref=f138e18]
+        - generic [ref=f138e19]:
+          - textbox "Search anything here ..." [ref=f138e20]
+          - link "" [ref=f138e21] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - list [ref=f138e23]:
+        - text: 
+        - listitem [ref=f138e24]:
+          - link "" [ref=f138e25] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - listitem [ref=f138e27]:
+          - link "" [ref=f138e28] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - listitem [ref=f138e30]:
+          - link "" [ref=f138e31] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - listitem [ref=f138e33]:
+          - link "" [ref=f138e34] [cursor=pointer]:
+            - /url: /chat
+        - listitem [ref=f138e36]:
+          - button "" [ref=f138e37] [cursor=pointer]
+          - text: 
+        - listitem [ref=f138e39]:
+          - link "PM" [ref=f138e40] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - text:   
+  - complementary [ref=f138e43]:
+    - navigation [ref=f138e46]:
+      - list [ref=f138e47]:
+        - listitem [ref=f138e48]:
+          - link " Dashboard" [ref=f138e49] [cursor=pointer]:
+            - /url: /dashboard
+            - generic [ref=f138e50]: 
+            - generic [ref=f138e51]: Dashboard
+        - listitem [ref=f138e52]:
+          - link " Reports" [ref=f138e53] [cursor=pointer]:
+            - /url: /reports
+            - generic [ref=f138e54]: 
+            - generic [ref=f138e55]: Reports
+  - generic [ref=f138e58]:
+    - generic [ref=f138e60]:
+      - link " Back to Settings" [ref=f138e62] [cursor=pointer]:
+        - /url: /settings
+        - generic [ref=f138e63]: 
+        - text: Back to Settings
+      - generic [ref=f138e64]:
+        - generic [ref=f138e65]:
+          - heading "Pay Groups" [level=1] [ref=f138e66]
+          - paragraph [ref=f138e67]: Organize employees into groups that share payroll schedules, taxes, benefits, and deductions.
+        - button " Create Pay Group" [ref=f138e69] [cursor=pointer]:
+          - generic [ref=f138e70]: 
+          - text: Create Pay Group
+    - generic [ref=f138e71]:
+      - generic [ref=f138e72]:
+        - generic [ref=f138e73]: 
+        - paragraph [ref=f138e74]: You do not have permission to perform this action
+      - generic [ref=f138e75]:
+        - generic [ref=f138e76]:
+          - generic [ref=f138e77]:
+            - generic [ref=f138e78]:
+              - generic [ref=f138e79]:
+                - generic [ref=f138e80]: No records
+                - generic [ref=f138e82]:
+                  - button " Filters " [ref=f138e84] [cursor=pointer]:
+                    - generic [ref=f138e85]: 
+                    - text: Filters
+                    - generic [ref=f138e86]: 
+                  - button " Columns " [ref=f138e88] [cursor=pointer]:
+                    - generic [ref=f138e89]: 
+                    - text: Columns
+                    - generic [ref=f138e90]: 
+                  - button " Refresh" [ref=f138e91] [cursor=pointer]:
+                    - generic [ref=f138e92]: 
+                    - text: Refresh
+              - button " Export" [ref=f138e94] [cursor=pointer]:
+                - generic [ref=f138e95]: 
+                - text: Export
+            - generic [ref=f138e97]:
+              - generic [ref=f138e99]:
+                - generic [ref=f138e100]: Status
+                - button [ref=f138e103] [cursor=pointer]:
+                  - generic [ref=f138e104]: All Status
+                  - generic [aria-hidden] [ref=f138e105]: 
+                - button "Clear Status" [ref=f138e106] [cursor=pointer]:
+                  - generic [ref=f138e107]: 
+              - generic [ref=f138e109]:
+                - generic [aria-hidden]:
+                  - generic: 
+                - textbox "Search pay groups…" [ref=f138e110]
+          - generic [ref=f138e113]:
+            - table [ref=f138e114]:
+              - rowgroup [ref=f138e122]:
+                - row [ref=f138e123]:
+                  - columnheader "Name" [ref=f138e124] [cursor=pointer]
+                  - columnheader "Code" [ref=f138e128] [cursor=pointer]
+                  - columnheader "Pay Schedule" [ref=f138e132]
+                  - columnheader "Employees" [ref=f138e135]
+                  - columnheader "Status" [ref=f138e138] [cursor=pointer]
+                  - columnheader [ref=f138e142]
+              - rowgroup
+            - generic [ref=f138e144]:
+              - generic [ref=f138e145]: 
+              - paragraph [ref=f138e147]: Create pay groups to define how and when different sets of employees are paid.
+              - button " Create Pay Group" [ref=f138e148] [cursor=pointer]:
+                - generic [ref=f138e149]: 
+                - text: Create Pay Group
+        - generic [ref=f138e150]:
+          - generic [ref=f138e151]:
+            - generic [ref=f138e152]:
+              - generic [ref=f138e153]: Rows per page
+              - button [ref=f138e156] [cursor=pointer]:
+                - generic [ref=f138e157]: "10"
+                - generic [aria-hidden] [ref=f138e158]: 
+            - generic [ref=f138e159]: Showing 0-0 of 0 entries
+          - generic [ref=f138e160]:
+            - generic [ref=f138e161]: Page 1 of 0
+            - generic [ref=f138e162]:
+              - button "" [disabled] [ref=f138e163] [cursor=pointer]
+              - button "1" [ref=f138e165] [cursor=pointer]
+              - button "" [disabled] [ref=f138e166] [cursor=pointer]
+  - contentinfo [ref=f138e168]:
+    - generic [ref=f138e170]:
+      - text: Copyright © 2026
+      - link "Payroll" [ref=f138e171] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - text: . All rights reserved.

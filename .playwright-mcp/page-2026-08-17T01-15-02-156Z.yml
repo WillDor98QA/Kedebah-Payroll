@@ -1,0 +1,28 @@
+- generic [ref=e66]:
+  - navigation [ref=e67]:
+    - generic [ref=e68]:
+      - link [ref=e69] [cursor=pointer]:
+        - /url: https://sbxkedebah-v2.npontu.com/R-2171-WRY
+      - button "Etornam Etornam eetornam5@gmail.com EE" [ref=e72] [cursor=pointer]:
+        - generic [ref=e73]:
+          - paragraph [ref=e74]: Etornam Etornam
+          - paragraph [ref=e75]: eetornam5@gmail.com
+        - generic [ref=e76]: EE
+  - main [ref=e80]:
+    - generic [ref=e81]:
+      - heading "Choose Your Business" [level=1] [ref=e83]
+      - generic [ref=e84]:
+        - generic [ref=e87] [cursor=pointer]:
+          - generic [ref=e94]:
+            - heading "Mary and Co" [level=5] [ref=e95]
+            - generic [ref=e96]: ACTIVE
+          - paragraph [ref=e97]: eetornam5@gmail.com
+        - generic [ref=e103] [cursor=pointer]:
+          - generic [ref=e110]:
+            - heading "Sam & Sons" [level=5] [ref=e111]
+            - generic [ref=e112]: ACTIVE
+          - paragraph [ref=e113]: eetornam5@gmail.com
+        - button [ref=e118] [cursor=pointer]:
+          - generic [ref=e119]:
+            - heading "Add New Business" [level=5] [ref=e122]
+            - paragraph [ref=e123]: Set up another business on your account

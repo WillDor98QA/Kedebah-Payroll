@@ -1,0 +1,282 @@
+- generic [ref=f28e1]:
+  - generic [ref=f28e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f28e6]:
+      - generic [ref=f28e7]:
+        - generic [ref=f28e8]:
+          - link [ref=f28e164] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f28e165]
+          - generic [ref=f28e13]:
+            - textbox "Search anything here ..." [ref=f28e14]
+            - link "" [ref=f28e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f28e17]:
+          - text: 
+          - listitem [ref=f28e18]:
+            - link "" [ref=f28e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f28e21]:
+            - link "" [ref=f28e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f28e24]:
+            - link "" [ref=f28e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f28e27]:
+            - link "" [ref=f28e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f28e30]:
+            - button "" [ref=f28e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f28e33]:
+            - link "PM" [active] [ref=f28e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - menu [ref=f28e166]:
+              - listitem [ref=f28e167]:
+                - generic [ref=f28e168]:
+                  - text: User
+                  - generic [ref=f28e169]: dwetornam+26@gmail.com
+              - listitem [ref=f28e170]:
+                - link " Profile" [ref=f28e171] [cursor=pointer]:
+                  - /url: /settings
+                  - generic [ref=f28e172]: 
+                  - text: Profile
+              - listitem [ref=f28e173]:
+                - link " Settings" [ref=f28e174] [cursor=pointer]:
+                  - /url: /settings
+                  - generic [ref=f28e175]: 
+                  - text: Settings
+              - listitem [ref=f28e176]:
+                - link " Log Out" [ref=f28e177] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=f28e178]: 
+                  - text: Log Out
+    - complementary [ref=f28e37]:
+      - navigation [ref=f28e40]:
+        - list [ref=f28e41]:
+          - listitem [ref=f28e42]:
+            - link " Dashboard" [ref=f28e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f28e44]: 
+              - generic [ref=f28e45]: Dashboard
+          - listitem [ref=f28e46]:
+            - generic [ref=f28e47]:
+              - link " Employees" [ref=f28e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f28e49]: 
+                - generic [ref=f28e50]: Employees
+              - button "Toggle submenu" [ref=f28e51] [cursor=pointer]:
+                - generic [ref=f28e52]: 
+          - listitem [ref=f28e53]:
+            - link " Run Payroll" [ref=f28e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f28e55]: 
+              - generic [ref=f28e56]: Run Payroll
+          - listitem [ref=f28e57]:
+            - generic [ref=f28e58]:
+              - link " Taxes & Forms" [ref=f28e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f28e60]: 
+                - generic [ref=f28e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f28e62] [cursor=pointer]:
+                - generic [ref=f28e63]: 
+          - listitem [ref=f28e64]:
+            - link " Reports" [ref=f28e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f28e66]: 
+              - generic [ref=f28e67]: Reports
+          - listitem [ref=f28e68]:
+            - link " Settings" [ref=f28e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f28e70]: 
+              - generic [ref=f28e71]: Settings
+    - generic [ref=f28e74]:
+      - generic [ref=f28e75]:
+        - heading "Payroll Dashboard" [level=1] [ref=f28e76]
+        - paragraph [ref=f28e77]: Payroll insights, trends, and compliance exposure
+      - generic [ref=f28e179]:
+        - generic [ref=f28e180]:
+          - generic [ref=f28e181]:
+            - text: Payroll Period
+            - paragraph [ref=f28e182]: October 2026
+          - generic [ref=f28e183]:
+            - text: Payment Date
+            - paragraph [ref=f28e184]: Oct 30, 2026
+          - generic [ref=f28e185]:
+            - text: No. of Employees
+            - paragraph [ref=f28e186]: "3"
+          - generic [ref=f28e187]:
+            - text: Total Gross Pay
+            - paragraph [ref=f28e188]: ₵ 258,000.00
+          - generic [ref=f28e189]:
+            - text: Employees Net Pay
+            - paragraph [ref=f28e190]: ₵ 163,748.03
+          - generic [ref=f28e191]:
+            - text: Status
+            - paragraph [ref=f28e192]: Finalized
+        - button "View Details " [ref=f28e193] [cursor=pointer]:
+          - text: View Details
+          - generic [ref=f28e194]: 
+      - generic [ref=f28e97]:
+        - generic [ref=f28e195]:
+          - generic [ref=f28e196]:
+            - generic [ref=f28e197]:
+              - heading " Budget vs Actual" [level=3] [ref=f28e198]:
+                - generic [ref=f28e199]: 
+                - text: Budget vs Actual
+              - paragraph [ref=f28e200]: ZZQA FY2026 Payroll Budget · 2026
+            - generic [ref=f28e201]:
+              - spinbutton [ref=f28e202]: "2026"
+              - button " Export" [ref=f28e203] [cursor=pointer]:
+                - generic [ref=f28e204]: 
+                - text: Export
+              - button "View Budgets " [ref=f28e205] [cursor=pointer]:
+                - text: View Budgets
+                - generic [ref=f28e206]: 
+          - generic [ref=f28e207]:
+            - generic [ref=f28e208]:
+              - paragraph [ref=f28e209]: Total Annual Budget
+              - paragraph [ref=f28e210]: ₵ 3,000,000.00
+            - generic [ref=f28e211]:
+              - paragraph [ref=f28e212]: Actual YTD
+              - paragraph [ref=f28e213]: ₵ 1,485,190.00
+            - generic [ref=f28e214]:
+              - paragraph [ref=f28e215]: Variance
+              - paragraph [ref=f28e216]: ₵ -1,514,810.00
+            - generic [ref=f28e217]:
+              - paragraph [ref=f28e218]: Variance %
+              - paragraph [ref=f28e219]: "-50.49%"
+          - img [ref=f28e222]:
+            - generic [ref=f28e224]:
+              - generic [ref=f28e225] [cursor=pointer]: Budgeted
+              - generic [ref=f28e228] [cursor=pointer]: Actual
+            - generic [ref=f28e232]:
+              - generic "1500K" [ref=f28e233]
+              - generic "1000K" [ref=f28e234]
+              - generic "500K" [ref=f28e235]
+              - generic "0" [ref=f28e236]
+            - generic [ref=f28e269]:
+              - generic "Jan" [ref=f28e270]
+              - generic "Feb" [ref=f28e271]
+              - generic "Mar" [ref=f28e272]
+              - generic "Apr" [ref=f28e273]
+              - generic "May" [ref=f28e274]
+              - generic "Jun" [ref=f28e275]
+              - generic "Jul" [ref=f28e276]
+              - generic "Aug" [ref=f28e277]
+              - generic "Sep" [ref=f28e278]
+              - generic "Oct" [ref=f28e279]
+              - generic "Nov" [ref=f28e280]
+              - generic "Dec" [ref=f28e281]
+        - generic [ref=f28e282]:
+          - generic [ref=f28e283]:
+            - generic [ref=f28e284]:
+              - heading " Employee Summary" [level=3] [ref=f28e285]:
+                - generic [ref=f28e286]: 
+                - text: Employee Summary
+              - button "This Month " [ref=f28e288] [cursor=pointer]:
+                - text: This Month
+                - generic [ref=f28e289]: 
+            - generic [ref=f28e290]:
+              - img [ref=f28e294]:
+                - generic [ref=f28e307]:
+                  - generic: Total Active
+                  - generic: "4"
+              - generic [ref=f28e308]:
+                - text: By Employment Type
+                - generic [ref=f28e309]:
+                  - generic [ref=f28e310]: Full-time
+                  - generic [ref=f28e313]:
+                    - generic [ref=f28e314]: "2"
+                    - generic [ref=f28e315]: 50%
+                - generic [ref=f28e316]:
+                  - generic [ref=f28e317]: Unassigned
+                  - generic [ref=f28e320]:
+                    - generic [ref=f28e321]: "1"
+                    - generic [ref=f28e322]: 25%
+                - generic [ref=f28e323]:
+                  - generic [ref=f28e324]: Board
+                  - generic [ref=f28e327]:
+                    - generic [ref=f28e328]: "1"
+                    - generic [ref=f28e329]: 25%
+            - button "View Employees " [ref=f28e331] [cursor=pointer]:
+              - text: View Employees
+              - generic [ref=f28e332]: 
+          - generic [ref=f28e333]:
+            - generic [ref=f28e334]:
+              - heading " Employer Cost by Tier" [level=3] [ref=f28e335]:
+                - generic [ref=f28e336]: 
+                - text: Employer Cost by Tier
+              - button "This Year " [ref=f28e338] [cursor=pointer]:
+                - text: This Year
+                - generic [ref=f28e339]: 
+            - paragraph [ref=f28e340]: Employer's share of statutory/pension contributions, by tier.
+            - generic [ref=f28e341]:
+              - generic [ref=f28e343]:
+                - generic [ref=f28e344]: Tier 1
+                - generic [ref=f28e345]: ₵ 103,440.00
+              - generic [ref=f28e349]:
+                - generic [ref=f28e350]: Tier 2
+                - generic [ref=f28e351]: ₵ 64,650.00
+              - generic [ref=f28e354]:
+                - generic [ref=f28e355]: Total
+                - generic [ref=f28e356]: ₵ 168,090.00
+        - generic [ref=f28e357]:
+          - generic [ref=f28e358]:
+            - generic [ref=f28e359]:
+              - heading " Payroll Cost Summary" [level=3] [ref=f28e360]:
+                - generic [ref=f28e361]: 
+                - text: Payroll Cost Summary
+              - button "This Year " [ref=f28e363] [cursor=pointer]:
+                - text: This Year
+                - generic [ref=f28e364]: 
+            - img [ref=f28e367]:
+              - generic [ref=f28e369]:
+                - generic [ref=f28e370] [cursor=pointer]: Gross Pay
+                - generic [ref=f28e373] [cursor=pointer]: Employer Statutory
+              - generic [ref=f28e377]:
+                - generic "1500K" [ref=f28e378]
+                - generic "1000K" [ref=f28e379]
+                - generic "500K" [ref=f28e380]
+                - generic "0" [ref=f28e381]
+              - generic [ref=f28e395]:
+                - generic "Jan" [ref=f28e396]
+                - generic "Feb" [ref=f28e397]
+                - generic "Mar" [ref=f28e398]
+                - generic "Apr" [ref=f28e399]
+                - generic "May" [ref=f28e400]
+                - generic "Jun" [ref=f28e401]
+                - generic "Jul" [ref=f28e402]
+                - generic "Aug" [ref=f28e403]
+                - generic "Sep" [ref=f28e404]
+                - generic "Oct" [ref=f28e405]
+                - generic "Nov" [ref=f28e406]
+                - generic "Dec" [ref=f28e407]
+            - paragraph [ref=f28e408]: "Bars stack to the total employer cost: gross pay + employer statutory (SSNIT/pension). Hover a bar for the tier-level breakdown."
+          - generic [ref=f28e409]:
+            - heading " Quick Insights" [level=3] [ref=f28e410]:
+              - generic [ref=f28e411]: 
+              - text: Quick Insights
+            - generic [ref=f28e412]:
+              - generic [ref=f28e413]:
+                - generic [ref=f28e414]: 
+                - paragraph [ref=f28e416]: Payroll spending is 50.49% below budget year to date.
+              - generic [ref=f28e417]:
+                - generic [ref=f28e418]: 
+                - paragraph [ref=f28e420]: Full-time employees make up 50% of your workforce.
+              - generic [ref=f28e421]:
+                - generic [ref=f28e422]: 
+                - paragraph [ref=f28e424]: No statutory filings due for this period.
+              - generic [ref=f28e425]:
+                - generic [ref=f28e426]: 
+                - paragraph [ref=f28e428]: Highest payroll cost was ₵ 1,463,650.00 in Oct.
+    - contentinfo [ref=f28e160]:
+      - generic [ref=f28e162]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f28e163] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f28e430] [cursor=pointer]:
+    - generic [ref=f28e432]: 
+    - generic [ref=f28e433]: "1"

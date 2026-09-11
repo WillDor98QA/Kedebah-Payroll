@@ -1,0 +1,76 @@
+- generic [ref=f11e316]:
+  - navigation [ref=f11e317]:
+    - generic [ref=f11e318]:
+      - link [ref=f11e319] [cursor=pointer]:
+        - /url: https://sbxkedebah-v2.npontu.com/R-2171-WRY
+      - button "Manuan Buina codewithme224@gmail.com MB" [ref=f11e322] [cursor=pointer]:
+        - generic [ref=f11e323]:
+          - paragraph [ref=f11e324]: Manuan Buina
+          - paragraph [ref=f11e325]: codewithme224@gmail.com
+        - generic [ref=f11e326]: MB
+  - main [ref=f11e330]:
+    - generic [ref=f11e335]:
+      - heading "Welcome back, Manuan Buina!" [level=1] [ref=f11e337]
+      - generic [ref=f11e340]:
+        - textbox "Search modules, features, or settings..." [ref=f11e344]
+        - generic [ref=f11e345]: ⌘K
+      - generic [ref=f11e346]:
+        - heading "Enterprise Modules" [level=2] [ref=f11e347]
+        - button "Current Business William & Co Enterprises" [ref=f11e349] [cursor=pointer]:
+          - generic [ref=f11e355]:
+            - generic [ref=f11e356]: Current Business
+            - generic [ref=f11e357]: William & Co Enterprises
+      - generic [ref=f11e360]:
+        - generic [ref=f11e363] [cursor=pointer]:
+          - generic [ref=f11e364]:
+            - img "Administration" [ref=f11e366]
+            - generic [ref=f11e367]:
+              - heading "Administration" [level=5] [ref=f11e368]
+              - generic [ref=f11e369]: ACTIVE
+          - paragraph [ref=f11e370]: Centralized oversight for system permissions, security protocols, and global configurations
+        - generic [ref=f11e376] [cursor=pointer]:
+          - generic [ref=f11e377]:
+            - img "Commerce & Distribution" [ref=f11e379]
+            - generic [ref=f11e380]:
+              - heading "Commerce & Distribution" [level=5] [ref=f11e381]
+              - generic [ref=f11e382]: ACTIVE
+          - paragraph [ref=f11e383]: Omni-channel sales management and logistics coordination for finished goods
+        - generic [ref=f11e389] [cursor=pointer]:
+          - generic [ref=f11e390]:
+            - img "Payroll Manager" [ref=f11e392]
+            - generic [ref=f11e393]:
+              - heading "Payroll Manager" [level=5] [ref=f11e394]
+              - generic [ref=f11e395]: ACTIVE
+          - paragraph [ref=f11e396]: Automates salary calculations, tax withholdings, and direct deposits for the entire workforce
+        - generic [ref=f11e402] [cursor=pointer]:
+          - generic [ref=f11e403]:
+            - img "HR Manager" [ref=f11e405]
+            - generic [ref=f11e406]:
+              - heading "HR Manager" [level=5] [ref=f11e407]
+              - generic [ref=f11e408]: ACTIVE
+          - paragraph [ref=f11e409]: Manages the entire employee lifecycle from onboarding to performance reviews, contracts, workforce planning and offboarding
+        - generic [ref=f11e415] [cursor=pointer]:
+          - generic [ref=f11e416]:
+            - img "PIM" [ref=f11e418]
+            - generic [ref=f11e419]:
+              - heading "PIM" [level=5] [ref=f11e420]
+              - generic [ref=f11e421]: ACTIVE
+          - paragraph [ref=f11e422]: Secure repository for employee profiles, credentials, and personal documentation
+        - generic [ref=f11e428] [cursor=pointer]:
+          - generic [ref=f11e429]:
+            - img "Procurement Manager" [ref=f11e431]
+            - generic [ref=f11e432]:
+              - heading "Procurement Manager" [level=5] [ref=f11e433]
+              - generic [ref=f11e434]: ACTIVE
+          - paragraph [ref=f11e435]: Streamlines the purchasing process, from vendor selection to purchase orders, approvals and replenishments
+        - generic [ref=f11e441] [cursor=pointer]:
+          - generic [ref=f11e442]:
+            - img "Project Tracker" [ref=f11e444]
+            - generic [ref=f11e445]:
+              - heading "Project Tracker" [level=5] [ref=f11e446]
+              - generic [ref=f11e447]: ACTIVE
+          - paragraph [ref=f11e448]: Tracks tasks, timelines, and resource allocation to ensure projects stay on schedule
+      - generic [ref=f11e452]:
+        - paragraph [ref=f11e453]: Need to add another company?
+        - link "Add New Business" [ref=f11e454] [cursor=pointer]:
+          - /url: https://sbxkedebah-v2.npontu.com/R-2171-WRY/clients/add-business

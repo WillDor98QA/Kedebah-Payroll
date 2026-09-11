@@ -1,0 +1,213 @@
+- generic [active] [ref=f66e1]:
+  - generic [ref=f66e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f66e6]:
+      - generic [ref=f66e7]:
+        - generic [ref=f66e8]:
+          - link [ref=f66e11] [cursor=pointer]:
+            - /url: /dashboard
+          - generic [ref=f66e13]:
+            - textbox "Search anything here ..." [ref=f66e14]
+            - link "" [ref=f66e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f66e17]:
+          - text: 
+          - listitem [ref=f66e18]:
+            - link "" [ref=f66e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f66e21]:
+            - link "" [ref=f66e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f66e24]:
+            - link "" [ref=f66e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f66e27]:
+            - link "" [ref=f66e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f66e30]:
+            - button "" [ref=f66e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f66e33]:
+            - link "PM" [ref=f66e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f66e37]:
+      - navigation [ref=f66e40]:
+        - list [ref=f66e41]:
+          - listitem [ref=f66e42]:
+            - link " Dashboard" [ref=f66e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f66e44]: 
+              - generic [ref=f66e45]: Dashboard
+          - listitem [ref=f66e46]:
+            - generic [ref=f66e47]:
+              - link " Employees" [ref=f66e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f66e49]: 
+                - generic [ref=f66e50]: Employees
+              - button "Toggle submenu" [ref=f66e51] [cursor=pointer]:
+                - generic [ref=f66e52]: 
+          - listitem [ref=f66e53]:
+            - link " Run Payroll" [ref=f66e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f66e55]: 
+              - generic [ref=f66e56]: Run Payroll
+          - listitem [ref=f66e57]:
+            - generic [ref=f66e58]:
+              - link " Taxes & Forms" [ref=f66e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f66e60]: 
+                - generic [ref=f66e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f66e62] [cursor=pointer]:
+                - generic [ref=f66e63]: 
+          - listitem [ref=f66e64]:
+            - link " Reports" [ref=f66e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f66e66]: 
+              - generic [ref=f66e67]: Reports
+          - listitem [ref=f66e68]:
+            - link " Settings" [ref=f66e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f66e70]: 
+              - generic [ref=f66e71]: Settings
+    - generic [ref=f66e74]:
+      - generic [ref=f66e77]:
+        - generic [ref=f66e78]:
+          - heading "Payroll Runs" [level=1] [ref=f66e79]
+          - paragraph [ref=f66e80]: Process regular payroll, bonuses, off-cycle payments, and termination payroll.
+        - generic [ref=f66e82]:
+          - button " Reset" [ref=f66e83] [cursor=pointer]:
+            - generic [ref=f66e84]: 
+            - text: Reset
+          - button " Create Pay Run " [ref=f66e86] [cursor=pointer]:
+            - generic [ref=f66e87]: 
+            - text: Create Pay Run
+            - generic [ref=f66e88]: 
+      - generic [ref=f66e89]:
+        - generic [ref=f66e90]:
+          - generic [ref=f66e91]:
+            - generic [ref=f66e92]: 
+            - generic [ref=f66e93]: 1 approved pay run(s) haven't posted to finance yet. Map accounts on Finance Posting, then push them here.
+          - button " Sync to finance (1)" [ref=f66e95] [cursor=pointer]:
+            - generic [ref=f66e96]: 
+            - text: Sync to finance (1)
+        - generic [ref=f66e97]:
+          - navigation [ref=f66e99]:
+            - button " Run Payroll" [ref=f66e100] [cursor=pointer]:
+              - generic [ref=f66e101]: 
+              - generic [ref=f66e102]: Run Payroll
+            - button " Payroll History" [ref=f66e104] [cursor=pointer]:
+              - generic [ref=f66e105]: 
+              - generic [ref=f66e106]: Payroll History
+          - generic [ref=f66e108]:
+            - generic [ref=f66e109]:
+              - generic [ref=f66e110]:
+                - generic [ref=f66e111]: Search
+                - generic [ref=f66e112]:
+                  - generic: 
+                  - textbox "Search pay runs..." [ref=f66e113]
+              - generic [ref=f66e114]:
+                - generic [ref=f66e115]: Type
+                - button [ref=f66e118] [cursor=pointer]:
+                  - generic [ref=f66e119]: All Types
+                  - generic [aria-hidden] [ref=f66e120]: 
+              - generic [ref=f66e121]:
+                - generic [ref=f66e122]: Status
+                - button [ref=f66e125] [cursor=pointer]:
+                  - generic [ref=f66e126]: All statuses
+                  - generic [aria-hidden] [ref=f66e127]: 
+              - generic [ref=f66e128]:
+                - generic [ref=f66e129]: Pay date from · Jun 10, 2026
+                - textbox [ref=f66e130]: 2026-06-10
+              - generic [ref=f66e131]:
+                - generic [ref=f66e132]: Pay date to · Sep 10, 2026
+                - textbox [ref=f66e133]: 2026-09-10
+              - button " Clear filters" [ref=f66e134] [cursor=pointer]:
+                - generic [ref=f66e135]: 
+                - text: Clear filters
+            - generic [ref=f66e136]:
+              - generic [ref=f66e138]:
+                - generic [ref=f66e139]:
+                  - generic [ref=f66e140]:
+                    - generic [ref=f66e141]: 
+                    - generic [ref=f66e143]:
+                      - heading "ZZQA Bonus Cap Boundary (MidHire)" [level=3] [ref=f66e144]
+                      - paragraph [ref=f66e145]: Sep 1, 2026 to Sep 30, 2026
+                    - generic [ref=f66e146]:
+                      - generic [ref=f66e147]:
+                        - generic [ref=f66e148]: 
+                        - text: Bonus
+                      - generic [ref=f66e149]: Pending Approval
+                  - generic [ref=f66e150]:
+                    - generic [ref=f66e151]:
+                      - paragraph [ref=f66e152]: Pay Date
+                      - paragraph [ref=f66e153]: Sep 10, 2026
+                    - generic [ref=f66e154]:
+                      - paragraph [ref=f66e155]: Employees
+                      - paragraph [ref=f66e156]: 1 employees
+                    - generic [ref=f66e157]:
+                      - paragraph [ref=f66e158]: Total Amount
+                      - paragraph [ref=f66e159]: ₵ 5,301.00
+                - button " Review & Approve" [ref=f66e161] [cursor=pointer]:
+                  - generic [ref=f66e162]: 
+                  - text: Review & Approve
+              - generic [ref=f66e164]:
+                - generic [ref=f66e165]:
+                  - generic [ref=f66e166]:
+                    - generic [ref=f66e167]: 
+                    - generic [ref=f66e169]:
+                      - heading "ZZQA Bonus Cap Boundary Test" [level=3] [ref=f66e170]
+                      - paragraph [ref=f66e171]: Sep 1, 2026 to Sep 30, 2026
+                    - generic [ref=f66e172]:
+                      - generic [ref=f66e173]:
+                        - generic [ref=f66e174]: 
+                        - text: Bonus
+                      - generic [ref=f66e175]: Processed
+                  - generic [ref=f66e176]:
+                    - generic [ref=f66e177]:
+                      - paragraph [ref=f66e178]: Pay Date
+                      - paragraph [ref=f66e179]: Sep 10, 2026
+                    - generic [ref=f66e180]:
+                      - paragraph [ref=f66e181]: Employees
+                      - paragraph [ref=f66e182]: 1 employees
+                    - generic [ref=f66e183]:
+                      - paragraph [ref=f66e184]: Total Amount
+                      - paragraph [ref=f66e185]: ₵ 4,050.00
+                - button " Submit for Approval" [ref=f66e187] [cursor=pointer]:
+                  - generic [ref=f66e188]: 
+                  - text: Submit for Approval
+              - generic [ref=f66e190]:
+                - generic [ref=f66e191]:
+                  - generic [ref=f66e192]:
+                    - generic [ref=f66e193]: 
+                    - generic [ref=f66e195]:
+                      - heading "ZZQA PAYE Band-Edge Test" [level=3] [ref=f66e196]
+                      - paragraph [ref=f66e197]: Sep 9, 2026 to Sep 9, 2026
+                    - generic [ref=f66e198]:
+                      - generic [ref=f66e199]:
+                        - generic [ref=f66e200]: 
+                        - text: Off-Cycle
+                      - generic [ref=f66e201]: Processed
+                  - generic [ref=f66e202]:
+                    - generic [ref=f66e203]:
+                      - paragraph [ref=f66e204]: Pay Date
+                      - paragraph [ref=f66e205]: Sep 9, 2026
+                    - generic [ref=f66e206]:
+                      - paragraph [ref=f66e207]: Employees
+                      - paragraph [ref=f66e208]: 1 employees
+                    - generic [ref=f66e209]:
+                      - paragraph [ref=f66e210]: Total Amount
+                      - paragraph [ref=f66e211]: ₵ 0.00
+                - button " Submit for Approval" [ref=f66e213] [cursor=pointer]:
+                  - generic [ref=f66e214]: 
+                  - text: Submit for Approval
+    - contentinfo [ref=f66e215]:
+      - generic [ref=f66e217]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f66e218] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f66e220] [cursor=pointer]:
+    - generic [ref=f66e222]: 
+    - generic [ref=f66e223]: "1"

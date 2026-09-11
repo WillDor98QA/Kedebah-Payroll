@@ -1,0 +1,168 @@
+- generic [active] [ref=f105e1]:
+  - generic [ref=f105e5]:
+    - region "Notifications alt+T":
+      - list:
+        - listitem [ref=f105e249]:
+          - generic [ref=f105e253]: An unexpected error occurred. Please try again.
+    - banner [ref=f105e6]:
+      - generic [ref=f105e7]:
+        - generic [ref=f105e8]:
+          - link [ref=f105e198] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f105e199]
+          - generic [ref=f105e13]:
+            - textbox "Search anything here ..." [ref=f105e14]
+            - link "" [ref=f105e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f105e17]:
+          - text: 
+          - listitem [ref=f105e18]:
+            - link "" [ref=f105e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f105e21]:
+            - link "" [ref=f105e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f105e24]:
+            - link "" [ref=f105e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f105e27]:
+            - link "" [ref=f105e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f105e30]:
+            - button "" [ref=f105e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f105e33]:
+            - link "PM" [ref=f105e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f105e37]:
+      - navigation [ref=f105e40]:
+        - list [ref=f105e41]:
+          - listitem [ref=f105e42]:
+            - link " Dashboard" [ref=f105e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f105e44]: 
+              - generic [ref=f105e45]: Dashboard
+          - listitem [ref=f105e46]:
+            - generic [ref=f105e47]:
+              - link " Employees" [ref=f105e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f105e49]: 
+                - generic [ref=f105e50]: Employees
+              - button "Toggle submenu" [ref=f105e51] [cursor=pointer]:
+                - generic [ref=f105e52]: 
+          - listitem [ref=f105e53]:
+            - link " Run Payroll" [ref=f105e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f105e55]: 
+              - generic [ref=f105e56]: Run Payroll
+          - listitem [ref=f105e57]:
+            - generic [ref=f105e58]:
+              - link " Taxes & Forms" [ref=f105e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f105e60]: 
+                - generic [ref=f105e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f105e62] [cursor=pointer]:
+                - generic [ref=f105e63]: 
+          - listitem [ref=f105e64]:
+            - link " Reports" [ref=f105e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f105e66]: 
+              - generic [ref=f105e67]: Reports
+          - listitem [ref=f105e68]:
+            - link " Settings" [ref=f105e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f105e70]: 
+              - generic [ref=f105e71]: Settings
+    - generic [ref=f105e74]:
+      - generic [ref=f105e76]:
+        - link " Back to Settings" [ref=f105e78] [cursor=pointer]:
+          - /url: /settings
+          - generic [ref=f105e79]: 
+          - text: Back to Settings
+        - generic [ref=f105e80]:
+          - generic [ref=f105e81]:
+            - heading "Approval Workflows" [level=1] [ref=f105e82]
+            - paragraph [ref=f105e83]: Configure approval workflows for payroll, employees, taxes, and more.
+          - button " Create workflow" [ref=f105e85] [cursor=pointer]:
+            - generic [ref=f105e86]: 
+            - text: Create workflow
+      - generic [ref=f105e88]:
+        - generic [ref=f105e89]:
+          - generic [ref=f105e90]:
+            - generic [ref=f105e91]:
+              - button " Filters " [ref=f105e93] [cursor=pointer]:
+                - generic [ref=f105e94]: 
+                - text: Filters
+                - generic [ref=f105e95]: 
+              - button " Export" [ref=f105e96] [cursor=pointer]:
+                - generic [ref=f105e97]: 
+                - text: Export
+            - generic [ref=f105e99]:
+              - generic [aria-hidden]:
+                - generic: 
+              - textbox "Search workflows…" [ref=f105e100]
+          - generic [ref=f105e101]:
+            - generic [ref=f105e102]:
+              - generic [ref=f105e103]: Status
+              - button [ref=f105e106] [cursor=pointer]:
+                - generic [ref=f105e107]: All Status
+                - generic [aria-hidden] [ref=f105e108]: 
+              - button "Clear Status" [ref=f105e109] [cursor=pointer]:
+                - generic [ref=f105e110]: 
+            - generic [ref=f105e111]:
+              - generic [ref=f105e112]: Entity Type
+              - button [ref=f105e115] [cursor=pointer]:
+                - generic [ref=f105e116]: All Types
+                - generic [aria-hidden] [ref=f105e117]: 
+              - button "Clear Entity Type" [ref=f105e118] [cursor=pointer]:
+                - generic [ref=f105e119]: 
+        - generic [ref=f105e202]:
+          - generic [ref=f105e203] [cursor=pointer]:
+            - generic [ref=f105e204]:
+              - generic [ref=f105e205]:
+                - heading "Pay Run Approval Workflow" [level=3] [ref=f105e206]
+                - paragraph [ref=f105e207]: Configure approval stages for payroll runs. All stages must be completed before payroll can be finalized.
+              - generic [ref=f105e208]: Active
+            - generic [ref=f105e209]:
+              - generic [ref=f105e210]:
+                - generic [ref=f105e211]: 
+                - text: Pay Run
+              - generic [ref=f105e212]:
+                - generic [ref=f105e213]: 
+                - text: 2 stage(s)
+          - generic [ref=f105e214]:
+            - button "" [ref=f105e215] [cursor=pointer]
+            - button "" [ref=f105e217] [cursor=pointer]
+        - generic [ref=f105e219]:
+          - generic [ref=f105e220]:
+            - generic [ref=f105e221]:
+              - generic [ref=f105e222]: Rows per page
+              - button [ref=f105e225] [cursor=pointer]:
+                - generic [ref=f105e226]: "6"
+                - generic [aria-hidden] [ref=f105e227]: 
+            - generic [ref=f105e228]: Showing 7-7 of 7 entries
+          - generic [ref=f105e229]:
+            - generic [ref=f105e230]: Page 2 of 2
+            - generic [ref=f105e231]:
+              - button "" [ref=f105e232] [cursor=pointer]
+              - button "1" [ref=f105e234] [cursor=pointer]
+              - button "2" [ref=f105e235] [cursor=pointer]
+              - button "" [disabled] [ref=f105e236] [cursor=pointer]
+    - contentinfo [ref=f105e189]:
+      - generic [ref=f105e191]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f105e192] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - generic [ref=f105e239]:
+    - generic [ref=f105e241]:
+      - generic [ref=f105e242]: 
+      - heading "Deactivate Workflow" [level=3] [ref=f105e244]
+      - paragraph [ref=f105e245]: Are you sure you want to deactivate "Pay Run Approval Workflow"? This workflow will no longer be used for approvals.
+    - generic [ref=f105e246]:
+      - button "Cancel" [ref=f105e247] [cursor=pointer]
+      - button "Deactivate" [ref=f105e248] [cursor=pointer]
+  - button "1 compliance alert(s) — open list" [ref=f105e194] [cursor=pointer]:
+    - generic [ref=f105e196]: 
+    - generic [ref=f105e197]: "1"

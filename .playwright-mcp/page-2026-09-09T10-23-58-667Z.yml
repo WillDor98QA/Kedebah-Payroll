@@ -1,0 +1,224 @@
+- generic [active] [ref=f81e1]:
+  - generic [ref=f81e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f81e6]:
+      - generic [ref=f81e7]:
+        - generic [ref=f81e8]:
+          - link [ref=f81e165] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f81e166]
+          - generic [ref=f81e13]:
+            - textbox "Search anything here ..." [ref=f81e14]
+            - link "" [ref=f81e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f81e17]:
+          - text: 
+          - listitem [ref=f81e18]:
+            - link "" [ref=f81e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f81e21]:
+            - link "" [ref=f81e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f81e24]:
+            - link "" [ref=f81e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f81e27]:
+            - link "" [ref=f81e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f81e30]:
+            - button "" [ref=f81e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f81e33]:
+            - link "PM" [ref=f81e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f81e37]:
+      - navigation [ref=f81e40]:
+        - list [ref=f81e41]:
+          - listitem [ref=f81e42]:
+            - link " Dashboard" [ref=f81e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f81e44]: 
+              - generic [ref=f81e45]: Dashboard
+          - listitem [ref=f81e46]:
+            - generic [ref=f81e47]:
+              - link " Employees" [ref=f81e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f81e49]: 
+                - generic [ref=f81e50]: Employees
+              - button "Toggle submenu" [ref=f81e51] [cursor=pointer]:
+                - generic [ref=f81e52]: 
+          - listitem [ref=f81e53]:
+            - link " Run Payroll" [ref=f81e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f81e55]: 
+              - generic [ref=f81e56]: Run Payroll
+          - listitem [ref=f81e57]:
+            - generic [ref=f81e58]:
+              - link " Taxes & Forms" [ref=f81e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f81e60]: 
+                - generic [ref=f81e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f81e62] [cursor=pointer]:
+                - generic [ref=f81e63]: 
+          - listitem [ref=f81e64]:
+            - link " Reports" [ref=f81e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f81e66]: 
+              - generic [ref=f81e67]: Reports
+          - listitem [ref=f81e68]:
+            - link " Settings" [ref=f81e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f81e70]: 
+              - generic [ref=f81e71]: Settings
+    - generic [ref=f81e665]:
+      - generic [ref=f81e667]:
+        - link " Back to Settings" [ref=f81e669] [cursor=pointer]:
+          - /url: /settings
+          - generic [ref=f81e670]: 
+          - text: Back to Settings
+        - generic [ref=f81e672]:
+          - heading "Pay Schedule Setup" [level=1] [ref=f81e673]
+          - paragraph [ref=f81e674]: Define how often and when employees are paid. This setting controls payroll periods and calculations.
+      - generic [ref=f81e710]:
+        - generic [ref=f81e711]:
+          - generic [ref=f81e712]:
+            - heading "Pay Frequency" [level=3] [ref=f81e714]
+            - paragraph [ref=f81e715]: This selection applies to all payroll cycles unless overridden by pay groups.
+            - generic [ref=f81e716]:
+              - generic [ref=f81e717] [cursor=pointer]:
+                - generic [ref=f81e718]: 
+                - heading "Weekly" [level=6] [ref=f81e720]
+              - generic [ref=f81e722] [cursor=pointer]:
+                - generic [ref=f81e723]: 
+                - heading "Bi-Weekly " [level=6] [ref=f81e725]:
+                  - generic [ref=f81e726]: Bi-Weekly
+                  - generic [ref=f81e727]: 
+              - generic [ref=f81e729] [cursor=pointer]:
+                - generic [ref=f81e842]: 
+                - generic [ref=f81e730]: 
+                - heading "Semi-Monthly " [level=6] [ref=f81e732]:
+                  - generic [ref=f81e733]: Semi-Monthly
+                  - generic [ref=f81e734]: 
+              - generic [ref=f81e736] [cursor=pointer]:
+                - generic [ref=f81e739]: 
+                - heading "Monthly" [level=6] [ref=f81e741]
+              - generic [ref=f81e743] [cursor=pointer]:
+                - generic [ref=f81e744]: 
+                - heading "Quarterly" [level=6] [ref=f81e746]
+          - generic [ref=f81e748]:
+            - heading "Payday Rules" [level=3] [ref=f81e750]
+            - paragraph [ref=f81e751]: Configure when your first payroll period begins and when employees get paid.
+            - generic [ref=f81e752]:
+              - generic [ref=f81e753]:
+                - generic [ref=f81e754]:
+                  - generic [ref=f81e755]: 
+                  - generic [ref=f81e756]:
+                    - text: Your pay calendar already started on
+                    - strong [ref=f81e757]: Sep 1, 2026
+                    - text: . Changes below apply to future periods — periods already generated are not moved.
+                - generic [ref=f81e758]:
+                  - generic [ref=f81e759]: 
+                  - generic [ref=f81e760]:
+                    - text: Need payslips for months before that date?
+                    - button "Add past pay periods" [ref=f81e761] [cursor=pointer]
+              - generic [ref=f81e762]:
+                - heading " Your First Payroll Period" [level=6] [ref=f81e763]:
+                  - generic [ref=f81e764]: 
+                  - text: Your First Payroll Period
+                - generic [ref=f81e765]:
+                  - generic [ref=f81e766]:
+                    - generic [ref=f81e767]: Period Start
+                    - text: Sep 1, 2026
+                  - generic [ref=f81e768]:
+                    - generic [ref=f81e769]: Period End
+                    - text: Sep 30, 2026
+                  - generic [ref=f81e770]:
+                    - generic [ref=f81e771]: Data Cutoff
+                    - text: Sep 25, 2026
+                  - generic [ref=f81e772]:
+                    - generic [ref=f81e773]: Pay Date
+                    - text: Sep 30, 2026
+                - paragraph [ref=f81e774]:
+                  - generic [ref=f81e775]: 
+                  - strong [ref=f81e776]: "Period:"
+                  - text: When employees earn wages.
+                  - strong [ref=f81e777]: "Cutoff:"
+                  - text: Last day to submit changes.
+                  - strong [ref=f81e778]: "Pay Date:"
+                  - text: When employees receive payment.
+              - generic [ref=f81e844]:
+                - generic [ref=f81e845]:
+                  - generic [ref=f81e846]:
+                    - heading "Period 1 (1st - 15th)" [level=6] [ref=f81e847]
+                    - generic [ref=f81e848]:
+                      - generic [ref=f81e849]: Pay Date
+                      - button [ref=f81e852] [cursor=pointer]:
+                        - generic [ref=f81e853]: 15th of the month
+                        - generic [aria-hidden] [ref=f81e854]: 
+                  - generic [ref=f81e855]:
+                    - heading "Period 2 (16th - End)" [level=6] [ref=f81e856]
+                    - generic [ref=f81e857]:
+                      - generic [ref=f81e858]: Pay Date
+                      - button [ref=f81e861] [cursor=pointer]:
+                        - generic [ref=f81e862]: Last working day
+                        - generic [aria-hidden] [ref=f81e863]: 
+                - paragraph [ref=f81e864]: Payroll periods are automatically derived from the selected pay dates.
+          - generic [ref=f81e797]:
+            - button " Advanced rules (optional) " [ref=f81e798] [cursor=pointer]:
+              - generic [ref=f81e799]: 
+              - text: Advanced rules (optional)
+              - generic [ref=f81e800]: 
+            - generic [ref=f81e801]:
+              - generic [ref=f81e802]:
+                - generic [ref=f81e803]: Data Cutoff
+                - generic [ref=f81e804]:
+                  - spinbutton [ref=f81e805]: "5"
+                  - generic [ref=f81e806]: days before period ends
+                - paragraph [ref=f81e807]: Last day for submitting timesheets, changes, or corrections. No changes allowed after this date.
+              - generic [ref=f81e808]:
+                - generic [ref=f81e809]: Holiday Rule
+                - button [ref=f81e812] [cursor=pointer]:
+                  - generic [ref=f81e813]: Pay previous working day
+                  - generic [aria-hidden] [ref=f81e814]: 
+                - paragraph [ref=f81e815]: Behavior when payday falls on a holiday.
+          - generic [ref=f81e816]:
+            - button "Cancel" [ref=f81e817] [cursor=pointer]
+            - button "Save" [ref=f81e818] [cursor=pointer]
+        - generic [ref=f81e820]:
+          - generic [ref=f81e821]:
+            - heading " Did you know?" [level=6] [ref=f81e822]:
+              - generic [ref=f81e823]: 
+              - text: Did you know?
+            - paragraph [ref=f81e824]: Your pay schedule determines when payroll periods start and end, when data must be finalized, and when employees receive payment.
+            - paragraph [ref=f81e825]: You can create additional pay schedules for specific pay groups later if needed.
+          - generic [ref=f81e826]:
+            - heading " How it works" [level=6] [ref=f81e827]:
+              - generic [ref=f81e828]: 
+              - text: How it works
+            - generic [ref=f81e829]:
+              - generic [ref=f81e830]:
+                - generic [ref=f81e831]: "1"
+                - generic [ref=f81e832]:
+                  - strong [ref=f81e833]: "Period Start → End:"
+                  - text: The work period when employees earn wages
+              - generic [ref=f81e834]:
+                - generic [ref=f81e835]: "2"
+                - generic [ref=f81e836]:
+                  - strong [ref=f81e837]: "Cutoff Date:"
+                  - text: Last day to submit timesheets, changes, or corrections
+              - generic [ref=f81e838]:
+                - generic [ref=f81e839]: "3"
+                - generic [ref=f81e840]:
+                  - strong [ref=f81e841]: "Pay Date:"
+                  - text: When employees receive their salary
+    - contentinfo [ref=f81e137]:
+      - generic [ref=f81e139]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f81e140] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f81e161] [cursor=pointer]:
+    - generic [ref=f81e163]: 
+    - generic [ref=f81e164]: "1"

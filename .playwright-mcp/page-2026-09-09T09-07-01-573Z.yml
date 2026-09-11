@@ -1,0 +1,240 @@
+- generic [active] [ref=f74e1]:
+  - generic [ref=f74e5]:
+    - region "Notifications alt+T":
+      - list:
+        - listitem [ref=f74e285]:
+          - generic [ref=f74e289]: "Calculation Method: fixed_amount benefits require amount greater than zero."
+    - banner [ref=f74e6]:
+      - generic [ref=f74e7]:
+        - generic [ref=f74e8]:
+          - link [ref=f74e117] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f74e118]
+          - generic [ref=f74e13]:
+            - textbox "Search anything here ..." [ref=f74e14]
+            - link "" [ref=f74e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f74e17]:
+          - text: 
+          - listitem [ref=f74e18]:
+            - link "" [ref=f74e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f74e21]:
+            - link "" [ref=f74e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f74e24]:
+            - link "" [ref=f74e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f74e27]:
+            - link "" [ref=f74e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f74e30]:
+            - button "" [ref=f74e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f74e33]:
+            - link "PM" [ref=f74e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f74e37]:
+      - navigation [ref=f74e40]:
+        - list [ref=f74e41]:
+          - listitem [ref=f74e42]:
+            - link " Dashboard" [ref=f74e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f74e44]: 
+              - generic [ref=f74e45]: Dashboard
+          - listitem [ref=f74e46]:
+            - generic [ref=f74e47]:
+              - link " Employees" [ref=f74e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f74e49]: 
+                - generic [ref=f74e50]: Employees
+              - button "Toggle submenu" [ref=f74e51] [cursor=pointer]:
+                - generic [ref=f74e52]: 
+          - listitem [ref=f74e53]:
+            - link " Run Payroll" [ref=f74e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f74e55]: 
+              - generic [ref=f74e56]: Run Payroll
+          - listitem [ref=f74e57]:
+            - generic [ref=f74e58]:
+              - link " Taxes & Forms" [ref=f74e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f74e60]: 
+                - generic [ref=f74e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f74e62] [cursor=pointer]:
+                - generic [ref=f74e63]: 
+          - listitem [ref=f74e64]:
+            - link " Reports" [ref=f74e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f74e66]: 
+              - generic [ref=f74e67]: Reports
+          - listitem [ref=f74e68]:
+            - link " Settings" [ref=f74e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f74e70]: 
+              - generic [ref=f74e71]: Settings
+    - generic [ref=f74e75]:
+      - generic [ref=f74e77]:
+        - link " Back to Benefits" [ref=f74e79] [cursor=pointer]:
+          - /url: /setup/earnings-benefits-deductions?tab=benefits
+          - generic [ref=f74e80]: 
+          - text: Back to Benefits
+        - generic [ref=f74e82]:
+          - heading "Create benefit" [level=1] [ref=f74e83]
+          - paragraph [ref=f74e84]: Add a new employee benefit.
+      - generic [ref=f74e85]:
+        - generic [ref=f74e87]:
+          - generic [ref=f74e89]: 
+          - paragraph [ref=f74e91]: Alert thresholds are added after this benefit is saved. Open the benefit from the list, then use the Alert Thresholds section on the detail page.
+        - generic [ref=f74e291]:
+          - generic [ref=f74e292]: 
+          - paragraph [ref=f74e293]: "Calculation Method: fixed_amount benefits require amount greater than zero."
+        - generic [ref=f74e119]:
+          - generic [ref=f74e120]:
+            - generic [ref=f74e121]:
+              - generic [ref=f74e122]:
+                - generic [ref=f74e123]: "01"
+                - heading "Catalog Details" [level=3] [ref=f74e124]
+              - generic [ref=f74e126]:
+                - generic [ref=f74e128]: 
+                - paragraph [ref=f74e130]: Define the benefit name, type, amount, tax treatment, and default enrollment behavior.
+              - generic [ref=f74e131]:
+                - generic [ref=f74e132]:
+                  - generic [ref=f74e133]: Benefit Nature *
+                  - generic [ref=f74e134]:
+                    - generic [ref=f74e135] [cursor=pointer]:
+                      - radio "Cash" [checked] [ref=f74e136]
+                      - generic [ref=f74e137]: Cash
+                    - generic [ref=f74e138] [cursor=pointer]:
+                      - radio "Non-Cash" [ref=f74e139]
+                      - generic [ref=f74e140]: Non-Cash
+                - generic [ref=f74e141]:
+                  - generic [ref=f74e142]: Benefit Name *
+                  - textbox "e.g. Company Vehicle - Vehicle Only" [ref=f74e143]: ZZQA Neg Benefit
+                - generic [ref=f74e144]:
+                  - generic [ref=f74e145]: Benefit Code
+                  - textbox "Auto-generated if blank" [ref=f74e146]
+                - generic [ref=f74e147]:
+                  - generic [ref=f74e148]: Description
+                  - textbox "Optional — HR admin notes" [ref=f74e149]
+                - generic [ref=f74e150]:
+                  - generic [ref=f74e151]: Benefit Type
+                  - button [ref=f74e154] [cursor=pointer]:
+                    - generic [ref=f74e155]: Select type (optional)
+                    - generic [aria-hidden] [ref=f74e156]: 
+                - generic [ref=f74e157]:
+                  - generic [ref=f74e158]: Country Scope
+                  - button [ref=f74e161] [cursor=pointer]:
+                    - generic [ref=f74e162]: All countries
+                    - generic [aria-hidden] [ref=f74e163]: 
+                - generic [ref=f74e164]:
+                  - generic [ref=f74e165]: Calculation Method *
+                  - generic [ref=f74e167]:
+                    - button "fixed_amount benefits require amount greater than zero." [ref=f74e294] [cursor=pointer]:
+                      - generic [ref=f74e169]: Fixed Amount
+                      - generic [aria-hidden] [ref=f74e170]: 
+                    - paragraph [ref=f74e295]: fixed_amount benefits require amount greater than zero.
+                - generic [ref=f74e171]:
+                  - generic [ref=f74e172]: Amount *
+                  - generic [ref=f74e173]:
+                    - generic: GH₵
+                    - spinbutton "0.00" [ref=f74e174]: "-500"
+                  - paragraph [ref=f74e296]: The amount field must be at least 0.
+                - generic [ref=f74e175]:
+                  - generic [ref=f74e176]: Tax Treatment *
+                  - button [ref=f74e179] [cursor=pointer]:
+                    - generic [ref=f74e180]: Taxable
+                    - generic [aria-hidden] [ref=f74e181]: 
+                - generic [ref=f74e182]:
+                  - generic [ref=f74e183]: Status
+                  - button [ref=f74e186] [cursor=pointer]:
+                    - generic [ref=f74e187]: Active
+                    - generic [aria-hidden] [ref=f74e188]: 
+                - generic [ref=f74e189]:
+                  - generic [ref=f74e190]: Rounding Mode
+                  - button [ref=f74e193] [cursor=pointer]:
+                    - generic [ref=f74e194]: Round half up
+                    - generic [aria-hidden] [ref=f74e195]: 
+                - generic [ref=f74e196]:
+                  - generic [ref=f74e197]: Decimal Places
+                  - spinbutton [ref=f74e198]: "2"
+            - generic [ref=f74e199]:
+              - generic [ref=f74e200]:
+                - generic [ref=f74e201]: "02"
+                - heading "Limits & Lifecycle" [level=3] [ref=f74e202]
+              - generic [ref=f74e204]:
+                - generic [ref=f74e206]: 
+                - generic [ref=f74e207]:
+                  - paragraph [ref=f74e208]: Cap how much is paid per period or per year, and set active date windows.
+                  - button " See an example" [ref=f74e209] [cursor=pointer]:
+                    - generic [ref=f74e210]: 
+                    - text: See an example
+              - generic [ref=f74e211]:
+                - generic [ref=f74e212]:
+                  - generic [ref=f74e213]: Period Minimum
+                  - generic [ref=f74e214]:
+                    - generic: GH₵
+                    - spinbutton "Optional" [ref=f74e215]
+                - generic [ref=f74e216]:
+                  - generic [ref=f74e217]: Period Maximum
+                  - generic [ref=f74e218]:
+                    - generic: GH₵
+                    - spinbutton "Optional" [ref=f74e219]
+                - generic [ref=f74e220]:
+                  - generic [ref=f74e221]: Annual Cap
+                  - generic [ref=f74e222]:
+                    - generic: GH₵
+                    - spinbutton "Optional" [ref=f74e223]
+                - generic [ref=f74e224]:
+                  - generic [ref=f74e225]: Effective From
+                  - textbox [ref=f74e226]
+                - generic [ref=f74e227]:
+                  - generic [ref=f74e228]: Effective To
+                  - textbox [ref=f74e229]
+              - generic [ref=f74e230]:
+                - generic [ref=f74e231] [cursor=pointer]:
+                  - generic [ref=f74e232]:
+                    - paragraph [ref=f74e233]: Pro-rate on unpaid leave and absence
+                    - paragraph [ref=f74e234]: When on, this allowance is reduced for days the employee was on leave without pay or recorded absent, in proportion to working days in the period.
+                  - checkbox "Pro-rate on unpaid leave and absence When on, this allowance is reduced for days the employee was on leave without pay or recorded absent, in proportion to working days in the period." [checked] [ref=f74e235]
+                - paragraph [ref=f74e236]: Standard for attendance-linked allowances such as transport and lunch — the cost is not incurred on a day not worked. The withholding appears on the payslip as its own line; the allowance itself still shows its full contractual value.
+          - generic [ref=f74e237]:
+            - generic [ref=f74e238]:
+              - generic [ref=f74e239]: "03"
+              - heading "Employee Assignment · Optional" [level=3] [ref=f74e240]
+            - generic [ref=f74e242]:
+              - generic [ref=f74e244]: 
+              - paragraph [ref=f74e246]: Choose who receives this benefit. Defaults to none — select All employees to apply to everyone. Amounts are set per employee elsewhere — on the employee's own profile, or for many at once under Adjustments.
+            - generic [ref=f74e248]:
+              - generic [ref=f74e250]: 
+              - generic [ref=f74e251]:
+                - paragraph [ref=f74e252]: No assignment set
+                - paragraph [ref=f74e253]: No assignment set — this benefit applies to no one until you choose who receives it.
+            - generic [ref=f74e254]:
+              - generic [ref=f74e255]:
+                - generic [ref=f74e256]: Assignment Mode
+                - button [ref=f74e259] [cursor=pointer]:
+                  - generic [ref=f74e260]: None (unassigned)
+                  - generic [aria-hidden] [ref=f74e261]: 
+              - generic [ref=f74e263] [cursor=pointer]:
+                - generic [ref=f74e264]:
+                  - paragraph [ref=f74e265]: Auto-enroll
+                  - paragraph [ref=f74e266]: When on, everyone in the selected scope is enrolled automatically — no individual assignment needed.
+                - checkbox "Auto-enroll When on, everyone in the selected scope is enrolled automatically — no individual assignment needed." [ref=f74e267]
+          - generic [ref=f74e268]:
+            - paragraph [ref=f74e269]: Fill in catalog details, calculation, limits, and employee assignment, then create.
+            - generic [ref=f74e270]:
+              - button "Cancel" [ref=f74e271] [cursor=pointer]
+              - button "Create Benefit" [ref=f74e272] [cursor=pointer]
+    - contentinfo [ref=f74e108]:
+      - generic [ref=f74e110]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f74e111] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "Scroll to top" [ref=f74e273] [cursor=pointer]:
+    - generic [aria-hidden] [ref=f74e274]: 
+  - button "1 compliance alert(s) — open list" [ref=f74e113] [cursor=pointer]:
+    - generic [ref=f74e115]: 
+    - generic [ref=f74e116]: "1"

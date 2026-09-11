@@ -1,0 +1,238 @@
+- generic [ref=f81e1]:
+  - generic [ref=f81e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f81e6]:
+      - generic [ref=f81e7]:
+        - generic [ref=f81e8]:
+          - link [ref=f81e165] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f81e166]
+          - generic [ref=f81e13]:
+            - textbox "Search anything here ..." [ref=f81e14]
+            - link "" [ref=f81e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f81e17]:
+          - text: 
+          - listitem [ref=f81e18]:
+            - link "" [ref=f81e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f81e21]:
+            - link "" [ref=f81e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f81e24]:
+            - link "" [ref=f81e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f81e27]:
+            - link "" [ref=f81e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f81e30]:
+            - button "" [ref=f81e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f81e33]:
+            - link "PM" [ref=f81e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f81e37]:
+      - navigation [ref=f81e40]:
+        - list [ref=f81e41]:
+          - listitem [ref=f81e42]:
+            - link " Dashboard" [ref=f81e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f81e44]: 
+              - generic [ref=f81e45]: Dashboard
+          - listitem [ref=f81e46]:
+            - generic [ref=f81e47]:
+              - link " Employees" [ref=f81e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f81e49]: 
+                - generic [ref=f81e50]: Employees
+              - button "Toggle submenu" [ref=f81e51] [cursor=pointer]:
+                - generic [ref=f81e52]: 
+          - listitem [ref=f81e53]:
+            - link " Run Payroll" [ref=f81e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f81e55]: 
+              - generic [ref=f81e56]: Run Payroll
+          - listitem [ref=f81e57]:
+            - generic [ref=f81e58]:
+              - link " Taxes & Forms" [ref=f81e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f81e60]: 
+                - generic [ref=f81e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f81e62] [cursor=pointer]:
+                - generic [ref=f81e63]: 
+          - listitem [ref=f81e64]:
+            - link " Reports" [ref=f81e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f81e66]: 
+              - generic [ref=f81e67]: Reports
+          - listitem [ref=f81e68]:
+            - link " Settings" [active] [ref=f81e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f81e70]: 
+              - generic [ref=f81e71]: Settings
+    - generic [ref=f81e398]:
+      - generic [ref=f81e402]:
+        - heading "Settings" [level=1] [ref=f81e403]
+        - paragraph [ref=f81e404]: Set up your organization and payroll before running payroll
+      - generic [ref=f81e405]:
+        - generic [ref=f81e497]:
+          - generic [ref=f81e498]: 
+          - paragraph [ref=f81e499]: Payroll setup completed. You can now run payroll for your organization.
+        - generic [ref=f81e500]:
+          - link "  Completed Organization Setup Company details, branding, currency, and timezone. View & update " [ref=f81e502] [cursor=pointer]:
+            - /url: /settings/organization
+            - generic [ref=f81e503]:
+              - generic [ref=f81e504]: 
+              - generic [ref=f81e506]:
+                - generic [ref=f81e507]: 
+                - text: Completed
+            - generic [ref=f81e508]:
+              - heading "Organization Setup" [level=6] [ref=f81e510]
+              - paragraph [ref=f81e511]: Company details, branding, currency, and timezone.
+            - generic [ref=f81e512]:
+              - generic [ref=f81e513]: View & update
+              - generic [ref=f81e514]: 
+          - link "  Completed Pay Schedule Setup Define pay frequency, cutoff dates, and payroll calendars. View & update " [ref=f81e516] [cursor=pointer]:
+            - /url: /setup/cycles
+            - generic [ref=f81e517]:
+              - generic [ref=f81e518]: 
+              - generic [ref=f81e520]:
+                - generic [ref=f81e521]: 
+                - text: Completed
+            - generic [ref=f81e522]:
+              - heading "Pay Schedule Setup" [level=6] [ref=f81e524]
+              - paragraph [ref=f81e525]: Define pay frequency, cutoff dates, and payroll calendars.
+            - generic [ref=f81e526]:
+              - generic [ref=f81e527]: View & update
+              - generic [ref=f81e528]: 
+          - link "  Completed Tax & Statutory Setup Configure PAYE rules, SSNIT tiers, and statutory deductions. View & update " [ref=f81e530] [cursor=pointer]:
+            - /url: /setup/statutory-rules
+            - generic [ref=f81e531]:
+              - generic [ref=f81e532]: 
+              - generic [ref=f81e534]:
+                - generic [ref=f81e535]: 
+                - text: Completed
+            - generic [ref=f81e536]:
+              - heading "Tax & Statutory Setup" [level=6] [ref=f81e538]
+              - paragraph [ref=f81e539]: Configure PAYE rules, SSNIT tiers, and statutory deductions.
+            - generic [ref=f81e540]:
+              - generic [ref=f81e541]: View & update
+              - generic [ref=f81e542]: 
+          - link "  Completed Employee Setup 3 of 4 employees ready for payroll. Complete any incomplete profiles to enable payroll runs. View & update " [ref=f81e544] [cursor=pointer]:
+            - /url: /employees
+            - generic [ref=f81e545]:
+              - generic [ref=f81e546]: 
+              - generic [ref=f81e548]:
+                - generic [ref=f81e549]: 
+                - text: Completed
+            - generic [ref=f81e550]:
+              - heading "Employee Setup" [level=6] [ref=f81e552]
+              - paragraph [ref=f81e553]: 3 of 4 employees ready for payroll. Complete any incomplete profiles to enable payroll runs.
+            - generic [ref=f81e554]:
+              - generic [ref=f81e555]: View & update
+              - generic [ref=f81e556]: 
+          - link "  Completed Bank Setup Manage banks, sort codes, and branches for employee bank transfers. View & update " [ref=f81e558] [cursor=pointer]:
+            - /url: /setup/banks
+            - generic [ref=f81e559]:
+              - generic [ref=f81e560]: 
+              - generic [ref=f81e562]:
+                - generic [ref=f81e563]: 
+                - text: Completed
+            - generic [ref=f81e564]:
+              - heading "Bank Setup" [level=6] [ref=f81e566]
+              - paragraph [ref=f81e567]: Manage banks, sort codes, and branches for employee bank transfers.
+            - generic [ref=f81e568]:
+              - generic [ref=f81e569]: View & update
+              - generic [ref=f81e570]: 
+          - link " Optional Finance Posting Map payroll items to finance accounts for journal posting. Set up " [ref=f81e572] [cursor=pointer]:
+            - /url: /setup/finance-posting
+            - generic [ref=f81e573]:
+              - generic [ref=f81e574]: 
+              - generic [ref=f81e576]: Optional
+            - generic [ref=f81e577]:
+              - heading "Finance Posting" [level=6] [ref=f81e579]
+              - paragraph [ref=f81e580]: Map payroll items to finance accounts for journal posting.
+            - generic [ref=f81e581]:
+              - generic [ref=f81e582]: Set up
+              - generic [ref=f81e583]: 
+          - link "  Completed Budgets Plan payroll spend by period and track deviation against actuals. View & update " [ref=f81e585] [cursor=pointer]:
+            - /url: /setup/budgets
+            - generic [ref=f81e586]:
+              - generic [ref=f81e587]: 
+              - generic [ref=f81e589]:
+                - generic [ref=f81e590]: 
+                - text: Completed
+            - generic [ref=f81e591]:
+              - heading "Budgets" [level=6] [ref=f81e593]
+              - paragraph [ref=f81e594]: Plan payroll spend by period and track deviation against actuals.
+            - generic [ref=f81e595]:
+              - generic [ref=f81e596]: View & update
+              - generic [ref=f81e597]: 
+          - link " Optional Earnings, Benefits & Deductions Configure allowances, benefits, bonuses, and employee deductions. Set up " [ref=f81e599] [cursor=pointer]:
+            - /url: /setup/earnings-benefits-deductions
+            - generic [ref=f81e600]:
+              - generic [ref=f81e601]: 
+              - generic [ref=f81e603]: Optional
+            - generic [ref=f81e604]:
+              - heading "Earnings, Benefits & Deductions" [level=6] [ref=f81e606]
+              - paragraph [ref=f81e607]: Configure allowances, benefits, bonuses, and employee deductions.
+            - generic [ref=f81e608]:
+              - generic [ref=f81e609]: Set up
+              - generic [ref=f81e610]: 
+          - link " Optional Pay Groups Setup Group employees by pay frequency or payroll structure. Set up " [ref=f81e612] [cursor=pointer]:
+            - /url: /setup/pay-groups
+            - generic [ref=f81e613]:
+              - generic [ref=f81e614]: 
+              - generic [ref=f81e616]: Optional
+            - generic [ref=f81e617]:
+              - heading "Pay Groups Setup" [level=6] [ref=f81e619]
+              - paragraph [ref=f81e620]: Group employees by pay frequency or payroll structure.
+            - generic [ref=f81e621]:
+              - generic [ref=f81e622]: Set up
+              - generic [ref=f81e623]: 
+          - link " Optional Attendance Integration Control whether clock-in data drives overtime earnings and absence deductions. Set up " [ref=f81e625] [cursor=pointer]:
+            - /url: /setup/attendance-integration
+            - generic [ref=f81e626]:
+              - generic [ref=f81e627]: 
+              - generic [ref=f81e629]: Optional
+            - generic [ref=f81e630]:
+              - heading "Attendance Integration" [level=6] [ref=f81e632]
+              - paragraph [ref=f81e633]: Control whether clock-in data drives overtime earnings and absence deductions.
+            - generic [ref=f81e634]:
+              - generic [ref=f81e635]: Set up
+              - generic [ref=f81e636]: 
+          - link "  Completed Users & Roles Create users, define roles, and manage permissions. View & update " [ref=f81e638] [cursor=pointer]:
+            - /url: /settings/users
+            - generic [ref=f81e639]:
+              - generic [ref=f81e640]: 
+              - generic [ref=f81e642]:
+                - generic [ref=f81e643]: 
+                - text: Completed
+            - generic [ref=f81e644]:
+              - heading "Users & Roles" [level=6] [ref=f81e646]
+              - paragraph [ref=f81e647]: Create users, define roles, and manage permissions.
+            - generic [ref=f81e648]:
+              - generic [ref=f81e649]: View & update
+              - generic [ref=f81e650]: 
+          - link " Optional Approval Setup Finalize approval workflows before running payroll. Set up " [ref=f81e652] [cursor=pointer]:
+            - /url: /settings/approval-workflow
+            - generic [ref=f81e653]:
+              - generic [ref=f81e654]: 
+              - generic [ref=f81e656]: Optional
+            - generic [ref=f81e657]:
+              - heading "Approval Setup" [level=6] [ref=f81e659]
+              - paragraph [ref=f81e660]: Finalize approval workflows before running payroll.
+            - generic [ref=f81e661]:
+              - generic [ref=f81e662]: Set up
+              - generic [ref=f81e663]: 
+    - contentinfo [ref=f81e137]:
+      - generic [ref=f81e139]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f81e140] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f81e161] [cursor=pointer]:
+    - generic [ref=f81e163]: 
+    - generic [ref=f81e164]: "1"

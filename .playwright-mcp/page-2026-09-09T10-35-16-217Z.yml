@@ -1,0 +1,182 @@
+- generic [active] [ref=f90e1]:
+  - generic [ref=f90e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f90e6]:
+      - generic [ref=f90e7]:
+        - generic [ref=f90e8]:
+          - link [ref=f90e129] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f90e130]
+          - generic [ref=f90e13]:
+            - textbox "Search anything here ..." [ref=f90e14]
+            - link "" [ref=f90e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f90e17]:
+          - text: 
+          - listitem [ref=f90e18]:
+            - link "" [ref=f90e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f90e21]:
+            - link "" [ref=f90e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f90e24]:
+            - link "" [ref=f90e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f90e27]:
+            - link "" [ref=f90e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f90e30]:
+            - button "" [ref=f90e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f90e33]:
+            - link "PM" [ref=f90e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f90e37]:
+      - navigation [ref=f90e40]:
+        - list [ref=f90e41]:
+          - listitem [ref=f90e42]:
+            - link " Dashboard" [ref=f90e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f90e44]: 
+              - generic [ref=f90e45]: Dashboard
+          - listitem [ref=f90e46]:
+            - generic [ref=f90e47]:
+              - link " Employees" [ref=f90e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f90e49]: 
+                - generic [ref=f90e50]: Employees
+              - button "Toggle submenu" [ref=f90e51] [cursor=pointer]:
+                - generic [ref=f90e52]: 
+          - listitem [ref=f90e53]:
+            - link " Run Payroll" [ref=f90e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f90e55]: 
+              - generic [ref=f90e56]: Run Payroll
+          - listitem [ref=f90e57]:
+            - generic [ref=f90e58]:
+              - link " Taxes & Forms" [ref=f90e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f90e60]: 
+                - generic [ref=f90e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f90e62] [cursor=pointer]:
+                - generic [ref=f90e63]: 
+          - listitem [ref=f90e64]:
+            - link " Reports" [ref=f90e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f90e66]: 
+              - generic [ref=f90e67]: Reports
+          - listitem [ref=f90e68]:
+            - link " Settings" [ref=f90e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f90e70]: 
+              - generic [ref=f90e71]: Settings
+    - generic [ref=f90e75]:
+      - generic [ref=f90e77]:
+        - link " Back to Settings" [ref=f90e79] [cursor=pointer]:
+          - /url: /settings
+          - generic [ref=f90e80]: 
+          - text: Back to Settings
+        - generic [ref=f90e82]:
+          - heading "Organization Setup" [level=1] [ref=f90e83]
+          - paragraph [ref=f90e84]: Set up your organization details required to run payroll.
+      - generic [ref=f90e131]:
+        - generic [ref=f90e132]:
+          - generic [ref=f90e133]:
+            - heading "Organization identity" [level=3] [ref=f90e135]
+            - paragraph [ref=f90e136]: Your company name and legal jurisdiction for payroll compliance.
+            - generic [ref=f90e137]:
+              - generic [ref=f90e138]:
+                - generic [ref=f90e139]: Organization Name *
+                - textbox "e.g., Acme Corporation" [ref=f90e140]
+                - paragraph [ref=f90e141]: This name will appear on pay slips and statutory filings.
+              - generic [ref=f90e142]:
+                - generic [ref=f90e143]:
+                  - generic [ref=f90e144]: Country / Jurisdiction *
+                  - button [ref=f90e147] [cursor=pointer]:
+                    - generic [ref=f90e148]: Select country
+                    - generic [aria-hidden] [ref=f90e149]: 
+                  - paragraph [ref=f90e150]: Determines applicable tax and statutory rules.
+                - generic [ref=f90e151]:
+                  - generic [ref=f90e152]: State / Region
+                  - button [disabled] [ref=f90e155] [cursor=pointer]:
+                    - generic [ref=f90e156]: Select state
+                    - generic [aria-hidden] [ref=f90e157]: 
+                  - paragraph [ref=f90e158]: Optional. State or region for address.
+              - generic [ref=f90e160]:
+                - generic [ref=f90e161]: Currency *
+                - button [ref=f90e164] [cursor=pointer]:
+                  - generic [ref=f90e165]: Select currency
+                  - generic [aria-hidden] [ref=f90e166]: 
+                - paragraph [ref=f90e167]: Used for all payroll calculations.
+              - generic [ref=f90e168]:
+                - generic [ref=f90e169]:
+                  - generic [ref=f90e170]: Website URL
+                  - textbox "https://example.com" [ref=f90e171]
+                - generic [ref=f90e172]:
+                  - generic [ref=f90e173]: Registration Number
+                  - textbox "e.g., RC 123456" [ref=f90e174]
+              - generic [ref=f90e175]:
+                - generic [ref=f90e176]:
+                  - generic [ref=f90e177]: Employer TIN
+                  - textbox "Employer Tax Identification Number" [ref=f90e178]
+                  - paragraph [ref=f90e179]: Used on the GRA PAYE schedule header.
+                - generic [ref=f90e180]:
+                  - generic [ref=f90e181]: Employer SSNIT Number
+                  - textbox "Employer SSNIT registration number" [ref=f90e182]
+                  - paragraph [ref=f90e183]: Used for SSNIT contribution filings.
+              - generic [ref=f90e184]:
+                - generic [ref=f90e185]: Organization Logo (Optional)
+                - generic [ref=f90e186]:
+                  - generic [ref=f90e187]: 
+                  - generic [ref=f90e189]:
+                    - generic [ref=f90e190] [cursor=pointer]: Upload Logo
+                    - paragraph [ref=f90e191]: Max 2MB. PNG or JPG recommended.
+          - generic [ref=f90e192]:
+            - heading "Payroll context" [level=3] [ref=f90e194]
+            - paragraph [ref=f90e195]: Currency, date format, and timezone for payroll calculations.
+            - generic [ref=f90e197]:
+              - generic [ref=f90e198]:
+                - generic [ref=f90e199]: Date Format *
+                - button [ref=f90e202] [cursor=pointer]:
+                  - generic [ref=f90e203]: Select date format
+                  - generic [aria-hidden] [ref=f90e204]: 
+              - generic [ref=f90e205]:
+                - generic [ref=f90e206]: Time Zone
+                - textbox [disabled] [ref=f90e207]: Select country first
+                - paragraph [ref=f90e208]: Automatically set from country selection.
+          - generic [ref=f90e209]:
+            - heading "Business address" [level=3] [ref=f90e211]
+            - paragraph [ref=f90e212]: Your registered business location for compliance purposes.
+            - generic [ref=f90e213]:
+              - generic [ref=f90e214]:
+                - generic [ref=f90e215]: Street / Postal Address *
+                - textbox "123 Main Street" [ref=f90e216]
+              - generic [ref=f90e217]:
+                - generic [ref=f90e218]: City / Town *
+                - textbox "Accra" [ref=f90e219]
+          - generic [ref=f90e220]:
+            - heading "Payroll contact" [level=3] [ref=f90e222]
+            - paragraph [ref=f90e223]: Email for payroll notifications and compliance reminders.
+            - generic [ref=f90e225]:
+              - generic [ref=f90e226]: Notification Email *
+              - textbox "payroll@company.com" [ref=f90e227]
+              - paragraph [ref=f90e228]: Receives payroll notifications and compliance reminders.
+          - generic [ref=f90e229]:
+            - button "Cancel" [ref=f90e230] [cursor=pointer]
+            - button "Save" [ref=f90e231] [cursor=pointer]
+        - generic [ref=f90e234]:
+          - heading " Did you know?" [level=6] [ref=f90e235]:
+            - generic [ref=f90e236]: 
+            - text: Did you know?
+          - paragraph [ref=f90e237]: Setting up accurate organization details ensures correct tax calculations, payroll reports, and statutory filings.
+    - contentinfo [ref=f90e120]:
+      - generic [ref=f90e122]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f90e123] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f90e125] [cursor=pointer]:
+    - generic [ref=f90e127]: 
+    - generic [ref=f90e128]: "1"

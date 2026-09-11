@@ -1,0 +1,211 @@
+- generic [ref=f32e1]:
+  - generic [ref=f32e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f32e6]:
+      - generic [ref=f32e7]:
+        - generic [ref=f32e8]:
+          - link [ref=f32e169] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f32e170]
+          - generic [ref=f32e13]:
+            - textbox "Search anything here ..." [ref=f32e14]
+            - link "" [ref=f32e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f32e17]:
+          - text: 
+          - listitem [ref=f32e18]:
+            - link "" [ref=f32e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f32e21]:
+            - link "" [ref=f32e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f32e24]:
+            - link "" [ref=f32e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f32e27]:
+            - link "" [ref=f32e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f32e30]:
+            - button "" [ref=f32e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f32e33]:
+            - link "PM" [ref=f32e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f32e37]:
+      - navigation [ref=f32e40]:
+        - list [ref=f32e41]:
+          - listitem [ref=f32e42]:
+            - link " Dashboard" [ref=f32e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f32e44]: 
+              - generic [ref=f32e45]: Dashboard
+          - listitem [ref=f32e46]:
+            - generic [ref=f32e47]:
+              - link " Employees" [ref=f32e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f32e49]: 
+                - generic [ref=f32e50]: Employees
+              - button "Toggle submenu" [ref=f32e51] [cursor=pointer]:
+                - generic [ref=f32e52]: 
+          - listitem [ref=f32e53]:
+            - link " Run Payroll" [ref=f32e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f32e55]: 
+              - generic [ref=f32e56]: Run Payroll
+          - listitem [ref=f32e57]:
+            - generic [ref=f32e58]:
+              - link " Taxes & Forms" [ref=f32e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f32e60]: 
+                - generic [ref=f32e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f32e62] [cursor=pointer]:
+                - generic [ref=f32e63]: 
+          - listitem [ref=f32e64]:
+            - link " Reports" [ref=f32e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f32e66]: 
+              - generic [ref=f32e67]: Reports
+          - listitem [ref=f32e68]:
+            - link " Settings" [ref=f32e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f32e70]: 
+              - generic [ref=f32e71]: Settings
+    - generic [ref=f32e392]:
+      - button " Back to pay runs" [ref=f32e394] [cursor=pointer]:
+        - generic [ref=f32e395]: 
+        - text: Back to pay runs
+      - generic [ref=f32e792]:
+        - generic [ref=f32e793]:
+          - heading "Add Off-Cycle Details" [level=1] [ref=f32e794]
+          - generic [ref=f32e795]:
+            - generic [ref=f32e796]:
+              - strong [ref=f32e797]: "Pay run:"
+              - text: ZZQA PAYE Band-Edge Test
+            - generic [ref=f32e798]:
+              - strong [ref=f32e799]: "Pay date:"
+              - text: 2026-09-09
+          - generic [ref=f32e800]:
+            - generic [ref=f32e801]: "Benefits: No"
+            - generic [ref=f32e802]: "Deductions: No"
+            - generic [ref=f32e803]: "Regular salary: No"
+        - generic [ref=f32e804]:
+          - button " Add Employee" [ref=f32e805] [cursor=pointer]:
+            - generic [ref=f32e806]: 
+            - text: Add Employee
+          - button " Save & calculate" [ref=f32e970] [cursor=pointer]:
+            - generic [ref=f32e808]: 
+            - text: Save & calculate
+          - button " Continue to Payroll" [ref=f32e809] [cursor=pointer]:
+            - generic [ref=f32e960]: 
+            - text: Continue to Payroll
+      - generic [ref=f32e811]:
+        - generic [ref=f32e812]:
+          - paragraph [ref=f32e813]:
+            - text: Figures are computed by the payroll engine — the same calculation Process uses (includes benefits, deductions and PAYE/SSNIT). The
+            - strong [ref=f32e814]: Bonus
+            - text: column is taxed via the Ghana bonus rule (5% within the annual cap, excess at PAYE), unlike a one-time earning which is ordinary income. Use
+            - strong [ref=f32e815]: Save & calculate
+            - text: to refresh.
+          - generic [ref=f32e816]:
+            - generic [ref=f32e817]: Apply bonus to all
+            - generic [ref=f32e818]:
+              - spinbutton "0.00" [ref=f32e819]
+              - button "Apply" [ref=f32e820] [cursor=pointer]
+        - table [ref=f32e826]:
+          - rowgroup [ref=f32e837]:
+            - row [ref=f32e838]:
+              - columnheader "Employee" [ref=f32e839]
+              - columnheader "Department" [ref=f32e842]
+              - columnheader "One-time amount" [ref=f32e845]
+              - columnheader "Additional earnings" [ref=f32e848]
+              - columnheader "Bonus" [ref=f32e851]
+              - columnheader "Deductions" [ref=f32e854]
+              - columnheader "Taxes & statutory" [ref=f32e857]
+              - columnheader "Estimated net pay" [ref=f32e860]
+              - columnheader [ref=f32e863]
+          - rowgroup [ref=f32e864]:
+            - row [ref=f32e971]:
+              - cell [ref=f32e866]:
+                - generic [ref=f32e868]:
+                  - paragraph [ref=f32e869]: ZZQA AlphaOne
+                  - paragraph [ref=f32e870]: ZZQA-001
+              - cell "Software Engineer" [ref=f32e871]
+              - cell "GH₵ 600.00" [ref=f32e972]
+              - cell "GH₵ 0.00" [ref=f32e874]
+              - cell [ref=f32e876]:
+                - spinbutton "0.00" [ref=f32e879]
+              - cell "GH₵ 0.00" [ref=f32e880]
+              - cell "GH₵ 5.50" [ref=f32e973]
+              - cell "GH₵ 594.50" [ref=f32e974]
+              - cell [ref=f32e890]:
+                - generic [ref=f32e892]:
+                  - button " Edit" [active] [ref=f32e893] [cursor=pointer]:
+                    - generic [ref=f32e894]: 
+                    - text: Edit
+                  - button "" [ref=f32e895] [cursor=pointer]
+      - generic [ref=f32e897]:
+        - heading "Draft totals (before process)" [level=3] [ref=f32e898]
+        - generic [ref=f32e899]:
+          - generic [ref=f32e900]:
+            - strong [ref=f32e901]: "Gross:"
+            - text: GH₵ 600.00
+          - generic [ref=f32e902]:
+            - strong [ref=f32e903]: "Deductions:"
+            - text: GH₵ 0.00
+          - generic [ref=f32e904]:
+            - strong [ref=f32e905]: "Taxes & statutory:"
+            - text: GH₵ 5.50
+          - generic [ref=f32e906]:
+            - strong [ref=f32e907]: "Net:"
+            - text: GH₵ 594.50
+    - contentinfo [ref=f32e160]:
+      - generic [ref=f32e162]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f32e163] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f32e165] [cursor=pointer]:
+    - generic [ref=f32e167]: 
+    - generic [ref=f32e168]: "1"
+  - generic [ref=f32e976]:
+    - generic [ref=f32e978]:
+      - heading "Edit Employee" [level=3] [ref=f32e979]
+      - button "" [ref=f32e980] [cursor=pointer]
+    - generic [ref=f32e982]:
+      - generic [ref=f32e983]:
+        - paragraph [ref=f32e984]: Employee
+        - paragraph [ref=f32e985]: ZZQA AlphaOne
+        - paragraph [ref=f32e986]: ZZQA-001 · Software Engineer
+      - generic [ref=f32e987]:
+        - generic [ref=f32e988]: One Time Amount (GHS)
+        - spinbutton "0.00" [ref=f32e989]: "600"
+        - paragraph [ref=f32e990]: The one-off amount to pay this employee in this run (e.g. advance, bonus, final pay). The regular salary is not paid unless “Include regular salary” was ticked when creating the run.
+      - generic [ref=f32e991]:
+        - generic [ref=f32e992]:
+          - generic [ref=f32e993]: Earnings
+          - button " Add earnings" [ref=f32e994] [cursor=pointer]:
+            - generic [ref=f32e995]: 
+            - text: Add earnings
+        - paragraph [ref=f32e996]:
+          - text: One-time earnings for this run only — pick a
+          - strong [ref=f32e997]: cash benefit from Setup
+          - text: or add a custom line. Recurring benefits are included automatically via the run's “Include benefits” setting.
+        - paragraph [ref=f32e998]: No earnings added. Click "Add Earnings" to add one.
+      - generic [ref=f32e999]:
+        - generic [ref=f32e1000]:
+          - generic [ref=f32e1001]: Deductions
+          - button " Add deductions" [ref=f32e1002] [cursor=pointer]:
+            - generic [ref=f32e1003]: 
+            - text: Add deductions
+        - paragraph [ref=f32e1004]:
+          - text: One-time deductions for this run only — pick a
+          - strong [ref=f32e1005]: deduction from Setup
+          - text: or add a custom line. Recurring deductions are included automatically via the run's “Include deductions” setting.
+        - paragraph [ref=f32e1006]: No deductions added. Click "Add Deductions" to add one.
+    - generic [ref=f32e1007]:
+      - button "Cancel" [ref=f32e1008] [cursor=pointer]
+      - button " Save" [ref=f32e1009] [cursor=pointer]:
+        - generic [ref=f32e1010]: 
+        - text: Save

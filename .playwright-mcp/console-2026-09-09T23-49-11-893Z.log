@@ -1,0 +1,8 @@
+[    8109ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff2?t=1708865856766 @ https://v2payroll.kedebahlite.com/employees:0
+[    8109ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/employees:0
+[    9308ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff?t=1708865856766 @ https://v2payroll.kedebahlite.com/employees:0
+[    9308ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/employees:0
+[   10560ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.ttf?t=1708865856766 @ https://v2payroll.kedebahlite.com/employees:0
+[   10560ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/employees:0
+[  180339ms] [ERROR] Failed to load resource: the server responded with a status of 422 () @ https://v2payroll.kedebahlite.com/api/v1/payrollApi/employees/6:0
+[  180344ms] [ERROR] Failed to save changes {is422: true, message: The hire date field must be a date before today., errors: Array(0), data: Object} @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:966

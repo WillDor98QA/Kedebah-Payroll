@@ -1,0 +1,183 @@
+- generic [active] [ref=f27e1]:
+  - generic [ref=f27e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f27e6]:
+      - generic [ref=f27e7]:
+        - generic [ref=f27e8]:
+          - link [ref=f27e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f27e12]
+          - generic [ref=f27e13]:
+            - textbox "Search anything here ..." [ref=f27e14]
+            - link "" [ref=f27e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f27e17]:
+          - text: 
+          - listitem [ref=f27e18]:
+            - link "" [ref=f27e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f27e21]:
+            - link "" [ref=f27e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f27e24]:
+            - link "" [ref=f27e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f27e27]:
+            - link "" [ref=f27e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f27e30]:
+            - button "" [ref=f27e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f27e33]:
+            - link "PM" [ref=f27e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f27e37]:
+      - navigation [ref=f27e40]:
+        - list [ref=f27e41]:
+          - listitem [ref=f27e42]:
+            - link " Dashboard" [ref=f27e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f27e44]: 
+              - generic [ref=f27e45]: Dashboard
+          - listitem [ref=f27e46]:
+            - generic [ref=f27e47]:
+              - link " Employees" [ref=f27e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f27e49]: 
+                - generic [ref=f27e50]: Employees
+              - button "Toggle submenu" [ref=f27e51] [cursor=pointer]:
+                - generic [ref=f27e52]: 
+          - listitem [ref=f27e53]:
+            - link " Run Payroll" [ref=f27e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f27e55]: 
+              - generic [ref=f27e56]: Run Payroll
+          - listitem [ref=f27e57]:
+            - generic [ref=f27e58]:
+              - link " Taxes & Forms" [ref=f27e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f27e60]: 
+                - generic [ref=f27e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f27e62] [cursor=pointer]:
+                - generic [ref=f27e63]: 
+          - listitem [ref=f27e64]:
+            - link " Reports" [ref=f27e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f27e66]: 
+              - generic [ref=f27e67]: Reports
+          - listitem [ref=f27e68]:
+            - link " Settings" [ref=f27e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f27e70]: 
+              - generic [ref=f27e71]: Settings
+    - generic [ref=f27e209]:
+      - button " Back to pay runs" [ref=f27e211] [cursor=pointer]:
+        - generic [ref=f27e212]: 
+        - text: Back to pay runs
+      - generic [ref=f27e541]:
+        - generic [ref=f27e542]:
+          - heading "Bonus Pay Run – Employees" [level=1] [ref=f27e543]
+          - generic [ref=f27e544]:
+            - generic [ref=f27e545]:
+              - strong [ref=f27e546]: "Pay run:"
+              - text: ZZQA Bonus Test Sep 2026
+            - generic [ref=f27e547]:
+              - strong [ref=f27e548]: "Pay date:"
+              - text: 2026-09-09
+        - generic [ref=f27e549]:
+          - button " Calculate" [disabled] [ref=f27e688] [cursor=pointer]:
+            - generic [ref=f27e551]: 
+            - text: Calculate
+          - button " Continue to draft" [ref=f27e552] [cursor=pointer]:
+            - generic [ref=f27e553]: 
+            - text: Continue to draft
+      - generic [ref=f27e554]:
+        - generic [ref=f27e555]:
+          - heading "Bonus Details" [level=3] [ref=f27e556]
+          - paragraph [ref=f27e557]: These were captured when you created the pay run. Each employee added below receives a Bonus earning at process time.
+        - generic [ref=f27e558]:
+          - generic [ref=f27e559]:
+            - term [ref=f27e560]: Period
+            - definition [ref=f27e561]: Sep 1, 2026 – Sep 30, 2026
+          - generic [ref=f27e562]:
+            - term [ref=f27e563]: Bonus type
+            - definition [ref=f27e564]: Fixed Amount
+          - generic [ref=f27e565]:
+            - term [ref=f27e566]: Amount
+            - definition [ref=f27e567]: GH₵ 3,000.00
+      - generic [ref=f27e568]:
+        - generic [ref=f27e569]:
+          - generic [ref=f27e570]:
+            - heading "Employees on this bonus" [level=3] [ref=f27e571]
+            - paragraph [ref=f27e572]:
+              - text: "Run-level default: GH₵ 3,000.00 per employee. Set an amount on a row to override that individual. Bonus amount, taxes & net are computed by the engine — use"
+              - strong [ref=f27e573]: Calculate
+              - text: to refresh.
+              - generic [ref=f27e691]:
+                - generic [ref=f27e692]: 
+                - text: updating…
+          - generic [ref=f27e576]:
+            - generic [ref=f27e577]:
+              - generic [ref=f27e578]: Apply override to all
+              - generic [ref=f27e579]:
+                - spinbutton "0.00" [ref=f27e580]
+                - button "Apply" [ref=f27e581] [cursor=pointer]
+            - button " Add employees" [ref=f27e582] [cursor=pointer]:
+              - generic [ref=f27e583]: 
+              - text: Add employees
+        - table [ref=f27e590]:
+          - rowgroup [ref=f27e600]:
+            - row [ref=f27e601]:
+              - columnheader "Employee" [ref=f27e602]
+              - columnheader "Department" [ref=f27e605]
+              - columnheader "Bonus override" [ref=f27e608]
+              - columnheader "Bonus amount" [ref=f27e611]
+              - columnheader "Taxes" [ref=f27e614]
+              - columnheader "Deductions" [ref=f27e617]
+              - columnheader "Estimated net" [ref=f27e620]
+              - columnheader [ref=f27e623]
+          - rowgroup [ref=f27e624]:
+            - row [ref=f27e684]:
+              - cell "ZZQA AlphaOne ZZQA-001 · Software Engineer" [ref=f27e626]:
+                - generic [ref=f27e628]:
+                  - generic "ZZQA AlphaOne" [ref=f27e629]
+                  - generic "ZZQA-001 · Software Engineer" [ref=f27e631]
+              - cell "Software Engineer" [ref=f27e632]
+              - cell "Override " [ref=f27e635]:
+                - generic [ref=f27e637]:
+                  - spinbutton "Default" [ref=f27e638]: "8000"
+                  - generic [ref=f27e639]: Override
+                  - button "" [ref=f27e640] [cursor=pointer]
+              - cell "GH₵ 8,000.00" [ref=f27e685]
+              - cell "GH₵ 840.37" [ref=f27e686]
+              - cell "GH₵ 0.00" [ref=f27e646]
+              - cell "GH₵ 7,159.63" [ref=f27e687]
+              - cell [ref=f27e650]:
+                - button "" [ref=f27e653] [cursor=pointer]
+            - row [ref=f27e655]:
+              - cell "ZZQA HighEarner ZZQA-HI1 · Software Engineer" [ref=f27e656]:
+                - generic [ref=f27e658]:
+                  - generic "ZZQA HighEarner" [ref=f27e659]
+                  - generic "ZZQA-HI1 · Software Engineer" [ref=f27e661]
+              - cell "Software Engineer" [ref=f27e662]
+              - cell "Default" [ref=f27e665]:
+                - generic [ref=f27e667]:
+                  - spinbutton "Default" [ref=f27e668]: "-500"
+                  - generic [ref=f27e669]: Default
+              - cell "GH₵ 3,000.00" [ref=f27e670]
+              - cell "GH₵ 150.00" [ref=f27e672]
+              - cell "GH₵ 0.00" [ref=f27e674]
+              - cell "GH₵ 2,850.00" [ref=f27e676]
+              - cell [ref=f27e678]:
+                - button "" [ref=f27e681] [cursor=pointer]
+    - contentinfo [ref=f27e136]:
+      - generic [ref=f27e138]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f27e139] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f27e141] [cursor=pointer]:
+    - generic [ref=f27e143]: 
+    - generic [ref=f27e144]: "1"

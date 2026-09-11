@@ -1,0 +1,234 @@
+- generic [ref=f26e1]:
+  - generic [ref=f26e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f26e6]:
+      - generic [ref=f26e7]:
+        - generic [ref=f26e8]:
+          - link [ref=f26e421] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f26e422]
+          - generic [ref=f26e13]:
+            - textbox "Search anything here ..." [ref=f26e14]
+            - link "" [ref=f26e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f26e17]:
+          - text: 
+          - listitem [ref=f26e18]:
+            - link "" [ref=f26e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f26e21]:
+            - link "" [ref=f26e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f26e24]:
+            - link "" [ref=f26e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f26e27]:
+            - link "" [ref=f26e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f26e30]:
+            - button "" [ref=f26e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f26e33]:
+            - link "PM" [ref=f26e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f26e37]:
+      - navigation [ref=f26e40]:
+        - list [ref=f26e41]:
+          - listitem [ref=f26e42]:
+            - link " Dashboard" [ref=f26e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f26e44]: 
+              - generic [ref=f26e45]: Dashboard
+          - listitem [ref=f26e46]:
+            - generic [ref=f26e47]:
+              - link " Employees" [ref=f26e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f26e49]: 
+                - generic [ref=f26e50]: Employees
+              - button "Toggle submenu" [ref=f26e51] [cursor=pointer]:
+                - generic [ref=f26e52]: 
+          - listitem [ref=f26e53]:
+            - link " Run Payroll" [ref=f26e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f26e55]: 
+              - generic [ref=f26e56]: Run Payroll
+          - listitem [ref=f26e57]:
+            - generic [ref=f26e58]:
+              - link " Taxes & Forms" [ref=f26e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f26e60]: 
+                - generic [ref=f26e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f26e62] [cursor=pointer]:
+                - generic [ref=f26e63]: 
+          - listitem [ref=f26e64]:
+            - link " Reports" [ref=f26e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f26e66]: 
+              - generic [ref=f26e67]: Reports
+          - listitem [ref=f26e68]:
+            - link " Settings" [ref=f26e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f26e70]: 
+              - generic [ref=f26e71]: Settings
+    - generic [ref=f26e74]:
+      - generic [ref=f26e77]:
+        - generic [ref=f26e78]:
+          - heading "Payroll Runs" [level=1] [ref=f26e79]
+          - paragraph [ref=f26e80]: Process regular payroll, bonuses, off-cycle payments, and termination payroll.
+        - generic [ref=f26e82]:
+          - button " Reset" [ref=f26e83] [cursor=pointer]:
+            - generic [ref=f26e84]: 
+            - text: Reset
+          - button " Create Pay Run " [ref=f26e86] [cursor=pointer]:
+            - generic [ref=f26e87]: 
+            - text: Create Pay Run
+            - generic [ref=f26e88]: 
+      - generic [ref=f26e89]:
+        - generic [ref=f26e197]:
+          - generic [ref=f26e198]:
+            - generic [ref=f26e199]: 
+            - generic [ref=f26e200]: 1 approved pay run(s) haven't posted to finance yet. Map accounts on Finance Posting, then push them here.
+          - button " Sync to finance (1)" [ref=f26e202] [cursor=pointer]:
+            - generic [ref=f26e203]: 
+            - text: Sync to finance (1)
+        - generic [ref=f26e90]:
+          - navigation [ref=f26e92]:
+            - button " Run Payroll" [ref=f26e93] [cursor=pointer]:
+              - generic [ref=f26e94]: 
+              - generic [ref=f26e95]: Run Payroll
+            - button " Payroll History" [active] [ref=f26e97] [cursor=pointer]:
+              - generic [ref=f26e98]: 
+              - generic [ref=f26e99]: Payroll History
+          - generic [ref=f26e206]:
+            - generic [ref=f26e207]:
+              - generic [ref=f26e208]:
+                - generic [ref=f26e210]:
+                  - generic [ref=f26e211]: 5 results
+                  - button " Filters " [ref=f26e215] [cursor=pointer]:
+                    - generic [ref=f26e216]: 
+                    - text: Filters
+                    - generic [ref=f26e217]: 
+                - generic [ref=f26e219]:
+                  - generic [ref=f26e221]:
+                    - generic [ref=f26e222]: Types
+                    - button [ref=f26e225] [cursor=pointer]:
+                      - generic [ref=f26e226]: All Types
+                      - generic [aria-hidden] [ref=f26e227]: 
+                    - button "Clear Types" [ref=f26e228] [cursor=pointer]:
+                      - generic [ref=f26e229]: 
+                  - generic [ref=f26e231]:
+                    - generic [aria-hidden]:
+                      - generic: 
+                    - textbox "Search payroll history..." [ref=f26e232]
+              - table [ref=f26e236]:
+                - rowgroup [ref=f26e246]:
+                  - row [ref=f26e247]:
+                    - columnheader "Payroll Type" [ref=f26e248]
+                    - columnheader "Period" [ref=f26e251]
+                    - columnheader "Pay Date" [ref=f26e254] [cursor=pointer]
+                    - columnheader "Employees" [ref=f26e258]
+                    - columnheader "Total Amount" [ref=f26e261] [cursor=pointer]
+                    - columnheader "Status" [ref=f26e265]
+                    - columnheader "Paid On" [ref=f26e268]
+                    - columnheader [ref=f26e271]
+                - rowgroup [ref=f26e272]:
+                  - row [ref=f26e273]:
+                    - cell " Off-Cycle Payroll" [ref=f26e274]:
+                      - generic [ref=f26e276]:
+                        - generic [ref=f26e277]: 
+                        - text: Off-Cycle Payroll
+                    - cell "Sep 9, 2026 to Sep 9, 2026" [ref=f26e278]
+                    - cell "Sep 9, 2026" [ref=f26e280]
+                    - cell "1 employees" [ref=f26e282]
+                    - cell "₵ 499.50" [ref=f26e284]
+                    - cell "Paid" [ref=f26e286]
+                    - cell "Sep 9, 2026" [ref=f26e289]
+                    - cell [ref=f26e291]:
+                      - generic [ref=f26e293]:
+                        - button "" [ref=f26e294] [cursor=pointer]
+                        - button "" [ref=f26e296] [cursor=pointer]
+                  - row [ref=f26e298]:
+                    - cell " Termination Payroll" [ref=f26e299]:
+                      - generic [ref=f26e301]:
+                        - generic [ref=f26e302]: 
+                        - text: Termination Payroll
+                    - cell "Oct 1, 2026 to Oct 31, 2026" [ref=f26e303]
+                    - cell "Oct 30, 2026" [ref=f26e305]
+                    - cell "1 employees" [ref=f26e307]
+                    - cell "₵ 6,277.75" [ref=f26e309]
+                    - cell "Paid" [ref=f26e311]
+                    - cell "Sep 9, 2026" [ref=f26e314]
+                    - cell [ref=f26e316]:
+                      - generic [ref=f26e318]:
+                        - button "" [ref=f26e319] [cursor=pointer]
+                        - button "" [ref=f26e321] [cursor=pointer]
+                  - row [ref=f26e323]:
+                    - cell " Off-Cycle Payroll" [ref=f26e324]:
+                      - generic [ref=f26e326]:
+                        - generic [ref=f26e327]: 
+                        - text: Off-Cycle Payroll
+                    - cell "Sep 20, 2026 to Sep 20, 2026" [ref=f26e328]
+                    - cell "Sep 9, 2026" [ref=f26e330]
+                    - cell "1 employees" [ref=f26e332]
+                    - cell "₵ 934.25" [ref=f26e334]
+                    - cell "Paid" [ref=f26e336]
+                    - cell "Sep 9, 2026" [ref=f26e339]
+                    - cell [ref=f26e341]:
+                      - generic [ref=f26e343]:
+                        - button "" [ref=f26e344] [cursor=pointer]
+                        - button "" [ref=f26e346] [cursor=pointer]
+                  - row [ref=f26e348]:
+                    - cell " Bonus Payroll" [ref=f26e349]:
+                      - generic [ref=f26e351]:
+                        - generic [ref=f26e352]: 
+                        - text: Bonus Payroll
+                    - cell "Sep 1, 2026 to Sep 30, 2026" [ref=f26e353]
+                    - cell "Sep 9, 2026" [ref=f26e355]
+                    - cell "2 employees" [ref=f26e357]
+                    - cell "₵ 10,009.63" [ref=f26e359]
+                    - cell "Paid" [ref=f26e361]
+                    - cell "Sep 9, 2026" [ref=f26e364]
+                    - cell [ref=f26e366]:
+                      - generic [ref=f26e368]:
+                        - button "" [ref=f26e369] [cursor=pointer]
+                        - button "" [ref=f26e371] [cursor=pointer]
+                  - row [ref=f26e373]:
+                    - cell " Regular Payroll" [ref=f26e374]:
+                      - generic [ref=f26e376]:
+                        - generic [ref=f26e377]: 
+                        - text: Regular Payroll
+                    - cell "Sep 1, 2026 to Sep 30, 2026" [ref=f26e378]
+                    - cell "Sep 30, 2026" [ref=f26e380]
+                    - cell "2 employees" [ref=f26e382]
+                    - cell "₵ 6,268.37" [ref=f26e384]
+                    - cell "Paid" [ref=f26e386]
+                    - cell "Sep 8, 2026" [ref=f26e389]
+                    - cell [ref=f26e391]:
+                      - generic [ref=f26e393]:
+                        - button "" [ref=f26e394] [cursor=pointer]
+                        - button "" [ref=f26e396] [cursor=pointer]
+            - generic [ref=f26e398]:
+              - generic [ref=f26e399]:
+                - generic [ref=f26e400]:
+                  - generic [ref=f26e401]: Rows per page
+                  - button [ref=f26e404] [cursor=pointer]:
+                    - generic [ref=f26e405]: "10"
+                    - generic [aria-hidden] [ref=f26e406]: 
+                - generic [ref=f26e407]: Showing 1-5 of 5 entries
+              - generic [ref=f26e408]:
+                - generic [ref=f26e409]: Page 1 of 1
+                - generic [ref=f26e410]:
+                  - button "" [disabled] [ref=f26e411] [cursor=pointer]
+                  - button "1" [ref=f26e413] [cursor=pointer]
+                  - button "" [disabled] [ref=f26e414] [cursor=pointer]
+    - contentinfo [ref=f26e193]:
+      - generic [ref=f26e195]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f26e196] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f26e417] [cursor=pointer]:
+    - generic [ref=f26e419]: 
+    - generic [ref=f26e420]: "1"

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -nE \"^PRQ-0[0-9]+:|^US-0[0-9]+[a-f]?$|Category |Priority |Story Count \" docs/Payroll_Sprint_Review_Backlog.md)",
+      "Bash(claude mcp *)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_snapshot",
+      "Bash(grep -vE \"^\\\\s*#|^\\\\s*$\" .env)",
+      "Bash(awk '{print \"password length:\", length\\($0\\)-7}')",
+      "mcp__playwright__browser_fill_form",
+      "mcp__playwright__browser_click",
+      "Read(//Users/user/.claude/projects/-Users-user-Projects-Kedebah-Payroll/memory/**)",
+      "mcp__playwright__browser_tabs"
+    ]
+  }
+}

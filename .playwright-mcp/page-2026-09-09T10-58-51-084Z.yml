@@ -1,0 +1,271 @@
+- generic [active] [ref=f100e1]:
+  - generic [ref=f100e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f100e6]:
+      - generic [ref=f100e7]:
+        - generic [ref=f100e8]:
+          - link [ref=f100e300] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f100e301]
+          - generic [ref=f100e13]:
+            - textbox "Search anything here ..." [ref=f100e14]
+            - link "" [ref=f100e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f100e17]:
+          - text: 
+          - listitem [ref=f100e18]:
+            - link "" [ref=f100e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f100e21]:
+            - link "" [ref=f100e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f100e24]:
+            - link "" [ref=f100e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f100e27]:
+            - link "" [ref=f100e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f100e30]:
+            - button "" [ref=f100e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f100e33]:
+            - link "PM" [ref=f100e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f100e37]:
+      - navigation [ref=f100e40]:
+        - list [ref=f100e41]:
+          - listitem [ref=f100e42]:
+            - link " Dashboard" [ref=f100e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f100e44]: 
+              - generic [ref=f100e45]: Dashboard
+          - listitem [ref=f100e46]:
+            - generic [ref=f100e47]:
+              - link " Employees" [ref=f100e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f100e49]: 
+                - generic [ref=f100e50]: Employees
+              - button "Toggle submenu" [ref=f100e51] [cursor=pointer]:
+                - generic [ref=f100e52]: 
+          - listitem [ref=f100e53]:
+            - link " Run Payroll" [ref=f100e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f100e55]: 
+              - generic [ref=f100e56]: Run Payroll
+          - listitem [ref=f100e57]:
+            - generic [ref=f100e58]:
+              - link " Taxes & Forms" [ref=f100e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f100e60]: 
+                - generic [ref=f100e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f100e62] [cursor=pointer]:
+                - generic [ref=f100e63]: 
+          - listitem [ref=f100e64]:
+            - link " Reports" [ref=f100e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f100e66]: 
+              - generic [ref=f100e67]: Reports
+          - listitem [ref=f100e68]:
+            - link " Settings" [ref=f100e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f100e70]: 
+              - generic [ref=f100e71]: Settings
+    - generic [ref=f100e74]:
+      - generic [ref=f100e76]:
+        - link " Back to Settings" [ref=f100e78] [cursor=pointer]:
+          - /url: /settings
+          - generic [ref=f100e79]: 
+          - text: Back to Settings
+        - generic [ref=f100e80]:
+          - generic [ref=f100e81]:
+            - heading "Users" [level=1] [ref=f100e82]
+            - paragraph [ref=f100e83]: Create users, assign roles, and control access across payroll features.
+          - generic [ref=f100e85]:
+            - button " Convert Employee" [ref=f100e86] [cursor=pointer]:
+              - generic [ref=f100e87]: 
+              - text: Convert Employee
+            - button " Manage Roles" [ref=f100e88] [cursor=pointer]:
+              - generic [ref=f100e89]: 
+              - text: Manage Roles
+            - button " Add User" [ref=f100e90] [cursor=pointer]:
+              - generic [ref=f100e91]: 
+              - text: Add User
+      - generic [ref=f100e93]:
+        - generic [ref=f100e94]:
+          - generic [ref=f100e95]:
+            - generic [ref=f100e96]:
+              - generic [ref=f100e97]:
+                - generic [ref=f100e98]: 4 results
+                - generic [ref=f100e100]:
+                  - button " Filters " [ref=f100e102] [cursor=pointer]:
+                    - generic [ref=f100e103]: 
+                    - text: Filters
+                    - generic [ref=f100e104]: 
+                  - button " Columns " [ref=f100e106] [cursor=pointer]:
+                    - generic [ref=f100e107]: 
+                    - text: Columns
+                    - generic [ref=f100e108]: 
+                  - button " Refresh" [ref=f100e109] [cursor=pointer]:
+                    - generic [ref=f100e110]: 
+                    - text: Refresh
+              - button " Export" [ref=f100e113] [cursor=pointer]:
+                - generic [ref=f100e114]: 
+                - text: Export
+            - generic [ref=f100e116]:
+              - generic [ref=f100e118]:
+                - generic [ref=f100e119]: Status
+                - button [ref=f100e122] [cursor=pointer]:
+                  - generic [ref=f100e123]: All Status
+                  - generic [aria-hidden] [ref=f100e124]: 
+                - button "Clear Status" [ref=f100e125] [cursor=pointer]:
+                  - generic [ref=f100e126]: 
+              - generic [ref=f100e128]:
+                - generic [aria-hidden]:
+                  - generic: 
+                - textbox "Search users…" [ref=f100e129]
+          - table [ref=f100e133]:
+            - rowgroup [ref=f100e141]:
+              - row [ref=f100e142]:
+                - columnheader "Name" [ref=f100e143] [cursor=pointer]
+                - columnheader "Email" [ref=f100e147] [cursor=pointer]
+                - columnheader "Phone" [ref=f100e151]
+                - columnheader "Role(s)" [ref=f100e154]
+                - columnheader "Status" [ref=f100e157] [cursor=pointer]
+                - columnheader [ref=f100e161]
+            - rowgroup [ref=f100e162]:
+              - row [ref=f100e163]:
+                - cell "B Broni Danso Staff Member" [ref=f100e164]:
+                  - generic [ref=f100e166]:
+                    - generic [ref=f100e167]: B
+                    - generic [ref=f100e168]:
+                      - generic "Broni Danso" [ref=f100e169]
+                      - generic "Staff Member" [ref=f100e171]
+                - cell "dwilliametornam+32@gmail.com" [ref=f100e172]
+                - cell "0256477237" [ref=f100e174]
+                - cell "Payroll Admin" [ref=f100e176]
+                - cell "Active" [ref=f100e180]
+                - cell [ref=f100e183]:
+                  - generic [ref=f100e185]:
+                    - button "" [ref=f100e186] [cursor=pointer]
+                    - button "" [ref=f100e188] [cursor=pointer]
+                    - button "" [ref=f100e190] [cursor=pointer]
+              - row [ref=f100e192]:
+                - cell "Z ZZQA Employee Persona" [ref=f100e193]:
+                  - generic [ref=f100e195]:
+                    - generic [ref=f100e196]: Z
+                    - generic "ZZQA Employee Persona" [ref=f100e198]
+                - cell "dwetornam+24@gmail.com" [ref=f100e199]
+                - cell "242222222" [ref=f100e201]
+                - cell "No roles" [ref=f100e203]
+                - cell "Active" [ref=f100e207]
+                - cell [ref=f100e210]:
+                  - generic [ref=f100e212]:
+                    - button "" [ref=f100e213] [cursor=pointer]
+                    - button "" [ref=f100e215] [cursor=pointer]
+                    - button "" [ref=f100e217] [cursor=pointer]
+              - row [ref=f100e219]:
+                - cell "Z ZZQA Manager Persona" [ref=f100e220]:
+                  - generic [ref=f100e222]:
+                    - generic [ref=f100e223]: Z
+                    - generic "ZZQA Manager Persona" [ref=f100e225]
+                - cell "dwetornam+23@gmail.com" [ref=f100e226]
+                - cell "241234567" [ref=f100e228]
+                - cell "Payroll Manager" [ref=f100e230]
+                - cell "Active" [ref=f100e234]
+                - cell [ref=f100e237]:
+                  - generic [ref=f100e239]:
+                    - button "" [ref=f100e240] [cursor=pointer]
+                    - button "" [ref=f100e242] [cursor=pointer]
+                    - button "" [ref=f100e244] [cursor=pointer]
+              - row [ref=f100e246]:
+                - cell "Z ZZQA Reports Persona" [ref=f100e247]:
+                  - generic [ref=f100e249]:
+                    - generic [ref=f100e250]: Z
+                    - generic "ZZQA Reports Persona" [ref=f100e252]
+                - cell "dwetornam+25@gmail.com" [ref=f100e253]
+                - cell "243333333" [ref=f100e255]
+                - cell "No roles" [ref=f100e257]
+                - cell "Active" [ref=f100e261]
+                - cell [ref=f100e264]:
+                  - generic [ref=f100e266]:
+                    - button "" [ref=f100e267] [cursor=pointer]
+                    - button "" [ref=f100e269] [cursor=pointer]
+                    - button "" [ref=f100e271] [cursor=pointer]
+        - generic [ref=f100e273]:
+          - generic [ref=f100e274]:
+            - generic [ref=f100e275]:
+              - generic [ref=f100e276]: Rows per page
+              - button [ref=f100e279] [cursor=pointer]:
+                - generic [ref=f100e280]: "10"
+                - generic [aria-hidden] [ref=f100e281]: 
+            - generic [ref=f100e282]: Showing 1-4 of 4 entries
+          - generic [ref=f100e283]:
+            - generic [ref=f100e284]: Page 1 of 1
+            - generic [ref=f100e285]:
+              - button "" [disabled] [ref=f100e286] [cursor=pointer]
+              - button "1" [ref=f100e288] [cursor=pointer]
+              - button "" [disabled] [ref=f100e289] [cursor=pointer]
+    - contentinfo [ref=f100e291]:
+      - generic [ref=f100e293]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f100e294] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - generic [ref=f100e303]:
+    - generic [ref=f100e304]:
+      - heading "Add User" [level=3] [ref=f100e305]
+      - button "" [ref=f100e306] [cursor=pointer]
+    - list [ref=f100e309]:
+      - listitem [ref=f100e310]:
+        - button "User Information" [ref=f100e311] [cursor=pointer]
+      - listitem [ref=f100e312]:
+        - button "Roles & Permissions" [ref=f100e337] [cursor=pointer]
+    - generic [ref=f100e338]:
+      - paragraph [ref=f100e339]: Select the roles this user should have. Roles are applied immediately when the account is created.
+      - generic [ref=f100e340]:
+        - generic [ref=f100e341] [cursor=pointer]:
+          - checkbox "ZZQA Test Role 3 permission(s)" [ref=f100e342]
+          - generic [ref=f100e343]:
+            - generic [ref=f100e344]: ZZQA Test Role
+            - generic [ref=f100e345]: 3 permission(s)
+        - generic [ref=f100e346] [cursor=pointer]:
+          - checkbox "Payroll Manager Manage pay runs, employees, and reports 27 permission(s)" [ref=f100e347]
+          - generic [ref=f100e348]:
+            - generic [ref=f100e349]: Payroll Manager
+            - generic [ref=f100e350]: Manage pay runs, employees, and reports
+            - generic [ref=f100e351]: 27 permission(s)
+        - generic [ref=f100e352] [cursor=pointer]:
+          - checkbox "Payroll Employee View own dashboard and payslips 4 permission(s)" [ref=f100e353]
+          - generic [ref=f100e354]:
+            - generic [ref=f100e355]: Payroll Employee
+            - generic [ref=f100e356]: View own dashboard and payslips
+            - generic [ref=f100e357]: 4 permission(s)
+        - generic [ref=f100e358] [cursor=pointer]:
+          - checkbox "Payroll Reports View dashboard and reports 5 permission(s)" [ref=f100e359]
+          - generic [ref=f100e360]:
+            - generic [ref=f100e361]: Payroll Reports
+            - generic [ref=f100e362]: View dashboard and reports
+            - generic [ref=f100e363]: 5 permission(s)
+        - generic [ref=f100e364] [cursor=pointer]:
+          - checkbox "Payroll Admin Full access to all payroll features 56 permission(s)" [ref=f100e365]
+          - generic [ref=f100e366]:
+            - generic [ref=f100e367]: Payroll Admin
+            - generic [ref=f100e368]: Full access to all payroll features
+            - generic [ref=f100e369]: 56 permission(s)
+      - generic [ref=f100e370]:
+        - generic [ref=f100e371]: 
+        - generic [ref=f100e372]: No roles selected — this user won't have access to any payroll features until a role is assigned.
+    - generic [ref=f100e332]:
+      - button " Back" [disabled] [ref=f100e374] [cursor=pointer]:
+        - generic [ref=f100e375]: 
+        - text: Back
+      - generic [ref=f100e333]:
+        - button "Cancel" [disabled] [ref=f100e334] [cursor=pointer]
+        - button " Creating..." [disabled] [ref=f100e378] [cursor=pointer]:
+          - generic [ref=f100e379]: 
+          - text: Creating...
+  - button "1 compliance alert(s) — open list" [ref=f100e296] [cursor=pointer]:
+    - generic [ref=f100e298]: 
+    - generic [ref=f100e299]: "1"

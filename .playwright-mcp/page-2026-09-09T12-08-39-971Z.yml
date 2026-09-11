@@ -1,0 +1,234 @@
+- generic [active] [ref=f129e1]:
+  - generic [ref=f129e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f129e6]:
+      - generic [ref=f129e7]:
+        - generic [ref=f129e8]:
+          - link [ref=f129e169] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f129e170]
+          - generic [ref=f129e13]:
+            - textbox "Search anything here ..." [ref=f129e14]
+            - link "" [ref=f129e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f129e17]:
+          - text: 
+          - listitem [ref=f129e18]:
+            - link "" [ref=f129e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f129e21]:
+            - link "" [ref=f129e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f129e24]:
+            - link "" [ref=f129e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f129e27]:
+            - link "" [ref=f129e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f129e30]:
+            - button "" [ref=f129e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f129e33]:
+            - link "PM" [ref=f129e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f129e37]:
+      - navigation [ref=f129e40]:
+        - list [ref=f129e41]:
+          - listitem [ref=f129e42]:
+            - link " Dashboard" [ref=f129e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f129e44]: 
+              - generic [ref=f129e45]: Dashboard
+          - listitem [ref=f129e46]:
+            - generic [ref=f129e47]:
+              - link " Employees" [ref=f129e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f129e49]: 
+                - generic [ref=f129e50]: Employees
+              - button "Toggle submenu" [ref=f129e51] [cursor=pointer]:
+                - generic [ref=f129e52]: 
+          - listitem [ref=f129e53]:
+            - link " Run Payroll" [ref=f129e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f129e55]: 
+              - generic [ref=f129e56]: Run Payroll
+          - listitem [ref=f129e57]:
+            - generic [ref=f129e58]:
+              - link " Taxes & Forms" [ref=f129e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f129e60]: 
+                - generic [ref=f129e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f129e62] [cursor=pointer]:
+                - generic [ref=f129e63]: 
+          - listitem [ref=f129e64]:
+            - link " Reports" [ref=f129e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f129e66]: 
+              - generic [ref=f129e67]: Reports
+          - listitem [ref=f129e68]:
+            - link " Settings" [ref=f129e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f129e70]: 
+              - generic [ref=f129e71]: Settings
+    - generic [ref=f129e1292]:
+      - generic [ref=f129e1294]:
+        - link " Back to Settings" [ref=f129e1296] [cursor=pointer]:
+          - /url: /settings
+          - generic [ref=f129e1297]: 
+          - text: Back to Settings
+        - generic [ref=f129e1298]:
+          - generic [ref=f129e1299]:
+            - heading "Users" [level=1] [ref=f129e1300]
+            - paragraph [ref=f129e1301]: Create users, assign roles, and control access across payroll features.
+          - generic [ref=f129e1303]:
+            - button " Convert Employee" [ref=f129e1304] [cursor=pointer]:
+              - generic [ref=f129e1305]: 
+              - text: Convert Employee
+            - button " Manage Roles" [ref=f129e1306] [cursor=pointer]:
+              - generic [ref=f129e1307]: 
+              - text: Manage Roles
+            - button " Add User" [ref=f129e1308] [cursor=pointer]:
+              - generic [ref=f129e1309]: 
+              - text: Add User
+      - generic [ref=f129e1311]:
+        - generic [ref=f129e1312]:
+          - generic [ref=f129e1435]:
+            - generic [ref=f129e1436]:
+              - generic [ref=f129e1437]:
+                - generic [ref=f129e1438]: 5 results
+                - generic [ref=f129e1440]:
+                  - button " Filters " [ref=f129e1442] [cursor=pointer]:
+                    - generic [ref=f129e1443]: 
+                    - text: Filters
+                    - generic [ref=f129e1444]: 
+                  - button " Columns " [ref=f129e1446] [cursor=pointer]:
+                    - generic [ref=f129e1447]: 
+                    - text: Columns
+                    - generic [ref=f129e1448]: 
+                  - button " Refresh" [ref=f129e1449] [cursor=pointer]:
+                    - generic [ref=f129e1450]: 
+                    - text: Refresh
+              - button " Export" [ref=f129e1453] [cursor=pointer]:
+                - generic [ref=f129e1454]: 
+                - text: Export
+            - generic [ref=f129e1456]:
+              - generic [ref=f129e1458]:
+                - generic [ref=f129e1459]: Status
+                - button [ref=f129e1462] [cursor=pointer]:
+                  - generic [ref=f129e1463]: All Status
+                  - generic [aria-hidden] [ref=f129e1464]: 
+                - button "Clear Status" [ref=f129e1465] [cursor=pointer]:
+                  - generic [ref=f129e1466]: 
+              - generic [ref=f129e1468]:
+                - generic [aria-hidden]:
+                  - generic: 
+                - textbox "Search users…" [ref=f129e1469]
+          - table [ref=f129e1473]:
+            - rowgroup [ref=f129e1481]:
+              - row [ref=f129e1482]:
+                - columnheader "Name" [ref=f129e1483] [cursor=pointer]
+                - columnheader "Email" [ref=f129e1487] [cursor=pointer]
+                - columnheader "Phone" [ref=f129e1491]
+                - columnheader "Role(s)" [ref=f129e1494]
+                - columnheader "Status" [ref=f129e1497] [cursor=pointer]
+                - columnheader [ref=f129e1501]
+            - rowgroup [ref=f129e1502]:
+              - row [ref=f129e1503]:
+                - cell "B Broni Danso Staff Member" [ref=f129e1504]:
+                  - generic [ref=f129e1506]:
+                    - generic [ref=f129e1507]: B
+                    - generic [ref=f129e1508]:
+                      - generic "Broni Danso" [ref=f129e1509]
+                      - generic "Staff Member" [ref=f129e1511]
+                - cell "dwilliametornam+32@gmail.com" [ref=f129e1512]
+                - cell "0256477237" [ref=f129e1514]
+                - cell "Payroll Admin" [ref=f129e1516]
+                - cell "Active" [ref=f129e1520]
+                - cell [ref=f129e1523]:
+                  - generic [ref=f129e1525]:
+                    - button "" [ref=f129e1526] [cursor=pointer]
+                    - button "" [ref=f129e1528] [cursor=pointer]
+                    - button "" [ref=f129e1530] [cursor=pointer]
+              - row [ref=f129e1532]:
+                - cell "Z ZZQA Admin Persona" [ref=f129e1533]:
+                  - generic [ref=f129e1535]:
+                    - generic [ref=f129e1536]: Z
+                    - generic "ZZQA Admin Persona" [ref=f129e1538]
+                - cell "dwetornam+26@gmail.com" [ref=f129e1539]
+                - cell "244444444" [ref=f129e1541]
+                - cell "Payroll Admin" [ref=f129e1543]
+                - cell "Active" [ref=f129e1547]
+                - cell [ref=f129e1550]:
+                  - generic [ref=f129e1552]:
+                    - button "" [ref=f129e1553] [cursor=pointer]
+                    - button "" [ref=f129e1555] [cursor=pointer]
+                    - button "" [ref=f129e1557] [cursor=pointer]
+              - row [ref=f129e1559]:
+                - cell "Z ZZQA Employee Persona" [ref=f129e1560]:
+                  - generic [ref=f129e1562]:
+                    - generic [ref=f129e1563]: Z
+                    - generic "ZZQA Employee Persona" [ref=f129e1565]
+                - cell "dwetornam+24@gmail.com" [ref=f129e1566]
+                - cell "242222222" [ref=f129e1568]
+                - cell "Payroll Employee" [ref=f129e1570]
+                - cell "Active" [ref=f129e1574]
+                - cell [ref=f129e1577]:
+                  - generic [ref=f129e1579]:
+                    - button "" [ref=f129e1580] [cursor=pointer]
+                    - button "" [ref=f129e1582] [cursor=pointer]
+                    - button "" [ref=f129e1584] [cursor=pointer]
+              - row [ref=f129e1586]:
+                - cell "Z ZZQA Manager Persona Staff Member" [ref=f129e1587]:
+                  - generic [ref=f129e1589]:
+                    - generic [ref=f129e1590]: Z
+                    - generic [ref=f129e1591]:
+                      - generic "ZZQA Manager Persona" [ref=f129e1592]
+                      - generic "Staff Member" [ref=f129e1594]
+                - cell "dwetornam+23@gmail.com" [ref=f129e1595]
+                - cell "241234567" [ref=f129e1597]
+                - cell "Payroll Manager" [ref=f129e1599]
+                - cell "Active" [ref=f129e1603]
+                - cell [ref=f129e1606]:
+                  - generic [ref=f129e1608]:
+                    - button "" [ref=f129e1609] [cursor=pointer]
+                    - button "" [ref=f129e1611] [cursor=pointer]
+                    - button "" [ref=f129e1613] [cursor=pointer]
+              - row [ref=f129e1615]:
+                - cell "Z ZZQA Reports Persona" [ref=f129e1616]:
+                  - generic [ref=f129e1618]:
+                    - generic [ref=f129e1619]: Z
+                    - generic "ZZQA Reports Persona" [ref=f129e1621]
+                - cell "dwetornam+25@gmail.com" [ref=f129e1622]
+                - cell "243333333" [ref=f129e1624]
+                - cell "Payroll Reports" [ref=f129e1626]
+                - cell "Active" [ref=f129e1630]
+                - cell [ref=f129e1633]:
+                  - generic [ref=f129e1635]:
+                    - button "" [ref=f129e1636] [cursor=pointer]
+                    - button "" [ref=f129e1638] [cursor=pointer]
+                    - button "" [ref=f129e1640] [cursor=pointer]
+        - generic [ref=f129e1642]:
+          - generic [ref=f129e1643]:
+            - generic [ref=f129e1644]:
+              - generic [ref=f129e1645]: Rows per page
+              - button [ref=f129e1648] [cursor=pointer]:
+                - generic [ref=f129e1649]: "10"
+                - generic [aria-hidden] [ref=f129e1650]: 
+            - generic [ref=f129e1651]: Showing 1-5 of 5 entries
+          - generic [ref=f129e1652]:
+            - generic [ref=f129e1653]: Page 1 of 1
+            - generic [ref=f129e1654]:
+              - button "" [disabled] [ref=f129e1655] [cursor=pointer]
+              - button "1" [ref=f129e1657] [cursor=pointer]
+              - button "" [disabled] [ref=f129e1658] [cursor=pointer]
+    - contentinfo [ref=f129e160]:
+      - generic [ref=f129e162]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f129e163] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f129e165] [cursor=pointer]:
+    - generic [ref=f129e167]: 
+    - generic [ref=f129e168]: "1"

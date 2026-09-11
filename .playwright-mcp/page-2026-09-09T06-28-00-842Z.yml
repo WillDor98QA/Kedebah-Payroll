@@ -1,0 +1,181 @@
+- generic [ref=f52e1]:
+  - generic [ref=f52e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f52e6]:
+      - generic [ref=f52e7]:
+        - generic [ref=f52e8]:
+          - link [ref=f52e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f52e12]
+          - generic [ref=f52e13]:
+            - textbox "Search anything here ..." [ref=f52e14]
+            - link "" [ref=f52e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f52e17]:
+          - text: 
+          - listitem [ref=f52e18]:
+            - link "" [ref=f52e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f52e21]:
+            - link "" [ref=f52e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f52e24]:
+            - link "" [ref=f52e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f52e27]:
+            - link "" [ref=f52e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f52e30]:
+            - button "" [ref=f52e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f52e33]:
+            - link "PM" [ref=f52e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f52e37]:
+      - navigation [ref=f52e40]:
+        - list [ref=f52e41]:
+          - listitem [ref=f52e42]:
+            - link " Dashboard" [ref=f52e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f52e44]: 
+              - generic [ref=f52e45]: Dashboard
+          - listitem [ref=f52e46]:
+            - generic [ref=f52e47]:
+              - link " Employees" [ref=f52e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f52e49]: 
+                - generic [ref=f52e50]: Employees
+              - button "Toggle submenu" [ref=f52e51] [cursor=pointer]:
+                - generic [ref=f52e52]: 
+          - listitem [ref=f52e53]:
+            - link " Run Payroll" [ref=f52e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f52e55]: 
+              - generic [ref=f52e56]: Run Payroll
+          - listitem [ref=f52e57]:
+            - generic [ref=f52e58]:
+              - link " Taxes & Forms" [ref=f52e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f52e60]: 
+                - generic [ref=f52e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f52e62] [cursor=pointer]:
+                - generic [ref=f52e63]: 
+          - listitem [ref=f52e64]:
+            - link " Reports" [ref=f52e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f52e66]: 
+              - generic [ref=f52e67]: Reports
+          - listitem [ref=f52e68]:
+            - link " Settings" [ref=f52e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f52e70]: 
+              - generic [ref=f52e71]: Settings
+    - generic [ref=f52e1381]:
+      - generic [ref=f52e1383]:
+        - generic [ref=f52e1384]:
+          - button " Back to Payroll Review" [ref=f52e1385] [cursor=pointer]:
+            - generic [ref=f52e1386]: 
+            - text: Back to Payroll Review
+          - generic [ref=f52e1387]:
+            - heading "ZZQA Off-Cycle Test" [level=1] [ref=f52e1388]
+            - generic [ref=f52e1389]:
+              - generic [ref=f52e1390]: 
+              - text: Off-Cycle
+            - generic [ref=f52e1391]: Pending Approval
+          - paragraph [ref=f52e1392]: "Sep 20, 2026 – Sep 20, 2026 · Pay date: Sep 9, 2026"
+        - generic [ref=f52e1393]:
+          - button " Approve" [active] [ref=f52e1519] [cursor=pointer]:
+            - generic [ref=f52e1520]: 
+            - text: Approve
+          - button " Reject" [ref=f52e1394] [cursor=pointer]:
+            - generic [ref=f52e1395]: 
+            - text: Reject
+      - generic [ref=f52e1397]:
+        - generic [ref=f52e1398]:
+          - generic [ref=f52e1399]: 
+          - generic [ref=f52e1400]:
+            - paragraph [ref=f52e1401]: Tax Safeguards
+            - paragraph [ref=f52e1402]: 0 hard blockers and 0 unacknowledged warnings. Open the list to review and acknowledge before approving.
+        - button " View safeguards (1)" [ref=f52e1405] [cursor=pointer]:
+          - generic [ref=f52e1406]: 
+          - text: View safeguards (1)
+      - generic [ref=f52e1407]:
+        - generic [ref=f52e1408]:
+          - generic [ref=f52e1409]:
+            - heading "Finance Journal Preview" [level=4] [ref=f52e1410]
+            - paragraph [ref=f52e1411]: How this pay run will post to finance. Read-only — nothing is sent yet.
+          - generic [ref=f52e1457]:
+            - generic [ref=f52e1458]: 
+            - text: Balanced
+        - generic [ref=f52e1412]:
+          - generic [ref=f52e1459]:
+            - text: 3 line(s) have no account. Set a default account on
+            - link "Finance Posting" [ref=f52e1460] [cursor=pointer]:
+              - /url: /setup/finance-posting
+            - text: before posting.
+          - generic [ref=f52e1461]:
+            - generic [ref=f52e1462]:
+              - generic [ref=f52e1463]: Debit — what the company spent
+              - table [ref=f52e1464]:
+                - rowgroup [ref=f52e1465]:
+                  - row [ref=f52e1466]:
+                    - cell "Allowances & Other Earnings Unmapped — set a default" [ref=f52e1467]:
+                      - generic [ref=f52e1468]: Allowances & Other Earnings
+                      - generic [ref=f52e1469]: Unmapped — set a default
+                    - cell "GH₵ 1,000.00" [ref=f52e1470]
+                - rowgroup [ref=f52e1471]:
+                  - row [ref=f52e1472]:
+                    - cell "Total Debits" [ref=f52e1473]
+                    - cell "GH₵ 1,000.00" [ref=f52e1474]
+            - generic [ref=f52e1475]:
+              - generic [ref=f52e1476]: Credit — what it owes / pays out
+              - table [ref=f52e1477]:
+                - rowgroup [ref=f52e1478]:
+                  - row [ref=f52e1479]:
+                    - cell "Net Salaries Payable Unmapped — set a default" [ref=f52e1480]:
+                      - generic [ref=f52e1481]: Net Salaries Payable
+                      - generic [ref=f52e1482]: Unmapped — set a default
+                    - cell "GH₵ 934.25" [ref=f52e1483]
+                  - row [ref=f52e1484]:
+                    - cell "PAYE (Income Tax) (Employee) Unmapped — set a default" [ref=f52e1485]:
+                      - generic [ref=f52e1486]: PAYE (Income Tax) (Employee)
+                      - generic [ref=f52e1487]: Unmapped — set a default
+                    - cell "GH₵ 65.75" [ref=f52e1488]
+                - rowgroup [ref=f52e1489]:
+                  - row [ref=f52e1490]:
+                    - cell "Total Credits" [ref=f52e1491]
+                    - cell "GH₵ 1,000.00" [ref=f52e1492]
+    - contentinfo [ref=f52e156]:
+      - generic [ref=f52e158]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f52e159] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f52e161] [cursor=pointer]:
+    - generic [ref=f52e163]: 
+    - generic [ref=f52e164]: "1"
+  - generic [ref=f52e1522]:
+    - generic [ref=f52e1523]:
+      - heading "Approve Payroll" [level=3] [ref=f52e1524]
+      - button "" [ref=f52e1525] [cursor=pointer]
+    - generic [ref=f52e1528]:
+      - generic [ref=f52e1529]: 
+      - generic [ref=f52e1530]:
+        - paragraph [ref=f52e1531]: Confirm Approval
+        - paragraph [ref=f52e1532]:
+          - text: You are about to approve payroll for
+          - strong [ref=f52e1533]: ZZQA Off-Cycle Test
+          - text: . This will mark the payroll as approved and ready for payment.
+    - generic [ref=f52e1534]:
+      - generic [ref=f52e1535]: Approval Comments (Optional)
+      - textbox "Add comments..." [ref=f52e1536]
+      - generic [ref=f52e1537] [cursor=pointer]:
+        - checkbox "Post Journal Entries Once you mark this option, journal entries will be posted into Kedebah Finance." [checked] [ref=f52e1538]
+        - generic [ref=f52e1539]:
+          - text: Post Journal Entries
+          - paragraph [ref=f52e1540]: Once you mark this option, journal entries will be posted into Kedebah Finance.
+    - generic [ref=f52e1541]:
+      - button "Cancel" [ref=f52e1542] [cursor=pointer]
+      - button "Confirm Approval" [ref=f52e1543] [cursor=pointer]

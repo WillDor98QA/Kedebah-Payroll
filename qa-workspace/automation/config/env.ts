@@ -47,6 +47,28 @@ export const env = {
 
   headless: required('HEADLESS', 'true') !== 'false',
   workers: Number(required('WORKERS', '4')),
+
+  /**
+   * BETA environment (2026-09 onward). Separate enterprise-portal target used by
+   * tests/browser/beta/*.browser.spec.ts. Specs guard on `isBetaConfigured`.
+   *   BETA_BASE_URL      client sign-in, e.g. https://v2.kedebahlite.com/clients/sign-in
+   *   BETA_PAYROLL_URL   payroll app root,  e.g. https://v2payroll.kedebahlite.com  (default derived)
+   *   BETA_ADMIN / BETA_ADMIN_PASSWORD   admin creds
+   *   BETA_BUSINESS      business to select at the module launcher (default 'Glenn and Co')
+   */
+  beta: {
+    baseURL: noTrailingSlash(required('BETA_BASE_URL')),
+    payrollURL: noTrailingSlash(required('BETA_PAYROLL_URL') || 'https://v2payroll.kedebahlite.com'),
+    admin: { identifier: required('BETA_ADMIN'), password: required('BETA_ADMIN_PASSWORD') },
+    // Non-admin QA personas (invitation passwords completed by the account holder). Optional —
+    // beta-rbac-personas.browser.spec.ts skips per-persona when its pair is absent.
+    manager: { identifier: required('BETA_MANAGER'), password: required('BETA_MANAGER_PASSWORD') },
+    employee: { identifier: required('BETA_EMPLOYEE'), password: required('BETA_EMPLOYEE_PASSWORD') },
+    report: { identifier: required('BETA_REPORT'), password: required('BETA_REPORT_PASSWORD') },
+    adminNew: { identifier: required('BETA_ADMINNEW'), password: required('BETA_ADMINNEW_PASSWORD') },
+    business: required('BETA_BUSINESS', 'Glenn and Co'),
+    apiBaseURL: noTrailingSlash(required('BETA_API_BASE_URL') || 'https://v2payroll.kedebahlite.com/api/v1/payrollApi'),
+  },
 } as const;
 
 export type RoleName = keyof typeof env.roles;
@@ -59,3 +81,7 @@ export function hasRole(role: RoleName): boolean {
 /** True once a real target + admin credentials are supplied. Specs guard on this. */
 export const isAppConfigured =
   !!env.baseURL && !env.baseURL.includes('example.invalid') && hasRole('admin');
+
+/** True once the BETA enterprise target + admin creds are supplied. tests/browser/beta/* guard on this. */
+export const isBetaConfigured =
+  !!env.beta.baseURL && !!env.beta.admin.identifier && !!env.beta.admin.password;

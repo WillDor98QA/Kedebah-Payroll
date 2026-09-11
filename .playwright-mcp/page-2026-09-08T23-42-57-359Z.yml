@@ -1,0 +1,156 @@
+- generic [active] [ref=f16e1]:
+  - generic [ref=f16e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f16e6]:
+      - generic [ref=f16e7]:
+        - generic [ref=f16e8]:
+          - link [ref=f16e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f16e12]
+          - generic [ref=f16e13]:
+            - textbox "Search anything here ..." [ref=f16e14]
+            - link "" [ref=f16e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f16e17]:
+          - text: 
+          - listitem [ref=f16e18]:
+            - link "" [ref=f16e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f16e21]:
+            - link "" [ref=f16e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f16e24]:
+            - link "" [ref=f16e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f16e27]:
+            - link "" [ref=f16e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f16e30]:
+            - button "" [ref=f16e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f16e33]:
+            - link "PM" [ref=f16e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f16e37]:
+      - navigation [ref=f16e40]:
+        - list [ref=f16e41]:
+          - listitem [ref=f16e42]:
+            - link " Dashboard" [ref=f16e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f16e44]: 
+              - generic [ref=f16e45]: Dashboard
+          - listitem [ref=f16e46]:
+            - generic [ref=f16e47]:
+              - link " Employees" [ref=f16e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f16e49]: 
+                - generic [ref=f16e50]: Employees
+              - button "Toggle submenu" [ref=f16e51] [cursor=pointer]:
+                - generic [ref=f16e52]: 
+          - listitem [ref=f16e53]:
+            - link " Run Payroll" [ref=f16e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f16e55]: 
+              - generic [ref=f16e56]: Run Payroll
+          - listitem [ref=f16e57]:
+            - generic [ref=f16e58]:
+              - link " Taxes & Forms" [ref=f16e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f16e60]: 
+                - generic [ref=f16e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f16e62] [cursor=pointer]:
+                - generic [ref=f16e63]: 
+          - listitem [ref=f16e64]:
+            - link " Reports" [ref=f16e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f16e66]: 
+              - generic [ref=f16e67]: Reports
+          - listitem [ref=f16e68]:
+            - link " Settings" [ref=f16e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f16e70]: 
+              - generic [ref=f16e71]: Settings
+    - generic [ref=f16e74]:
+      - generic [ref=f16e76]:
+        - link " Back to Employees" [ref=f16e78] [cursor=pointer]:
+          - /url: /employees
+          - generic [ref=f16e79]: 
+          - text: Back to Employees
+        - generic [ref=f16e81]:
+          - heading "Add Employee" [level=1] [ref=f16e82]
+          - paragraph [ref=f16e83]: Add a new employee to your payroll system
+      - generic [ref=f16e84]:
+        - generic [ref=f16e86]:
+          - generic [ref=f16e88]:
+            - button "" [ref=f16e270] [cursor=pointer]
+            - generic [ref=f16e92]: Basic details
+          - generic [ref=f16e96]:
+            - button "" [ref=f16e335] [cursor=pointer]
+            - generic [ref=f16e100]: Compensation
+          - generic [ref=f16e104]:
+            - generic [ref=f16e105]: "3"
+            - generic [ref=f16e108]: Personal details
+          - generic [ref=f16e112]:
+            - generic [ref=f16e113]: "4"
+            - generic [ref=f16e116]: Tax details
+          - generic [ref=f16e120]:
+            - generic [ref=f16e121]: "5"
+            - generic [ref=f16e124]: Payment details
+          - generic [ref=f16e128]:
+            - generic [ref=f16e129]: "6"
+            - generic [ref=f16e132]: Benefits & Deductions
+        - generic [ref=f16e134]:
+          - generic [ref=f16e337]:
+            - generic [ref=f16e338]:
+              - generic [ref=f16e339]: "03"
+              - heading "Personal details" [level=3] [ref=f16e340]
+            - paragraph [ref=f16e341]: Enter personal information required for payroll processing.
+            - generic [ref=f16e342]:
+              - generic [ref=f16e343]:
+                - generic [ref=f16e344]:
+                  - generic [ref=f16e345]: Country of Origin *
+                  - button [ref=f16e348] [cursor=pointer]:
+                    - generic [ref=f16e349]: Ghana
+                    - generic [aria-hidden] [ref=f16e350]: 
+                - generic [ref=f16e351]:
+                  - generic [ref=f16e352]: Marital Status *
+                  - button [ref=f16e355] [cursor=pointer]:
+                    - generic [ref=f16e356]: Single
+                    - generic [aria-hidden] [ref=f16e357]: 
+                - generic [ref=f16e358]:
+                  - generic [ref=f16e359]: Date of Birth *
+                  - textbox [ref=f16e360]
+                - generic [ref=f16e361]:
+                  - generic [ref=f16e362]: Gender *
+                  - button [ref=f16e365] [cursor=pointer]:
+                    - generic [ref=f16e366]: Select gender
+                    - generic [aria-hidden] [ref=f16e367]: 
+              - generic [ref=f16e368]:
+                - generic [ref=f16e369]: Residential Address
+                - textbox "Enter full residential address" [ref=f16e370]
+              - generic [ref=f16e371]:
+                - generic [ref=f16e372]:
+                  - generic [ref=f16e373]: ID Type
+                  - button [ref=f16e376] [cursor=pointer]:
+                    - generic [ref=f16e377]: Select ID type
+                    - generic [aria-hidden] [ref=f16e378]: 
+                - generic [ref=f16e379]:
+                  - generic [ref=f16e380]: ID Number
+                  - textbox [ref=f16e381]
+                  - paragraph [ref=f16e382]: Optional. Number for the selected ID type above.
+          - generic [ref=f16e226]:
+            - button "Cancel" [ref=f16e227] [cursor=pointer]
+            - generic [ref=f16e228]:
+              - button "Previous" [ref=f16e321] [cursor=pointer]
+              - button "Save & continue" [ref=f16e229] [cursor=pointer]
+    - contentinfo [ref=f16e230]:
+      - generic [ref=f16e232]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f16e233] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f16e235] [cursor=pointer]:
+    - generic [ref=f16e237]: 
+    - generic [ref=f16e238]: "1"

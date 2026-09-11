@@ -1,0 +1,139 @@
+- generic [ref=f6e5]:
+  - region "Notifications alt+T":
+    - list
+  - generic [ref=f6e6]:
+    - generic [ref=f6e8]:
+      - generic [ref=f6e9]:
+        - generic [ref=f6e10]: 
+        - generic [ref=f6e12]:
+          - paragraph [ref=f6e13]: Guided setup
+          - text: Kedebah Payroll
+      - generic [ref=f6e14]:
+        - text: 
+        - button "" [ref=f6e15] [cursor=pointer]
+        - generic [ref=f6e17]:
+          - generic [ref=f6e18]: 
+          - text: Complete setup to continue
+    - generic [ref=f6e20]:
+      - generic [ref=f6e21]:
+        - generic [ref=f6e23]:
+          - generic [ref=f6e24]: Step 1 of 4
+          - generic [ref=f6e25]: —
+          - generic [ref=f6e26]: Organization Setup
+        - generic [ref=f6e27]:
+          - generic [ref=f6e28]: 
+          - paragraph [ref=f6e29]: Complete required payroll setup to continue.
+        - generic [ref=f6e30]:
+          - generic [ref=f6e31]:
+            - generic [ref=f6e32]:
+              - generic [ref=f6e33]:
+                - generic [ref=f6e34]: "01"
+                - heading "Organization identity" [level=3] [ref=f6e35]
+              - paragraph [ref=f6e36]: Your company name and legal jurisdiction for payroll compliance.
+              - generic [ref=f6e37]:
+                - generic [ref=f6e38]:
+                  - generic [ref=f6e39]: Organization Name *
+                  - textbox "e.g., Acme Corporation" [ref=f6e40]: Mary and Co
+                  - paragraph [ref=f6e41]: This name will appear on pay slips and statutory filings.
+                - generic [ref=f6e42]:
+                  - generic [ref=f6e43]:
+                    - generic [ref=f6e44]: Country / Jurisdiction *
+                    - button [ref=f6e47] [cursor=pointer]:
+                      - generic [ref=f6e48]: Ghana
+                      - generic [ref=f6e49]: 
+                    - paragraph [ref=f6e50]: Determines applicable tax and statutory rules.
+                  - generic [ref=f6e51]:
+                    - generic [ref=f6e52]: State / Region
+                    - button [ref=f6e55] [cursor=pointer]:
+                      - generic [ref=f6e56]: Greater Accra
+                      - generic [ref=f6e57]: 
+                    - paragraph [ref=f6e58]: Optional. State or region for address.
+                - generic [ref=f6e60]:
+                  - generic [ref=f6e61]: Currency *
+                  - button [ref=f6e64] [cursor=pointer]:
+                    - generic [ref=f6e65]: GHS - Ghanaian Cedi (GHS)
+                    - generic [ref=f6e66]: 
+                  - paragraph [ref=f6e67]: Used for all payroll calculations.
+                - generic [ref=f6e68]:
+                  - generic [ref=f6e69]:
+                    - generic [ref=f6e70]: Website URL
+                    - textbox "https://example.com" [ref=f6e71]
+                  - generic [ref=f6e72]:
+                    - generic [ref=f6e73]: Registration Number
+                    - textbox "e.g., RC 123456" [ref=f6e74]
+                - generic [ref=f6e75]:
+                  - generic [ref=f6e76]:
+                    - generic [ref=f6e77]: Employer TIN
+                    - textbox "Employer Tax Identification Number" [ref=f6e78]
+                    - paragraph [ref=f6e79]: Used on the GRA PAYE schedule header.
+                  - generic [ref=f6e80]:
+                    - generic [ref=f6e81]: Employer SSNIT Number
+                    - textbox "Employer SSNIT registration number" [ref=f6e82]
+                    - paragraph [ref=f6e83]: Used for SSNIT contribution filings.
+                - generic [ref=f6e84]:
+                  - generic [ref=f6e85]: Organization Logo (Optional)
+                  - generic [ref=f6e86]:
+                    - generic [ref=f6e87]: 
+                    - generic [ref=f6e89]:
+                      - generic [ref=f6e90] [cursor=pointer]: Upload Logo
+                      - paragraph [ref=f6e91]: Max 2MB. PNG or JPG recommended.
+            - generic [ref=f6e92]:
+              - generic [ref=f6e93]:
+                - generic [ref=f6e94]: "02"
+                - heading "Payroll context" [level=3] [ref=f6e95]
+              - paragraph [ref=f6e96]: Currency, date format, and timezone for payroll calculations.
+              - generic [ref=f6e98]:
+                - generic [ref=f6e99]:
+                  - generic [ref=f6e100]: Date Format *
+                  - button [ref=f6e103] [cursor=pointer]:
+                    - generic [ref=f6e104]: yyyy-MM-dd
+                    - generic [ref=f6e105]: 
+                - generic [ref=f6e106]:
+                  - generic [ref=f6e107]: Time Zone
+                  - textbox [disabled] [ref=f6e108]: Africa/Accra
+                  - paragraph [ref=f6e109]: Automatically set from country selection.
+            - generic [ref=f6e110]:
+              - generic [ref=f6e111]:
+                - generic [ref=f6e112]: "03"
+                - heading "Business address" [level=3] [ref=f6e113]
+              - paragraph [ref=f6e114]: Your registered business location for compliance purposes.
+              - generic [ref=f6e115]:
+                - generic [ref=f6e116]:
+                  - generic [ref=f6e117]: Street / Postal Address *
+                  - textbox "123 Main Street" [ref=f6e118]: 123 TSE ADDO STREET
+                - generic [ref=f6e119]:
+                  - generic [ref=f6e120]: City / Town *
+                  - textbox "Accra" [ref=f6e121]: ACCRA
+            - generic [ref=f6e122]:
+              - generic [ref=f6e123]:
+                - generic [ref=f6e124]: "04"
+                - heading "Payroll contact" [level=3] [ref=f6e125]
+              - paragraph [ref=f6e126]: Email for payroll notifications and compliance reminders.
+              - generic [ref=f6e128]:
+                - generic [ref=f6e129]: Notification Email *
+                - textbox "payroll@company.com" [ref=f6e130]: eetornam5@gmail.com
+                - paragraph [ref=f6e131]: Receives payroll notifications and compliance reminders.
+          - generic [ref=f6e134]:
+            - heading " Did you know?" [level=6] [ref=f6e135]:
+              - generic [ref=f6e136]: 
+              - text: Did you know?
+            - paragraph [ref=f6e137]: Setting up accurate organization details ensures correct tax calculations, payroll reports, and statutory filings.
+      - generic [ref=f6e141]:
+        - list [ref=f6e142]:
+          - listitem [ref=f6e143]:
+            - button " Organization Setup" [disabled] [ref=f6e144] [cursor=pointer]:
+              - generic [ref=f6e145]: 
+              - generic [ref=f6e146]: Organization Setup
+          - listitem [ref=f6e147]:
+            - button " Pay Schedule Setup" [disabled] [ref=f6e148] [cursor=pointer]:
+              - generic [ref=f6e149]: 
+              - generic [ref=f6e150]: Pay Schedule Setup
+          - listitem [ref=f6e151]:
+            - button " Tax & Statutory Setup" [ref=f6e152] [cursor=pointer]:
+              - generic [ref=f6e153]: 
+              - generic [ref=f6e154]: Tax & Statutory Setup
+          - listitem [ref=f6e155]:
+            - button " Employee Setup" [disabled] [ref=f6e156] [cursor=pointer]:
+              - generic [ref=f6e157]: 
+              - generic [ref=f6e158]: Employee Setup
+        - button "Save & Continue" [ref=f6e160] [cursor=pointer]

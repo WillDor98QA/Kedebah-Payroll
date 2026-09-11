@@ -1,0 +1,201 @@
+- generic [active] [ref=f61e1]:
+  - generic [ref=f61e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f61e6]:
+      - generic [ref=f61e7]:
+        - generic [ref=f61e8]:
+          - link [ref=f61e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f61e12]
+          - generic [ref=f61e13]:
+            - textbox "Search anything here ..." [ref=f61e14]
+            - link "" [ref=f61e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f61e17]:
+          - text: 
+          - listitem [ref=f61e18]:
+            - link "" [ref=f61e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f61e21]:
+            - link "" [ref=f61e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f61e24]:
+            - link "" [ref=f61e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f61e27]:
+            - link "" [ref=f61e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f61e30]:
+            - button "" [ref=f61e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f61e33]:
+            - link "PM" [ref=f61e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f61e37]:
+      - navigation [ref=f61e40]:
+        - list [ref=f61e41]:
+          - listitem [ref=f61e42]:
+            - link " Dashboard" [ref=f61e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f61e44]: 
+              - generic [ref=f61e45]: Dashboard
+          - listitem [ref=f61e46]:
+            - generic [ref=f61e47]:
+              - link " Employees" [ref=f61e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f61e49]: 
+                - generic [ref=f61e50]: Employees
+              - button "Toggle submenu" [ref=f61e51] [cursor=pointer]:
+                - generic [ref=f61e52]: 
+          - listitem [ref=f61e53]:
+            - link " Run Payroll" [ref=f61e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f61e55]: 
+              - generic [ref=f61e56]: Run Payroll
+          - listitem [ref=f61e57]:
+            - generic [ref=f61e58]:
+              - link " Taxes & Forms" [ref=f61e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f61e60]: 
+                - generic [ref=f61e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f61e62] [cursor=pointer]:
+                - generic [ref=f61e63]: 
+          - listitem [ref=f61e64]:
+            - link " Reports" [ref=f61e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f61e66]: 
+              - generic [ref=f61e67]: Reports
+          - listitem [ref=f61e68]:
+            - link " Settings" [ref=f61e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f61e70]: 
+              - generic [ref=f61e71]: Settings
+    - generic [ref=f61e74]:
+      - generic [ref=f61e76]:
+        - link " Back to Employees" [ref=f61e78] [cursor=pointer]:
+          - /url: /employees
+          - generic [ref=f61e79]: 
+          - text: Back to Employees
+        - generic [ref=f61e81]:
+          - heading "Add Employee" [level=1] [ref=f61e82]
+          - paragraph [ref=f61e83]: Add a new employee to your payroll system
+      - generic [ref=f61e84]:
+        - generic [ref=f61e86]:
+          - generic [ref=f61e88]:
+            - generic [ref=f61e89]: "1"
+            - generic [ref=f61e92]: Basic details
+          - generic [ref=f61e96]:
+            - generic [ref=f61e97]: "2"
+            - generic [ref=f61e100]: Compensation
+          - generic [ref=f61e103]:
+            - generic [ref=f61e104]: "3"
+            - generic [ref=f61e107]: Personal details
+          - generic [ref=f61e110]:
+            - generic [ref=f61e111]: "4"
+            - generic [ref=f61e114]: Tax details
+          - generic [ref=f61e118]:
+            - generic [ref=f61e119]: "5"
+            - generic [ref=f61e122]: Payment details
+          - generic [ref=f61e125]:
+            - generic [ref=f61e126]: "6"
+            - generic [ref=f61e129]: Benefits & Deductions
+        - generic [ref=f61e131]:
+          - generic [ref=f61e132]:
+            - generic [ref=f61e133]:
+              - generic [ref=f61e134]: "01"
+              - heading "Basic details" [level=3] [ref=f61e135]
+            - paragraph [ref=f61e136]: Enter the employee's basic information and work details.
+            - generic [ref=f61e137]:
+              - generic [ref=f61e138]:
+                - generic [ref=f61e139]:
+                  - generic [ref=f61e140]: Title *
+                  - button [ref=f61e143] [cursor=pointer]:
+                    - generic [ref=f61e144]: Select title
+                    - generic [aria-hidden] [ref=f61e145]: 
+                - generic [ref=f61e146]:
+                  - generic [ref=f61e147]: First Name *
+                  - textbox "John" [ref=f61e148]
+                - generic [ref=f61e149]:
+                  - generic [ref=f61e150]: Middle Name
+                  - textbox "Optional" [ref=f61e151]
+                - generic [ref=f61e152]:
+                  - generic [ref=f61e153]: Last Name *
+                  - textbox "Doe" [ref=f61e154]
+              - generic [ref=f61e155]:
+                - generic [ref=f61e156]:
+                  - generic [ref=f61e157]: Preferred Name *
+                  - textbox "Preferred name" [ref=f61e158]
+                  - paragraph [ref=f61e159]: Defaults to first name unless changed.
+                - generic [ref=f61e160]:
+                  - generic [ref=f61e161]: Employee ID *
+                  - textbox "EMP001" [ref=f61e162]
+                  - paragraph [ref=f61e163]: Unique per employee.
+                - generic [ref=f61e164]:
+                  - generic [ref=f61e165]: First Day of Work *
+                  - textbox [ref=f61e166]
+              - generic [ref=f61e167]:
+                - generic [ref=f61e168]:
+                  - generic [ref=f61e169]: Work Email *
+                  - textbox "john.doe@company.com" [ref=f61e170]
+                - generic [ref=f61e171]:
+                  - generic [ref=f61e172]: Personal Email
+                  - textbox "personal@email.com" [ref=f61e173]
+                  - paragraph [ref=f61e174]: Defaults to work email. Edit if different.
+                - generic [ref=f61e175]:
+                  - generic [ref=f61e176]: Mobile Number
+                  - generic [ref=f61e177]:
+                    - generic [aria-hidden]:
+                      - generic: 
+                    - textbox "+233 24 123 4567" [ref=f61e178]
+              - generic [ref=f61e179]:
+                - generic [ref=f61e180]:
+                  - generic [ref=f61e181]:
+                    - generic [ref=f61e182]: Work Location
+                    - button " Add location" [ref=f61e183] [cursor=pointer]:
+                      - generic [ref=f61e184]: 
+                      - text: Add location
+                  - button [ref=f61e187] [cursor=pointer]:
+                    - generic [ref=f61e188]: Select location
+                    - generic [aria-hidden] [ref=f61e189]: 
+                  - paragraph [ref=f61e190]: No locations yet. Create one above (synced to HR).
+                - generic [ref=f61e191]:
+                  - generic [ref=f61e192]:
+                    - generic [ref=f61e193]: Designation/Position *
+                    - button " Add position" [ref=f61e194] [cursor=pointer]:
+                      - generic [ref=f61e195]: 
+                      - text: Add position
+                  - button [ref=f61e198] [cursor=pointer]:
+                    - generic [ref=f61e199]: Select position
+                    - generic [aria-hidden] [ref=f61e200]: 
+                  - paragraph [ref=f61e201]: Role / position in the organization.
+              - generic [ref=f61e202]:
+                - generic [ref=f61e203]:
+                  - generic [ref=f61e204]: Employment Type *
+                  - button [ref=f61e207] [cursor=pointer]:
+                    - generic [ref=f61e208]: Select type
+                    - generic [aria-hidden] [ref=f61e209]: 
+                - generic [ref=f61e210]:
+                  - generic [ref=f61e211]: Employment Status *
+                  - button [ref=f61e214] [cursor=pointer]:
+                    - generic [ref=f61e215]: Select status
+                    - generic [aria-hidden] [ref=f61e216]: 
+                  - paragraph [ref=f61e217]: New hires usually start as Active. Use Terminate employee from the employee list to end employment (Terminated and Retired are not available on this form).
+              - generic [ref=f61e219] [cursor=pointer]:
+                - checkbox "Enable Employee Portal Access Employee can view payslips and personal details via the portal." [ref=f61e220]
+                - generic [ref=f61e221]:
+                  - text: Enable Employee Portal Access
+                  - paragraph [ref=f61e222]: Employee can view payslips and personal details via the portal.
+          - generic [ref=f61e223]:
+            - button "Cancel" [ref=f61e224] [cursor=pointer]
+            - button "Save & continue" [ref=f61e226] [cursor=pointer]
+    - contentinfo [ref=f61e227]:
+      - generic [ref=f61e229]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f61e230] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f61e232] [cursor=pointer]:
+    - generic [ref=f61e234]: 
+    - generic [ref=f61e235]: "1"

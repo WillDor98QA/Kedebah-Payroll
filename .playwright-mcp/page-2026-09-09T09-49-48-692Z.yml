@@ -1,0 +1,175 @@
+- generic [active] [ref=f74e1]:
+  - generic [ref=f74e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f74e6]:
+      - generic [ref=f74e7]:
+        - generic [ref=f74e8]:
+          - link [ref=f74e117] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f74e118]
+          - generic [ref=f74e13]:
+            - textbox "Search anything here ..." [ref=f74e14]
+            - link "" [ref=f74e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f74e17]:
+          - text: 
+          - listitem [ref=f74e18]:
+            - link "" [ref=f74e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f74e21]:
+            - link "" [ref=f74e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f74e24]:
+            - link "" [ref=f74e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f74e27]:
+            - link "" [ref=f74e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f74e30]:
+            - button "" [ref=f74e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f74e33]:
+            - link "PM" [ref=f74e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f74e37]:
+      - navigation [ref=f74e40]:
+        - list [ref=f74e41]:
+          - listitem [ref=f74e42]:
+            - link " Dashboard" [ref=f74e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f74e44]: 
+              - generic [ref=f74e45]: Dashboard
+          - listitem [ref=f74e46]:
+            - generic [ref=f74e47]:
+              - link " Employees" [ref=f74e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f74e49]: 
+                - generic [ref=f74e50]: Employees
+              - button "Toggle submenu" [ref=f74e51] [cursor=pointer]:
+                - generic [ref=f74e52]: 
+          - listitem [ref=f74e53]:
+            - link " Run Payroll" [ref=f74e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f74e55]: 
+              - generic [ref=f74e56]: Run Payroll
+          - listitem [ref=f74e57]:
+            - generic [ref=f74e58]:
+              - link " Taxes & Forms" [ref=f74e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f74e60]: 
+                - generic [ref=f74e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f74e62] [cursor=pointer]:
+                - generic [ref=f74e63]: 
+          - listitem [ref=f74e64]:
+            - link " Reports" [ref=f74e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f74e66]: 
+              - generic [ref=f74e67]: Reports
+          - listitem [ref=f74e68]:
+            - link " Settings" [ref=f74e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f74e70]: 
+              - generic [ref=f74e71]: Settings
+    - generic [ref=f74e1360]:
+      - generic [ref=f74e1416]:
+        - link "Reports Centre" [ref=f74e1417] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - generic [ref=f74e1418]: 
+        - generic [ref=f74e1419]: Payroll Summary Report
+      - generic [ref=f74e1420]:
+        - generic [ref=f74e1421]:
+          - generic [ref=f74e1422]:
+            - generic [ref=f74e1423]:
+              - generic [ref=f74e1424]:
+                - heading "Payroll Summary Report" [level=1] [ref=f74e1425]
+                - generic [ref=f74e1426]:
+                  - generic [ref=f74e1427]:
+                    - generic [ref=f74e1428]: "Period:"
+                    - generic [ref=f74e1429]: September 2026
+                  - generic [ref=f74e1430]:
+                    - generic [ref=f74e1431]: "Scope:"
+                    - generic [ref=f74e1432]: All Employees
+              - generic [ref=f74e1433]:
+                - generic [ref=f74e1434] [cursor=pointer]:
+                  - generic [ref=f74e1435]: Show Zero Balances
+                  - checkbox "Show Zero Balances" [ref=f74e1437]
+                - generic [ref=f74e1440]:
+                  - button " Export " [ref=f74e1441] [cursor=pointer]:
+                    - generic [ref=f74e1442]: 
+                    - text: Export
+                    - generic [ref=f74e1443]: 
+                  - text:   
+            - button " Edit report filters" [ref=f74e1445] [cursor=pointer]:
+              - generic [ref=f74e1446]: 
+              - text: Edit report filters
+          - table [ref=f74e1448]:
+            - rowgroup [ref=f74e1449]:
+              - row [ref=f74e1450]:
+                - columnheader "Account" [ref=f74e1451]
+                - columnheader "Account Code" [ref=f74e1452]
+                - columnheader "Total" [ref=f74e1453]
+            - rowgroup [ref=f74e1454]:
+              - row [ref=f74e1455] [cursor=pointer]:
+                - cell " Gross Earnings" [ref=f74e1456]:
+                  - generic [ref=f74e1457]:
+                    - generic [ref=f74e1458]: 
+                    - generic [ref=f74e1459]: Gross Earnings
+                - cell [ref=f74e1460]
+              - row [ref=f74e1461]:
+                - cell "Basic Salary" [ref=f74e1462]
+                - cell "BASIC" [ref=f74e1464]
+                - cell "GH₵ 8,000.00" [ref=f74e1465]
+              - row [ref=f74e1466]:
+                - cell "Total Gross Earnings" [ref=f74e1467]
+                - cell "GH₵ 8,000.00" [ref=f74e1468]
+              - row [ref=f74e1469] [cursor=pointer]:
+                - cell " Statutory Deductions" [ref=f74e1470]:
+                  - generic [ref=f74e1471]:
+                    - generic [ref=f74e1472]: 
+                    - generic [ref=f74e1473]: Statutory Deductions
+                - cell [ref=f74e1474]
+              - row [ref=f74e1475]:
+                - cell "Tier 1" [ref=f74e1476]
+                - cell "tier_1" [ref=f74e1478]
+                - cell "GH₵ 1,080.00" [ref=f74e1479]
+              - row [ref=f74e1480]:
+                - cell "Tier 2" [ref=f74e1481]
+                - cell "tier_2" [ref=f74e1483]
+                - cell "GH₵ 400.00" [ref=f74e1484]
+              - row [ref=f74e1485]:
+                - cell "PAYE (Income Tax)" [ref=f74e1486]
+                - cell "paye" [ref=f74e1488]
+                - cell "GH₵ 1,291.63" [ref=f74e1489]
+              - row [ref=f74e1490]:
+                - cell "Total Statutory Deductions" [ref=f74e1491]
+                - cell "GH₵ 2,771.63" [ref=f74e1492]
+              - row [ref=f74e1493]:
+                - cell "Net Pay" [ref=f74e1494]
+                - cell "GH₵ 5,228.37 (65.35% of Gross)" [ref=f74e1495]:
+                  - generic [ref=f74e1496]: GH₵ 5,228.37
+                  - generic [ref=f74e1497]: (65.35% of Gross)
+          - generic [ref=f74e1499]:
+            - generic [ref=f74e1500]: "Generated: 9 Sept 2026, 09:49"
+            - generic [ref=f74e1501]: Kedebah Payroll · Payroll Summary Report
+        - generic [ref=f74e1502]:
+          - button " Back to Reports Centre" [ref=f74e1503] [cursor=pointer]:
+            - generic [ref=f74e1504]: 
+            - text: Back to Reports Centre
+          - generic [ref=f74e1505]:
+            - button " Edit Filters" [ref=f74e1506] [cursor=pointer]:
+              - generic [ref=f74e1507]: 
+              - text: Edit Filters
+            - button " Print Report" [ref=f74e1508] [cursor=pointer]:
+              - generic [ref=f74e1509]: 
+              - text: Print Report
+    - contentinfo [ref=f74e108]:
+      - generic [ref=f74e110]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f74e111] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f74e113] [cursor=pointer]:
+    - generic [ref=f74e115]: 
+    - generic [ref=f74e116]: "1"

@@ -1,0 +1,35 @@
+[    8134ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff2?t=1708865856766 @ https://v2payroll.kedebahlite.com/reports:0
+[    8134ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/reports:0
+[    9118ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://v2payroll.kedebahlite.com/api/v1/payrollApi/organization-data:0
+[    9120ms] [ERROR] Failed to fetch organization data: {is422: false, message: You do not have permission to perform this action, errors: Object, data: Object} @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:1
+[    9211ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff?t=1708865856766 @ https://v2payroll.kedebahlite.com/reports:0
+[    9211ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/reports:0
+[   10294ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.ttf?t=1708865856766 @ https://v2payroll.kedebahlite.com/reports:0
+[   10294ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/reports:0
+[   11247ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://v2payroll.kedebahlite.com/api/v1/payrollApi/organization-data:0
+[   11249ms] [ERROR] Failed to fetch organization data: {is422: false, message: You do not have permission to perform this action, errors: Object, data: Object} @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:1
+[   11249ms] [ERROR] Failed to resolve organization currency: {is422: false, message: You do not have permission to perform this action, errors: Object, data: Object} @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:1
+[  195111ms] [WARNING] Echo/Reverb not initialized: Missing VITE_REVERB_APP_KEY or VITE_REVERB_HOST @ https://v2.kedebahlite.com/build/assets/app-CuEKjsQq.js:8
+[  195372ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/figtree/v9/_Xms-HUzqDCFdgfMm4S9DaRvzig.woff2 @ https://v2.kedebahlite.com/clients/sign-in:0
+[  195471ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://v2.kedebahlite.com/clients/sign-in:0
+[  239756ms] [ERROR] Failed to load resource: the server responded with a status of 409 () @ https://v2.kedebahlite.com/R-4833-O45/clients/select-module:0
+[  251926ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff2?t=1708865856766 @ https://v2payroll.kedebahlite.com/dashboard:0
+[  251926ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/dashboard:0
+[  252819ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://v2payroll.kedebahlite.com/api/v1/payrollApi/organization-data:0
+[  252820ms] [ERROR] Failed to fetch organization data: {is422: false, message: You do not have permission to perform this action, errors: Object, data: Object} @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:1
+[  253192ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff?t=1708865856766 @ https://v2payroll.kedebahlite.com/dashboard:0
+[  253192ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/dashboard:0
+[  254378ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.ttf?t=1708865856766 @ https://v2payroll.kedebahlite.com/dashboard:0
+[  254379ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/dashboard:0
+[  254882ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://v2payroll.kedebahlite.com/api/v1/payrollApi/organization-data:0
+[  254883ms] [ERROR] Failed to fetch organization data: {is422: false, message: You do not have permission to perform this action, errors: Object, data: Object} @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:1
+[  254884ms] [ERROR] Failed to resolve organization currency: {is422: false, message: You do not have permission to perform this action, errors: Object, data: Object} @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:1
+[  256989ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://v2payroll.kedebahlite.com/api/v1/payrollApi/organization-data:0
+[  256990ms] [ERROR] Failed to fetch organization data: {is422: false, message: You do not have permission to perform this action, errors: Object, data: Object} @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:1
+[  256991ms] [ERROR] Failed to resolve organization currency: {is422: false, message: You do not have permission to perform this action, errors: Object, data: Object} @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:1
+[  261750ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff2?t=1708865856766 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88
+[  261750ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88
+[  261750ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff?t=1708865856766 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88
+[  261751ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88
+[  261751ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.ttf?t=1708865856766 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88
+[  261751ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88

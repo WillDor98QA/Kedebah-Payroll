@@ -1,0 +1,132 @@
+- generic [ref=f10e3]:
+  - navigation [ref=f10e4]:
+    - generic [ref=f10e5]:
+      - link [ref=f10e6] [cursor=pointer]:
+        - /url: https://v2.kedebahlite.com/R-4833-O45
+      - button "ZZQA Manager Persona dwetornam+23@gmail.com ZP" [ref=f10e9] [cursor=pointer]:
+        - generic [ref=f10e10]:
+          - paragraph [ref=f10e11]: ZZQA Manager Persona
+          - paragraph [ref=f10e12]: dwetornam+23@gmail.com
+        - generic [ref=f10e13]: ZP
+  - main [ref=f10e16]:
+    - generic [ref=f10e21]:
+      - heading "Welcome back, ZZQA Manager Persona!" [level=1] [ref=f10e23]
+      - generic [ref=f10e26]:
+        - textbox "Search modules, features, or settings..." [ref=f10e30]
+        - generic [ref=f10e31]: ⌘K
+      - generic [ref=f10e32]:
+        - heading "Enterprise Modules" [level=2] [ref=f10e33]
+        - button "Current Business Glenn and Co" [ref=f10e35] [cursor=pointer]:
+          - generic [ref=f10e41]:
+            - generic [ref=f10e42]: Current Business
+            - generic [ref=f10e43]: Glenn and Co
+      - generic [ref=f10e46]:
+        - generic [ref=f10e49] [cursor=pointer]:
+          - generic [ref=f10e50]:
+            - img "Administration" [ref=f10e52]
+            - generic [ref=f10e53]:
+              - heading "Administration" [level=5] [ref=f10e54]
+              - generic [ref=f10e55]: ACTIVE
+          - paragraph [ref=f10e56]: Centralized oversight for system permissions, security protocols, and global configurations
+        - generic [ref=f10e62] [cursor=pointer]:
+          - generic [ref=f10e63]:
+            - img "PIM" [ref=f10e65]
+            - generic [ref=f10e66]:
+              - heading "PIM" [level=5] [ref=f10e67]
+              - generic [ref=f10e68]: ACTIVE
+          - paragraph [ref=f10e69]: Secure repository for employee profiles, credentials, and personal documentation
+        - generic [ref=f10e75] [cursor=pointer]:
+          - generic [ref=f10e76]:
+            - img "Project Tracker" [ref=f10e78]
+            - generic [ref=f10e79]:
+              - heading "Project Tracker" [level=5] [ref=f10e80]
+              - generic [ref=f10e81]: ACTIVE
+          - paragraph [ref=f10e82]: Tracks tasks, timelines, and resource allocation to ensure projects stay on schedule
+        - generic [ref=f10e88] [cursor=pointer]:
+          - generic [ref=f10e89]:
+            - img "Asset Manager" [ref=f10e91]
+            - generic [ref=f10e92]:
+              - heading "Asset Manager" [level=5] [ref=f10e93]
+              - generic [ref=f10e94]: ACTIVE
+          - paragraph [ref=f10e95]: Track and manage company assets throughout their lifecycle
+        - generic [ref=f10e101] [cursor=pointer]:
+          - generic [ref=f10e102]:
+            - img "Depot Manager" [ref=f10e104]
+            - generic [ref=f10e105]:
+              - heading "Depot Manager" [level=5] [ref=f10e106]
+              - generic [ref=f10e107]: ACTIVE
+          - paragraph [ref=f10e108]: Depot operations and logistics management
+        - generic [ref=f10e114] [cursor=pointer]:
+          - generic [ref=f10e115]:
+            - img "Warehouse Manager" [ref=f10e117]
+            - generic [ref=f10e118]:
+              - heading "Warehouse Manager" [level=5] [ref=f10e119]
+              - generic [ref=f10e120]: ACTIVE
+          - paragraph [ref=f10e121]: Real-time inventory tracking, bin location optimization, and barcode integration
+        - generic [ref=f10e127] [cursor=pointer]:
+          - generic [ref=f10e128]:
+            - img "Manufacturing & Production Manager" [ref=f10e130]
+            - generic [ref=f10e131]:
+              - heading "Manufacturing & Production Manager" [level=5] [ref=f10e132]
+              - generic [ref=f10e133]: ACTIVE
+          - paragraph [ref=f10e134]: Oversees the transformation of raw materials into finished goods, including production scheduling, BOM management, and shop-floor control
+        - generic [ref=f10e140] [cursor=pointer]:
+          - generic [ref=f10e141]:
+            - img "Retail Manager" [ref=f10e143]
+            - generic [ref=f10e144]:
+              - heading "Retail Manager" [level=5] [ref=f10e145]
+              - generic [ref=f10e146]: ACTIVE
+          - paragraph [ref=f10e147]: Omni-channel sales management and logistics coordination for finished goods
+        - generic [ref=f10e153] [cursor=pointer]:
+          - generic [ref=f10e154]:
+            - img "Inventory Manager" [ref=f10e156]
+            - generic [ref=f10e157]:
+              - heading "Inventory Manager" [level=5] [ref=f10e158]
+              - generic [ref=f10e159]: ACTIVE
+          - paragraph [ref=f10e160]: Real-time inventory tracking, bin location optimization, and barcode integration
+        - generic [ref=f10e166] [cursor=pointer]:
+          - generic [ref=f10e167]:
+            - img "Finance Manager" [ref=f10e169]
+            - generic [ref=f10e170]:
+              - heading "Finance Manager" [level=5] [ref=f10e171]
+              - generic [ref=f10e172]: ACTIVE
+          - paragraph [ref=f10e173]: Advanced financial tracking, automated reporting, and real-time cash flow analysis
+        - generic [ref=f10e179] [cursor=pointer]:
+          - generic [ref=f10e180]:
+            - img "Payroll Manager" [ref=f10e182]
+            - generic [ref=f10e183]:
+              - heading "Payroll Manager" [level=5] [ref=f10e184]
+              - generic [ref=f10e185]: ACTIVE
+          - paragraph [ref=f10e186]: Automates salary calculations, tax withholdings, and direct deposits for the entire workforce
+        - generic [ref=f10e192] [cursor=pointer]:
+          - generic [ref=f10e193]:
+            - img "Wholesale Manager" [ref=f10e195]
+            - generic [ref=f10e196]:
+              - heading "Wholesale Manager" [level=5] [ref=f10e197]
+              - generic [ref=f10e198]: ACTIVE
+          - paragraph [ref=f10e199]: Omni-channel sales management and logistics coordination for finished goods
+        - generic [ref=f10e205] [cursor=pointer]:
+          - generic [ref=f10e206]:
+            - img "Procurement Manager" [ref=f10e208]
+            - generic [ref=f10e209]:
+              - heading "Procurement Manager" [level=5] [ref=f10e210]
+              - generic [ref=f10e211]: ACTIVE
+          - paragraph [ref=f10e212]: Streamlines the purchasing process, from vendor selection to purchase orders, approvals and replenishments
+        - generic [ref=f10e218] [cursor=pointer]:
+          - generic [ref=f10e219]:
+            - img "HR Manager" [ref=f10e221]
+            - generic [ref=f10e222]:
+              - heading "HR Manager" [level=5] [ref=f10e223]
+              - generic [ref=f10e224]: ACTIVE
+          - paragraph [ref=f10e225]: Manages the entire employee lifecycle from onboarding to performance reviews, contracts, workforce planning and offboarding
+        - generic [ref=f10e231] [cursor=pointer]:
+          - generic [ref=f10e232]:
+            - img "CRM" [ref=f10e234]
+            - generic [ref=f10e235]:
+              - heading "CRM" [level=5] [ref=f10e236]
+              - generic [ref=f10e237]: ACTIVE
+          - paragraph [ref=f10e238]: Manages lead pipelines, maintain long-term loyalty, customer interactions, and sales history
+      - generic [ref=f10e242]:
+        - paragraph [ref=f10e243]: Need to add another company?
+        - link "Add New Business" [ref=f10e244] [cursor=pointer]:
+          - /url: https://v2.kedebahlite.com/R-4833-O45/clients/add-business

@@ -1,0 +1,234 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f5e6]:
+      - generic [ref=f5e7]:
+        - generic [ref=f5e8]:
+          - link [ref=f5e129] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f5e130]
+          - generic [ref=f5e13]:
+            - textbox "Search anything here ..." [ref=f5e14]
+            - link "" [ref=f5e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f5e17]:
+          - text: 
+          - listitem [ref=f5e18]:
+            - link "" [ref=f5e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f5e21]:
+            - link "" [ref=f5e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f5e24]:
+            - link "" [ref=f5e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f5e27]:
+            - link "" [ref=f5e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f5e30]:
+            - button "" [ref=f5e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f5e33]:
+            - link "PM" [ref=f5e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f5e37]:
+      - navigation [ref=f5e40]:
+        - list [ref=f5e41]:
+          - listitem [ref=f5e42]:
+            - link " Dashboard" [ref=f5e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f5e44]: 
+              - generic [ref=f5e45]: Dashboard
+          - listitem [ref=f5e46]:
+            - generic [ref=f5e47]:
+              - link " Employees" [ref=f5e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f5e49]: 
+                - generic [ref=f5e50]: Employees
+              - button "Toggle submenu" [ref=f5e51] [cursor=pointer]:
+                - generic [ref=f5e52]: 
+          - listitem [ref=f5e53]:
+            - link " Run Payroll" [ref=f5e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f5e55]: 
+              - generic [ref=f5e56]: Run Payroll
+          - listitem [ref=f5e57]:
+            - generic [ref=f5e58]:
+              - link " Taxes & Forms" [ref=f5e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f5e60]: 
+                - generic [ref=f5e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f5e62] [cursor=pointer]:
+                - generic [ref=f5e63]: 
+          - listitem [ref=f5e64]:
+            - link " Reports" [ref=f5e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f5e66]: 
+              - generic [ref=f5e67]: Reports
+          - listitem [ref=f5e68]:
+            - link " Settings" [ref=f5e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f5e70]: 
+              - generic [ref=f5e71]: Settings
+    - generic [ref=f5e75]:
+      - generic [ref=f5e77]:
+        - link " Back to Settings" [ref=f5e79] [cursor=pointer]:
+          - /url: /settings
+          - generic [ref=f5e80]: 
+          - text: Back to Settings
+        - generic [ref=f5e82]:
+          - heading "Tax & Statutory Configuration" [level=1] [ref=f5e83]
+          - paragraph [ref=f5e84]: Configure statutory items, eligibility, presets, reliefs, filing rules, penalties, and the loan BIK reference rate.
+      - generic [ref=f5e131]:
+        - navigation [ref=f5e132]:
+          - button " Statutory Items" [ref=f5e133] [cursor=pointer]:
+            - generic [ref=f5e134]: 
+            - text: Statutory Items
+          - button " Eligibility" [ref=f5e135] [cursor=pointer]:
+            - generic [ref=f5e136]: 
+            - text: Eligibility
+          - button " Presets" [active] [ref=f5e137] [cursor=pointer]:
+            - generic [ref=f5e138]: 
+            - text: Presets
+          - button " Reliefs" [ref=f5e139] [cursor=pointer]:
+            - generic [ref=f5e140]: 
+            - text: Reliefs
+          - button " Filing" [ref=f5e141] [cursor=pointer]:
+            - generic [ref=f5e142]: 
+            - text: Filing
+          - button " Penalties" [ref=f5e143] [cursor=pointer]:
+            - generic [ref=f5e144]: 
+            - text: Penalties
+          - button " Loan Rate" [ref=f5e145] [cursor=pointer]:
+            - generic [ref=f5e146]: 
+            - text: Loan Rate
+          - button " Voluntary Schemes" [ref=f5e147] [cursor=pointer]:
+            - generic [ref=f5e148]: 
+            - text: Voluntary Schemes
+          - button " Authorities" [ref=f5e149] [cursor=pointer]:
+            - generic [ref=f5e150]: 
+            - text: Authorities
+        - generic [ref=f5e737]:
+          - generic [ref=f5e738]:
+            - generic [ref=f5e739]:
+              - generic [ref=f5e740]:
+                - generic [ref=f5e741]:
+                  - generic [ref=f5e742]:
+                    - heading "Tax Setup Presets" [level=3] [ref=f5e743]
+                    - paragraph [ref=f5e744]: Create and maintain onboarding templates. Apply them from the employee profile via Manage Tax Setup.
+                  - generic [ref=f5e745]: 2 results
+                  - generic [ref=f5e747]:
+                    - button " Filters " [ref=f5e749] [cursor=pointer]:
+                      - generic [ref=f5e750]: 
+                      - text: Filters
+                      - generic [ref=f5e751]: 
+                    - button " Columns " [ref=f5e753] [cursor=pointer]:
+                      - generic [ref=f5e754]: 
+                      - text: Columns
+                      - generic [ref=f5e755]: 
+                    - button " Refresh" [ref=f5e756] [cursor=pointer]:
+                      - generic [ref=f5e757]: 
+                      - text: Refresh
+                - button " Add preset" [ref=f5e759] [cursor=pointer]:
+                  - generic [ref=f5e760]: 
+                  - text: Add preset
+              - generic [ref=f5e762]:
+                - generic [ref=f5e763]:
+                  - generic [ref=f5e764]:
+                    - generic [ref=f5e765]: Country
+                    - button [ref=f5e768] [cursor=pointer]:
+                      - generic [ref=f5e769]: All countries
+                      - generic [aria-hidden] [ref=f5e770]: 
+                    - button "Clear Country" [ref=f5e771] [cursor=pointer]:
+                      - generic [ref=f5e772]: 
+                  - generic [ref=f5e773]:
+                    - generic [ref=f5e774]: Employment
+                    - button [ref=f5e777] [cursor=pointer]:
+                      - generic [ref=f5e778]: All employment types
+                      - generic [aria-hidden] [ref=f5e779]: 
+                    - button "Clear Employment" [ref=f5e780] [cursor=pointer]:
+                      - generic [ref=f5e781]: 
+                - generic [ref=f5e783]:
+                  - generic [aria-hidden]:
+                    - generic: 
+                  - textbox "Search presets…" [ref=f5e784]
+            - table [ref=f5e788]:
+              - rowgroup [ref=f5e795]:
+                - row [ref=f5e796]:
+                  - columnheader "Preset" [ref=f5e797] [cursor=pointer]
+                  - columnheader "Country / Employment" [ref=f5e801] [cursor=pointer]
+                  - columnheader "Included Items" [ref=f5e805]
+                  - columnheader "Status" [ref=f5e808] [cursor=pointer]
+                  - columnheader [ref=f5e812]
+              - rowgroup [ref=f5e813]:
+                - row [ref=f5e814]:
+                  - cell "Ghana Board Member Enrolls the flat 20% board member withholding tax and exempts PAYE, Tier 1, and Tier 2, per Ghana's Income Tax Act, 2015 (Act 896)." [ref=f5e815]:
+                    - generic [ref=f5e817]:
+                      - generic "Ghana Board Member" [ref=f5e818]
+                      - generic "Enrolls the flat 20% board member withholding tax and exempts PAYE, Tier 1, and Tier 2, per Ghana's Income Tax Act, 2015 (Act 896)." [ref=f5e820]
+                  - cell "Ghana Board" [ref=f5e821]:
+                    - generic [ref=f5e823]:
+                      - generic [ref=f5e824]: Ghana
+                      - generic [ref=f5e825]: Board
+                  - cell "4 items Enroll Exempt Exempt Exempt" [ref=f5e826]:
+                    - generic [ref=f5e828]:
+                      - generic [ref=f5e829]: 4 items
+                      - generic [ref=f5e830]:
+                        - generic [ref=f5e831]: Enroll
+                        - generic [ref=f5e832]: Exempt
+                        - generic [ref=f5e833]: Exempt
+                        - generic [ref=f5e834]: Exempt
+                  - cell "Active" [ref=f5e835]
+                  - cell [ref=f5e838]:
+                    - generic [ref=f5e840]:
+                      - button "" [ref=f5e841] [cursor=pointer]
+                      - button "" [ref=f5e843] [cursor=pointer]
+                      - button "" [ref=f5e845] [cursor=pointer]
+                - row [ref=f5e847]:
+                  - cell "Ghana Casual Worker Enrolls the flat 5% casual worker tax and exempts PAYE, Tier 1, and Tier 2, per Ghana's Income Tax Act, 2015 (Act 896)." [ref=f5e848]:
+                    - generic [ref=f5e850]:
+                      - generic "Ghana Casual Worker" [ref=f5e851]
+                      - generic "Enrolls the flat 5% casual worker tax and exempts PAYE, Tier 1, and Tier 2, per Ghana's Income Tax Act, 2015 (Act 896)." [ref=f5e853]
+                  - cell "Ghana Casual" [ref=f5e854]:
+                    - generic [ref=f5e856]:
+                      - generic [ref=f5e857]: Ghana
+                      - generic [ref=f5e858]: Casual
+                  - cell "4 items Enroll Exempt Exempt Exempt" [ref=f5e859]:
+                    - generic [ref=f5e861]:
+                      - generic [ref=f5e862]: 4 items
+                      - generic [ref=f5e863]:
+                        - generic [ref=f5e864]: Enroll
+                        - generic [ref=f5e865]: Exempt
+                        - generic [ref=f5e866]: Exempt
+                        - generic [ref=f5e867]: Exempt
+                  - cell "Active" [ref=f5e868]
+                  - cell [ref=f5e871]:
+                    - generic [ref=f5e873]:
+                      - button "" [ref=f5e874] [cursor=pointer]
+                      - button "" [ref=f5e876] [cursor=pointer]
+                      - button "" [ref=f5e878] [cursor=pointer]
+          - generic [ref=f5e880]:
+            - generic [ref=f5e881]:
+              - generic [ref=f5e882]:
+                - generic [ref=f5e883]: Rows per page
+                - button [ref=f5e886] [cursor=pointer]:
+                  - generic [ref=f5e887]: "10"
+                  - generic [aria-hidden] [ref=f5e888]: 
+              - generic [ref=f5e889]: Showing 1-2 of 2 entries
+            - generic [ref=f5e890]:
+              - generic [ref=f5e891]: Page 1 of 1
+              - generic [ref=f5e892]:
+                - button "" [disabled] [ref=f5e893] [cursor=pointer]
+                - button "1" [ref=f5e895] [cursor=pointer]
+                - button "" [disabled] [ref=f5e896] [cursor=pointer]
+    - contentinfo [ref=f5e120]:
+      - generic [ref=f5e122]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f5e123] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f5e125] [cursor=pointer]:
+    - generic [ref=f5e127]: 
+    - generic [ref=f5e128]: "1"

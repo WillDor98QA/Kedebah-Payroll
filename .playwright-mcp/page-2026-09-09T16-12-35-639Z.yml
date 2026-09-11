@@ -1,0 +1,202 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f5e6]:
+      - generic [ref=f5e7]:
+        - generic [ref=f5e8]:
+          - link [ref=f5e169] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f5e170]
+          - generic [ref=f5e13]:
+            - textbox "Search anything here ..." [ref=f5e14]
+            - link "" [ref=f5e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f5e17]:
+          - text: 
+          - listitem [ref=f5e18]:
+            - link "" [ref=f5e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f5e21]:
+            - link "" [ref=f5e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f5e24]:
+            - link "" [ref=f5e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f5e27]:
+            - link "" [ref=f5e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f5e30]:
+            - button "" [ref=f5e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f5e33]:
+            - link "PM" [ref=f5e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f5e37]:
+      - navigation [ref=f5e40]:
+        - list [ref=f5e41]:
+          - listitem [ref=f5e42]:
+            - link " Dashboard" [ref=f5e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f5e44]: 
+              - generic [ref=f5e45]: Dashboard
+          - listitem [ref=f5e46]:
+            - generic [ref=f5e47]:
+              - link " Employees" [ref=f5e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f5e49]: 
+                - generic [ref=f5e50]: Employees
+              - button "Toggle submenu" [ref=f5e51] [cursor=pointer]:
+                - generic [ref=f5e52]: 
+          - listitem [ref=f5e53]:
+            - link " Run Payroll" [ref=f5e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f5e55]: 
+              - generic [ref=f5e56]: Run Payroll
+          - listitem [ref=f5e57]:
+            - generic [ref=f5e58]:
+              - link " Taxes & Forms" [ref=f5e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f5e60]: 
+                - generic [ref=f5e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f5e62] [cursor=pointer]:
+                - generic [ref=f5e63]: 
+          - listitem [ref=f5e64]:
+            - link " Reports" [ref=f5e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f5e66]: 
+              - generic [ref=f5e67]: Reports
+          - listitem [ref=f5e68]:
+            - link " Settings" [ref=f5e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f5e70]: 
+              - generic [ref=f5e71]: Settings
+    - generic [ref=f5e171]:
+      - generic [ref=f5e174]:
+        - generic [ref=f5e175]:
+          - heading "Payroll Runs" [level=1] [ref=f5e176]
+          - paragraph [ref=f5e177]: Process regular payroll, bonuses, off-cycle payments, and termination payroll.
+        - generic [ref=f5e179]:
+          - button " Reset" [ref=f5e180] [cursor=pointer]:
+            - generic [ref=f5e181]: 
+            - text: Reset
+          - button " Create Pay Run " [ref=f5e183] [cursor=pointer]:
+            - generic [ref=f5e184]: 
+            - text: Create Pay Run
+            - generic [ref=f5e185]: 
+      - generic [ref=f5e186]:
+        - generic [ref=f5e290]:
+          - generic [ref=f5e291]:
+            - generic [ref=f5e292]: 
+            - generic [ref=f5e293]: 1 approved pay run(s) haven't posted to finance yet. Map accounts on Finance Posting, then push them here.
+          - button " Sync to finance (1)" [ref=f5e295] [cursor=pointer]:
+            - generic [ref=f5e296]: 
+            - text: Sync to finance (1)
+        - generic [ref=f5e187]:
+          - navigation [ref=f5e189]:
+            - button " Run Payroll" [ref=f5e190] [cursor=pointer]:
+              - generic [ref=f5e191]: 
+              - generic [ref=f5e192]: Run Payroll
+            - button " Payroll History" [ref=f5e194] [cursor=pointer]:
+              - generic [ref=f5e195]: 
+              - generic [ref=f5e196]: Payroll History
+          - generic [ref=f5e198]:
+            - generic [ref=f5e199]:
+              - generic [ref=f5e200]:
+                - generic [ref=f5e201]: Search
+                - generic [ref=f5e202]:
+                  - generic: 
+                  - textbox "Search pay runs..." [ref=f5e203]
+              - generic [ref=f5e204]:
+                - generic [ref=f5e205]: Type
+                - button [ref=f5e208] [cursor=pointer]:
+                  - generic [ref=f5e209]: All Types
+                  - generic [aria-hidden] [ref=f5e210]: 
+              - generic [ref=f5e211]:
+                - generic [ref=f5e212]: Status
+                - button [ref=f5e215] [cursor=pointer]:
+                  - generic [ref=f5e216]: All statuses
+                  - generic [aria-hidden] [ref=f5e217]: 
+              - generic [ref=f5e218]:
+                - generic [ref=f5e219]: Pay date from · Jun 9, 2026
+                - textbox [ref=f5e220]: 2026-06-09
+              - generic [ref=f5e221]:
+                - generic [ref=f5e222]: Pay date to · Sep 9, 2026
+                - textbox [ref=f5e223]: 2026-09-09
+              - button " Clear filters" [ref=f5e224] [cursor=pointer]:
+                - generic [ref=f5e225]: 
+                - text: Clear filters
+            - generic [ref=f5e297]:
+              - generic [ref=f5e298]: 
+              - heading "No Active Payrolls" [level=3] [ref=f5e300]
+              - paragraph [ref=f5e301]: You don't have any payrolls in draft or approved status. Create a new payroll run to get started.
+              - button " Create Pay Run" [ref=f5e302] [cursor=pointer]:
+                - generic [ref=f5e303]: 
+                - text: Create Pay Run
+    - contentinfo [ref=f5e160]:
+      - generic [ref=f5e162]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f5e163] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f5e165] [cursor=pointer]:
+    - generic [ref=f5e167]: 
+    - generic [ref=f5e168]: "1"
+  - generic [ref=f5e319]:
+    - generic [ref=f5e321]:
+      - heading "Create Off-Cycle Payroll" [level=3] [ref=f5e322]
+      - button "" [ref=f5e323] [cursor=pointer]
+    - generic [ref=f5e325]:
+      - generic [ref=f5e326]:
+        - heading "Payroll Details" [level=4] [ref=f5e327]
+        - generic [ref=f5e328]:
+          - generic [ref=f5e329]: Off-Cycle Payroll Name *
+          - textbox "e.g. Salary Advance - January 2025" [ref=f5e330]: ZZQA Workflow Reject-Return Test
+        - generic [ref=f5e331]:
+          - generic [ref=f5e332]:
+            - generic [ref=f5e333]:
+              - text: Pay Schedule
+              - generic [ref=f5e334]: "*"
+            - button "Pay Schedule *" [ref=f5e336] [cursor=pointer]:
+              - generic [ref=f5e337]: One Time Payment
+              - generic [aria-hidden] [ref=f5e338]: 
+          - generic [ref=f5e339]:
+            - generic [ref=f5e340]: Pay Date *
+            - textbox [ref=f5e341]: 2026-09-09
+        - generic [ref=f5e342]:
+          - generic [ref=f5e343]:
+            - generic [ref=f5e344]: Pay Period Start *
+            - textbox [ref=f5e345]: 2026-09-09
+          - generic [ref=f5e346]:
+            - generic [ref=f5e347]: Pay Period End *
+            - textbox [ref=f5e348]: 2026-09-09
+      - generic [ref=f5e349]:
+        - heading "Benefit and Deduction Preferences" [level=4] [ref=f5e350]
+        - generic [ref=f5e351]:
+          - generic [ref=f5e352] [cursor=pointer]:
+            - checkbox "Include benefits associated with employees Benefits configured for selected employees will be included in this payroll" [ref=f5e353]
+            - generic [ref=f5e354]:
+              - paragraph [ref=f5e355]: Include benefits associated with employees
+              - paragraph [ref=f5e356]: Benefits configured for selected employees will be included in this payroll
+          - generic [ref=f5e357] [cursor=pointer]:
+            - checkbox "Include deductions associated with employees Deductions configured for selected employees will be included in this payroll" [ref=f5e358]
+            - generic [ref=f5e359]:
+              - paragraph [ref=f5e360]: Include deductions associated with employees
+              - paragraph [ref=f5e361]: Deductions configured for selected employees will be included in this payroll
+          - generic [ref=f5e362] [cursor=pointer]:
+            - checkbox " Include regular salary in this run Off-cycle pays only the amounts you enter per employee. Leave this off for an advance/bonus/one-off. Tick it to also pay the full basic salary (Tier 1/2 & salary-based benefits then apply) — use only if this run replaces a regular payslip." [ref=f5e363]
+            - generic [ref=f5e364]:
+              - paragraph [ref=f5e365]:
+                - generic [ref=f5e366]: 
+                - text: Include regular salary in this run
+              - paragraph [ref=f5e367]:
+                - strong [ref=f5e368]: Off-cycle pays only the amounts you enter per employee.
+                - text: Leave this off for an advance/bonus/one-off. Tick it to
+                - strong [ref=f5e369]: also pay the full basic salary
+                - text: (Tier 1/2 & salary-based benefits then apply) — use only if this run replaces a regular payslip.
+    - generic [ref=f5e370]:
+      - button "Cancel" [ref=f5e371] [cursor=pointer]
+      - button " Creating..." [disabled] [ref=f5e384] [cursor=pointer]:
+        - generic [ref=f5e385]: 
+        - text: Creating...

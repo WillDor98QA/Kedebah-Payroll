@@ -1,0 +1,32 @@
+- generic [ref=f5e8]:
+  - generic [ref=f5e9]:
+    - img "Kedebah" [ref=f5e63]
+    - heading "Welcome back" [level=4] [ref=f5e11]
+    - paragraph [ref=f5e13]:
+      - text: Don't have an account?
+      - link "Sign up here" [ref=f5e14] [cursor=pointer]:
+        - /url: https://sbxkedebah-v2.npontu.com/R-2171-WRY/sign-up
+  - generic [ref=f5e17]:
+    - textbox "Email/Username *" [ref=f5e20]: eetornam5@gmail.com
+    - generic [ref=f5e22]:
+      - generic [ref=f5e23]:
+        - textbox "Password *" [ref=f5e24]: 2bGt4gkLBW3jAFq@
+        - button "Show password" [ref=f5e25] [cursor=pointer]
+      - link "Forgot password?" [ref=f5e30] [cursor=pointer]:
+        - /url: https://sbxkedebah-v2.npontu.com/R-2171-WRY/clients/forgot-password
+    - button "Sign In" [disabled] [ref=f5e64]
+    - generic [ref=f5e37]:
+      - generic [ref=f5e38]: or continue with
+      - generic [ref=f5e40]:
+        - link [ref=f5e41] [cursor=pointer]:
+          - /url: https://sbxkedebah-v2.npontu.com/R-2171-WRY/clients/sign-in/sso/apple
+        - link [ref=f5e45] [cursor=pointer]:
+          - /url: https://sbxkedebah-v2.npontu.com/R-2171-WRY/clients/sign-in/sso/google
+        - link [ref=f5e52] [cursor=pointer]:
+          - /url: https://sbxkedebah-v2.npontu.com/R-2171-WRY/clients/sign-in/sso/microsoft
+    - paragraph [ref=f5e60]:
+      - link "Terms of Service" [ref=f5e61] [cursor=pointer]:
+        - /url: https://sbxkedebah-v2.npontu.com/R-2171-WRY/terms
+      - text: ·
+      - link "Privacy Policy" [ref=f5e62] [cursor=pointer]:
+        - /url: https://sbxkedebah-v2.npontu.com/R-2171-WRY/privacy

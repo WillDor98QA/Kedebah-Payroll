@@ -1,0 +1,68 @@
+- generic [active] [ref=f139e1]:
+  - generic [ref=f139e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f139e6]:
+      - generic [ref=f139e7]:
+        - generic [ref=f139e8]:
+          - link [ref=f139e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Kedebah logo" [ref=f139e12]
+          - generic [ref=f139e13]:
+            - textbox "Search anything here ..." [ref=f139e14]
+            - link "" [ref=f139e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f139e17]:
+          - text: 
+          - listitem [ref=f139e18]:
+            - link "" [ref=f139e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f139e21]:
+            - link "" [ref=f139e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f139e24]:
+            - link "" [ref=f139e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f139e27]:
+            - link "" [ref=f139e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f139e30]:
+            - button "" [ref=f139e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f139e33]:
+            - link "PM" [ref=f139e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f139e37]:
+      - navigation [ref=f139e40]:
+        - list [ref=f139e41]:
+          - listitem [ref=f139e42]:
+            - link " Dashboard" [ref=f139e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f139e44]: 
+              - generic [ref=f139e45]: Dashboard
+          - listitem [ref=f139e46]:
+            - link " Reports" [ref=f139e47] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f139e48]: 
+              - generic [ref=f139e49]: Reports
+    - generic [ref=f139e53]:
+      - generic [ref=f139e54]: 
+      - heading "Access Denied" [level=1] [ref=f139e56]
+      - paragraph [ref=f139e57]: You do not have permission to access this page. Contact your administrator if you believe this is an error.
+      - generic [ref=f139e58]:
+        - button " Go to Dashboard" [ref=f139e59] [cursor=pointer]:
+          - generic [ref=f139e60]: 
+          - text: Go to Dashboard
+        - button " Go Back" [ref=f139e61] [cursor=pointer]:
+          - generic [ref=f139e62]: 
+          - text: Go Back
+    - contentinfo [ref=f139e63]:
+      - generic [ref=f139e65]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f139e66] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f139e68] [cursor=pointer]:
+    - generic [ref=f139e70]: 
+    - generic [ref=f139e71]: "1"

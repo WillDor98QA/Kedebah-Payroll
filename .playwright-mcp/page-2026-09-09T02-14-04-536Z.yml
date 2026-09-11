@@ -1,0 +1,95 @@
+- generic [active] [ref=f48e1]:
+  - generic [ref=f48e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f48e6]:
+      - generic [ref=f48e7]:
+        - generic [ref=f48e8]:
+          - link [ref=f48e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f48e12]
+          - generic [ref=f48e13]:
+            - textbox "Search anything here ..." [ref=f48e14]
+            - link "" [ref=f48e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f48e17]:
+          - text: 
+          - listitem [ref=f48e18]:
+            - link "" [ref=f48e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f48e21]:
+            - link "" [ref=f48e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f48e24]:
+            - link "" [ref=f48e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f48e27]:
+            - link "" [ref=f48e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f48e30]:
+            - button "" [ref=f48e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f48e33]:
+            - link "PM" [ref=f48e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f48e37]:
+      - navigation [ref=f48e40]:
+        - list [ref=f48e41]:
+          - listitem [ref=f48e42]:
+            - link " Dashboard" [ref=f48e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f48e44]: 
+              - generic [ref=f48e45]: Dashboard
+          - listitem [ref=f48e46]:
+            - generic [ref=f48e47]:
+              - link " Employees" [ref=f48e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f48e49]: 
+                - generic [ref=f48e50]: Employees
+              - button "Toggle submenu" [ref=f48e51] [cursor=pointer]:
+                - generic [ref=f48e52]: 
+          - listitem [ref=f48e53]:
+            - link " Run Payroll" [ref=f48e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f48e55]: 
+              - generic [ref=f48e56]: Run Payroll
+          - listitem [ref=f48e57]:
+            - generic [ref=f48e58]:
+              - link " Taxes & Forms" [ref=f48e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f48e60]: 
+                - generic [ref=f48e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f48e62] [cursor=pointer]:
+                - generic [ref=f48e63]: 
+          - listitem [ref=f48e64]:
+            - link " Reports" [ref=f48e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f48e66]: 
+              - generic [ref=f48e67]: Reports
+          - listitem [ref=f48e68]:
+            - link " Settings" [ref=f48e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f48e70]: 
+              - generic [ref=f48e71]: Settings
+    - generic [ref=f48e446]:
+      - generic [ref=f48e448]:
+        - link " Back to Benefits" [ref=f48e450] [cursor=pointer]:
+          - /url: /setup/earnings-benefits-deductions?tab=benefits
+          - generic [ref=f48e451]: 
+          - text: Back to Benefits
+        - generic [ref=f48e453]:
+          - heading "Create benefit" [level=1] [ref=f48e454]
+          - paragraph [ref=f48e455]: Add a new employee benefit.
+      - generic [ref=f48e458]:
+        - generic [ref=f48e460]: 
+        - paragraph [ref=f48e462]: Alert thresholds are added after this benefit is saved. Open the benefit from the list, then use the Alert Thresholds section on the detail page.
+    - contentinfo [ref=f48e436]:
+      - generic [ref=f48e438]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f48e439] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f48e441] [cursor=pointer]:
+    - generic [ref=f48e443]: 
+    - generic [ref=f48e444]: "1"

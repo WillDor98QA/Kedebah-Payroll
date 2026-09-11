@@ -1,0 +1,170 @@
+- generic [active] [ref=f67e1]:
+  - generic [ref=f67e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f67e6]:
+      - generic [ref=f67e7]:
+        - generic [ref=f67e8]:
+          - link [ref=f67e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f67e12]
+          - generic [ref=f67e13]:
+            - textbox "Search anything here ..." [ref=f67e14]
+            - link "" [ref=f67e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f67e17]:
+          - text: 
+          - listitem [ref=f67e18]:
+            - link "" [ref=f67e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f67e21]:
+            - link "" [ref=f67e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f67e24]:
+            - link "" [ref=f67e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f67e27]:
+            - link "" [ref=f67e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f67e30]:
+            - button "" [ref=f67e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f67e33]:
+            - link "PM" [ref=f67e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f67e37]:
+      - navigation [ref=f67e40]:
+        - list [ref=f67e41]:
+          - listitem [ref=f67e42]:
+            - link " Dashboard" [ref=f67e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f67e44]: 
+              - generic [ref=f67e45]: Dashboard
+          - listitem [ref=f67e46]:
+            - generic [ref=f67e47]:
+              - link " Employees" [ref=f67e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f67e49]: 
+                - generic [ref=f67e50]: Employees
+              - button "Toggle submenu" [ref=f67e51] [cursor=pointer]:
+                - generic [ref=f67e52]: 
+          - listitem [ref=f67e53]:
+            - link " Run Payroll" [ref=f67e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f67e55]: 
+              - generic [ref=f67e56]: Run Payroll
+          - listitem [ref=f67e57]:
+            - generic [ref=f67e58]:
+              - link " Taxes & Forms" [ref=f67e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f67e60]: 
+                - generic [ref=f67e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f67e62] [cursor=pointer]:
+                - generic [ref=f67e63]: 
+          - listitem [ref=f67e64]:
+            - link " Reports" [ref=f67e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f67e66]: 
+              - generic [ref=f67e67]: Reports
+          - listitem [ref=f67e68]:
+            - link " Settings" [ref=f67e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f67e70]: 
+              - generic [ref=f67e71]: Settings
+    - generic [ref=f67e192]:
+      - generic [ref=f67e194]:
+        - generic [ref=f67e195]:
+          - button "" [ref=f67e196] [cursor=pointer]
+          - generic [ref=f67e198]:
+            - heading "Compensation Change History" [level=1] [ref=f67e199]
+            - paragraph [ref=f67e200]: Every change to a benefit amount, deduction amount or salary — what it was, what it became, and who changed it.
+        - button " Export " [ref=f67e202] [cursor=pointer]:
+          - generic [ref=f67e203]: 
+          - text: Export
+          - generic [ref=f67e204]: 
+      - generic [ref=f67e205]:
+        - generic [ref=f67e207]:
+          - generic [ref=f67e208]:
+            - text: Changed from
+            - textbox "Changed from" [ref=f67e209]
+          - generic [ref=f67e210]:
+            - text: Changed to
+            - textbox "Changed to" [ref=f67e211]
+          - button " Apply" [ref=f67e212] [cursor=pointer]:
+            - generic [ref=f67e213]: 
+            - text: Apply
+        - generic [ref=f67e216]:
+          - generic [ref=f67e217]:
+            - generic [ref=f67e381]:
+              - generic [ref=f67e383]:
+                - generic [ref=f67e384]: No records
+                - generic [ref=f67e386]:
+                  - button " Filters " [ref=f67e388] [cursor=pointer]:
+                    - generic [ref=f67e389]: 
+                    - text: Filters
+                    - generic [ref=f67e390]: 
+                  - button " Refresh" [ref=f67e391] [cursor=pointer]:
+                    - generic [ref=f67e392]: 
+                    - text: Refresh
+              - generic [ref=f67e394]:
+                - generic [ref=f67e395]:
+                  - generic [ref=f67e396]:
+                    - generic [ref=f67e397]: Components
+                    - button [ref=f67e400] [cursor=pointer]:
+                      - generic [ref=f67e401]: All Components
+                      - generic [aria-hidden] [ref=f67e402]: 
+                    - button "Clear Components" [ref=f67e403] [cursor=pointer]:
+                      - generic [ref=f67e404]: 
+                  - generic [ref=f67e405]:
+                    - generic [ref=f67e406]: Sources
+                    - button [ref=f67e409] [cursor=pointer]:
+                      - generic [ref=f67e410]: All Sources
+                      - generic [aria-hidden] [ref=f67e411]: 
+                    - button "Clear Sources" [ref=f67e412] [cursor=pointer]:
+                      - generic [ref=f67e413]: 
+                - generic [ref=f67e415]:
+                  - generic [aria-hidden]:
+                    - generic: 
+                  - textbox "Search employee…" [ref=f67e416]
+            - generic [ref=f67e419]:
+              - table [ref=f67e420]:
+                - rowgroup [ref=f67e431]:
+                  - row [ref=f67e432]:
+                    - columnheader "Employee" [ref=f67e433] [cursor=pointer]
+                    - columnheader "Component" [ref=f67e437] [cursor=pointer]
+                    - columnheader "Item" [ref=f67e441]
+                    - columnheader "Old" [ref=f67e444]
+                    - columnheader "New" [ref=f67e447] [cursor=pointer]
+                    - columnheader "Change" [ref=f67e451]
+                    - columnheader "Effective" [ref=f67e454] [cursor=pointer]
+                    - columnheader "Source" [ref=f67e458]
+                    - columnheader "Changed" [ref=f67e461] [cursor=pointer]
+                - rowgroup
+              - generic [ref=f67e466]:
+                - generic [ref=f67e467]: 
+                - paragraph [ref=f67e469]: No compensation changes recorded yet — this history starts from the day the feature was deployed.
+                - paragraph [ref=f67e470]: Adjust your filters or add new records to populate this table.
+          - generic [ref=f67e471]:
+            - generic [ref=f67e472]:
+              - generic [ref=f67e473]:
+                - generic [ref=f67e474]: Rows per page
+                - button [ref=f67e477] [cursor=pointer]:
+                  - generic [ref=f67e478]: "25"
+                  - generic [aria-hidden] [ref=f67e479]: 
+              - generic [ref=f67e480]: Showing 0-0 of 0 entries
+            - generic [ref=f67e481]:
+              - generic [ref=f67e482]: Page 1 of 0
+              - generic [ref=f67e483]:
+                - button "" [disabled] [ref=f67e484] [cursor=pointer]
+                - button "1" [ref=f67e486] [cursor=pointer]
+                - button "" [disabled] [ref=f67e487] [cursor=pointer]
+    - contentinfo [ref=f67e137]:
+      - generic [ref=f67e139]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f67e140] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f67e142] [cursor=pointer]:
+    - generic [ref=f67e144]: 
+    - generic [ref=f67e145]: "1"

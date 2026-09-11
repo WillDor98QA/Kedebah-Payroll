@@ -1,0 +1,141 @@
+- generic [ref=f74e1]:
+  - generic [ref=f74e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f74e6]:
+      - generic [ref=f74e7]:
+        - generic [ref=f74e8]:
+          - link [ref=f74e117] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f74e118]
+          - generic [ref=f74e13]:
+            - textbox "Search anything here ..." [ref=f74e14]
+            - link "" [ref=f74e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f74e17]:
+          - text: 
+          - listitem [ref=f74e18]:
+            - link "" [ref=f74e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f74e21]:
+            - link "" [ref=f74e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f74e24]:
+            - link "" [ref=f74e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f74e27]:
+            - link "" [ref=f74e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f74e30]:
+            - button "" [ref=f74e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f74e33]:
+            - link "PM" [ref=f74e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f74e37]:
+      - navigation [ref=f74e40]:
+        - list [ref=f74e41]:
+          - listitem [ref=f74e42]:
+            - link " Dashboard" [ref=f74e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f74e44]: 
+              - generic [ref=f74e45]: Dashboard
+          - listitem [ref=f74e46]:
+            - generic [ref=f74e47]:
+              - link " Employees" [ref=f74e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f74e49]: 
+                - generic [ref=f74e50]: Employees
+              - button "Toggle submenu" [ref=f74e51] [cursor=pointer]:
+                - generic [ref=f74e52]: 
+          - listitem [ref=f74e53]:
+            - link " Run Payroll" [ref=f74e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f74e55]: 
+              - generic [ref=f74e56]: Run Payroll
+          - listitem [ref=f74e57]:
+            - generic [ref=f74e58]:
+              - link " Taxes & Forms" [ref=f74e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f74e60]: 
+                - generic [ref=f74e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f74e62] [cursor=pointer]:
+                - generic [ref=f74e63]: 
+          - listitem [ref=f74e64]:
+            - link " Reports" [ref=f74e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f74e66]: 
+              - generic [ref=f74e67]: Reports
+          - listitem [ref=f74e68]:
+            - link " Settings" [ref=f74e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f74e70]: 
+              - generic [ref=f74e71]: Settings
+    - generic [ref=f74e1192]:
+      - generic [ref=f74e1197]:
+        - generic [ref=f74e1198]:
+          - generic [ref=f74e1199]: 
+          - text: Payroll Intelligence
+        - heading "Reports Centre" [level=1] [ref=f74e1200]
+        - paragraph [ref=f74e1201]: Precision payroll insights. Data-driven decisions for compensation, taxes & compliance.
+        - generic [ref=f74e1205]:
+          - generic: 
+          - textbox "Search reports..." [ref=f74e1206]
+        - generic [ref=f74e1207]:
+          - generic [ref=f74e1208]: Popular
+          - button "Payroll Summary" [ref=f74e1209] [cursor=pointer]
+          - button "PAYE Reconciliation" [ref=f74e1210] [cursor=pointer]
+          - button "Annual Payroll Report" [ref=f74e1211] [cursor=pointer]
+          - button "Statutory Remittance" [ref=f74e1212] [cursor=pointer]
+      - generic [ref=f74e1215]:
+        - button " Payroll Summary 1" [ref=f74e1216] [cursor=pointer]:
+          - generic [ref=f74e1217]: 
+          - text: Payroll Summary
+          - generic [ref=f74e1218]: "1"
+        - button " Statutory & Compliance 1" [ref=f74e1219] [cursor=pointer]:
+          - generic [ref=f74e1220]: 
+          - text: Statutory & Compliance
+          - generic [ref=f74e1221]: "1"
+        - button " Variance & Analysis 1" [active] [ref=f74e1222] [cursor=pointer]:
+          - generic [ref=f74e1223]: 
+          - text: Variance & Analysis
+          - generic [ref=f74e1224]: "1"
+        - button " Annual & Year-End 2" [ref=f74e1225] [cursor=pointer]:
+          - generic [ref=f74e1226]: 
+          - text: Annual & Year-End
+          - generic [ref=f74e1227]: "2"
+        - button " Tax & PAYE 1" [ref=f74e1228] [cursor=pointer]:
+          - generic [ref=f74e1229]: 
+          - text: Tax & PAYE
+          - generic [ref=f74e1230]: "1"
+        - button " Audit & Compliance 5" [ref=f74e1231] [cursor=pointer]:
+          - generic [ref=f74e1232]: 
+          - text: Audit & Compliance
+          - generic [ref=f74e1233]: "5"
+        - button " AI & Predictive Insights 1" [ref=f74e1234] [cursor=pointer]:
+          - generic [ref=f74e1235]: 
+          - text: AI & Predictive Insights
+          - generic [ref=f74e1236]: "1"
+      - generic [ref=f74e1237]:
+        - generic [ref=f74e1238]:
+          - generic [ref=f74e1241]:
+            - heading "Variance & Analysis" [level=2] [ref=f74e1311]
+            - paragraph [ref=f74e1243]: Access comprehensive variance & analysis reports and statements.
+          - generic [ref=f74e1244]: 1 report
+        - button " Variance & Comparison Reports Compare payroll costs across periods, departments, employee groups, and detect unusual changes. View Report " [ref=f74e1312] [cursor=pointer]:
+          - generic [ref=f74e1313]: 
+          - heading "Variance & Comparison Reports" [level=3] [ref=f74e1316]
+          - paragraph [ref=f74e1317]: Compare payroll costs across periods, departments, employee groups, and detect unusual changes.
+          - generic [ref=f74e1318]:
+            - generic [ref=f74e1319]: View Report
+            - generic [ref=f74e1320]: 
+    - contentinfo [ref=f74e108]:
+      - generic [ref=f74e110]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f74e111] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f74e113] [cursor=pointer]:
+    - generic [ref=f74e115]: 
+    - generic [ref=f74e116]: "1"

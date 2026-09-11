@@ -1,0 +1,1188 @@
+<title>Beta Payroll Verification</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Libre+Franklin:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+  :root {
+    --ground: #f5f7f6;
+    --surface: #ffffff;
+    --surface-2: #ecefee;
+    --ink: #17201e;
+    --muted: #5a6a65;
+    --line: #dbe1df;
+    --line-strong: #c4ccc9;
+    --accent: #0e6b62;
+    --accent-ink: #0b544d;
+    --accent-soft: #e3efec;
+    --pass: #1f7a4d;
+    --pass-soft: #e2f0e8;
+    --fail: #ad3a26;
+    --fail-soft: #f6e5e0;
+    --warn: #906313;
+    --warn-soft: #f4ebd9;
+    --shadow: 0 1px 2px rgba(20, 40, 36, .06), 0 8px 24px -12px rgba(20, 40, 36, .12);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #0f1514;
+      --surface: #182120;
+      --surface-2: #1d2725;
+      --ink: #e6ecea;
+      --muted: #94a29d;
+      --line: #2b3733;
+      --line-strong: #3a4844;
+      --accent: #49b3a5;
+      --accent-ink: #6ec7bb;
+      --accent-soft: #15302c;
+      --pass: #58b982;
+      --pass-soft: #162b21;
+      --fail: #e0846a;
+      --fail-soft: #331e18;
+      --warn: #d2a34f;
+      --warn-soft: #322817;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 10px 30px -14px rgba(0, 0, 0, .5);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #0f1514;
+    --surface: #182120;
+    --surface-2: #1d2725;
+    --ink: #e6ecea;
+    --muted: #94a29d;
+    --line: #2b3733;
+    --line-strong: #3a4844;
+    --accent: #49b3a5;
+    --accent-ink: #6ec7bb;
+    --accent-soft: #15302c;
+    --pass: #58b982;
+    --pass-soft: #162b21;
+    --fail: #e0846a;
+    --fail-soft: #331e18;
+    --warn: #d2a34f;
+    --warn-soft: #322817;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 10px 30px -14px rgba(0, 0, 0, .5);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: "Libre Franklin", system-ui, -apple-system, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: clamp(1.5rem, 4vw, 3.5rem) clamp(1.1rem, 4vw, 2.5rem) 4rem;
+  }
+
+  h1, h2, h3 {
+    font-family: "Newsreader", Georgia, serif;
+    font-weight: 500;
+    text-wrap: balance;
+    letter-spacing: -0.01em;
+  }
+  h1 { font-size: clamp(2rem, 5vw, 2.9rem); line-height: 1.12; margin: 0; }
+  h2 {
+    font-size: 1.4rem;
+    margin: 0 0 1rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--line);
+  }
+  h3 { font-size: 1.08rem; margin: 0 0 .5rem; }
+  p { margin: 0 0 .9rem; max-width: 66ch; }
+  a { color: var(--accent-ink); }
+
+  .eyebrow {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: .72rem;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 1rem;
+  }
+  .mono { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+  .num { font-family: "IBM Plex Mono", ui-monospace, monospace; font-variant-numeric: tabular-nums; }
+
+  header.masthead { margin-bottom: 2.5rem; }
+  .masthead .lede {
+    margin-top: 1rem;
+    font-size: 1.05rem;
+    color: var(--muted);
+    max-width: 60ch;
+  }
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem 1.4rem;
+    margin-top: 1.4rem;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: .8rem;
+    color: var(--muted);
+  }
+  .meta-row b { color: var(--ink); font-weight: 500; }
+
+  section { margin-top: 3rem; }
+
+  /* stat tiles */
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .tile { background: var(--surface); padding: 1.1rem 1.2rem; }
+  .tile .big {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 1.9rem;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+    display: block;
+  }
+  .tile .lab {
+    display: block;
+    margin-top: .4rem;
+    font-size: .78rem;
+    color: var(--muted);
+    letter-spacing: .02em;
+  }
+  .tile.pass .big { color: var(--pass); }
+  .tile.fail .big { color: var(--fail); }
+  .tile.warn .big { color: var(--warn); }
+
+  .scope-note {
+    margin-top: 1rem;
+    padding: .85rem 1rem;
+    background: var(--warn-soft);
+    border-left: 3px solid var(--warn);
+    border-radius: 0 6px 6px 0;
+    font-size: .92rem;
+  }
+  .scope-note b { color: var(--warn); }
+
+  /* lifecycle pipeline */
+  .pipe {
+    display: flex;
+    gap: .5rem;
+    overflow-x: auto;
+    padding-bottom: .5rem;
+  }
+  .stage {
+    flex: 1 1 0;
+    min-width: 140px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-top: 3px solid var(--pass);
+    border-radius: 8px;
+    padding: .8rem .85rem 1rem;
+  }
+  .stage .st-name {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: .82rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+  }
+  .stage .st-name::before {
+    content: "";
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--pass);
+    flex: none;
+  }
+  .stage .st-gate {
+    display: block;
+    margin-top: .45rem;
+    font-size: .8rem;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+
+  /* callout */
+  .callout {
+    background: var(--accent-soft);
+    border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+    border-radius: 10px;
+    padding: 1.3rem 1.4rem;
+  }
+  .callout h3 { color: var(--accent-ink); }
+  .callout p:last-child { margin-bottom: 0; }
+  .callout .verdict {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-weight: 500;
+  }
+
+  /* tables */
+  .t-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; }
+  table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+  th, td { text-align: left; padding: .7rem .9rem; border-bottom: 1px solid var(--line); }
+  thead th {
+    background: var(--surface-2);
+    font-size: .72rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  td.n, th.n { text-align: right; font-family: "IBM Plex Mono", ui-monospace, monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  tr.total td { background: var(--surface-2); font-weight: 500; }
+  .tick { color: var(--pass); font-weight: 600; }
+
+  .cols-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  @media (min-width: 760px) {
+    .cols-2 { grid-template-columns: 1.35fr 1fr; align-items: start; }
+  }
+
+  /* chips */
+  .chip {
+    display: inline-block;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: .7rem;
+    letter-spacing: .03em;
+    padding: .15rem .5rem;
+    border-radius: 4px;
+    white-space: nowrap;
+    text-transform: uppercase;
+  }
+  .chip.pass { background: var(--pass-soft); color: var(--pass); }
+  .chip.fail { background: var(--fail-soft); color: var(--fail); }
+  .chip.warn { background: var(--warn-soft); color: var(--warn); }
+  .chip.part { background: var(--surface-2); color: var(--muted); }
+
+  /* findings */
+  .findings { display: flex; flex-direction: column; gap: .8rem; }
+  .finding {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--line-strong);
+    border-radius: 0 8px 8px 0;
+    padding: .9rem 1.1rem;
+  }
+  .finding.major { border-left-color: var(--fail); }
+  .finding.minor { border-left-color: var(--warn); }
+  .finding.note { border-left-color: var(--accent); }
+  .finding .f-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: .5rem .7rem;
+    margin-bottom: .3rem;
+  }
+  .finding .f-id {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-weight: 500;
+    font-size: .85rem;
+  }
+  .finding .sev {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: .68rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .finding p { margin: 0; font-size: .9rem; max-width: none; }
+  .finding .repro {
+    margin-top: .7rem;
+    border-top: 1px dashed var(--line-strong);
+    padding-top: .55rem;
+  }
+  .finding .repro-label {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: .66rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--accent-ink);
+    display: block;
+    margin-bottom: .35rem;
+  }
+  .finding .repro ol {
+    margin: 0;
+    padding-left: 1.35rem;
+    font-size: .84rem;
+    color: var(--muted);
+  }
+  .finding .repro li { margin-bottom: .2rem; }
+  .finding .repro li::marker { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+  .finding .repro .expect {
+    margin-top: .4rem;
+    font-size: .84rem;
+    color: var(--ink);
+  }
+  .finding .repro .expect b { color: var(--accent-ink); }
+
+  /* not-tested panel */
+  .gap-panel {
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1.4rem 1.5rem;
+  }
+  .gap-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.2rem 2rem;
+    margin-top: 1rem;
+  }
+  .gap-grid h4 {
+    margin: 0 0 .4rem;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: .78rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--warn);
+  }
+  .gap-grid ul { margin: 0; padding-left: 1.1rem; font-size: .88rem; color: var(--muted); }
+  .gap-grid li { margin-bottom: .25rem; }
+
+  ul.clean { padding-left: 1.15rem; }
+  ul.clean li { margin-bottom: .35rem; }
+
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid var(--line);
+    font-size: .82rem;
+    color: var(--muted);
+  }
+  footer .mono { font-size: .8rem; }
+
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <p class="eyebrow">Kedebah Payroll · QA</p>
+    <h1>Beta Payroll Verification</h1>
+    <p class="lede">Verification of the <b>beta</b> environment: does the app work end-to-end, are its payroll calculations trustworthy, and how does it behave under bad input and at the limits?</p>
+    <div class="meta-row">
+      <span>Env&nbsp; <b>v2payroll.kedebahlite.com</b></span>
+      <span>Tenant&nbsp; <b>Glenn and Co</b></span>
+      <span>Dates&nbsp; <b>2026-09-08 → 10</b></span>
+      <span>Driver&nbsp; <b>Playwright MCP</b></span>
+      <span>Roles&nbsp; <b>Admin + 3 QA personas</b></span>
+    </div>
+  </header>
+
+  <section aria-labelledby="glance">
+    <h2 id="glance">Where it stands</h2>
+    <div class="tiles">
+      <div class="tile"><span class="big num">180</span><span class="lab">evidence-backed checks</span></div>
+      <div class="tile pass"><span class="big num">95</span><span class="lab">Pass</span></div>
+      <div class="tile fail"><span class="big num">38</span><span class="lab">Candidate defect</span></div>
+      <div class="tile warn"><span class="big num">45</span><span class="lab">To verify / note</span></div>
+    </div>
+    <div class="scope-note">
+      <b>Scope:</b> all four pay-run types (regular, bonus, <b>off-cycle</b>, <b>termination</b>),
+      oracle-driven calculation (every PAYE band; bonus tax below and above the annual cap; standalone
+      and combined bonus runs; severance stacking; overtime), statutory exports (GRA PAYE schedule,
+      SSNIT / pension forms, remittance report), the <b>tax-liability &amp; forms state machine</b>,
+      the <b>Reports Centre</b> (10 of 12 reports), the bulk salary-adjustment tool, the benefits
+      model, PRQ-007 budgets + the PRQ-008 cost dashboard, employee eligibility (BTL #1 / #3), and a
+      negative / boundary / edge pass over each. Every case is a
+      <a href="#specs">permanent regression spec</a>. The 2-stage Pay Run approval workflow was built,
+      activated and driven through <b>every branch</b> — stage-1 and stage-2 approval, <b>reject</b>
+      (reason required), <b>return-to-previous</b>, the safeguard-acknowledgement gate — with the
+      bonus and off-cycle runs both taken the full Draft&nbsp;→&nbsp;Paid distance through it. All four
+      QA personas (Admin, Manager, Employee, Reports) were signed in live for the RBAC pass.
+      <b>Still open:</b> penalties (needs a late-settlement scenario), calc band-edge / proration
+      fixtures, termination through the workflow, the non-functional sweep (a11y, performance,
+      concurrency, IDOR), and a dev ruling on the candidate defects — see
+      <a href="#coverage">Coverage</a> and <a href="#gaps">Not yet tested</a>.
+    </div>
+  </section>
+
+  <section aria-labelledby="coverage" id="coverage">
+    <h2 id="coverage">Coverage</h2>
+    <p>A QA judgement of how much of each area is verified — not a code-coverage metric. Weighted across
+      the product, this run now covers roughly <b>four-fifths of the full payroll application</b>; across
+      the work a payroll administrator does every cycle, roughly <b>nine-tenths</b>. The recent phases
+      (RBAC personas, workflow branches, calc boundaries, the non-functional sweep) all moved the
+      <i>product-surface</i> figure — day-to-day operations were already near-complete.</p>
+    <div class="tiles" style="margin-bottom:1rem;">
+      <div class="tile pass"><span class="big num">~91%</span><span class="lab">Day-to-day payroll operations</span></div>
+      <div class="tile"><span class="big num">~85%</span><span class="lab">Full product surface</span></div>
+    </div>
+    <div class="t-scroll">
+      <table>
+        <thead><tr><th>Area</th><th class="n">Covered</th><th>What's verified / what's left</th></tr></thead>
+        <tbody>
+          <tr><td>Pay-run types &amp; lifecycle</td><td class="n">~95%</td><td>All 4 types end-to-end Draft&nbsp;→&nbsp;Paid; the 2-stage approval workflow driven through <b>reject</b>, <b>return-to-previous</b>, re-approval and the safeguard-acknowledgement gate. Off-cycle + bonus both taken fully through the workflow. Left: termination through the workflow, and the unlock-after-approval path.</td></tr>
+          <tr><td>Calculation engine</td><td class="n">~96%</td><td>Every PAYE band, SSNIT split, BIK, standalone + combined bonus, severance stacking, overtime — all oracle-checked to the cent, including a <b>band-edge sweep</b> (chargeable exactly on all six PAYE ceilings + into 35%), the <b>bonus 15%-cap boundary</b> (5% flat to the cent on a clean employee), and <b>negative net</b> (hard-blocked). Left: the junior-overtime 5% / 10% concession, and the exhausted-allowance bonus-excess basis.</td></tr>
+          <tr><td>Statutory filing &amp; liabilities</td><td class="n">~85%</td><td>GRA PAYE schedule, SSNIT / pension forms, remittance report, liability Pending→Completed, "Mark as Filed". Bank / EFT disbursement file is missing entirely (BETA-F-013).</td></tr>
+          <tr><td>Reports Centre</td><td class="n">~92%</td><td>All 12 reports opened; 11 reconciled against paid runs; the Audit &amp; Compliance log was exercised in the RBAC pass (surfaced BETA-F-034 / F-035). <b>Compensation Change History</b> now verified end-to-end — a Salary Adjustment (+₵200) is captured with old→new→delta→source→actor. <b>Leave</b> &amp; <b>Attendance Payroll Impact</b> render with correct schemas but no tenant data (need a leave/OT scenario through a pay run); date-range reversal is validated (pass). The "AI chat" is a non-functional mock (BETA-F-045).</td></tr>
+          <tr><td>Dashboards (PRQ-007 / 008)</td><td class="n">~80%</td><td>Budget create + "Budget vs Actual", Employer Cost by Tier. Other tiles and drill-downs lighter.</td></tr>
+          <tr><td>Employees</td><td class="n">~75%</td><td>Add-wizard validation (all 6 steps), deactivate / reactivate, tax profile, hire-date boundary (BETA-F-036). Bulk import, org-scope, portal access not covered.</td></tr>
+          <tr><td>Benefits &amp; deductions</td><td class="n">~75%</td><td>Create / assign / BIK / per-staff amount / Overtime type. Deduction calc-methods and alert thresholds lighter.</td></tr>
+          <tr><td>Adjustments</td><td class="n">~80%</td><td>PRQ-016 salary adjustment + BTL #5 bulk sheet. Not driven through to a paid run.</td></tr>
+          <tr><td>Penalties (PRQ-009)</td><td class="n">~25%</td><td>Bucket model + auto-generation copy mapped. No penalty could be triggered — every liability's due date is still in the future.</td></tr>
+          <tr><td>Settings admin (12 setup cards)</td><td class="n">~75%</td><td>All 12 cards walked — Statutory config, benefits, budgets, Pay Schedule (PRQ-006), Pay Groups, Bank, Finance Posting, Approval Workflows (now driven through every branch), Attendance Integration, Organization Setup, Users &amp; Roles (4 personas created + roled). Three prior-environment bugs confirmed fixed. Left: a Role/Position/Department-type approval stage, and the 6 inactive workflow entities.</td></tr>
+          <tr><td>Security &amp; non-functional</td><td class="n">~70%</td><td><b>Performance</b> quantified (BETA-F-037: /dashboard 14 s, /employees 32 s, /settings ~50 s — serial slow API + duplicate requests). <b>Responsive</b> checked 320–1280 px (BETA-F-038: broken below 1024). <b>axe</b> sweep on 3 screens (BETA-F-039: critical button/label/link violations everywhere). <b>Concurrency</b>: stale-tab double-submit blocked server-side, silent client. <b>API auth</b>: unauth / bad-token → 401 (pass). <b>Session isolation</b>: switching enterprise user leaves the previous user's payroll token / super-admin permissions active (BETA-F-046). Left: cross-tenant IDOR, a keyboard-nav pass, the payment-doc file handler (BETA-F-040).</td></tr>
+          <tr><td>Role enforcement (all 4 roles)</td><td class="n">~55%</td><td>All four personas driven live. Approval-stage RBAC verified end-to-end. <b>Payroll Employee</b> and <b>Payroll Reports</b>: nav limited to Dashboard + Reports; <span class="mono">/payroll</span>, <span class="mono">/employees</span>, <span class="mono">/settings</span> → <span class="mono">/forbidden</span>; writes blocked server-side. Gaps: <span class="mono">/setup/*</span> pages bypass the guard (BETA-F-033); the two roles are effectively identical in access; and <b>a user switch does not reset the Payroll session</b> — the prior (super-admin) identity and permissions persist (BETA-F-046). The Compensation Change History PII drill-down as a Reports persona is <b>blocked</b> by F-046 — that persona can't get an isolated payroll session.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section aria-labelledby="lifecycle">
+    <h2 id="lifecycle">Pay-run lifecycle — every gate reached and enforced</h2>
+    <p>One regular run, <span class="mono">Regular&nbsp;Payroll&nbsp;·&nbsp;September&nbsp;2026</span>, taken the full distance. Each stage transition was blocked until its precondition was met.</p>
+    <div class="pipe">
+      <div class="stage"><span class="st-name">Draft</span><span class="st-gate">Run created from 2 payroll-ready employees; 1 incomplete profile auto-excluded.</span></div>
+      <div class="stage"><span class="st-name">Processed</span><span class="st-gate">Gross, tax, deductions, net computed. Amounts hidden until this step.</span></div>
+      <div class="stage"><span class="st-name">Pending Approval</span><span class="st-gate">Submitted with a balanced finance-journal preview (Dr 9,040 = Cr 9,040).</span></div>
+      <div class="stage"><span class="st-name">Approved</span><span class="st-gate">Blocked until the "Missing TIN" soft warning was acknowledged on the approval page.</span></div>
+      <div class="stage"><span class="st-name">Paid</span><span class="st-gate">Required payment confirmation. Run then locked — no further edits (PRQ-015).</span></div>
+    </div>
+    <p style="margin-top:1rem; font-size:.9rem;">A separate off-cycle run (<span class="mono">ZZQA Workflow Reject-Return Test</span>) was then driven through the <b>2-stage approval workflow</b> exercising both correction paths: stage-1 <b>Reject</b> (reason required; whitespace-only reason blocked) sent it back to Processed for the submitter to fix; after re-submission and stage-1 approval, stage-2 <b>Return</b> (comment optional) bounced it back to the stage-1 approver, who re-approved; stage 2 then approved and the run reached <b>Paid</b>. "Approve" stays hidden on the approval page until every soft tax-safeguard warning is acknowledged; the acknowledgement carries across stages.</p>
+  </section>
+
+  <section aria-labelledby="ssnit">
+    <h2 id="ssnit">The SSNIT rate question — resolved</h2>
+    <div class="callout">
+      <h3>Beta deducts 5.5% employee / 13% employer</h3>
+      <p>The long-standing discrepancy between the calc oracle (5.5%) and a prior environment's observed 5% is settled. On a clean <span class="num">GH₵&nbsp;3,000</span> employee the beta app deducted employee SSNIT of <span class="num">GH₵&nbsp;165.00</span> (5.5%) and booked an employer contribution of <span class="num">GH₵&nbsp;390.00</span> (13%) — split Tier&nbsp;1 employer 8% + Tier&nbsp;2 employer 5%, all employee SSNIT to Tier&nbsp;1.</p>
+      <p class="verdict">Oracle confirmed correct. The prior 5% does not reproduce on beta.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="calc">
+    <h2 id="calc">Calculation engine — matched to the cent</h2>
+    <p>Expected values come from an independent Ghana payroll oracle, never the app's own output. Pay run #1, two employees.</p>
+    <div class="cols-2">
+      <div class="t-scroll">
+        <table>
+          <thead>
+            <tr><th>Check</th><th class="n">Oracle</th><th class="n">Beta</th><th class="n">=</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>ZZQA — employee statutory (PAYE + SSNIT)</td><td class="n">551.88</td><td class="n">551.88</td><td class="n tick">✓</td></tr>
+            <tr><td>ZZQA — PAYE on chargeable 2,835</td><td class="n">386.88</td><td class="n">386.88</td><td class="n tick">✓</td></tr>
+            <tr><td>ZZQA — net pay</td><td class="n">2,448.12</td><td class="n">2,448.12</td><td class="n tick">✓</td></tr>
+            <tr><td>TaShya — employee statutory (5,000 + 500 BIK)</td><td class="n">1,179.75</td><td class="n">1,179.75</td><td class="n tick">✓</td></tr>
+            <tr><td>TaShya — cash net (BIK non-cash)</td><td class="n">3,820.25</td><td class="n">3,820.25</td><td class="n tick">✓</td></tr>
+            <tr><td>Run — employer pension / SSNIT (13% × 8,000)</td><td class="n">1,040.00</td><td class="n">1,040.00</td><td class="n tick">✓</td></tr>
+            <tr><td>Tax liabilities — PAYE line</td><td class="n">1,291.63</td><td class="n">1,291.63</td><td class="n tick">✓</td></tr>
+            <tr><td>Tax liabilities — 3 SSNIT lines (EE 440 / ER 640 / ER 400)</td><td class="n">1,480.00</td><td class="n">1,480.00</td><td class="n tick">✓</td></tr>
+            <tr><td>High earner GH₵ 250,000 — employee statutory (into 25 / 30 / 35% bands)</td><td class="n">92,520.34</td><td class="n">92,520.34</td><td class="n tick">✓</td></tr>
+            <tr><td>High earner — net pay</td><td class="n">157,479.66</td><td class="n">157,479.66</td><td class="n tick">✓</td></tr>
+            <tr><td>Bonus GH₵ 3,000 below annual cap — 5% flat final (standalone run)</td><td class="n">150.00</td><td class="n">150.00</td><td class="n tick">✓</td></tr>
+            <tr><td>Bonus GH₵ 8,000 above cap — 270 flat + excess on own marginal band (standalone)</td><td class="n">840.37</td><td class="n">840.37</td><td class="n tick">✓</td></tr>
+            <tr><td><b>Bonus GH₵ 3,000 paid <i>combined</i> with salary — should stay 5% flat</b></td><td class="n">701.88</td><td class="n" style="color:var(--fail)">1,222.25</td><td class="n" style="color:var(--fail)">✗</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="t-scroll">
+        <table>
+          <thead>
+            <tr><th colspan="4">PAYE band trace — high earner, chargeable 236,250.00</th></tr>
+            <tr><th>Band (GH₵)</th><th class="n">Rate</th><th class="n">In band</th><th class="n">Tax</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>0 – 490</td><td class="n">0%</td><td class="n">490</td><td class="n">0.00</td></tr>
+            <tr><td>490 – 600</td><td class="n">5%</td><td class="n">110</td><td class="n">5.50</td></tr>
+            <tr><td>600 – 730</td><td class="n">10%</td><td class="n">130</td><td class="n">13.00</td></tr>
+            <tr><td>730 – 3,896.67</td><td class="n">17.5%</td><td class="n">3,166.67</td><td class="n">554.17</td></tr>
+            <tr><td>3,896.67 – 19,896.67</td><td class="n">25%</td><td class="n">16,000</td><td class="n">4,000.00</td></tr>
+            <tr><td>19,896.67 – 50,416.67</td><td class="n">30%</td><td class="n">30,520</td><td class="n">9,156.00</td></tr>
+            <tr><td>50,416.67 +</td><td class="n">35%</td><td class="n">185,833.33</td><td class="n">65,041.67</td></tr>
+            <tr class="total"><td>Total PAYE</td><td class="n"></td><td class="n"></td><td class="n">78,770.34</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <p style="margin-top:1rem; color:var(--muted); font-size:.9rem;">All seven PAYE bands verified — the low-earner trace (0 / 5 / 10 / 17.5%) and the high-earner trace above (adding 25 / 30 / 35%). Benefit-in-kind is taxed into chargeable income but excluded from cash net and the SSNIT base. Remittance dates were correct: PAYE due the 15th, SSNIT the 14th of the following month.</p>
+  </section>
+
+  <section aria-labelledby="prq">
+    <h2 id="prq">Backlog features touched</h2>
+    <div class="t-scroll">
+      <table>
+        <thead>
+          <tr><th>PRQ</th><th>Feature</th><th>Verdict</th><th>Note</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="mono">001</td><td>File upload on Mark-as-Paid</td><td><span class="chip pass">Pass</span></td><td>PDF attached, persisted on the paid run, downloadable / removable / addable later. `.html` upload rejected server-side.</td></tr>
+          <tr><td class="mono">011</td><td>Individual payslip download</td><td><span class="chip pass">Pass</span></td><td>PDF with identity, line items, net, reference no., amount in words. In-app modal adds a full band-by-band trace.</td></tr>
+          <tr><td class="mono">012</td><td>Dynamic bonus entry — standalone run</td><td><span class="chip pass">Pass</span></td><td>Per-employee amounts + "apply to all"; readiness-flagged picker. Bonus tax correct below AND above the 15% annual cap (5% flat, then excess stacked on the employee's own marginal band). Bonus correctly exempt from SSNIT.</td></tr>
+          <tr><td class="mono">013</td><td>Combined regular + bonus run</td><td><span class="chip warn">Finance ruling</span></td><td>A bonus added via "Add bonuses" on a regular run is taxed entirely at marginal PAYE — the standalone Bonus run applies 5% flat within the annual cap, so the two paths disagree (~GH₵ 150 vs ~GH₵ 670 on a GH₵ 3,000 bonus). <b>Finance to confirm the correct treatment</b> (BETA-F-012).</td></tr>
+          <tr><td class="mono">015</td><td>Payroll lock after approval</td><td><span class="chip pass">Pass</span></td><td>Paid run exposes no mutating actions. Unlock path not yet tested.</td></tr>
+          <tr><td class="mono">014</td><td>GRA PAYE schedule · SSNIT / pension forms · remittance export</td><td><span class="chip pass">Pass</span> <span class="chip fail">1 gap</span></td><td>GRA PAYE Schedule downloads as the <b>official GRA form</b> (correct columns incl. "Social Security Fund (5.5%)"); Tier 1 / Tier 2 pension forms and the Statutory Remittance Report (Excel + PDF) all reconcile to the paid run. <b>Missing:</b> the bank payment / EFT disbursement file (BETA-F-013).</td></tr>
+          <tr><td class="mono">016</td><td>Bulk salary update tool</td><td><span class="chip pass">Pass</span></td><td>Multi-line rounds by All / department / pay group / employees; Increase or Decrease; % or fixed; effective dates; a <b>preview</b> with per-employee old → new → change, overlap detection and reconciling totals; export; then approval before it applies.</td></tr>
+          <tr><td class="mono">BTL 4–7</td><td>Benefits model</td><td><span class="chip pass">Pass</span></td><td>An assigned benefit now <b>shows on the employee profile</b> (the BTL bug does not reproduce on beta); one benefit definition + per-staff amounts (via profile or bulk adjustment); 8 Benefits-in-Kind seeded with correct Ghana rates.</td></tr>
+          <tr><td class="mono">009</td><td>Statutory penalties + waiver</td><td><span class="chip part">Design only</span></td><td>Penalties page verified structurally — four buckets (Applied (Open) / Waiver Pending / Paid / Waived, each with amount + count), table schema (Statutory Item / Due Date / Days Late / Penalty / Status / Docs), filters, empty state: auto-generates "when a statutory obligation is settled late". Still could not trigger a real penalty: all 16 tax liabilities are Pending with future due dates (Oct 15 / Dec 14–15 2026), Overdue column "—", and no backdated pay run exists in history. Fixed-amount calc + auto-apply + waiver request + waiver approval remain a <b>confirmed coverage gap</b> — needs a dedicated backdated pay run whose liability is settled after its due date.</td></tr>
+          <tr><td class="mono">016</td><td>Salary Adjustments — Compensation Change History</td><td><span class="chip pass">Pass</span> <span class="chip fail">2 nits</span></td><td>A fixed-amount Salary Adjustment (ZZQA MidHire +₵200, effective today) taken Draft → Submit → Approve applies immediately and is captured in <b>Compensation Change History</b> with old ₵3,250 → new ₵3,450, delta, source ("Salary Adjustment 2", linked) and actor. Nits: approval is <b>single-stage self-approval</b>, unlike pay runs (BETA-F-042); the Preview panel keeps re-projecting after Applied (BETA-F-043).</td></tr>
+          <tr><td class="mono">008</td><td>Employer cost by tier</td><td><span class="chip part">Partial</span></td><td>Dashboard + payslip show gross cash + employer Tier 1/2/3, matching the BTL review note. Full dashboard re-check pending.</td></tr>
+          <tr><td>Off-cycle</td><td>Off-Cycle Payroll run (advance / one-off)</td><td><span class="chip pass">Pass</span></td><td>Create-dialog validation holds (name + schedule required; period end ≥ start). A GH₵ 1,000 one-time amount is treated as ordinary income — <b>PAYE only (GH₵ 65.75), no employee or employer SSNIT</b>; net 934.25; journal balances. Full Draft→Processed→Approved→Paid lifecycle, same gates as a regular run.</td></tr>
+          <tr><td>Termination</td><td>Termination Payroll (severance + final pay)</td><td><span class="chip pass">Pass</span> <span class="chip fail">2 gaps</span></td><td>Severance is fully PAYE-taxable, <b>stacked</b> on the basic salary; SSNIT (EE 5.5% / ER 13%) on the basic only. GH₵ 3,000 basic + GH₵ 5,000 severance → EE statutory 1,722.25, net 6,277.75, employer cost 8,390.00; journal balances. <b>Open:</b> the basic salary is <b>not prorated</b> to the last working day — finance + product to rule on the intended behaviour (BETA-F-016); and the resulting statutory due dates are a month too late (BETA-F-019).</td></tr>
+          <tr><td>Taxes</td><td>Tax-liability &amp; forms state machine</td><td><span class="chip pass">Pass</span></td><td>A statutory liability walks Pending → Funded → Processing → Completed cleanly. The GRA PAYE Schedule aggregates every pay run sharing a filing period (Sept regular + Sept off-cycle = GH₵ 1,357.38, exact) and "Mark as Filed" flips it to Filed. Weak audit trail — no payment date / GRA reference captured on any transition.</td></tr>
+          <tr><td>BTL 1 / 3</td><td>Pay-run eligibility</td><td><span class="chip pass">1 pass</span> <span class="chip fail">2 fail</span></td><td>Regular runs are correctly locked to the next open period (BTL #1). But a Bonus run still accepts a pay date in a <b>prior tax year</b> (BETA-F-018), and a <b>deactivated ("In-active") employee is still projected into and paid by a regular run</b> — BTL #3 does not reproduce as fixed (BETA-F-017).</td></tr>
+          <tr><td>Overtime</td><td>Overtime earnings &amp; tax</td><td><span class="chip pass">Calc exact</span> <span class="chip fail">1 gap</span></td><td>Overtime is entered as a benefit of Type "Overtime" and IS included in a fresh regular run (AlphaOne gross GH₵ 4,800 → PAYE 757.25, net 3,877.75, to the cent). But it is taxed as an <b>ordinary allowance</b> — the Ghana junior-staff overtime concession (5% / 10%) is never applied; the "Overtime Tax (Junior)" engine has no active rate (BETA-F-001) and there is no junior/senior designation (BETA-F-023). "Recalculate" on an existing run does not pick up the newly-assigned benefit (BETA-F-020).</td></tr>
+          <tr><td class="mono">007</td><td>Payroll budgets</td><td><span class="chip pass">Pass</span> <span class="chip fail">1 gap</span></td><td>Create an org-wide monthly budget (12-month grid, fill-down, deviation threshold, auto-primary); the dashboard "Budget vs Actual" tile then tracks Total Annual / Actual YTD / Variance / Variance %. <b>Gap:</b> Actual YTD reads GH₵ 1,202,190 against ~GH₵ 18k of real paid runs — it counts every Processed draft, including the duplicate unpaid October runs (BETA-F-021).</td></tr>
+          <tr><td class="mono">008</td><td>Employer cost by tier</td><td><span class="chip pass">Pass</span></td><td>Dashboard "Employer Cost by Tier" splits Tier 1 : Tier 2 as exactly 8 : 5 (employer 8% + 5% of basic); no Tier 3 line. KPI strip and cost-summary chart match the BTL review note (cash gross + employer pension). Absolute figures share the BETA-F-021 inflation.</td></tr>
+          <tr><td>Reports</td><td>Reports Centre (12 reports)</td><td><span class="chip pass">3 reconcile</span> <span class="chip fail">3 don't</span></td><td>The <b>Annual Payroll Report</b>, <b>Year-End Tax Filing</b> and <b>Variance &amp; Comparison</b> all reconcile to the cent — PAYE GH₵ 2,914.63 across every paid run, employee-only Tier 1 relief, off-cycle + severance included. But the <b>Payroll Summary Report</b> nets employer SSNIT out of take-home (GH₵ 5,228.37 vs 6,268.37 — BETA-F-024) and drops the off-cycle run (BETA-F-025); the <b>PAYE Reconciliation</b> and Year-End reports leave benefits-in-kind out of chargeable income while still taxing it (BETA-F-026). "Statutory &amp; tax configuration history" usefully shows the Tier 1 5.5 / 8 split and the flat 20% Board rate.</td></tr>
+          <tr><td class="mono">006</td><td>Pay Schedule Setup</td><td><span class="chip pass">Pass</span></td><td>All five frequencies — Weekly / Bi-Weekly / Semi-Monthly / Monthly / Quarterly — are selectable and configurable (Semi-Monthly opens per-half pay dates: 15th and last working day). Clear guard that changes only affect future periods; an "Add past pay periods" backfill exists.</td></tr>
+          <tr><td>Settings</td><td>Pay Groups · Bank · Users &amp; Roles</td><td><span class="chip pass">3 fixes confirmed</span></td><td>Three defects from the previous environment do <b>not</b> reproduce on beta: a pay group's member assignment now links <b>both ways</b> (list count + the employee profile); a system bank's name and code fields are <b>disabled</b> ("only status can be changed"); a new role <b>keeps the permissions</b> you assign it (count and detail both persist).</td></tr>
+          <tr><td>Settings</td><td>Approval Workflows — build &amp; enforce</td><td><span class="chip pass">End-to-end</span> <span class="chip fail">1 gap</span></td><td>Built a 2-stage Pay Run workflow (Manager Review → Admin Sign-off), assigned QA persona users, activated it, submitted a bonus run, and drove it <b>all the way through</b>: stage 1 approved as the Manager persona, stage 2 as the Admin persona (final confirm offers a "Post Journal Entries" toggle), then Mark Paid → the run shows as <b>Paid</b>. A non-current-stage user correctly sees no action. <i>(BETA-F-032, "no Approve button", was withdrawn on re-test — the earlier reading pre-dated the ~10&nbsp;s skeleton render.)</i> <b>Open gap:</b> the workflow can't be deactivated or edited once it has a run in flight — both endpoints return a raw 500 for any role, even after stage 1 (BETA-F-031). Finance Posting maps 18 payroll items to a connected GL. Attendance-based pay is off by default.</td></tr>
+          <tr><td>Settings</td><td>Users &amp; Roles</td><td><span class="chip pass">Roles persist</span> <span class="chip fail">1 gap</span></td><td>Created 4 QA persona users and assigned them the Manager / Employee / Reports / Admin roles. Role assignment via Roles → Manage Users <b>sticks</b> (count + both directions). But selecting a role in the <b>Add User wizard is a silent no-op</b> — the user is created with "No roles" (BETA-F-029); the wizard then redirects to a 404 (BETA-F-030).</td></tr>
+          <tr><td>Settings</td><td>Organization Setup</td><td><span class="chip fail">1 gap</span></td><td>Well-structured (4 sections, ~15 fields) and populated for Glenn and Co — but the <b>Employer TIN and Employer SSNIT Number are both blank</b> and not marked required, while the hub still reads "Payroll setup completed" (BETA-F-028).</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section aria-labelledby="neg">
+    <h2 id="neg">Negative, boundary &amp; edge checks</h2>
+    <p>Layered coverage across every feature area exercised so far. The app holds up well on input validation; the softer results are in state handling, proration, employee eligibility and employment-type wiring.</p>
+    <div class="t-scroll">
+      <table>
+        <thead>
+          <tr><th>Area</th><th>Case</th><th>Result</th><th>Verdict</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>PAYE calc</td><td>Chargeable income exactly on each band ceiling (490 / 600 / 730 / 3,896.67 / 19,896.67 / 50,416.67)</td><td>PAYE 0.00 / 5.50 / 18.50 / 572.67 / 4,572.67 / 13,728.67 — every one exact to the cent</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>PAYE calc</td><td>Chargeable 731 (1 into the 17.5% band) — half-cent rounding</td><td>18.675 → shown as <b>18.68</b> (round half up)</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>PAYE calc</td><td>Chargeable 100,000 (deep in the 35% band)</td><td>31,082.84 — exact; no cap on the amount</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Off-cycle</td><td>One-time amount with 3 decimals (1000.567)</td><td>Rounded to 1,000.57; PAYE computed on the rounded value</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Off-cycle</td><td>Negative one-time amount (−100)</td><td>Server 422, <b>no UI error</b> — silently kept at 0 (BETA-F-010 pattern)</td><td><span class="chip warn">Note</span></td></tr>
+          <tr><td>Off-cycle</td><td>Edit an amount → Save → read the grid row</td><td>Row + "Save &amp; calculate" often don't refresh until a second Save — stale display</td><td><span class="chip warn">Note</span></td></tr>
+          <tr><td>Add Employee</td><td>Every step submitted blank</td><td>Per-field "required" errors, no advance</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Add Employee</td><td>Work email <span class="mono">not-an-email</span></td><td>"Please enter a valid email address"</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Add Employee</td><td>Base salary −1,000 and 0</td><td>Both blocked (message reads "required" not "must be &gt; 0")</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Add Employee</td><td>Base salary 250,000</td><td>Accepted — no artificial cap</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Add Employee</td><td>Bank Transfer with no bank / branch / account</td><td>Blocked ("Bank and branch" message renders 3×)</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Add Employee</td><td>Duplicate Employee ID <span class="mono">ZZQA-001</span></td><td>Server 422, no duplicate created — but only caught at final submit after all 6 steps</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Pay run</td><td>Second Regular run after September is Paid</td><td>Auto-targets the next open period (October); September cannot be re-selected</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Pay run</td><td>Reject with an empty reason</td><td>Confirm button stays disabled until a reason is typed</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>File upload</td><td><span class="mono">.html</span> file as a payment document</td><td>Server 422, rejected (allowed: PDF / Word / Excel)</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Employment type</td><td>Board-type employee, no tax preset applied</td><td>Taxed as regular PAYE + SSNIT, not flat 20% Board WHT — silently</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>Pay run</td><td>Processed run with a future pay date on the active list</td><td>Hidden by the default date filter; tab shows "No Active Payrolls"</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>Pay run</td><td>Delete / discard a draft (BTL onboarding #2)</td><td>No delete action anywhere — a run can only be submitted or left hanging</td><td><span class="chip fail">Not built</span></td></tr>
+          <tr><td>Off-cycle</td><td>Empty create; period end before start</td><td>Both blocked with inline errors ("… name is required", "… end must be on or after the start")</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Off-cycle</td><td>Negative one-time amount (−500)</td><td>Server rejects (422) — but the modal shows <b>no error message</b>, it just stays open</td><td><span class="chip warn">Note</span></td></tr>
+          <tr><td>Termination</td><td>Calculate / Save with no employee or last working day</td><td>Both action buttons stay disabled until each is supplied</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Termination</td><td>Last working day 15 Oct (mid-month leaver)</td><td>Full month's basic salary paid — no proration (finance + product to rule)</td><td><span class="chip warn">Ruling</span></td></tr>
+          <tr><td>Bonus</td><td>Pay date 15 Jan 2025 (≈20 months back, prior tax year)</td><td>Accepted with no warning; run created for a closed period</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>Eligibility</td><td>Regular run after an employee is deactivated</td><td>The In-active employee is still projected "Ready" and processed a full payslip</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>Taxes</td><td>Liability "Mark as Completed" before its due date</td><td>Flips to Completed, no penalty raised (correct — not yet late)</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Benefit</td><td>Fixed-amount benefit with amount −500</td><td>Blocked: "fixed_amount benefits require amount greater than zero"</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Budget</td><td>Create budget with no name</td><td>Blocked: "Budget name is required"</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Run</td><td>Assign a benefit, then "Recalculate" the Processed run</td><td>New benefit not picked up — only a fresh run includes it</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>Dashboard</td><td>Console during render</td><td>Uncaught <span class="mono">TypeError … reading 'org'</span> (swallowed)</td><td><span class="chip warn">Note</span></td></tr>
+          <tr><td>Report</td><td>Payroll Summary "Generate" with no period</td><td>Silent no-op — nothing happens, no error (same as the remittance generate)</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>Report</td><td>Variance &amp; Comparison — base period = comparison period</td><td>All variances +0% / GH₵ 0.00 — sensible; no warning that they match</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Report</td><td>Same run, two reports — Tier 1 deduction figure</td><td>PAYE Reconciliation says GH₵ 440 (right); Payroll Summary says GH₵ 1,080 (wrong)</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>Settings</td><td>Pay group / role / bank / budget — empty create</td><td>Each blocked with a per-field "required" message or a disabled action</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Settings</td><td>Rename a system bank</td><td>Name / code fields disabled — cannot be attempted</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Settings</td><td>Org Setup "Completed" with no Employer TIN / SSNIT</td><td>Allowed — fields not required, hub still says setup complete</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>User</td><td>Add User — blank submit; invalid email</td><td>Blocked per-field; "Please enter a valid email address"</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Approval</td><td>Admin (not the assigned approver) opens a gated run</td><td>No Approve / Reject button — cannot bypass the stage</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Approval</td><td>Assigned stage-1 approver signs in to approve the gated run</td><td>Approve / Reject present; run advances to stage 2 (BETA-F-032 withdrawn on re-test)</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Approval</td><td>Assigned stage-2 approver signs in to sign off</td><td>Approve / Return / Reject present; final confirm offers "Post Journal Entries"; run → Approved → Paid</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Approval</td><td>Non-current-stage user opens the approval page</td><td>Sees the pipeline, no Approve / Reject — gating is real, not a render artifact</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Approval</td><td>Reject with an empty / whitespace-only reason</td><td>"Reject Payroll" stays disabled (trims); a real reason returns the run to Processed</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Approval</td><td>Approve while a soft tax-safeguard warning is unacknowledged</td><td>No Approve button shown until "Acknowledge all"; Reject still available</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Approval</td><td>"Return to previous" from stage 2</td><td>Run bounces to the stage-1 approver (comment optional); pipeline still labels stage 1 "approved" — misleading</td><td><span class="chip warn">Note</span></td></tr>
+          <tr><td>Approval</td><td>Audit trail after reject + return + multi-stage approve</td><td>Reject &amp; Return logged; neither stage-1 approval logged (BETA-F-034)</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>Approval</td><td>Deactivate / edit the workflow while a run is pending it</td><td>Raw HTTP 500 on both, any role, even after stage 1 approved</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>Users</td><td>Admin needs to provision a login for an un-onboarded user</td><td>No "reset password" / "resend invitation" on the user page — invite email is the only path</td><td><span class="chip warn">Note</span></td></tr>
+          <tr><td>RBAC</td><td>Payroll Employee / Reports persona opens <span class="mono">/payroll</span>, <span class="mono">/employees</span>, <span class="mono">/settings</span></td><td>All redirect to <span class="mono">/forbidden</span> — route guard holds</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>RBAC</td><td>Same personas open <span class="mono">/setup/budgets</span>, <span class="mono">/setup/banks</span>, <span class="mono">/setup/pay-groups</span></td><td>Pages + Create/Add buttons render; data partly leaks (BETA-F-033)</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>RBAC</td><td>Payroll Employee attempts a write (Create Budget, filled form, submit)</td><td>"You do not have permission to perform this action" — server-side write block holds</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>RBAC</td><td>"Payroll Employee" role — what payroll data is exposed</td><td>Whole-org dashboard (gross ₵258k, employer cost, budget) + full Reports Centre with real figures</td><td><span class="chip warn">Note</span></td></tr>
+          <tr><td>Add Employee</td><td>Hire date = today (2026-09-09)</td><td>Client accepts (≤ today); server rejects at final submit ("must be a date before today") — boundary mismatch</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>Add Employee</td><td>Hire date in a future / current pay period (15 Oct)</td><td>Blocked everywhere — can't onboard for the next actual payroll (BETA-F-036)</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>Calc</td><td>Employee who joined before the period (5 Sept) in an October run</td><td>Full month's basic GH₵ 3,100 → net 2,526.09, exact — no proration, correctly</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Bonus calc</td><td>Bonus == exactly the 15% annual cap, on a clean employee (5,580)</td><td>Tax GH₵ 279.00 = exactly 5% flat, labelled "Bonus Tax" — cap boundary exact</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Bonus calc</td><td>Same, on an employee whose cumulative annual allowance is used up</td><td>Whole 5,400 taxed as PAYE at a flat 25% (1,350) — cumulative tracking works, but the flat-25% basis needs a dev check</td><td><span class="chip warn">Note</span></td></tr>
+          <tr><td>Deductions</td><td>One-off deduction (1,500) &gt; gross (1,000) → negative net</td><td>Editor shows −565.75 with no warning; Process flags a <b>hard blocker</b> "Negative Net Pay" — run can't advance</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Security</td><td>payrollApi endpoints with no / garbage bearer token</td><td>All → 401 — no unauthenticated data exposure</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Security</td><td>Payment-doc URL fetched (authed &amp; unauthed)</td><td>Returns the SPA HTML shell, not the file — download is broken (BETA-F-040); security still inconclusive</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>Concurrency</td><td>Two tabs on one run; submit in A, then click stale "Submit" in B</td><td>Server 422 "Only processed pay runs can be submitted" — client shows nothing</td><td><span class="chip warn">Note</span></td></tr>
+          <tr><td>Responsive</td><td>Any page at 320 / 390 / 768 / 900 px</td><td>Blank sidebar overlaps &amp; clips content; no hamburger; horizontal scroll (BETA-F-038)</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>Performance</td><td>Cold load of /dashboard, /employees, /settings</td><td>14 s / 32 s / ~50 s to content; /employees API 26 s for 5 rows (BETA-F-037)</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>Accessibility</td><td>axe-core on /dashboard, /employees/add, /reports</td><td>Critical button-name / label, serious link-name / contrast on every screen (BETA-F-039)</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>Reports</td><td>Attendance Payroll Impact — "from" date later than "to" date</td><td>Inline "the ‘to’ date cannot be earlier than the ‘from’ date"; Apply disabled; no query fired</td><td><span class="chip pass">Pass</span></td></tr>
+          <tr><td>Security</td><td>Sign out, sign in as a different enterprise user, re-open Payroll</td><td>Payroll app still runs as the previous user — stale super-admin token + 56 permissions (BETA-F-046)</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>Salary Adjustment</td><td>Same admin submits then approves a salary round</td><td>One click approves + applies; no maker/checker (BETA-F-042). Preview re-projects +₵200 after Applied (BETA-F-043)</td><td><span class="chip warn">Note</span></td></tr>
+          <tr><td>Employee edit</td><td>Change "Base salary" on the profile Edit form, Save all changes</td><td>Success toast, but the value is never sent — GET keeps the old figure (BETA-F-041)</td><td><span class="chip fail">Fail</span></td></tr>
+          <tr><td>AI chat</td><td>Send payroll questions to the "Payroll Chat Assistant"</td><td>No network call; canned unrelated replies; fabricated "I've corrected the entry" in the seed thread (BETA-F-045)</td><td><span class="chip warn">Note</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section aria-labelledby="findings">
+    <h2 id="findings">Findings raised</h2>
+    <div class="findings">
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-046</span><span class="sev">Major · candidate · Phase 8 · security</span></div>
+        <p><b>Switching enterprise user does not reset the Payroll session — the previous user's privileges persist.</b> Signed out of the enterprise portal (<span class="mono">v2.kedebahlite.com</span>), signed back in as a <i>different</i> user (<span class="mono">ZZQA Reports Persona</span>, <span class="mono">dwetornam+25</span>), and re-launched the <b>Payroll Manager</b> module. The portal correctly showed the new identity, but the Payroll app kept the <b>previous</b> user: <span class="mono">GET /api/v1/payrollApi/user</span> still returned <span class="mono">central_user</span> id 575 <b>"Broni Danso"</b> with <span class="mono">is_payroll_super_admin: true</span>, <span class="mono">payroll_permissions</span> in <span class="mono">localStorage</span> was still the full 56-permission admin set, and every payroll screen rendered Glenn and Co's data. The new user's <span class="mono">?auth=</span> SSO hand-off never replaced the stale bearer token. On a shared or kiosk machine, user B operates the payroll system as user A — here, as a super admin.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Sign into the portal as an admin, open <b>Payroll Manager</b>, confirm you're an admin (nav shows every section).</li>
+          <li>Top-right account menu → <b>Sign out</b>. On the sign-in page, log in as a <i>different</i> enterprise user.</li>
+          <li>From the module launcher click <b>Payroll Manager</b> again.</li>
+          <li>Open dev-tools → Application → Local Storage for <span class="mono">v2payroll.kedebahlite.com</span>: <span class="mono">auth:userData</span> / <span class="mono">payroll_permissions</span> are still the <b>first</b> user's. Call <span class="mono">GET /api/v1/payrollApi/user</span> with the stored token — it returns the first user.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> launching Payroll after a user switch discards the prior session entirely and establishes a token scoped to the new user; a stale token is rejected, not honoured.</p></div>
+      </div>
+      <div class="finding minor">
+        <div class="f-head"><span class="f-id">BETA-F-045</span><span class="sev">Minor · candidate · Phase 8</span></div>
+        <p><b>The "Payroll Chat Assistant" is a non-functional mock presented as live.</b> The <span class="mono">/chat</span> route (redirects to <span class="mono">/ai/assistant</span>) shows a chat UI with a hard-coded conversation list (Abena Mensah, Kwame Asante, "February payslip", "Q4 PAYE returns") and a header reading <b>"Payroll Support — Online"</b>. Sending a message fires <b>no network request</b>; the reply is a canned string unrelated to the question ("I'll check the tax calculations and get back to you shortly.", "The SSNIT contribution rates are updated in the system. I can share the breakdown."). The seeded thread even contains a fabricated action ("I've corrected the entry. The adjustment will reflect in your next payslip.").</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Open <span class="mono">/chat</span>. Note the pre-populated conversations and the "Online" status.</li>
+          <li>Type "What is the SSNIT employee contribution rate in Ghana?" and send. Then "Calculate PAYE for a monthly salary of 8000 cedis."</li>
+          <li>Both get generic canned replies. Dev-tools → Network shows no request on send.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> either a working assistant, or a clearly-labelled "coming soon / demo" placeholder — not a fake "Online" agent that fabricates reassurances.</p></div>
+      </div>
+      <div class="finding minor">
+        <div class="f-head"><span class="f-id">BETA-F-044</span><span class="sev">Minor · candidate · Phase 8 · ui</span></div>
+        <p><b>Attendance Payroll Impact has two filter dropdowns with the same label.</b> On <span class="mono">/reports/attendance-payroll-impact</span> the filter row shows two adjacent dropdowns both captioned <b>"Records"</b> — one defaulting to "All Records", the other to "Corrected &amp; original". The second controls the corrections view and should be named accordingly. Minor, but it makes the filter ambiguous. (Also cosmetic: the KPI strip shows "Employees affected: 0" but "Overtime hours: —" — mixed zero/dash for the same empty state.)</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Open <b>Reports → Attendance Payroll Impact</b>. Open the <b>Filters</b> panel.</li>
+          <li>Two dropdowns are labelled "Records". Hover/expand each — one is status scope, the other original-vs-corrected.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> distinct labels (e.g. "Records" and "Corrections"); consistent empty-value formatting across the KPI tiles.</p></div>
+      </div>
+      <div class="finding minor">
+        <div class="f-head"><span class="f-id">BETA-F-043</span><span class="sev">Minor · candidate · Phase 8</span></div>
+        <p><b>A Salary Adjustment's Preview keeps re-projecting after it's Applied.</b> Once an adjustment reaches <b>Applied</b>, its detail-page Preview panel still computes off the <i>current</i> salary: for the ZZQA Comp History Test round it showed <b>Old ₵3,450.00 → New ₵3,650.00, status "To update"</b> — i.e. another +₵200 on the already-raised figure — and the <b>Refresh</b> button stays enabled. No re-apply control is exposed, so there's no data impact, but the panel misrepresents an already-applied round as still pending.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Create a fixed-amount Salary Adjustment, Submit for Approval, Approve (it applies immediately).</li>
+          <li>Stay on the adjustment detail page. The Preview table shows the employee's <i>new</i> salary as the "Old Value" and projects the delta again, marked "To update".</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> after Applied, the Preview shows the historical applied values (old → new, status Applied) and doesn't offer Refresh.</p></div>
+      </div>
+      <div class="finding minor">
+        <div class="f-head"><span class="f-id">BETA-F-042</span><span class="sev">Minor · candidate · Phase 8 · governance</span></div>
+        <p><b>Salary Adjustments use single-stage self-approval — unlike pay runs.</b> A Salary Adjustment goes Draft → Submit for Approval → <b>Approve</b>, where one click by the <i>same</i> admin who submitted it both approves and applies the change to employee salaries ("Approved and applied to employee salaries"). There is no maker/checker separation, no second stage, and no distinct apply step — in contrast to the 2-stage sequential Pay Run approval workflow. A single admin can raise everyone's pay and have it take effect with no independent review.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Management → Salary Adjustments → New. Build a round, <b>Create</b>, then <b>Submit for Approval</b>.</li>
+          <li>As the same user, click <b>Approve</b> → toast "Approved and applied to employee salaries"; status jumps straight to <b>Applied</b>.</li>
+        </ol>
+        <p class="expect"><b>Pending:</b> product/finance to decide whether salary-change rounds should carry the same multi-stage approval governance as pay runs.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-041</span><span class="sev">Major · candidate · Phase 8</span></div>
+        <p><b>The employee-profile "Base salary" field is editable but silently discarded.</b> On the employee profile, <b>Edit Employee</b> exposes a "Base salary (GHS)" number field (and the Compensation section shows one too). Changing it and clicking <b>Save all changes</b> succeeds with no error — but the value is never sent. Verified twice on ZZQA MidHire: <span class="mono">POST /api/v1/payrollApi/employees/6</span> carries only identity/job fields (<span class="mono">employee_id, first_name, …, position_id, employment_type_id, employment_status_id</span>) — <b>no <span class="mono">base_salary</span></b>. <span class="mono">GET /employees/6</span> and <span class="mono">/employees/6/salary/full</span> both keep the prior figure; <span class="mono">updated_at</span> doesn't move. Salary can only actually be changed via a Salary Adjustment. Same silent-no-op pattern as BETA-F-029 (wizard role picker).</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Open an employee profile → <b>Edit Employee</b>. Change <b>Base salary (GHS)</b> to a new value. Click <b>Save all changes</b> — success toast, no error.</li>
+          <li>Reload the profile — the Compensation "Amount" is unchanged.</li>
+          <li>Confirm via <span class="mono">GET /api/v1/payrollApi/employees/&lt;id&gt;/salary/full</span> — <span class="mono">basic_salary</span> and <span class="mono">updated_at</span> are unchanged; the <span class="mono">POST /employees/&lt;id&gt;</span> request body has no salary field.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> either the field persists the new base salary (writing a salary record + a Compensation Change History entry), or it's read-only with a link to "change via Salary Adjustment".</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-037</span><span class="sev">Major · candidate · Phase 7 · perf</span></div>
+        <p><b>Every page takes 14–50 seconds to show real content.</b> Measured cold client-side loads (time from navigation to real data visible, not skeleton): <b>/dashboard 14.3 s</b>, <b>/employees 32.0 s</b> (the <span class="mono">GET /employees</span> call alone is 26 s — for <i>five</i> rows), <b>/settings ~50 s</b> (<span class="mono">GET /organization-data</span> fires <b>three times</b> — 9 s, 18 s, 28 s, escalating). The DOM shell is ready in ~300–480 ms and the transfer is ~10 KB, so this is entirely backend / request-orchestration latency, not the bundle. Every route also re-fetches <span class="mono">GET /user</span> <b>twice</b> (~2.6 s + ~5.3 s) and <span class="mono">/setup-completion</span> (~5 s) serially before painting. This is the concrete, quantified form of the long-standing "slow skeleton" observation (BETA-F-002).</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Open dev-tools → Network, disable cache. Hard-navigate to <span class="mono">/dashboard</span> and start a stopwatch.</li>
+          <li>Stop when the KPI tiles show real numbers (not grey bars). ~14 s.</li>
+          <li>Repeat for <span class="mono">/employees</span> (~32 s) and <span class="mono">/settings</span> (~50 s).</li>
+          <li>In the waterfall: <span class="mono">/user</span> appears twice, <span class="mono">/organization-data</span> once–thrice, <span class="mono">/setup-completion</span> on pages that don't need it, all before content renders.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> content within ~2–3 s. De-duplicate <span class="mono">/user</span> and <span class="mono">/organization-data</span>, parallelise the boot calls, and fix whatever makes <span class="mono">/employees</span> take 26 s for 5 rows.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-038</span><span class="sev">Major · candidate · Phase 7 · responsive</span></div>
+        <p><b>The app is unusable below 1024&nbsp;px — no mobile or tablet layout.</b> At 390 / 768 / 900 px a phantom ~240 px vertical sidebar renders as a <b>blank white column</b> and overlaps the main content, clipping the left ~200 px of every page — headings, run cards and buttons are cut off or unreachable. There is no hamburger menu; the top-nav items collide with the header icon buttons; at 320 & 390 px the body also scrolls sideways. It only lays out correctly at ≥1024 px, where the nav is a horizontal top bar. Effectively desktop-only — a payroll clerk can't check a run from a phone.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Open <span class="mono">/payroll</span> on a desktop browser, then use dev-tools device toolbar (or resize) to <b>390 × 844</b>.</li>
+          <li>A wide blank column fills the left half; the run list and its buttons are behind / beside it and clipped. No menu button.</li>
+          <li>Try 768 px and 900 px — same overlap. At 320 px the page also scrolls horizontally.</li>
+          <li>Resize back to ≥1024 px — the nav becomes a clean top bar and the page is fine.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> a responsive layout — the nav collapses to a toggle, content reflows to one column, nothing is clipped, no horizontal scroll, at phone and tablet widths.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-039</span><span class="sev">Major · candidate · Phase 7 · a11y</span></div>
+        <p><b>Critical accessibility failures on every screen.</b> An axe-core 4.10 sweep (WCAG 2 A/AA + best-practice) of /dashboard, /employees/add and /reports found <b>critical</b> and <b>serious</b> violations on each: <span class="mono">button-name</span> (critical — a header button with no accessible name, present everywhere); <span class="mono">link-name</span> (serious ×3 — the header search / icon links have no name); <span class="mono">label</span> (critical — unlabelled form controls, e.g. the dashboard year selector and the Add-Employee "First Day of Work" date field); <span class="mono">color-contrast</span> (serious — 9 nodes on /dashboard, 14 on /reports, 25 on /employees/add, incl. the "PM" avatar chip); <span class="mono">landmark-one-main</span> + <span class="mono">region</span> (moderate — no <span class="mono">&lt;main&gt;</span>, 13–21 blocks outside any landmark); <span class="mono">heading-order</span>. Compounded by <b>BETA-F-003</b> — the RemixIcon / Bootstrap-Icons fonts fail to decode, so icon-only controls render blank <i>and</i>, being unnamed, are invisible to assistive tech.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Load <span class="mono">/dashboard</span>. In dev-tools console, inject axe-core (<span class="mono">cdnjs.cloudflare.com/ajax/libs/axe-core/4.10.2/axe.min.js</span>) and run <span class="mono">await axe.run()</span>.</li>
+          <li>Read the violations: <span class="mono">button-name</span>, <span class="mono">link-name</span>, <span class="mono">label</span>, <span class="mono">color-contrast</span>, <span class="mono">landmark-one-main</span>, <span class="mono">region</span>, <span class="mono">heading-order</span>.</li>
+          <li>Repeat on <span class="mono">/employees/add</span> and <span class="mono">/reports</span> — the same critical/serious issues recur.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> zero critical/serious axe violations — every control has an accessible name, every input a label, one <span class="mono">&lt;main&gt;</span> landmark, AA contrast throughout.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-040</span><span class="sev">Major · candidate · Phase 7</span></div>
+        <p><b>An uploaded payment document can't be downloaded.</b> After attaching a proof-of-payment PDF to a paid run (PRQ-001), the run detail shows a download link whose <span class="mono">href</span> is the URL the API itself returns (<span class="mono">GET /pay-runs/1</span> → <span class="mono">payment_documents[].url</span> = <span class="mono">/tenant/glenn_and_co/3/&lt;file&gt;.pdf</span>). Fetching that URL — authenticated or not — returns <b>HTTP 200 with <span class="mono">text/html</span> and a 5,550-byte body: the SPA index shell</b>, not the 451-byte PDF. The path is caught by the client-side router; no file handler is reachable. So "download" saves an HTML file named <span class="mono">.pdf</span>. (This also leaves <b>BETA-SEC-001</b> — is the file access-controlled? — inconclusive, since the file endpoint can't be reached to test it.)</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Open a paid run that has a payment document attached. Click the document's <b>download</b> link (opens a new tab).</li>
+          <li>The new tab shows the app booting, not a PDF. Save it and it's an HTML file.</li>
+          <li>Confirm via <span class="mono">GET /api/v1/payrollApi/pay-runs/&lt;id&gt;</span> → <span class="mono">payment_documents[].url</span>, then <span class="mono">fetch()</span> that URL: <span class="mono">content-type: text/html</span>, ~5.5 KB, starts <span class="mono">&lt;!DOCTYPE html&gt;</span>.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> the link serves the actual file (correct MIME, <span class="mono">Content-Disposition: attachment</span>), gated to users entitled to that run.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-036</span><span class="sev">Major · candidate · Phase 6</span></div>
+        <p><b>You cannot onboard an employee whose first day is today or later.</b> The Add Employee wizard's step 1 blocks a hire date with "First day of work must be <b>today or earlier</b>" (it allows <i>today</i>), but the server — on both the final wizard submit and a profile edit — rejects with "The hire date field must be a date <b>before today</b>" (it rejects <i>today</i>). Two problems: the client and server disagree on the boundary (≤ today vs &lt; today), so you fill all six steps and only fail at the end; and both rules block the real use case. This tenant's pay calendar has advanced to <b>October 2026</b> while the system clock is 9 Sept, so a new hire for the next actual payroll simply can't be entered — and mid-period new-hire proration can't be reached at all. (Also: two separate date fields for one concept — "First Day of Work" in Basic Details and "Hire date" in Compensation.)</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li><b>Employees → Add employee</b>. On step 1, set <b>First Day of Work</b> to any date after today (e.g. next week) → inline error "First day of work must be today or earlier".</li>
+          <li>Set it to <b>today's date</b> → step 1 accepts it. Fill steps 2–6 and click <b>Save Employee</b>.</li>
+          <li>A banner appears: "Hire Date: The hire date field must be a date before today." — the whole wizard is rejected at the end, with no step navigation.</li>
+          <li>Create the employee with a date <i>before</i> today. Open their profile → <b>Edit Employee</b>, change <b>First Day of Work</b> / <b>Hire date</b> to a future date → <b>Save all changes</b> → same server error.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> a future hire date is allowed (people are onboarded before they start); client and server agree on the rule; the field is validated on its own step, not only at the end; and the two hire-date fields are reconciled to one.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-033</span><span class="sev">Major · candidate · Phase 4</span></div>
+        <p><b>Config pages aren't behind the role guard.</b> A <b>Payroll Employee</b> or <b>Payroll Reports</b> user can't reach <span class="mono">/settings</span> or <span class="mono">/settings/roles</span> (both redirect to <span class="mono">/forbidden</span>), but the sibling <span class="mono">/setup/*</span> routes are not guarded the same way — <span class="mono">/setup/budgets</span>, <span class="mono">/setup/banks</span>, <span class="mono">/setup/pay-groups</span>, <span class="mono">/setup/statutory-rules</span> all render for them, complete with their <b>Create / Add / Edit</b> buttons. The Create Budget modal opens and accepts input; only the final submit is stopped, server-side, with "You do not have permission to perform this action". <span class="mono">/setup/budgets</span> also returns real data (budget name, ₵3,000,000 total) to these roles, while the other setup GETs 403 to an empty list — inconsistent. Least-privilege: a page and its actions shouldn't render for a role that can't use them.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Sign in at <span class="mono">v2.kedebahlite.com</span> as a <b>Payroll Employee</b> or <b>Payroll Reports</b> user (QA: <span class="mono">dwetornam+24</span> / <span class="mono">+25</span>) → open the <b>Payroll Manager</b> module.</li>
+          <li>Confirm the left nav shows only <b>Dashboard</b> and <b>Reports</b>.</li>
+          <li>In the address bar go to <span class="mono">/settings</span> — you land on <span class="mono">/forbidden</span> ("Access Denied"). Good.</li>
+          <li>Now go to <span class="mono">/setup/budgets</span> — the page renders, with a <b>Create Budget</b> button. Repeat for <span class="mono">/setup/banks</span>, <span class="mono">/setup/pay-groups</span>, <span class="mono">/setup/statutory-rules</span>.</li>
+          <li>On <span class="mono">/setup/budgets</span> note the real budget row is listed (name + ₵3,000,000). Click <b>Create Budget</b>, fill Name + a January amount, click <b>Create Budget</b> — only now does it fail with "You do not have permission to perform this action".</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> <span class="mono">/setup/*</span> redirects to <span class="mono">/forbidden</span> for these roles, exactly like <span class="mono">/settings</span> — the page, its data and its action buttons never render.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-034</span><span class="sev">Major · candidate · Phase 4</span></div>
+        <p><b>The compliance audit trail doesn't record intermediate approval stages.</b> The immutable Full Audit Log (advertised "read-only … 7-year retention") records <span class="mono">Submitted_for_approval</span>, <span class="mono">Rejected</span>, <span class="mono">Returned_to_previous</span>, the <b>final-stage</b> <span class="mono">Approved</span>, and <span class="mono">Paid</span> — but <b>not any non-final stage approval</b>. Confirmed twice: on Pay Run #3 the stage-1 Manager approval is absent; on Pay Run #11 (run through submit → reject → resubmit → stage-1 approve → return → stage-1 re-approve → stage-2 approve → paid) <b>both</b> stage-1 approvals are absent while the reject and the return are logged. An auditor reviewing the trail sees no evidence the first approver ever signed off. (Related: the log returned "1–25 of 25" for a wide date range — possible page cap.)</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Have a 2-stage Pay Run approval workflow active. Submit a run, approve <b>stage 1</b> as approver A, then approve <b>stage 2</b> as approver B, then Mark Paid.</li>
+          <li>Open the run's own <b>Activity History</b> — all three events (stage-1 approve, stage-2 approve, paid) are listed with the right actors.</li>
+          <li>Go to <b>Reports → Audit &amp; Compliance → Full Audit Log</b>. Set the date range wide (e.g. 2025-01-01 → 2026-12-31).</li>
+          <li>Scan the rows for that Pay Run: <span class="mono">Submitted_for_approval</span>, <span class="mono">Approved</span> (final stage only) and <span class="mono">Paid</span> appear — every <b>stage-1 approval is missing</b>. A run that was also rejected / returned shows those events but still no stage-1 approvals.</li>
+          <li>Note the footer reads "Showing 1–25 of 25" even though older activity exists in range.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> every approval stage writes its own immutable audit-trail entry (actor, stage, timestamp); the list pages rather than capping at 25.</p></div>
+      </div>
+      <div class="finding minor">
+        <div class="f-head"><span class="f-id">BETA-F-035</span><span class="sev">Minor · candidate · Phase 4</span></div>
+        <p><b>The "Approval Logs" audit tab is always empty.</b> It queries <span class="mono">/audit-trails?filter[action]=approve</span>, but approval events are stored with action <span class="mono">Approved</span> / <span class="mono">Submitted_for_approval</span>. The filter value never matches, so the tab shows "No records" even when approvals exist and are visible in the Full Audit Log.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Approve at least one pay run so approval events exist (verify them in <b>Full Audit Log</b>).</li>
+          <li>Go to <b>Reports → Audit &amp; Compliance</b> and open the <b>Approval Logs</b> tab.</li>
+          <li>Widen the date range. The table stays "No records / No audit logs match your current filter criteria".</li>
+          <li>Check the network call: <span class="mono">GET /audit-trails?…&filter[action]=approve</span> returns 200 with an empty list; the stored actions are <span class="mono">Approved</span> / <span class="mono">Submitted_for_approval</span>.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> the Approval Logs tab filters on the action values actually stored, so approvals show up.</p></div>
+      </div>
+      <div class="finding" style="opacity:.7;">
+        <div class="f-head"><span class="f-id">BETA-F-032</span><span class="sev">Withdrawn on re-test</span></div>
+        <p><b>Retracted.</b> Originally raised (Critical) as "no Approve/Reject button for the assigned approver". On a clean re-test — logged in as the assigned stage-1 approver (<span class="mono">ZZQA Manager Persona</span>), session identity confirmed in the profile menu, navigating by link clicks only — the <b>Approve and Reject buttons are present and work</b>. The run was approved through stage 1 (toast: "Payroll approved successfully. Awaiting next approval stage.") and the activity log records "ZZQA Manager Persona approved". The earlier readings were taken before the approval page finished its ~10&nbsp;s skeleton render (<b>BETA-F-002</b>) and on a session that had reverted to the Admin user via hard URL navigation. Approval-workflow enforcement is now covered by a passing spec; <b>BETA-F-031</b> (below) stands on its own.</p>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-012</span><span class="sev">Major · awaiting finance ruling</span></div>
+        <p><b>A bonus paid together with regular salary is taxed differently from a standalone bonus run.</b> The standalone Bonus Payroll run applies 5% flat on the first 15% of annual basic. When the same bonus is added to a regular run via "Add bonuses", the whole amount is folded into chargeable income and taxed at marginal PAYE — for a GH₵ 3,000 bonus the employee tax is ~GH₵ 670 vs GH₵ 150. The "Add bonuses" dialog's help text promises "5% within the annual cap". <b>Finance to confirm which treatment is correct</b> and whether the two paths should agree.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Take an employee on GH₵ 3,000/mo basic (annual 36,000; 15% cap = 5,400).</li>
+          <li><b>Baseline:</b> create a standalone <b>Bonus Payroll</b> run, GH₵ 3,000 bonus → process → bonus tax = <b>GH₵ 150.00</b> (5% flat).</li>
+          <li>Now create a <b>Regular Payroll</b> run for the same employee. On the run, use <b>Add bonuses</b> → GH₵ 3,000 → process.</li>
+          <li>Open the employee's tax breakdown: the GH₵ 3,000 is added to chargeable income and taxed at marginal PAYE — employee tax is ~GH₵ 670 higher than salary-only, not GH₵ 150.</li>
+        </ol>
+        <p class="expect"><b>Pending:</b> finance to rule on the correct treatment for a bonus paid alongside salary, and whether the standalone and combined paths must match.</p></div>
+      </div>
+      <div class="finding" style="opacity:.7;">
+        <div class="f-head"><span class="f-id">BETA-F-011</span><span class="sev">By design — not a defect</span></div>
+        <p><b>Closed.</b> Originally raised as "a period can hold two regular pay runs". <b>Confirmed intended</b> — multiple regular runs per period are supported on purpose (e.g. a supplementary or corrective run). No fix needed. The knock-on where the cost dashboard <i>double-counts</i> those runs is a separate, still-open issue — see <b>BETA-F-021</b>.</p>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-013</span><span class="sev">Major · candidate</span></div>
+        <p><b>No bank payment file.</b> PRQ-014's bank / EFT disbursement file — the one a payroll clerk hands the bank — is not available on the paid run, in Reports, or under Taxes &amp; Forms. The GRA and SSNIT filing exports are all present; the bank file is the missing third leg.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Take a pay run all the way to <b>Paid</b> with employees set to <b>Bank Transfer</b>.</li>
+          <li>On the paid run, look for a bank / EFT / ACH disbursement export — check the run detail, its Export menu, <b>Reports</b>, and <b>Taxes &amp; Forms</b>.</li>
+          <li>Only the GRA PAYE Schedule, SSNIT/pension forms and the Statutory Remittance report are available — there is no payment file to hand the bank.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> a paid run produces a bank payment file (per PRQ-014) listing payee account, sort code and net amount.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-016</span><span class="sev">Major · awaiting finance + product ruling · Phase 2</span></div>
+        <p><b>A termination run pays a full month's salary regardless of the last working day.</b> The "Last working day" field's help text says it is "used to prorate the final pay period", but a leaver dated 15 October still had the full GH₵ 3,000 basic in the processed run — no proration, no warning. <b>Finance and product to discuss</b> whether the final period should auto-prorate to the last working day, and if so, on what day-count basis.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li><b>Run Payroll → Create Pay Run → Termination</b>. Pick an employee on GH₵ 3,000/mo basic.</li>
+          <li>Set <b>Last working day</b> to the 15th of the pay month (its help text: "used to prorate the final pay period").</li>
+          <li>Add any severance amount, click <b>Calculate</b>, then process.</li>
+          <li>The basic-salary line is the <b>full GH₵ 3,000</b>, not ~GH₵ 1,500 — no proration, no warning.</li>
+        </ol>
+        <p class="expect"><b>Pending:</b> finance + product to decide whether the final period prorates to the last working day (and the day-count method), or whether the field's help text should be corrected.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-017</span><span class="sev">Major · candidate · Phase 2 · BTL #3</span></div>
+        <p><b>A deactivated employee is still paid.</b> After ZZQA AlphaOne was set to In-active (confirm dialog: "removes this employee from payroll processing"), the profile's own summary read <span class="mono">"Payroll: Excluded — employment status"</span> — yet a Regular run created afterwards projected them as "Ready" and processed a full GH₵ 3,108.12 payslip. Only generic TIN warnings surfaced; nothing flags the employee as inactive. BTL onboarding item #3 is not fixed.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Open an active employee's profile → <b>Deactivate</b> (confirm dialog says "removes this employee from payroll processing"). Their profile summary then reads "Payroll: Excluded — employment status".</li>
+          <li>Go to <b>Run Payroll → Create Pay Run → Regular</b> for the next open period.</li>
+          <li>The deactivated employee is still listed and projected as <b>Ready</b>; process the run and they get a full payslip.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> an In-active employee is excluded from new runs (not selectable, or shown as Ineligible with a clear reason).</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-019</span><span class="sev">Major · candidate · Phase 2</span></div>
+        <p><b>Termination-run statutory due dates are a month too late.</b> A termination for the October period produced PAYE due <b>Dec 15</b> and Tier 1 / Tier 2 due <b>Dec 14</b> — the same liabilities from the September regular run are correctly dated Oct 15 / Oct 14. The termination path adds two months to the period instead of one, so the org would treat an already-overdue filing as not yet due and the late-payment penalty would never fire.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Process and approve a <b>Termination</b> run for the <b>October</b> period.</li>
+          <li>Go to <b>Taxes &amp; Forms → Taxes</b> and open the liabilities it generated.</li>
+          <li>PAYE shows <b>due Dec 15</b> and Tier 1 / Tier 2 <b>due Dec 14</b>.</li>
+          <li>Compare with the same liabilities from a <b>Regular</b> October run — those are correctly <b>Oct 15 / Oct 14</b>.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> statutory due dates are the 15th / 14th of the month <i>after</i> the pay period, regardless of run type.</p></div>
+      </div>
+      <div class="finding minor">
+        <div class="f-head"><span class="f-id">BETA-F-018</span><span class="sev">Minor / Major · candidate · Phase 2</span></div>
+        <p><b>A bonus run accepts a pay date in a closed tax year.</b> Creating a Bonus Payroll with pay date 15 Jan 2025 (≈20 months in the past) was accepted with no warning — the dialog even showed "Tax year: 2025" and built the run for a Jan 2025 period. Because the 5% concession is cumulative across the tax year, a back-dated bonus corrupts that year's tracking. Regular runs are correctly locked to the open period; bonus / off-cycle / termination pay dates are free-form.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li><b>Run Payroll → Create Pay Run → Bonus</b>.</li>
+          <li>Set the <b>pay date</b> to <span class="mono">15 Jan 2025</span> (a prior, closed tax year).</li>
+          <li>The dialog accepts it — it even shows "Tax year: 2025" — and creates the run for a Jan 2025 period with no warning.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> a pay date in a closed tax year (or more than N months in the past) is rejected or at least warns, for every run type — because the 5% bonus concession is tracked cumulatively per tax year.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-021</span><span class="sev">Major · candidate · Phase 3</span></div>
+        <p><b>The cost dashboard counts unpaid drafts.</b> With a primary budget in place, "Budget vs Actual" reported <b>Actual YTD GH₵ 1,202,190</b> against roughly <b>GH₵ 18k</b> of genuinely paid 2026 runs. It sums every <i>Processed</i> pay run — including the three duplicate, unpaid "Regular Payroll · October 2026" drafts (~GH₵ 292k employer cost each). "Employer Cost by Tier" and "Payroll Cost Summary" are inflated the same way. A cost figure should reflect committed (Approved / Paid) spend and de-duplicate correctly — multiple runs per period are legitimate (BETA-F-011), so the dashboard must sum <i>paid</i> amounts rather than every Processed draft.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Create a primary org-wide budget (<b>Settings → Budgets</b>).</li>
+          <li>Create several <b>Regular</b> runs for the same future period and <b>process</b> them (don't pay) — as allowed by BETA-F-011.</li>
+          <li>Open the <b>Dashboard</b>. "Budget vs Actual → Actual YTD", "Employer Cost by Tier" and "Payroll Cost Summary" all include those unpaid Processed drafts — Actual YTD is many times the value of the genuinely paid runs.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> cost widgets count only committed spend (Approved / Paid) and de-duplicate per period.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-024</span><span class="sev">Major · candidate · Phase 3</span></div>
+        <p><b>The Payroll Summary Report understates take-home pay.</b> Its "Net Pay" line subtracts the full Tier 1 (GH₵ 1,080 = employee 440 + <i>employer</i> 640) and Tier 2 (GH₵ 400, employer-only) from gross, giving GH₵ 5,228.37 ("65.35% of Gross"). Employee net pay for the same Sept run is GH₵ 6,268.37 — and the report's own Excel export footer says exactly that. The report is internally inconsistent, and its "Total Statutory Deductions" overstates the employee figure by the GH₵ 1,040 of employer contributions.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Have a paid September run (single employee on GH₵ 8,000 gross is enough).</li>
+          <li><b>Reports → Payroll Summary Report</b>. Period = September, scope = All Employees → <b>Generate Report</b>.</li>
+          <li>"Net Pay" shows <b>GH₵ 5,228.37 (65.35% of Gross)</b> and "Total Statutory Deductions" = GH₵ 2,771.63 (includes Tier 1 <i>employer</i> 640 + Tier 2 employer 400).</li>
+          <li>Compare with the employee's actual net on the pay run / payslip: <b>GH₵ 6,268.37</b>. Export the report to Excel — its own footer says 6,268.37.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> "Net Pay" = gross − employee-side deductions only (PAYE + employee SSNIT); employer contributions are an employer-cost line, not a deduction from take-home.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-025</span><span class="sev">Major · candidate · Phase 3</span></div>
+        <p><b>Period reports drop the off-cycle run.</b> The Payroll Summary, PAYE Reconciliation and Variance reports for September show gross GH₵ 8,000 and PAYE GH₵ 1,291.63 — the regular run only. The paid off-cycle run (GH₵ 1,000, PAYE 65.75) is missing, so a September summary understates cost by that amount. The Annual and Year-End reports <i>do</i> include it, and the GRA PAYE Schedule aggregates it correctly.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>For one month, pay <b>both</b> a Regular run and an Off-Cycle run (e.g. Sept: regular GH₵ 8,000 / PAYE 1,291.63, off-cycle GH₵ 1,000 / PAYE 65.75).</li>
+          <li><b>Reports → Payroll Summary Report</b> (also PAYE Reconciliation, Variance) for September → Generate.</li>
+          <li>Gross shows <b>8,000</b> and PAYE <b>1,291.63</b> — the off-cycle GH₵ 1,000 / 65.75 is missing.</li>
+          <li>Run the <b>Annual Payroll Report</b> and the <b>GRA PAYE Schedule</b> for the same period — those include the off-cycle amount.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> every period report sums all paid runs whose pay date falls in that period, regardless of run type.</p></div>
+      </div>
+      <div class="finding minor">
+        <div class="f-head"><span class="f-id">BETA-F-026</span><span class="sev">Minor / Major · candidate · Phase 3</span></div>
+        <p><b>PAYE reconciliation reports don't reconcile.</b> The PAYE Annual Reconciliation and Year-End Tax Filing reports leave benefits-in-kind out of "Chargeable Income" (GH₵ 7,560 / 16,395) while the PAYE figure they show is computed <i>with</i> the BIK in the base (GH₵ 8,060 / 16,895). The chargeable amount on the page does not produce the tax on the page.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Pay an employee who has a <b>benefit-in-kind</b> assigned (e.g. GH₵ 500 BIK on top of GH₵ 5,000 basic).</li>
+          <li><b>Reports → PAYE Annual Reconciliation</b> (and Year-End Tax Filing) → Generate.</li>
+          <li>Read "Chargeable Income" (e.g. GH₵ 7,560) and the "PAYE" figure on the same row.</li>
+          <li>Recompute PAYE from the shown chargeable income — it doesn't match; the PAYE was calculated with the BIK <i>included</i> in the base (chargeable ≈ 8,060), which the report doesn't show.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> "Chargeable Income" on the report is the exact base the displayed PAYE was computed from (BIK included).</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-028</span><span class="sev">Major · candidate · Phase 3c</span></div>
+        <p><b>The organisation has no Employer TIN or SSNIT number, yet setup reads "Completed".</b> Organization Setup shows both "Employer TIN" (its own help text: "Used on the GRA PAYE schedule header") and "Employer SSNIT Number" ("Used for SSNIT contribution filings") blank, and neither is marked required. The Settings hub still says "Payroll setup completed", so the GRA PAYE schedule and SSNIT returns are produced without the mandatory employer identifiers — while a <i>missing employee</i> TIN raises a soft warning on every run.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li><b>Settings → Organization Setup</b>. Wait out the skeleton load (BETA-F-002).</li>
+          <li>The <b>Employer Tax Identification Number</b> and <b>Employer SSNIT Number</b> fields are blank and not marked required.</li>
+          <li>Go back to the <b>Settings</b> hub — it still shows "Payroll setup completed" and the Organization Setup card reads "Completed".</li>
+          <li>Generate the <b>GRA PAYE Schedule</b> — its header is produced with no employer TIN.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> Employer TIN + SSNIT number are required before Organization Setup can be "Completed" / before statutory exports are allowed.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-031</span><span class="sev">Major · candidate · Phase 3c</span></div>
+        <p><b>An active approval workflow can't be deactivated or edited while it has a run in flight.</b> Deactivating it (<span class="mono">POST …/status</span>) and editing its stages/approvers (<span class="mono">POST …/approval-workflows/1</span>) both return a bare HTTP 500 — no message, the card stays "Active" — for <i>every</i> role including the org owner, and <i>even after</i> the first stage is approved. A submitted run also has no recall or withdraw. This nearly stranded "ZZQA Bonus Test Sep 2026": stage 2 was assigned to a persona whose invitation hadn't been completed, the org admin couldn't approve it or re-point the stage, and there is no admin "reset password / resend invitation" on the user page — the run only completed once that persona's invite was finished out-of-band. The approval path itself is sound (both stages approved, run reached Paid); the defect is that a misconfigured active workflow has no safe escape hatch.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li><b>Settings → Approval Workflows → Pay Run Approval Workflow</b>. Build 2 stages, assign approvers, <b>Activate</b>.</li>
+          <li>Submit any pay run for approval (it's now mid-workflow).</li>
+          <li>Back on the workflow card, click <b>Deactivate</b> → toast never appears, card stays "Active"; network shows <span class="mono">POST /approval-workflows/1/status</span> → <b>500</b>.</li>
+          <li>Open the workflow editor, change an approver, <b>Save Workflow</b> → <span class="mono">POST /approval-workflows/1</span> → <b>500</b>, stays on the Summary step. Same result as the org owner, and after stage 1 is approved.</li>
+          <li>On the submitted run, look for a recall / withdraw action — there is none.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> an active workflow can be edited or deactivated with a clear rule for in-flight runs (block with a message, or apply to new runs only), and a submitter can withdraw a run that hasn't been approved yet.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-029</span><span class="sev">Major · candidate · Phase 3c</span></div>
+        <p><b>The "Add User" wizard ignores the role you pick.</b> Step 2 of the wizard lets you tick roles "applied immediately when the account is created" — but every user created this way lands with <span class="mono">Roles: 0 / No roles</span>. The role only attaches when set afterwards from Roles → the role → Manage Users. A new hire created through the wizard has no access until someone notices and fixes it.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li><b>Settings → Users → Add User</b>. Fill name / email / phone.</li>
+          <li>On step 2, <b>tick a role</b> ("applied immediately when the account is created").</li>
+          <li>Finish the wizard, then open the new user's detail — <b>Roles: 0 / No roles</b>.</li>
+          <li>Attach it manually via <b>Roles → the role → Manage Users → check the user → Save</b> — that path works.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> the role ticked in the wizard is attached when the user is created.</p></div>
+      </div>
+      <div class="finding minor">
+        <div class="f-head"><span class="f-id">BETA-F-030</span><span class="sev">Minor · Phase 3c</span></div>
+        <p>Right after "Add User" the wizard navigates to <span class="mono">/settings/users/576</span> — a nonexistent id — and the page 404s (<span class="mono">No query results for model User 576</span>). The user was really created with id 2–5; the redirect just uses the wrong number.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li><b>Settings → Users → Add User</b> and complete the wizard.</li>
+          <li>On finish it redirects to <span class="mono">/settings/users/576</span>, which shows "No query results for model User 576".</li>
+          <li>Go back to <b>Users</b> — the account is there, with a real id (2–5).</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> the wizard redirects to the newly-created user's actual detail page.</p></div>
+      </div>
+      <div class="finding minor">
+        <div class="f-head"><span class="f-id">BETA-F-020</span><span class="sev">Minor / Major · candidate · Phase 3</span></div>
+        <p><b>"Recalculate" doesn't re-pull benefit assignments.</b> A benefit newly assigned to an employee already in a Processed run does not appear after Recalculate — the confirm text promises "fresh results based on current employee data … tax profiles, statutory enrollments, salary", and benefit / deduction assignments are silently not in that list. A fresh run for the same period does include it. An approver who fixes a benefit and re-calculates believes the run is current when it is not.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Create and <b>process</b> a Regular run that includes employee X.</li>
+          <li>Now assign a new <b>benefit</b> to employee X from their profile.</li>
+          <li>Back on the processed run, click <b>Recalculate</b> (confirm text: "fresh results based on current employee data … tax profiles, statutory enrollments, salary").</li>
+          <li>Employee X's gross / net is unchanged — the new benefit isn't picked up. Create a fresh run for the same period and it <i>is</i> included.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> Recalculate re-pulls benefit and deduction assignments too, or the confirm text says it won't.</p></div>
+      </div>
+      <div class="finding note">
+        <div class="f-head"><span class="f-id">BETA-F-023</span><span class="sev">Note · Phase 3</span></div>
+        <p><b>Overtime gets no concessionary tax.</b> Overtime entered via an "Overtime"-type benefit is folded into chargeable income and taxed at full marginal PAYE — the Ghana junior-staff overtime relief (5% up to 50% of basic, 10% above) is never applied. The "Overtime Tax (Junior)" engine has no active rate (BETA-F-001) and there is no employee junior/senior designation to gate the relief. The arithmetic is correct <i>for the "ordinary income" interpretation</i>; whether that is the right treatment is a compliance question.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Create a benefit of <b>Type = Overtime</b> and assign it to a lower-paid employee.</li>
+          <li>Run a Regular payroll that includes them; process it.</li>
+          <li>Open the tax breakdown — the overtime amount is added to chargeable income and taxed at the employee's marginal PAYE rate; no 5% / 10% concessionary line appears.</li>
+          <li>Cross-check <b>Settings → Tax &amp; Statutory → "Overtime Tax (Junior)"</b> — it shows "No active rate" (BETA-F-001), and there is no junior/senior field on the employee.</li>
+        </ol>
+        <p class="expect"><b>Expected (pending compliance ruling):</b> for a qualifying junior employee, overtime up to 50% of basic is taxed at 5% and the excess at 10%.</p></div>
+      </div>
+      <div class="finding note">
+        <div class="f-head"><span class="f-id">BETA-F-022</span><span class="sev">Minor · Phase 3</span></div>
+        <p>An uncaught <span class="mono">TypeError: Cannot read properties of undefined (reading 'org')</span> fires during dashboard / benefits render. The page still paints — the framework swallows it — but it points to an unguarded access to an org object.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Open dev-tools console.</li>
+          <li>Load the <b>Dashboard</b> (or the Benefits screen) from cold.</li>
+          <li>Watch for <span class="mono">TypeError: Cannot read properties of undefined (reading 'org')</span> during render.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> no uncaught exceptions on a normal page load.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-001</span><span class="sev">Major · candidate</span></div>
+        <p>Three mandatory / automatic statutory items — Overtime Tax (Junior), Pension Excess, Tier 3 — show <b>"No active rate"</b> on a tenant the setup wizard reports as complete. Payroll runs anyway; those items would silently compute at 0%. Real impact unconfirmed (this run had no overtime or bonus).</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li><b>Settings → Tax &amp; Statutory Configuration → Statutory Items</b>.</li>
+          <li>Look at <b>Overtime Tax (Junior)</b>, <b>Pension Excess</b>, and <b>Tier 3</b> — each shows <b>"No active rate"</b>.</li>
+          <li>Go back to the <b>Settings</b> hub — "Tax &amp; Statutory Setup" is marked "Completed" and payroll runs are allowed.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> mandatory/automatic statutory engines have an active rate before setup is "Completed", or the run warns when one would compute at 0%.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-002</span><span class="sev">Major · candidate</span></div>
+        <p>Every module and settings page renders skeleton loaders for <b>8–30 seconds</b> on cold load. Consistent and reproducible.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Sign in and open the Payroll Manager module.</li>
+          <li>Navigate to any settings / setup page (e.g. <b>Settings → Organization Setup</b>, or the approval page for a run).</li>
+          <li>Time from route change to real content — it's routinely 8–30 s of skeleton placeholders. Hard-refresh to repeat.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> content-ready within ~2–3 s; skeletons for a second or two at most.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-003</span><span class="sev">Major · candidate</span></div>
+        <p>Bootstrap-Icons and RemixIcon web fonts <b>fail to load app-wide</b> (<span class="mono">OTS parsing error</span>, decode failures). Nav icons, button glyphs and status icons render blank; many icon-only controls have <b>no accessible name</b>. ~100 font errors per session.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Open dev-tools (Console + Network) and load any authenticated payroll page.</li>
+          <li>Console fills with <span class="mono">OTS parsing error</span> / font decode failures for Bootstrap-Icons and RemixIcon (~100 per session).</li>
+          <li>Visually: left-nav icons, button glyphs and status chips render as blank boxes or nothing.</li>
+          <li>Tab through the header — several icon-only controls announce no name to a screen reader.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> icon fonts load; every icon-only control has an <span class="mono">aria-label</span> / accessible name.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-007</span><span class="sev">Major · candidate</span></div>
+        <p>An employee whose <b>employment type is "Board"</b> is taxed as a regular employee — full graduated PAYE plus employee and employer SSNIT — unless someone separately applies the "Ghana Board Member" tax preset. Nothing warns that a Board member is being taxed the wrong way. (Confirms the earlier "employment type not wired to the tax engine" concern.)</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Add an employee with <b>Employment type = Board</b> and a salary, without applying the "Ghana Board Member" tax preset.</li>
+          <li>Include them in a Regular run and process it.</li>
+          <li>Their tax = full graduated PAYE + employee &amp; employer SSNIT — the same as an ordinary employee — not the flat 20% board-member withholding.</li>
+          <li>No warning appears that the employment type isn't matched to a tax treatment.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> employment type drives (or at least prompts for) the correct tax preset; a Board member defaults to the 20% board rate or the run flags the mismatch.</p></div>
+      </div>
+      <div class="finding major">
+        <div class="f-head"><span class="f-id">BETA-F-008</span><span class="sev">Major · candidate</span></div>
+        <p>The <b>active pay-run list hides valid runs.</b> Its pay-date filter defaults to a window ending today, so a processed-but-unpaid run with a normal future pay date disappears and the tab reads <span class="mono">"No Active Payrolls — you don't have any payrolls in draft or approved status."</span> Clearing the filter brings it back.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Create a Regular run whose <b>pay date is in the future</b> (e.g. end of next month) and process it — don't pay.</li>
+          <li>Go to <b>Run Payroll</b> and stay on the default (Active) tab.</li>
+          <li>The tab reads "No Active Payrolls — you don't have any payrolls in draft or approved status", even though the run exists.</li>
+          <li>Open <b>Filters</b> and clear the "Pay date to" value → the run reappears.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> the Active tab shows all non-paid runs regardless of pay date; the default date filter doesn't hide draft/approved runs.</p></div>
+      </div>
+      <div class="finding minor">
+        <div class="f-head"><span class="f-id">BETA-F-006</span><span class="sev">Minor</span></div>
+        <p>The downloaded payslip <b>PDF</b> omits the employer SSNIT contribution, which PRQ-011's acceptance criteria call for. The in-app payslip modal does show it.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Open a paid run → an employee → <b>view payslip</b>. The in-app modal shows the employer SSNIT line.</li>
+          <li>Click <b>Download</b> and open the PDF.</li>
+          <li>The employer SSNIT contribution line is not in the PDF.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> the PDF payslip carries the same employer-contribution detail as the in-app view (PRQ-011).</p></div>
+      </div>
+      <div class="finding minor">
+        <div class="f-head"><span class="f-id">BETA-F-004</span><span class="sev">Minor</span></div>
+        <p>The Tier 1 config panel exposes only the combined 13.5% — an admin cannot verify the employee / employer split from Settings.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li><b>Settings → Tax &amp; Statutory Configuration</b> → open the <b>Tier 1</b> / SSNIT item.</li>
+          <li>Only the combined <b>13.5%</b> is shown — there is no employee 5.5% / employer 8% breakdown.</li>
+          <li>The split is only visible via <b>Reports → "Statutory &amp; tax configuration history"</b>.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> the config panel shows the EE / ER split it actually applies.</p></div>
+      </div>
+      <div class="finding minor">
+        <div class="f-head"><span class="f-id">BETA-F-009</span><span class="sev">Minor · copy</span></div>
+        <p>A rejected salary value (negative or zero) reports "Base salary amount <b>is required</b>" rather than a range message; the "Bank and branch are required" error renders three times under one field group.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li><b>Employees → Add Employee</b>. In the compensation step enter a base salary of <span class="mono">0</span> or <span class="mono">-1000</span> → the error says "is required" (not "must be greater than 0").</li>
+          <li>In the payment step, choose <b>Bank Transfer</b> and leave bank / branch / account blank → submit. "Bank and branch are required" renders three times under the one field group.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> a value-range message for out-of-range salary; each validation error shown once.</p></div>
+      </div>
+      <div class="finding minor">
+        <div class="f-head"><span class="f-id">BETA-F-010</span><span class="sev">Minor</span></div>
+        <p>A negative per-employee bonus override (e.g. −500) is silently ignored — the row keeps its default amount with no error, so the user isn't told their entry was rejected.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Create a <b>Bonus Payroll</b> run with a default per-employee amount.</li>
+          <li>On one employee row, override the amount to <span class="mono">-500</span> and move focus away.</li>
+          <li>The row silently snaps back to the default — no inline error, no toast.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> a rejected override shows an inline error explaining why.</p></div>
+      </div>
+      <div class="finding note">
+        <div class="f-head"><span class="f-id">BTL-#2</span><span class="sev">Not built</span></div>
+        <p>There is <b>no way to delete or discard a payroll draft</b> — neither the list card nor the run detail offers it. Rejecting a submitted run only returns it to Processed. This matches the item still being on the backlog.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Create a Regular run (Draft or Processed).</li>
+          <li>Look for a delete / discard / cancel action — on the run list card, and on the run detail page.</li>
+          <li>None exists. Submitting then Rejecting only moves it back to Processed.</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> a draft / processed run can be deleted or cancelled (BTL onboarding #2).</p></div>
+      </div>
+      <div class="finding note">
+        <div class="f-head"><span class="f-id">BETA-SEC-001</span><span class="sev">To verify</span></div>
+        <p>The payment-document download link is a predictable tenant-scoped path (<span class="mono">/tenant/glenn_and_co/3/&lt;file&gt;</span>). A direct fetch returns the SPA shell rather than the file, so authorisation could not be judged from outside — re-test by capturing the real download request in an unauthenticated session.</p>
+        <div class="repro"><span class="repro-label">Repro (to complete)</span><ol>
+          <li>As an authed user, on a paid run with an attached payment document, open dev-tools Network and click <b>Download</b>. Copy the actual file request URL (and note any auth header / signed-token query param).</li>
+          <li>In a fresh <b>incognito</b> window (not signed in), request that exact URL.</li>
+          <li>Record the response: the file bytes (vuln), a 401/403 (safe), or a redirect to login.</li>
+          <li>Repeat with a signed-in user from a <i>different tenant</i> and with an incremented id in the path (IDOR).</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> the document is only served to authenticated users entitled to that tenant / run.</p></div>
+      </div>
+      <div class="finding note">
+        <div class="f-head"><span class="f-id">BETA-F-005</span><span class="sev">Trivial</span></div>
+        <p>Two CSS bundles are preloaded but reported "not used within a few seconds" — a preload misconfiguration.</p>
+        <div class="repro"><span class="repro-label">Repro</span><ol>
+          <li>Load any authenticated page with the dev-tools Console open.</li>
+          <li>See the browser warning: two <span class="mono">&lt;link rel="preload"&gt;</span> CSS resources "not used within a few seconds".</li>
+        </ol>
+        <p class="expect"><b>Expected:</b> preloaded resources are actually consumed on that page, or the preload hints are removed.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="data">
+    <h2 id="data">Test data left on the tenant</h2>
+    <ul class="clean">
+      <li><b>Employee "ZZQA AlphaOne"</b> (<span class="mono">ZZQA-001</span>) — Full-time, GH₵ 3,000/mo, Cash. QA fixture.</li>
+      <li><b>Employee "ZZQA HighEarner"</b> (<span class="mono">ZZQA-HI1</span>) — Board, GH₵ 250,000/mo, Cash. Boundary fixture for the top PAYE bands.</li>
+      <li><b>Employee "ZZQA MidHire"</b> (<span class="mono">ZZQA-MH1</span>, id 6) — Full-time, Cash, hire date 5 Sept 2026, no TIN. Base salary now <b>GH₵ 3,450</b> (was 3,100 → 3,250 via an earlier bulk round → 3,450 via Salary Adjustment #2 "ZZQA Comp History Test", +₵200, applied 10 Sept).</li>
+      <li><b>Salary Adjustment #2 "ZZQA Comp History Test"</b> — <b>Applied</b>. ZZQA MidHire, +GH₵ 200 fixed, effective 10 Sept 2026. Left as evidence for the Compensation Change History capture test. Adjustment #1 "ZZQA Bulk Salary Test" remains a Draft.</li>
+      <li><b>Pay run "Regular Payroll · September 2026"</b> — <b>Paid</b>. Its Sept PAYE liability was walked to <b>Completed</b> and the GRA PAYE Schedule (Sept) <b>Marked as Filed</b> during the tax-lifecycle test.</li>
+      <li><b>"ZZQA Off-Cycle Test"</b> (run 5) — <b>Paid</b>, ZZQA AlphaOne, GH₵ 1,000 one-time, net 934.25.</li>
+      <li><b>"ZZQA Termination Test Oct 2026"</b> (run 6) — <b>Paid</b>, ZZQA AlphaOne, severance GH₵ 5,000, net 6,277.75. AlphaOne was deactivated then <b>re-activated</b> after the BTL #3 check.</li>
+      <li><b>Stranded drafts</b> (none can be deleted — BTL #2): four "Regular Payroll · October 2026" runs (2, 4, 7, 9 — all Processed; 9 carries the overtime test), "ZZQA Backdate Test" (bonus/8, pay date Jan 2025 — BETA-F-018 evidence), "ZZQA PAYE Band-Edge Test" (off-cycle/12, Draft — one-time GH₵ 1,000.57 after the band-edge sweep), "Regular Payroll · October 2026" (run 13, Processed — includes ZZQA MidHire), and three Processed bonus/off-cycle drafts from the calc-boundary sweep: off-cycle 12 (negative-net, blocked), bonus 14 (AlphaOne 5,400), bonus 15 (MidHire 5,580).</li>
+      <li><b>Catalog:</b> benefits <span class="mono">BEN-0001</span> "ZZQA Transport Allowance" (GH₵ 800) and <span class="mono">BEN-0002</span> "ZZQA Overtime Pay" (Type Overtime, GH₵ 1,000), both assigned to ZZQA AlphaOne. Budget "ZZQA FY2026 Payroll Budget" (org-wide, GH₵ 3,000,000, primary). Pay group "ZZQA Test Pay Group" (ZZQA HighEarner as its only member). Role "ZZQA Test Role" (3 permissions, 0 users).</li>
+      <li><b>Users:</b> 4 QA personas (dwetornam+23…26) roled Manager / Employee / Reports / Admin. Passwords are set for +23 (Manager), +24 (Employee), +25 (Reports) and held in the automation <span class="mono">.env</span>; +26 (Admin) has no credential yet. The QA Manager persona also has a linked staff record.</li>
+      <li><b>Approval:</b> the Pay Run Approval Workflow is <b>Active</b> (2 stages: Manager Review → Admin Sign-off). Two runs taken fully through it to <b>Paid</b>: <b>"ZZQA Bonus Test Sep 2026"</b> (GH₵ 10,009.63) and <b>"ZZQA Workflow Reject-Return Test"</b> (off-cycle, GH₵ 499.50 — this one via a stage-1 reject, then a stage-2 return-to-previous, then re-approval). Journal posting declined at the final step both times (finance mapping incomplete). The workflow stays Active for later runs; BETA-F-031 (can't edit/deactivate it while it has history) is unchanged.</li>
+      <li><b>Employees:</b> ZZQA AlphaOne (<span class="mono">ZZQA-001</span>, GH₵ 3,000, Active) and ZZQA HighEarner (<span class="mono">ZZQA-HI1</span>, Board, GH₵ 250,000, Active). The tenant's pay calendar has advanced to October 2026.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="gaps" id="gaps">
+    <h2>Not yet tested</h2>
+    <div class="gap-panel">
+      <p style="margin:0; max-width:66ch;">About a fifth of the full product surface is still open. Day-to-day payroll is now thoroughly covered — the remaining work is the <b>non-functional sweep</b> (a11y, performance, concurrency, security), <b>penalties</b> (needs an overdue liability), a handful of items <b>blocked by their own defects</b> (mid-period proration, delete-draft, the bank file), the last few <b>Reports</b> and <b>approval-workflow</b> corners, and a <b>dev ruling</b> on the candidate defects before a regression re-run.</p>
+      <div class="gap-grid">
+        <div>
+          <h4>Per-role access (mostly done)</h4>
+          <ul>
+            <li>All 4 personas exercised live — nav, route guards, write-blocks</li>
+            <li><b>Blocked (BETA-F-046):</b> user switch doesn't reset the Payroll session, so a Reports persona can't be isolated for the Compensation Change History PII drill-down</li>
+            <li>Left: does an Employee see <i>only their own</i> payslip anywhere, or always org-wide</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Calc edge / boundary (needs specific data)</h4>
+          <ul>
+            <li>Mid-period new-hire proration — <b>blocked</b> by BETA-F-036 (can't set a current-period hire date)</li>
+            <li>Benefit value at or above salary</li>
+            <li>Junior-staff overtime 5% / 10% concession (BETA-F-001 / F-023)</li>
+            <li>Exhausted-allowance bonus excess — confirm the flat-25% basis with dev</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Lifecycle &amp; workflow paths</h4>
+          <ul>
+            <li>Termination run through the 2-stage workflow (bonus &amp; off-cycle done)</li>
+            <li>Unlock-after-approval path</li>
+            <li>A stage with a Role / Position / Department approver (only User-type tested)</li>
+            <li>The other 6 approval-workflow entities (Employee, Tax Form, Benefit, Deduction, Org Settings, Loan/Advance) — all still Inactive</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Non-functional (mostly done)</h4>
+          <ul>
+            <li>Perf (BETA-F-037), responsive (BETA-F-038), axe (BETA-F-039), stale-tab concurrency, unauth API auth — all covered</li>
+            <li>Left: cross-tenant IDOR (token forgery), a keyboard-only nav pass, and the payment-doc file handler once BETA-F-040 is fixed</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Needs a scenario / more data</h4>
+          <ul>
+            <li>Overdue liability → penalty auto-apply + waiver approval (PRQ-009) — page structure verified; no overdue liability or backdated run available to trigger one</li>
+            <li>Leave &amp; Attendance Payroll Impact — schemas verified, need a leave/OT scenario driven through a pay run to populate them</li>
+            <li>Compensation Change History — <b>done</b> (Salary Adjustment captured with full lineage)</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Blocked / parked</h4>
+          <ul>
+            <li>Delete payroll draft (BTL #2) · Bank / EFT file (BETA-F-013) — not built</li>
+            <li>BETA-F-031 fix verification (workflow edit / deactivate 500)</li>
+            <li>38 candidate defects need a dev ruling, then a regression re-run</li>
+            <li>Leave ↔ payroll (PRQ-004) · Attendance (PRQ-005) · Loan from PIM (PRQ-010) · 3rd-party tax import (PRQ-002)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="specs" id="specs">
+    <h2>Kept as regression</h2>
+    <p>Every case above is a permanent Playwright spec under <span class="mono">automation/tests/browser/beta/</span> (17 files, ~80 tests), guarded on a beta-config flag — the mutation-heavy Phase 2 / 3 specs also need <span class="mono">BETA_ALLOW_MUTATION=1</span> — and mapped one-to-one in <span class="mono">reports/BETA-REGRESSION-INDEX.md</span>. The specs that pin current behaviour — F-008 (list filter), F-013 (bank file), F-016 (termination proration — pending a finance/product ruling), F-017 (inactive employee in run), F-018 (bonus back-date), F-020 (recalculate), F-024 / F-025 (Payroll Summary), F-026 (PAYE reconciliation), F-028 (Employer TIN), F-029 (wizard roles), F-031 (approval workflow lock), F-033 (setup route guard), F-036 (future hire date), F-037 (perf), F-038 (responsive), F-039 (a11y), F-041 (profile salary no-op), F-046 (session not reset on user switch), BTL #2 (delete draft), and F-012 (combined bonus — pending a finance ruling) — are written to <b>flip green when the behaviour changes</b>, with no edit. Passing specs cover the approval workflow end-to-end, the Employee / Reports RBAC surface, Compensation Change History capture, report date-range validation, and unauthenticated-API rejection.</p>
+  </section>
+
+  <footer>
+    <p>Full detail and evidence:</p>
+    <p class="mono">
+      reports/BETA-01-feasibility-map.md &nbsp;·&nbsp;
+      reports/BETA-02-phase0-config-audit.md &nbsp;·&nbsp;
+      reports/BETA-03-phase1-lifecycle-and-calc.md &nbsp;·&nbsp;
+      reports/BETA-04-phase1b-negative-boundary-edge.md &nbsp;·&nbsp;
+      reports/BETA-REGRESSION-INDEX.md &nbsp;·&nbsp;
+      evidence/beta/ledger.ndjson (180 checks) &nbsp;·&nbsp;
+      evidence/beta/*.png · *.xlsx · payslip *.pdf
+    </p>
+  </footer>
+
+</div>

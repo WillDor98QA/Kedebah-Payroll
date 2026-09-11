@@ -1,0 +1,308 @@
+- generic [active] [ref=f26e1]:
+  - generic [ref=f26e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f26e6]:
+      - generic [ref=f26e7]:
+        - generic [ref=f26e8]:
+          - link [ref=f26e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f26e12]
+          - generic [ref=f26e13]:
+            - textbox "Search anything here ..." [ref=f26e14]
+            - link "" [ref=f26e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f26e17]:
+          - text: 
+          - listitem [ref=f26e18]:
+            - link "" [ref=f26e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f26e21]:
+            - link "" [ref=f26e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f26e24]:
+            - link "" [ref=f26e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f26e27]:
+            - link "" [ref=f26e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f26e30]:
+            - button "" [ref=f26e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f26e33]:
+            - link "PM" [ref=f26e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f26e37]:
+      - navigation [ref=f26e40]:
+        - list [ref=f26e41]:
+          - listitem [ref=f26e42]:
+            - link " Dashboard" [ref=f26e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f26e44]: 
+              - generic [ref=f26e45]: Dashboard
+          - listitem [ref=f26e46]:
+            - generic [ref=f26e47]:
+              - link " Employees" [ref=f26e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f26e49]: 
+                - generic [ref=f26e50]: Employees
+              - button "Toggle submenu" [ref=f26e51] [cursor=pointer]:
+                - generic [ref=f26e52]: 
+          - listitem [ref=f26e53]:
+            - link " Run Payroll" [ref=f26e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f26e55]: 
+              - generic [ref=f26e56]: Run Payroll
+          - listitem [ref=f26e57]:
+            - generic [ref=f26e58]:
+              - link " Taxes & Forms" [ref=f26e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f26e60]: 
+                - generic [ref=f26e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f26e62] [cursor=pointer]:
+                - generic [ref=f26e63]: 
+          - listitem [ref=f26e64]:
+            - link " Reports" [ref=f26e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f26e66]: 
+              - generic [ref=f26e67]: Reports
+          - listitem [ref=f26e68]:
+            - link " Settings" [ref=f26e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f26e70]: 
+              - generic [ref=f26e71]: Settings
+    - generic [ref=f26e77]:
+      - generic [ref=f26e78]:
+        - generic [ref=f26e79]:
+          - generic [ref=f26e80]:
+            - heading "Regular Payroll - September 2026" [level=1] [ref=f26e81]
+            - generic [ref=f26e82]:
+              - generic [ref=f26e83]:
+                - generic [ref=f26e84]: 
+                - text: Regular Payroll
+              - generic [ref=f26e85]: Paid
+              - generic [ref=f26e86]: Approved on Sep 8, 2026Paid on Sep 8, 2026
+          - button " Back" [ref=f26e88] [cursor=pointer]:
+            - generic [ref=f26e89]: 
+            - text: Back
+        - generic [ref=f26e90]:
+          - generic [ref=f26e91]:
+            - generic [ref=f26e92]: 
+            - generic [ref=f26e93]: Sep 1, 2026 – Sep 30, 2026
+          - generic [ref=f26e94]:
+            - generic [ref=f26e95]: 
+            - text: Pay date
+            - generic [ref=f26e96]: Sep 30, 2026
+          - generic [ref=f26e97]:
+            - generic [ref=f26e98]: 
+            - generic [ref=f26e99]: "2"
+            - text: employees
+          - generic [ref=f26e100]:
+            - generic [ref=f26e101]: 
+            - text: Net pay
+            - generic [ref=f26e102]: ₵ 6,268.37
+          - generic [ref=f26e103]:
+            - generic [ref=f26e104]: 
+            - text: Employer cost
+            - generic [ref=f26e105]: ₵ 9,040.00
+      - generic [ref=f26e106]:
+        - generic [ref=f26e107]:
+          - heading "Payment Documents" [level=3] [ref=f26e108]
+          - button " Upload Document" [ref=f26e109] [cursor=pointer]:
+            - generic [ref=f26e110]: 
+            - text: Upload Document
+        - generic [ref=f26e112]:
+          - generic [ref=f26e113]:
+            - generic [ref=f26e114]: 
+            - generic [ref=f26e115]:
+              - paragraph [ref=f26e116]: zzqa-bank-confirmation.pdf
+              - paragraph [ref=f26e117]: 451 B · Sep 8, 2026
+          - generic [ref=f26e118]:
+            - link "" [ref=f26e119] [cursor=pointer]:
+              - /url: https://v2payroll.kedebahlite.com/tenant/glenn_and_co/3/zzqa-bank-confirmation.pdf
+            - button "" [ref=f26e121] [cursor=pointer]
+      - generic [ref=f26e123]:
+        - button " Needs attention " [expanded] [ref=f26e124] [cursor=pointer]:
+          - generic [ref=f26e125]: 
+          - generic [ref=f26e126]: Needs attention
+          - generic [ref=f26e127]: 
+        - generic [ref=f26e130]:
+          - generic [ref=f26e131]:
+            - generic [ref=f26e132]: 
+            - generic [ref=f26e133]:
+              - paragraph [ref=f26e134]: Tax Safeguards
+              - paragraph [ref=f26e135]: 0 hard blockers and 0 unacknowledged warnings. Fix blockers and re-process; acknowledge soft warnings from the approval page.
+          - button " View safeguards (1)" [ref=f26e137] [cursor=pointer]:
+            - generic [ref=f26e138]: 
+            - text: View safeguards (1)
+      - generic [ref=f26e139]:
+        - heading "Overview" [level=2] [ref=f26e140]
+        - generic [ref=f26e141]:
+          - generic [ref=f26e142]:
+            - paragraph [ref=f26e143]: Period
+            - paragraph [ref=f26e144]: Sep 1, 2026 – Sep 30, 2026
+          - generic [ref=f26e145]:
+            - paragraph [ref=f26e146]: Pay date
+            - paragraph [ref=f26e147]: Sep 30, 2026
+          - generic [ref=f26e148]:
+            - paragraph [ref=f26e149]: Employees
+            - paragraph [ref=f26e150]: "2"
+          - generic [ref=f26e151]:
+            - paragraph [ref=f26e152]: Net pay
+            - paragraph [ref=f26e153]: ₵ 6,268.37
+          - generic [ref=f26e154]:
+            - paragraph [ref=f26e155]: Employer cost
+            - paragraph [ref=f26e156]: ₵ 9,040.00
+        - heading "Payroll cost & breakdown" [level=3] [ref=f26e157]
+        - generic [ref=f26e158]:
+          - generic [ref=f26e159]:
+            - generic [ref=f26e160]: Net pay to employees
+            - generic [ref=f26e161]:
+              - generic [ref=f26e162]: Gross pay (cash)
+              - generic [ref=f26e163]: ₵ 8,000.00
+            - generic [ref=f26e164]:
+              - generic [ref=f26e165]: − Statutory — Tax & Pension (Employee)
+              - generic [ref=f26e166]: ₵ 1,731.63
+            - generic [ref=f26e167]:
+              - generic [ref=f26e168]: − Deductions
+              - generic [ref=f26e169]: ₵ 0.00
+            - generic [ref=f26e170]:
+              - generic [ref=f26e171]: = Net pay
+              - generic [ref=f26e172]: ₵ 6,268.37
+          - generic [ref=f26e173]:
+            - generic [ref=f26e174]: Cost to employer
+            - generic [ref=f26e175]:
+              - generic [ref=f26e176]: Gross pay (cash)
+              - generic [ref=f26e177]: ₵ 8,000.00
+            - generic [ref=f26e178]:
+              - generic [ref=f26e179]: + Employer contributions (pension / SSNIT)
+              - generic [ref=f26e180]: ₵ 1,040.00
+            - generic [ref=f26e181]:
+              - generic [ref=f26e182]: = Total employer cost
+              - generic [ref=f26e183]: ₵ 9,040.00
+        - generic [ref=f26e184]:
+          - generic [ref=f26e185]:
+            - generic [ref=f26e186]: Benefits (Cash) — included in gross pay
+            - generic [ref=f26e187]: ₵ 0.00
+          - generic [ref=f26e188]:
+            - generic [ref=f26e189]:
+              - text: Benefits in Kind (non-cash)
+              - paragraph [ref=f26e190]: Taxable value — not paid in cash, not part of net pay or employer cash cost.
+            - generic [ref=f26e191]: ₵ 500.00
+      - generic [ref=f26e193]:
+        - button "Employee Summary" [ref=f26e194] [cursor=pointer]
+        - button "Tax Summary" [ref=f26e195] [cursor=pointer]
+        - button "Benefits & Deductions Summary" [ref=f26e196] [cursor=pointer]
+        - button "Leave Review" [ref=f26e197] [cursor=pointer]
+        - button "Attendance Review" [ref=f26e198] [cursor=pointer]
+      - generic [ref=f26e200]:
+        - generic [ref=f26e201]:
+          - generic [ref=f26e202]:
+            - generic [ref=f26e203]:
+              - generic [ref=f26e204]: 
+              - text: 2 on this pay run
+            - generic [ref=f26e205]:
+              - generic [ref=f26e206]: 
+              - generic [ref=f26e207]:
+                - strong [ref=f26e208]: "1"
+                - text: org-wide gap — see banner above
+          - generic [ref=f26e209]:
+            - paragraph [ref=f26e210]:
+              - generic [ref=f26e211]: 
+              - text: Reading Status & Issues columns
+            - generic [ref=f26e212]:
+              - generic [ref=f26e213]:
+                - generic [ref=f26e214]: Status
+                - paragraph [ref=f26e215]: "Worst signal wins: Blocked → Ineligible → Incomplete → Warning → Ready. Hover the badge for detail."
+              - generic [ref=f26e216]:
+                - generic [ref=f26e217]: Issues
+                - paragraph [ref=f26e218]:
+                  - text: Blockers, warnings, and profile gaps. Use the
+                  - generic [ref=f26e219]: 
+                  - text: action for the full breakdown.
+        - generic [ref=f26e220]:
+          - generic [ref=f26e221]:
+            - generic [ref=f26e222]:
+              - generic [ref=f26e223]: 2 results
+              - generic [ref=f26e230]:
+                - generic [aria-hidden]:
+                  - generic: 
+                - textbox "Search by name, ID, or department..." [ref=f26e231]
+            - table [ref=f26e235]:
+              - rowgroup [ref=f26e249]:
+                - row [ref=f26e250]:
+                  - columnheader "Employee" [ref=f26e251]
+                  - columnheader "Department" [ref=f26e254]
+                  - columnheader "Base Salary" [ref=f26e257]
+                  - columnheader "Benefits (Cash)" [ref=f26e260]
+                  - columnheader "Benefits (Non-cash)" [ref=f26e263]
+                  - columnheader "Gross Pay" [ref=f26e266]
+                  - columnheader "Taxes" [ref=f26e269]
+                  - columnheader "Deductions" [ref=f26e272]
+                  - columnheader "Net Pay" [ref=f26e275]
+                  - columnheader "Status" [ref=f26e278]
+                  - columnheader "Issues" [ref=f26e281]
+                  - columnheader [ref=f26e284]
+              - rowgroup [ref=f26e285]:
+                - row [ref=f26e286]:
+                  - cell "TaShya Xavier Avila Cabrera tesyID22 · Software Engineer" [ref=f26e287]:
+                    - generic [ref=f26e289]:
+                      - generic "TaShya Xavier Avila Cabrera" [ref=f26e290]
+                      - generic "tesyID22 · Software Engineer" [ref=f26e292]
+                  - cell "Software Engineer" [ref=f26e293]
+                  - cell "₵ 5,000.00" [ref=f26e294]
+                  - cell "₵ 0.00" [ref=f26e296]
+                  - cell "₵ 500.00" [ref=f26e298]
+                  - cell "₵ 5,000.00" [ref=f26e300]
+                  - cell "₵ 1,179.75" [ref=f26e302]
+                  - cell "₵ 0.00" [ref=f26e304]
+                  - cell "₵ 3,820.25" [ref=f26e306]
+                  - cell "Ready" [ref=f26e308]
+                  - cell "—" [ref=f26e312]
+                  - cell [ref=f26e316]:
+                    - generic [ref=f26e318]:
+                      - button "" [ref=f26e319] [cursor=pointer]
+                      - button "" [ref=f26e321] [cursor=pointer]
+                - row [ref=f26e323]:
+                  - cell "ZZQA AlphaOne ZZQA-001 · Software Engineer" [ref=f26e324]:
+                    - generic [ref=f26e326]:
+                      - generic "ZZQA AlphaOne" [ref=f26e327]
+                      - generic "ZZQA-001 · Software Engineer" [ref=f26e329]
+                  - cell "Software Engineer" [ref=f26e330]
+                  - cell "₵ 3,000.00" [ref=f26e331]
+                  - cell "₵ 0.00" [ref=f26e333]
+                  - cell "—" [ref=f26e335]
+                  - cell "₵ 3,000.00" [ref=f26e337]
+                  - cell "₵ 551.88" [ref=f26e339]
+                  - cell "₵ 0.00" [ref=f26e341]
+                  - cell "₵ 2,448.12" [ref=f26e343]
+                  - cell "Warning" [ref=f26e345]
+                  - cell "1 warning" [ref=f26e349]
+                  - cell [ref=f26e353]:
+                    - generic [ref=f26e355]:
+                      - button "" [ref=f26e356] [cursor=pointer]
+                      - button "" [ref=f26e358] [cursor=pointer]
+          - generic [ref=f26e360]:
+            - generic [ref=f26e361]:
+              - generic [ref=f26e362]:
+                - generic [ref=f26e363]: Rows per page
+                - button [ref=f26e366] [cursor=pointer]:
+                  - generic [ref=f26e367]: "10"
+                  - generic [aria-hidden] [ref=f26e368]: 
+              - generic [ref=f26e369]: Showing 1-2 of 2 entries
+            - generic [ref=f26e370]:
+              - generic [ref=f26e371]: Page 1 of 1
+              - generic [ref=f26e372]:
+                - button "" [disabled] [ref=f26e373] [cursor=pointer]
+                - button "1" [ref=f26e375] [cursor=pointer]
+                - button "" [disabled] [ref=f26e376] [cursor=pointer]
+    - contentinfo [ref=f26e378]:
+      - generic [ref=f26e380]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f26e381] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f26e383] [cursor=pointer]:
+    - generic [ref=f26e385]: 
+    - generic [ref=f26e386]: "1"

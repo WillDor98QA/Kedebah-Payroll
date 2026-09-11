@@ -1,0 +1,311 @@
+- generic [active] [ref=f48e1]:
+  - generic [ref=f48e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f48e6]:
+      - generic [ref=f48e7]:
+        - generic [ref=f48e8]:
+          - link [ref=f48e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f48e12]
+          - generic [ref=f48e13]:
+            - textbox "Search anything here ..." [ref=f48e14]
+            - link "" [ref=f48e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f48e17]:
+          - text: 
+          - listitem [ref=f48e18]:
+            - link "" [ref=f48e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f48e21]:
+            - link "" [ref=f48e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f48e24]:
+            - link "" [ref=f48e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f48e27]:
+            - link "" [ref=f48e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f48e30]:
+            - button "" [ref=f48e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f48e33]:
+            - link "PM" [ref=f48e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f48e37]:
+      - navigation [ref=f48e40]:
+        - list [ref=f48e41]:
+          - listitem [ref=f48e42]:
+            - link " Dashboard" [ref=f48e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f48e44]: 
+              - generic [ref=f48e45]: Dashboard
+          - listitem [ref=f48e46]:
+            - generic [ref=f48e47]:
+              - link " Employees" [ref=f48e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f48e49]: 
+                - generic [ref=f48e50]: Employees
+              - button "Toggle submenu" [ref=f48e51] [cursor=pointer]:
+                - generic [ref=f48e52]: 
+          - listitem [ref=f48e53]:
+            - link " Run Payroll" [ref=f48e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f48e55]: 
+              - generic [ref=f48e56]: Run Payroll
+          - listitem [ref=f48e57]:
+            - generic [ref=f48e58]:
+              - link " Taxes & Forms" [ref=f48e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f48e60]: 
+                - generic [ref=f48e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f48e62] [cursor=pointer]:
+                - generic [ref=f48e63]: 
+          - listitem [ref=f48e64]:
+            - link " Reports" [ref=f48e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f48e66]: 
+              - generic [ref=f48e67]: Reports
+          - listitem [ref=f48e68]:
+            - link " Settings" [ref=f48e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f48e70]: 
+              - generic [ref=f48e71]: Settings
+    - generic [ref=f48e696]:
+      - generic [ref=f48e698]:
+        - link " Back to Settings" [ref=f48e700] [cursor=pointer]:
+          - /url: /settings
+          - generic [ref=f48e701]: 
+          - text: Back to Settings
+        - generic [ref=f48e703]:
+          - heading "Earnings, Benefits & Deductions" [level=1] [ref=f48e704]
+          - paragraph [ref=f48e705]: Configure optional payroll items that affect employee earnings.
+      - generic [ref=f48e706]:
+        - generic [ref=f48e708]:
+          - button " Benefits 9" [ref=f48e709] [cursor=pointer]:
+            - generic [ref=f48e710]: 
+            - text: Benefits
+            - generic [ref=f48e711]: "9"
+          - button " Deductions 0" [ref=f48e712] [cursor=pointer]:
+            - generic [ref=f48e713]: 
+            - text: Deductions
+            - generic [ref=f48e714]: "0"
+          - button " Benefit Types 11" [ref=f48e715] [cursor=pointer]:
+            - generic [ref=f48e716]: 
+            - text: Benefit Types
+            - generic [ref=f48e717]: "11"
+          - button " Deduction Types 6" [ref=f48e718] [cursor=pointer]:
+            - generic [ref=f48e719]: 
+            - text: Deduction Types
+            - generic [ref=f48e720]: "6"
+          - button " Safety & Loans" [ref=f48e721] [cursor=pointer]:
+            - generic [ref=f48e722]: 
+            - text: Safety & Loans
+        - generic [ref=f48e723]:
+          - generic [ref=f48e725]:
+            - generic [ref=f48e727]: 
+            - paragraph [ref=f48e729]: Alert thresholds for payroll warnings are configured on each benefit’s detail page, in the Alert Thresholds section (after the benefit exists—not during initial create).
+          - generic [ref=f48e730]:
+            - generic [ref=f48e731]:
+              - generic [ref=f48e732]:
+                - generic [ref=f48e733]:
+                  - generic [ref=f48e734]:
+                    - generic [ref=f48e735]:
+                      - heading "Benefits & Allowances" [level=3] [ref=f48e736]
+                      - paragraph [ref=f48e737]: Configure allowances, bonuses, and employer-paid benefits.
+                    - generic [ref=f48e738]: 9 results
+                    - button " Filters " [ref=f48e742] [cursor=pointer]:
+                      - generic [ref=f48e743]: 
+                      - text: Filters
+                      - generic [ref=f48e744]: 
+                  - generic [ref=f48e746]:
+                    - button " Eligibility" [ref=f48e747] [cursor=pointer]:
+                      - generic [ref=f48e748]: 
+                      - text: Eligibility
+                    - link " Adjust amounts" [ref=f48e749] [cursor=pointer]:
+                      - /url: /management/adjustments?tab=bulk&component_type=benefit
+                      - generic [ref=f48e750]: 
+                      - text: Adjust amounts
+                    - button " Alerts" [ref=f48e751] [cursor=pointer]:
+                      - generic [ref=f48e752]: 
+                      - text: Alerts
+                    - button " Quick Export" [ref=f48e753] [cursor=pointer]:
+                      - generic [ref=f48e754]: 
+                      - text: Quick Export
+                    - button " Import / Export" [ref=f48e755] [cursor=pointer]:
+                      - generic [ref=f48e756]: 
+                      - text: Import / Export
+                    - button " Create benefit" [ref=f48e757] [cursor=pointer]:
+                      - generic [ref=f48e758]: 
+                      - text: Create benefit
+                - generic [ref=f48e760]:
+                  - generic [ref=f48e761]:
+                    - generic [ref=f48e762]:
+                      - generic [ref=f48e763]: Nature
+                      - button [ref=f48e766] [cursor=pointer]:
+                        - generic [ref=f48e767]: All Natures
+                        - generic [aria-hidden] [ref=f48e768]: 
+                      - button "Clear Nature" [ref=f48e769] [cursor=pointer]:
+                        - generic [ref=f48e770]: 
+                    - generic [ref=f48e771]:
+                      - generic [ref=f48e772]: Type
+                      - button [ref=f48e775] [cursor=pointer]:
+                        - generic [ref=f48e776]: All Types
+                        - generic [aria-hidden] [ref=f48e777]: 
+                      - button "Clear Type" [ref=f48e778] [cursor=pointer]:
+                        - generic [ref=f48e779]: 
+                    - generic [ref=f48e780]:
+                      - generic [ref=f48e781]: Status
+                      - button [ref=f48e784] [cursor=pointer]:
+                        - generic [ref=f48e785]: All Status
+                        - generic [aria-hidden] [ref=f48e786]: 
+                      - button "Clear Status" [ref=f48e787] [cursor=pointer]:
+                        - generic [ref=f48e788]: 
+                  - generic [ref=f48e790]:
+                    - generic [aria-hidden]:
+                      - generic: 
+                    - textbox "Search benefits…" [ref=f48e791]
+              - table [ref=f48e795]:
+                - rowgroup [ref=f48e805]:
+                  - row [ref=f48e806]:
+                    - columnheader "Name" [ref=f48e807] [cursor=pointer]
+                    - columnheader "Code" [ref=f48e811]
+                    - columnheader "Nature" [ref=f48e814]
+                    - columnheader "Type" [ref=f48e817]
+                    - columnheader "Method" [ref=f48e820]
+                    - columnheader "Amount" [ref=f48e823]
+                    - columnheader "Status" [ref=f48e826] [cursor=pointer]
+                    - columnheader [ref=f48e830]
+                - rowgroup [ref=f48e831]:
+                  - row [ref=f48e832]:
+                    - cell "ZZQA Transport Allowance" [ref=f48e833]
+                    - cell "BEN-0001" [ref=f48e836]
+                    - cell "Cash" [ref=f48e838]
+                    - cell "—" [ref=f48e841]
+                    - cell "Fixed Amount" [ref=f48e844]
+                    - cell "GH₵ 800.00" [ref=f48e846]
+                    - cell "Active" [ref=f48e848]
+                    - cell [ref=f48e851]:
+                      - generic [ref=f48e853]:
+                        - button "" [ref=f48e854] [cursor=pointer]
+                        - button "" [disabled] [ref=f48e856] [cursor=pointer]
+                  - row [ref=f48e858]:
+                    - cell "Vehicle with Fuel" [ref=f48e859]
+                    - cell "BIK-VEH-VF" [ref=f48e862]
+                    - cell "Non-Cash" [ref=f48e864]
+                    - cell "Transport" [ref=f48e867]
+                    - cell "Percentage of Cash Emoluments" [ref=f48e870]
+                    - cell "10%" [ref=f48e872]
+                    - cell "Active" [ref=f48e874]
+                    - cell [ref=f48e877]:
+                      - generic [ref=f48e879]:
+                        - button "" [ref=f48e880] [cursor=pointer]
+                        - button "" [ref=f48e882] [cursor=pointer]
+                  - row [ref=f48e884]:
+                    - cell "Vehicle Only" [ref=f48e885]
+                    - cell "BIK-VEH-V" [ref=f48e888]
+                    - cell "Non-Cash" [ref=f48e890]
+                    - cell "Transport" [ref=f48e893]
+                    - cell "Percentage of Cash Emoluments" [ref=f48e896]
+                    - cell "5%" [ref=f48e898]
+                    - cell "Active" [ref=f48e900]
+                    - cell [ref=f48e903]:
+                      - generic [ref=f48e905]:
+                        - button "" [ref=f48e906] [cursor=pointer]
+                        - button "" [ref=f48e908] [cursor=pointer]
+                  - row [ref=f48e910]:
+                    - cell "Fuel Only" [ref=f48e911]
+                    - cell "BIK-VEH-F" [ref=f48e914]
+                    - cell "Non-Cash" [ref=f48e916]
+                    - cell "Transport" [ref=f48e919]
+                    - cell "Percentage of Cash Emoluments" [ref=f48e922]
+                    - cell "5%" [ref=f48e924]
+                    - cell "Active" [ref=f48e926]
+                    - cell [ref=f48e929]:
+                      - generic [ref=f48e931]:
+                        - button "" [ref=f48e932] [cursor=pointer]
+                        - button "" [ref=f48e934] [cursor=pointer]
+                  - row [ref=f48e936]:
+                    - cell "Driver, Vehicle and Fuel" [ref=f48e937]
+                    - cell "BIK-VEH-DVF" [ref=f48e940]
+                    - cell "Non-Cash" [ref=f48e942]
+                    - cell "Transport" [ref=f48e945]
+                    - cell "Percentage of Cash Emoluments" [ref=f48e948]
+                    - cell "12.5%" [ref=f48e950]
+                    - cell "Active" [ref=f48e952]
+                    - cell [ref=f48e955]:
+                      - generic [ref=f48e957]:
+                        - button "" [ref=f48e958] [cursor=pointer]
+                        - button "" [ref=f48e960] [cursor=pointer]
+                  - row [ref=f48e962]:
+                    - cell "Accommodation Only" [ref=f48e963]
+                    - cell "BIK-ACC-A" [ref=f48e966]
+                    - cell "Non-Cash" [ref=f48e968]
+                    - cell "Housing" [ref=f48e971]
+                    - cell "Percentage of Cash Emoluments" [ref=f48e974]
+                    - cell "7.5%" [ref=f48e976]
+                    - cell "Active" [ref=f48e978]
+                    - cell [ref=f48e981]:
+                      - generic [ref=f48e983]:
+                        - button "" [ref=f48e984] [cursor=pointer]
+                        - button "" [disabled] [ref=f48e986] [cursor=pointer]
+                  - row [ref=f48e988]:
+                    - cell "Furnishing Only" [ref=f48e989]
+                    - cell "BIK-ACC-F" [ref=f48e992]
+                    - cell "Non-Cash" [ref=f48e994]
+                    - cell "Housing" [ref=f48e997]
+                    - cell "Percentage of Cash Emoluments" [ref=f48e1000]
+                    - cell "2.5%" [ref=f48e1002]
+                    - cell "Active" [ref=f48e1004]
+                    - cell [ref=f48e1007]:
+                      - generic [ref=f48e1009]:
+                        - button "" [ref=f48e1010] [cursor=pointer]
+                        - button "" [ref=f48e1012] [cursor=pointer]
+                  - row [ref=f48e1014]:
+                    - cell "Shared Accommodation" [ref=f48e1015]
+                    - cell "BIK-ACC-S" [ref=f48e1018]
+                    - cell "Non-Cash" [ref=f48e1020]
+                    - cell "Housing" [ref=f48e1023]
+                    - cell "Percentage of Cash Emoluments" [ref=f48e1026]
+                    - cell "2.5%" [ref=f48e1028]
+                    - cell "Active" [ref=f48e1030]
+                    - cell [ref=f48e1033]:
+                      - generic [ref=f48e1035]:
+                        - button "" [ref=f48e1036] [cursor=pointer]
+                        - button "" [disabled] [ref=f48e1038] [cursor=pointer]
+                  - row [ref=f48e1040]:
+                    - cell "Accommodation with Furnishing" [ref=f48e1041]
+                    - cell "BIK-ACC-AF" [ref=f48e1044]
+                    - cell "Non-Cash" [ref=f48e1046]
+                    - cell "Housing" [ref=f48e1049]
+                    - cell "Percentage of Cash Emoluments" [ref=f48e1052]
+                    - cell "10%" [ref=f48e1054]
+                    - cell "Active" [ref=f48e1056]
+                    - cell [ref=f48e1059]:
+                      - generic [ref=f48e1061]:
+                        - button "" [ref=f48e1062] [cursor=pointer]
+                        - button "" [ref=f48e1064] [cursor=pointer]
+            - generic [ref=f48e1066]:
+              - generic [ref=f48e1067]:
+                - generic [ref=f48e1068]:
+                  - generic [ref=f48e1069]: Rows per page
+                  - button [ref=f48e1072] [cursor=pointer]:
+                    - generic [ref=f48e1073]: "10"
+                    - generic [aria-hidden] [ref=f48e1074]: 
+                - generic [ref=f48e1075]: Showing 1-9 of 9 entries
+              - generic [ref=f48e1076]:
+                - generic [ref=f48e1077]: Page 1 of 1
+                - generic [ref=f48e1078]:
+                  - button "" [disabled] [ref=f48e1079] [cursor=pointer]
+                  - button "1" [ref=f48e1081] [cursor=pointer]
+                  - button "" [disabled] [ref=f48e1082] [cursor=pointer]
+    - contentinfo [ref=f48e436]:
+      - generic [ref=f48e438]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f48e439] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f48e441] [cursor=pointer]:
+    - generic [ref=f48e443]: 
+    - generic [ref=f48e444]: "1"

@@ -1,0 +1,60 @@
+- generic [ref=f140e5]:
+  - region "Notifications alt+T":
+    - list
+  - banner [ref=f140e6]:
+    - generic [ref=f140e7]:
+      - generic [ref=f140e8]:
+        - link [ref=f140e11] [cursor=pointer]:
+          - /url: /dashboard
+        - generic [ref=f140e13]:
+          - textbox "Search anything here ..." [ref=f140e14]
+          - link "" [ref=f140e15] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - list [ref=f140e17]:
+        - text: 
+        - listitem [ref=f140e18]:
+          - link "" [ref=f140e19] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - listitem [ref=f140e21]:
+          - link "" [ref=f140e22] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - listitem [ref=f140e24]:
+          - link "" [ref=f140e25] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - listitem [ref=f140e27]:
+          - link "" [ref=f140e28] [cursor=pointer]:
+            - /url: /chat
+        - listitem [ref=f140e30]:
+          - button "" [ref=f140e31] [cursor=pointer]
+          - text: 
+        - listitem [ref=f140e33]:
+          - link "PM" [ref=f140e34] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - text:   
+  - complementary [ref=f140e37]:
+    - navigation [ref=f140e40]:
+      - list [ref=f140e41]:
+        - listitem [ref=f140e42]:
+          - link " Dashboard" [ref=f140e43] [cursor=pointer]:
+            - /url: /dashboard
+            - generic [ref=f140e44]: 
+            - generic [ref=f140e45]: Dashboard
+        - listitem [ref=f140e46]:
+          - link " Reports" [ref=f140e47] [cursor=pointer]:
+            - /url: /reports
+            - generic [ref=f140e48]: 
+            - generic [ref=f140e49]: Reports
+  - generic [ref=f140e55]:
+    - link " Back to Settings" [ref=f140e57] [cursor=pointer]:
+      - /url: /settings
+      - generic [ref=f140e58]: 
+      - text: Back to Settings
+    - generic [ref=f140e60]:
+      - heading "Tax & Statutory Configuration" [level=1] [ref=f140e61]
+      - paragraph [ref=f140e62]: Configure statutory items, eligibility, presets, reliefs, filing rules, penalties, and the loan BIK reference rate.
+  - contentinfo [ref=f140e98]:
+    - generic [ref=f140e100]:
+      - text: Copyright © 2026
+      - link "Payroll" [ref=f140e101] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - text: . All rights reserved.

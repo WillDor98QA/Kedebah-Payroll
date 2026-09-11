@@ -1,0 +1,238 @@
+- generic [active] [ref=f33e1]:
+  - generic [ref=f33e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f33e6]:
+      - generic [ref=f33e7]:
+        - generic [ref=f33e8]:
+          - link [ref=f33e200] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f33e201]
+          - generic [ref=f33e13]:
+            - textbox "Search anything here ..." [ref=f33e14]
+            - link "" [ref=f33e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f33e17]:
+          - text: 
+          - listitem [ref=f33e18]:
+            - link "" [ref=f33e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f33e21]:
+            - link "" [ref=f33e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f33e24]:
+            - link "" [ref=f33e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f33e27]:
+            - link "" [ref=f33e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f33e30]:
+            - button "" [ref=f33e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f33e33]:
+            - link "PM" [ref=f33e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f33e37]:
+      - navigation [ref=f33e40]:
+        - list [ref=f33e41]:
+          - listitem [ref=f33e42]:
+            - link " Dashboard" [ref=f33e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f33e44]: 
+              - generic [ref=f33e45]: Dashboard
+          - listitem [ref=f33e46]:
+            - generic [ref=f33e47]:
+              - link " Employees" [ref=f33e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f33e49]: 
+                - generic [ref=f33e50]: Employees
+              - button "Toggle submenu" [ref=f33e51] [cursor=pointer]:
+                - generic [ref=f33e52]: 
+          - listitem [ref=f33e53]:
+            - link " Run Payroll" [ref=f33e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f33e55]: 
+              - generic [ref=f33e56]: Run Payroll
+          - listitem [ref=f33e57]:
+            - generic [ref=f33e58]:
+              - link " Taxes & Forms" [ref=f33e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f33e60]: 
+                - generic [ref=f33e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f33e62] [cursor=pointer]:
+                - generic [ref=f33e63]: 
+          - listitem [ref=f33e64]:
+            - link " Reports" [ref=f33e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f33e66]: 
+              - generic [ref=f33e67]: Reports
+          - listitem [ref=f33e68]:
+            - link " Settings" [ref=f33e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f33e70]: 
+              - generic [ref=f33e71]: Settings
+    - generic [ref=f33e442]:
+      - generic [ref=f33e444]:
+        - link " Back to Employees" [ref=f33e446] [cursor=pointer]:
+          - /url: /employees
+          - generic [ref=f33e447]: 
+          - text: Back to Employees
+        - generic [ref=f33e449]:
+          - heading "Add Employee" [level=1] [ref=f33e450]
+          - paragraph [ref=f33e451]: Add a new employee to your payroll system
+      - generic [ref=f33e452]:
+        - generic [ref=f33e1404]:
+          - generic [ref=f33e1405]: 
+          - paragraph [ref=f33e1406]: "Hire Date: The hire date field must be a date before today."
+        - generic [ref=f33e454]:
+          - generic [ref=f33e456]:
+            - button "" [ref=f33e630] [cursor=pointer]
+            - generic [ref=f33e460]: Basic details
+          - generic [ref=f33e464]:
+            - button "" [ref=f33e684] [cursor=pointer]
+            - generic [ref=f33e468]: Compensation
+          - generic [ref=f33e472]:
+            - button "" [ref=f33e1035] [cursor=pointer]
+            - generic [ref=f33e476]: Personal details
+          - generic [ref=f33e480]:
+            - button "" [ref=f33e1221] [cursor=pointer]
+            - generic [ref=f33e484]: Tax details
+          - generic [ref=f33e488]:
+            - button "" [ref=f33e1279] [cursor=pointer]
+            - generic [ref=f33e492]: Payment details
+          - generic [ref=f33e496]:
+            - generic [ref=f33e497]: "6"
+            - generic [ref=f33e500]: Benefits & Deductions
+        - generic [ref=f33e502]:
+          - generic [ref=f33e1281]:
+            - generic [ref=f33e1282]:
+              - generic [ref=f33e1283]: "06"
+              - heading "Benefits & Deductions" [level=3] [ref=f33e1284]
+            - paragraph [ref=f33e1285]: Optionally assign benefits and deductions from your catalog. Amounts are catalog-defined — create a variant in Setup if you need a different amount. You can also do this later from the employee profile.
+            - generic [ref=f33e1286]:
+              - generic [ref=f33e1287]: 
+              - text: Effective dates, detailed management, and inherited assignments from pay groups or departments are available on the employee profile after creation.
+            - generic [ref=f33e1288]:
+              - generic [ref=f33e1289]:
+                - generic [ref=f33e1291]:
+                  - generic [ref=f33e1292]: 
+                  - generic [ref=f33e1293]: Benefits
+                - generic [ref=f33e1294]:
+                  - textbox "Search benefits…" [ref=f33e1295]
+                  - generic [ref=f33e1296]:
+                    - generic [ref=f33e1297] [cursor=pointer]:
+                      - checkbox "ZZQA Overtime Pay BEN-0002 Taxable GH₵ 1,000.00" [ref=f33e1298]
+                      - generic [ref=f33e1299]:
+                        - generic [ref=f33e1300]:
+                          - generic [ref=f33e1301]: ZZQA Overtime Pay
+                          - generic [ref=f33e1302]: BEN-0002
+                        - generic [ref=f33e1303]:
+                          - generic [ref=f33e1304]: Taxable
+                          - generic [ref=f33e1305]: GH₵ 1,000.00
+                    - generic [ref=f33e1306] [cursor=pointer]:
+                      - checkbox "ZZQA Transport Allowance BEN-0001 Taxable GH₵ 800.00" [ref=f33e1307]
+                      - generic [ref=f33e1308]:
+                        - generic [ref=f33e1309]:
+                          - generic [ref=f33e1310]: ZZQA Transport Allowance
+                          - generic [ref=f33e1311]: BEN-0001
+                        - generic [ref=f33e1312]:
+                          - generic [ref=f33e1313]: Taxable
+                          - generic [ref=f33e1314]: GH₵ 800.00
+                    - generic [ref=f33e1315] [cursor=pointer]:
+                      - checkbox "Shared Accommodation BIK-ACC-S Taxable 2.5%" [ref=f33e1316]
+                      - generic [ref=f33e1317]:
+                        - generic [ref=f33e1318]:
+                          - generic [ref=f33e1319]: Shared Accommodation
+                          - generic [ref=f33e1320]: BIK-ACC-S
+                        - generic [ref=f33e1321]:
+                          - generic [ref=f33e1322]: Taxable
+                          - generic [ref=f33e1323]: 2.5%
+                    - generic [ref=f33e1324] [cursor=pointer]:
+                      - checkbox "Furnishing Only BIK-ACC-F Taxable 2.5%" [ref=f33e1325]
+                      - generic [ref=f33e1326]:
+                        - generic [ref=f33e1327]:
+                          - generic [ref=f33e1328]: Furnishing Only
+                          - generic [ref=f33e1329]: BIK-ACC-F
+                        - generic [ref=f33e1330]:
+                          - generic [ref=f33e1331]: Taxable
+                          - generic [ref=f33e1332]: 2.5%
+                    - generic [ref=f33e1333] [cursor=pointer]:
+                      - checkbox "Accommodation Only BIK-ACC-A Taxable 7.5%" [ref=f33e1334]
+                      - generic [ref=f33e1335]:
+                        - generic [ref=f33e1336]:
+                          - generic [ref=f33e1337]: Accommodation Only
+                          - generic [ref=f33e1338]: BIK-ACC-A
+                        - generic [ref=f33e1339]:
+                          - generic [ref=f33e1340]: Taxable
+                          - generic [ref=f33e1341]: 7.5%
+                    - generic [ref=f33e1342] [cursor=pointer]:
+                      - checkbox "Accommodation with Furnishing BIK-ACC-AF Taxable 10%" [ref=f33e1343]
+                      - generic [ref=f33e1344]:
+                        - generic [ref=f33e1345]:
+                          - generic [ref=f33e1346]: Accommodation with Furnishing
+                          - generic [ref=f33e1347]: BIK-ACC-AF
+                        - generic [ref=f33e1348]:
+                          - generic [ref=f33e1349]: Taxable
+                          - generic [ref=f33e1350]: 10%
+                    - generic [ref=f33e1351] [cursor=pointer]:
+                      - checkbox "Fuel Only BIK-VEH-F Taxable 5%" [ref=f33e1352]
+                      - generic [ref=f33e1353]:
+                        - generic [ref=f33e1354]:
+                          - generic [ref=f33e1355]: Fuel Only
+                          - generic [ref=f33e1356]: BIK-VEH-F
+                        - generic [ref=f33e1357]:
+                          - generic [ref=f33e1358]: Taxable
+                          - generic [ref=f33e1359]: 5%
+                    - generic [ref=f33e1360] [cursor=pointer]:
+                      - checkbox "Vehicle Only BIK-VEH-V Taxable 5%" [ref=f33e1361]
+                      - generic [ref=f33e1362]:
+                        - generic [ref=f33e1363]:
+                          - generic [ref=f33e1364]: Vehicle Only
+                          - generic [ref=f33e1365]: BIK-VEH-V
+                        - generic [ref=f33e1366]:
+                          - generic [ref=f33e1367]: Taxable
+                          - generic [ref=f33e1368]: 5%
+                    - generic [ref=f33e1369] [cursor=pointer]:
+                      - checkbox "Vehicle with Fuel BIK-VEH-VF Taxable 10%" [ref=f33e1370]
+                      - generic [ref=f33e1371]:
+                        - generic [ref=f33e1372]:
+                          - generic [ref=f33e1373]: Vehicle with Fuel
+                          - generic [ref=f33e1374]: BIK-VEH-VF
+                        - generic [ref=f33e1375]:
+                          - generic [ref=f33e1376]: Taxable
+                          - generic [ref=f33e1377]: 10%
+                    - generic [ref=f33e1378] [cursor=pointer]:
+                      - checkbox "Driver, Vehicle and Fuel BIK-VEH-DVF Taxable 12.5%" [ref=f33e1379]
+                      - generic [ref=f33e1380]:
+                        - generic [ref=f33e1381]:
+                          - generic [ref=f33e1382]: Driver, Vehicle and Fuel
+                          - generic [ref=f33e1383]: BIK-VEH-DVF
+                        - generic [ref=f33e1384]:
+                          - generic [ref=f33e1385]: Taxable
+                          - generic [ref=f33e1386]: 12.5%
+              - generic [ref=f33e1387]:
+                - generic [ref=f33e1389]:
+                  - generic [ref=f33e1390]: 
+                  - generic [ref=f33e1391]: Deductions
+                - generic [ref=f33e1392]:
+                  - textbox "Search deductions…" [ref=f33e1393]
+                  - generic [ref=f33e1394]:
+                    - generic [ref=f33e1395]: 
+                    - paragraph [ref=f33e1396]: No deductions in catalog yet.
+                    - link "Set up deductions →" [ref=f33e1397] [cursor=pointer]:
+                      - /url: /setup/deductions
+          - generic [ref=f33e594]:
+            - button "Cancel" [ref=f33e595] [cursor=pointer]
+            - generic [ref=f33e596]:
+              - button "Previous" [ref=f33e681] [cursor=pointer]
+              - button "Save Employee" [ref=f33e1407] [cursor=pointer]
+    - contentinfo [ref=f33e196]:
+      - generic [ref=f33e198]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f33e199] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f33e203] [cursor=pointer]:
+    - generic [ref=f33e205]: 
+    - generic [ref=f33e206]: "1"

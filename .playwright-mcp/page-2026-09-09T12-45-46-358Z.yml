@@ -1,0 +1,86 @@
+- generic [active] [ref=f142e1]:
+  - generic [ref=f142e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f142e6]:
+      - generic [ref=f142e7]:
+        - generic [ref=f142e8]:
+          - link [ref=f142e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Kedebah logo" [ref=f142e12]
+          - generic [ref=f142e13]:
+            - textbox "Search anything here ..." [ref=f142e14]
+            - link "" [ref=f142e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f142e17]:
+          - text: 
+          - listitem [ref=f142e18]:
+            - link "" [ref=f142e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f142e21]:
+            - link "" [ref=f142e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f142e24]:
+            - link "" [ref=f142e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f142e27]:
+            - link "" [ref=f142e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f142e30]:
+            - button "" [ref=f142e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f142e33]:
+            - link "PM" [ref=f142e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f142e37]:
+      - navigation [ref=f142e40]:
+        - list [ref=f142e41]:
+          - listitem [ref=f142e42]:
+            - link " Dashboard" [ref=f142e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f142e44]: 
+              - generic [ref=f142e45]: Dashboard
+          - listitem [ref=f142e46]:
+            - link " Reports" [ref=f142e47] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f142e48]: 
+              - generic [ref=f142e49]: Reports
+    - generic [ref=f142e170]:
+      - generic [ref=f142e172]:
+        - generic [ref=f142e173]:
+          - button "" [ref=f142e174] [cursor=pointer]
+          - generic [ref=f142e176]:
+            - heading "Audit & Compliance Logs" [level=1] [ref=f142e177]
+            - paragraph [ref=f142e178]: Complete visibility into payroll changes, approvals, and system activities.
+        - button " Export " [ref=f142e180] [cursor=pointer]:
+          - generic [ref=f142e181]: 
+          - text: Export
+          - generic [ref=f142e182]: 
+      - generic [ref=f142e183]:
+        - generic [ref=f142e185]:
+          - button " Full Audit Log" [ref=f142e186] [cursor=pointer]:
+            - generic [ref=f142e187]: 
+            - generic [ref=f142e188]: Full Audit Log
+          - button " Approval Logs" [ref=f142e189] [cursor=pointer]:
+            - generic [ref=f142e190]: 
+            - generic [ref=f142e191]: Approval Logs
+          - button " Activity Monitoring" [ref=f142e192] [cursor=pointer]:
+            - generic [ref=f142e193]: 
+            - generic [ref=f142e194]: Activity Monitoring
+        - generic [ref=f142e319]:
+          - generic [ref=f142e320]:
+            - generic [ref=f142e321]: 
+            - generic [ref=f142e322]: All logs are read-only and immutable for compliance purposes.
+          - generic [ref=f142e323]:
+            - generic [ref=f142e324]: 
+            - generic [ref=f142e325]: "Log retention: 7 years"
+    - contentinfo [ref=f142e115]:
+      - generic [ref=f142e117]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f142e118] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f142e166] [cursor=pointer]:
+    - generic [ref=f142e168]: 
+    - generic [ref=f142e169]: "1"

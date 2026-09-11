@@ -1,0 +1,167 @@
+- generic [active] [ref=f80e1]:
+  - generic [ref=f80e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f80e6]:
+      - generic [ref=f80e7]:
+        - generic [ref=f80e8]:
+          - link [ref=f80e232] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f80e233]
+          - generic [ref=f80e13]:
+            - textbox "Search anything here ..." [ref=f80e14]
+            - link "" [ref=f80e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f80e17]:
+          - text: 
+          - listitem [ref=f80e18]:
+            - link "" [ref=f80e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f80e21]:
+            - link "" [ref=f80e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f80e24]:
+            - link "" [ref=f80e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f80e27]:
+            - link "" [ref=f80e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f80e30]:
+            - button "" [ref=f80e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f80e33]:
+            - link "PM" [ref=f80e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f80e37]:
+      - navigation [ref=f80e40]:
+        - list [ref=f80e41]:
+          - listitem [ref=f80e42]:
+            - link " Dashboard" [ref=f80e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f80e44]: 
+              - generic [ref=f80e45]: Dashboard
+          - listitem [ref=f80e46]:
+            - generic [ref=f80e47]:
+              - link " Employees" [ref=f80e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f80e49]: 
+                - generic [ref=f80e50]: Employees
+              - button "Toggle submenu" [ref=f80e51] [cursor=pointer]:
+                - generic [ref=f80e52]: 
+          - listitem [ref=f80e53]:
+            - link " Run Payroll" [ref=f80e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f80e55]: 
+              - generic [ref=f80e56]: Run Payroll
+          - listitem [ref=f80e57]:
+            - generic [ref=f80e58]:
+              - link " Taxes & Forms" [ref=f80e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f80e60]: 
+                - generic [ref=f80e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f80e62] [cursor=pointer]:
+                - generic [ref=f80e63]: 
+          - listitem [ref=f80e64]:
+            - link " Reports" [ref=f80e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f80e66]: 
+              - generic [ref=f80e67]: Reports
+          - listitem [ref=f80e68]:
+            - link " Settings" [ref=f80e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f80e70]: 
+              - generic [ref=f80e71]: Settings
+    - generic [ref=f80e280]:
+      - generic [ref=f80e282]:
+        - generic [ref=f80e283]:
+          - button "" [ref=f80e284] [cursor=pointer]
+          - generic [ref=f80e286]:
+            - heading "Statutory & tax configuration history" [level=1] [ref=f80e287]
+            - paragraph [ref=f80e288]: Version history for percentage rates and progressive tax bands (effective dates, saved timestamps, and who made each change).
+        - button " Export " [ref=f80e290] [cursor=pointer]:
+          - generic [ref=f80e291]: 
+          - text: Export
+          - generic [ref=f80e292]: 
+      - generic [ref=f80e293]:
+        - generic [ref=f80e294]:
+          - generic [ref=f80e295]:
+            - generic [ref=f80e296]:
+              - generic [ref=f80e298]:
+                - generic [ref=f80e299]: No records
+                - generic [ref=f80e301]:
+                  - button " Filters " [ref=f80e303] [cursor=pointer]:
+                    - generic [ref=f80e304]: 
+                    - text: Filters
+                    - generic [ref=f80e305]: 
+                  - generic [ref=f80e306]:
+                    - generic [ref=f80e307]: "Effective:"
+                    - textbox [ref=f80e308]
+                    - generic [ref=f80e309]: –
+                    - textbox [ref=f80e310]
+                    - generic [ref=f80e311]: "Saved:"
+                    - textbox [ref=f80e312]
+                    - generic [ref=f80e313]: –
+                    - textbox [ref=f80e314]
+              - generic [ref=f80e316]:
+                - generic [ref=f80e317]:
+                  - generic [ref=f80e318]:
+                    - generic [ref=f80e319]: Version Type
+                    - button [ref=f80e322] [cursor=pointer]:
+                      - generic [ref=f80e323]: All Types
+                      - generic [aria-hidden] [ref=f80e324]: 
+                    - button "Clear Version Type" [ref=f80e325] [cursor=pointer]:
+                      - generic [ref=f80e326]: 
+                  - generic [ref=f80e327]:
+                    - generic [ref=f80e328]: Statutory Item
+                    - button [ref=f80e331] [cursor=pointer]:
+                      - generic [ref=f80e332]: All Items
+                      - generic [aria-hidden] [ref=f80e333]: 
+                    - button "Clear Statutory Item" [ref=f80e334] [cursor=pointer]:
+                      - generic [ref=f80e335]: 
+                - generic [ref=f80e337]:
+                  - generic [aria-hidden]:
+                    - generic: 
+                  - textbox "Search items..." [ref=f80e338]
+            - generic [ref=f80e341]:
+              - table [ref=f80e342]:
+                - rowgroup [ref=f80e351]:
+                  - row [ref=f80e352]:
+                    - columnheader "Type" [ref=f80e353]
+                    - columnheader "Item" [ref=f80e356]
+                    - columnheader "Effective" [ref=f80e359]
+                    - columnheader "Saved" [ref=f80e362]
+                    - columnheader "By" [ref=f80e365]
+                    - columnheader "Summary" [ref=f80e368]
+                    - columnheader [ref=f80e371]
+                - rowgroup
+              - generic [ref=f80e373]:
+                - generic [ref=f80e374]: 
+                - paragraph [ref=f80e376]: No configuration versions match your current filters.
+                - paragraph [ref=f80e377]: Adjust your filters or add new records to populate this table.
+          - generic [ref=f80e378]:
+            - generic [ref=f80e379]:
+              - generic [ref=f80e380]:
+                - generic [ref=f80e381]: Rows per page
+                - button [ref=f80e384] [cursor=pointer]:
+                  - generic [ref=f80e385]: "15"
+                  - generic [aria-hidden] [ref=f80e386]: 
+              - generic [ref=f80e387]: Showing 0-0 of 0 entries
+            - generic [ref=f80e388]:
+              - generic [ref=f80e389]: Page 1 of 0
+              - generic [ref=f80e390]:
+                - button "" [disabled] [ref=f80e391] [cursor=pointer]
+                - button "1" [ref=f80e393] [cursor=pointer]
+                - button "" [disabled] [ref=f80e394] [cursor=pointer]
+        - generic [ref=f80e397]:
+          - generic [ref=f80e398]: 
+          - generic [ref=f80e399]: All configuration changes are stored with effective dates and timestamps for compliance.
+    - contentinfo [ref=f80e160]:
+      - generic [ref=f80e162]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f80e163] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f80e228] [cursor=pointer]:
+    - generic [ref=f80e230]: 
+    - generic [ref=f80e231]: "1"

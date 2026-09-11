@@ -1,0 +1,23 @@
+- generic [ref=f21e265]:
+  - generic [ref=f21e266]:
+    - img "Kedebah" [ref=f21e268]
+    - heading "Welcome back" [level=4] [ref=f21e269]
+    - paragraph [ref=f21e271]:
+      - text: Don't have an account?
+      - link "Sign up here" [ref=f21e272] [cursor=pointer]:
+        - /url: https://v2.kedebahlite.com/R-4833-O45/sign-up
+  - generic [ref=f21e275]:
+    - textbox "Email/Username *" [ref=f21e278]: dwetornam+26@gmail.com
+    - generic [ref=f21e280]:
+      - generic [ref=f21e281]:
+        - textbox "Password *" [ref=f21e282]: uA0MS7mXBr1
+        - button "Show password" [ref=f21e283] [cursor=pointer]
+      - link "Forgot password?" [ref=f21e288] [cursor=pointer]:
+        - /url: https://v2.kedebahlite.com/R-4833-O45/clients/forgot-password
+    - button "Sign In" [disabled] [ref=f21e298]
+    - paragraph [ref=f21e295]:
+      - link "Terms of Service" [ref=f21e296] [cursor=pointer]:
+        - /url: https://v2.kedebahlite.com/R-4833-O45/terms
+      - text: ·
+      - link "Privacy Policy" [ref=f21e297] [cursor=pointer]:
+        - /url: https://v2.kedebahlite.com/R-4833-O45/privacy

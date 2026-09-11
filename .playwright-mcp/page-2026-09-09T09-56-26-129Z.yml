@@ -1,0 +1,149 @@
+- generic [active] [ref=f79e1]:
+  - generic [ref=f79e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f79e6]:
+      - generic [ref=f79e7]:
+        - generic [ref=f79e8]:
+          - link [ref=f79e232] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f79e233]
+          - generic [ref=f79e13]:
+            - textbox "Search anything here ..." [ref=f79e14]
+            - link "" [ref=f79e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f79e17]:
+          - text: 
+          - listitem [ref=f79e18]:
+            - link "" [ref=f79e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f79e21]:
+            - link "" [ref=f79e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f79e24]:
+            - link "" [ref=f79e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f79e27]:
+            - link "" [ref=f79e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f79e30]:
+            - button "" [ref=f79e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f79e33]:
+            - link "PM" [ref=f79e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f79e37]:
+      - navigation [ref=f79e40]:
+        - list [ref=f79e41]:
+          - listitem [ref=f79e42]:
+            - link " Dashboard" [ref=f79e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f79e44]: 
+              - generic [ref=f79e45]: Dashboard
+          - listitem [ref=f79e46]:
+            - generic [ref=f79e47]:
+              - link " Employees" [ref=f79e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f79e49]: 
+                - generic [ref=f79e50]: Employees
+              - button "Toggle submenu" [ref=f79e51] [cursor=pointer]:
+                - generic [ref=f79e52]: 
+          - listitem [ref=f79e53]:
+            - link " Run Payroll" [ref=f79e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f79e55]: 
+              - generic [ref=f79e56]: Run Payroll
+          - listitem [ref=f79e57]:
+            - generic [ref=f79e58]:
+              - link " Taxes & Forms" [ref=f79e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f79e60]: 
+                - generic [ref=f79e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f79e62] [cursor=pointer]:
+                - generic [ref=f79e63]: 
+          - listitem [ref=f79e64]:
+            - link " Reports" [ref=f79e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f79e66]: 
+              - generic [ref=f79e67]: Reports
+          - listitem [ref=f79e68]:
+            - link " Settings" [ref=f79e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f79e70]: 
+              - generic [ref=f79e71]: Settings
+    - generic [ref=f79e418]:
+      - generic [ref=f79e423]:
+        - generic [ref=f79e424]:
+          - generic [ref=f79e425]: 
+          - text: Payroll Intelligence
+        - heading "Reports Centre" [level=1] [ref=f79e426]
+        - paragraph [ref=f79e427]: Precision payroll insights. Data-driven decisions for compensation, taxes & compliance.
+        - generic [ref=f79e431]:
+          - generic: 
+          - textbox "Search reports..." [ref=f79e432]
+        - generic [ref=f79e433]:
+          - generic [ref=f79e434]: Popular
+          - button "Payroll Summary" [ref=f79e435] [cursor=pointer]
+          - button "PAYE Reconciliation" [ref=f79e436] [cursor=pointer]
+          - button "Annual Payroll Report" [ref=f79e437] [cursor=pointer]
+          - button "Statutory Remittance" [ref=f79e438] [cursor=pointer]
+      - generic [ref=f79e441]:
+        - button " Payroll Summary 1" [ref=f79e442] [cursor=pointer]:
+          - generic [ref=f79e443]: 
+          - text: Payroll Summary
+          - generic [ref=f79e444]: "1"
+        - button " Statutory & Compliance 1" [ref=f79e445] [cursor=pointer]:
+          - generic [ref=f79e446]: 
+          - text: Statutory & Compliance
+          - generic [ref=f79e447]: "1"
+        - button " Variance & Analysis 1" [ref=f79e448] [cursor=pointer]:
+          - generic [ref=f79e449]: 
+          - text: Variance & Analysis
+          - generic [ref=f79e450]: "1"
+        - button " Annual & Year-End 2" [ref=f79e451] [cursor=pointer]:
+          - generic [ref=f79e452]: 
+          - text: Annual & Year-End
+          - generic [ref=f79e453]: "2"
+        - button " Tax & PAYE 1" [ref=f79e454] [cursor=pointer]:
+          - generic [ref=f79e455]: 
+          - text: Tax & PAYE
+          - generic [ref=f79e456]: "1"
+        - button " Audit & Compliance 5" [ref=f79e457] [cursor=pointer]:
+          - generic [ref=f79e458]: 
+          - text: Audit & Compliance
+          - generic [ref=f79e459]: "5"
+        - button " AI & Predictive Insights 1" [ref=f79e460] [cursor=pointer]:
+          - generic [ref=f79e461]: 
+          - text: AI & Predictive Insights
+          - generic [ref=f79e462]: "1"
+      - generic [ref=f79e463]:
+        - generic [ref=f79e464]:
+          - generic [ref=f79e467]:
+            - heading "Annual & Year-End" [level=2] [ref=f79e468]
+            - paragraph [ref=f79e469]: Access comprehensive annual & year-end reports and statements.
+          - generic [ref=f79e470]: 2 reports
+        - generic [ref=f79e471]:
+          - button " Annual Payroll Reports Consolidated annual payroll overview including total earnings, deductions, taxes, and employer contributions. View Report " [ref=f79e472] [cursor=pointer]:
+            - generic [ref=f79e473]: 
+            - heading "Annual Payroll Reports" [level=3] [ref=f79e476]
+            - paragraph [ref=f79e477]: Consolidated annual payroll overview including total earnings, deductions, taxes, and employer contributions.
+            - generic [ref=f79e478]:
+              - generic [ref=f79e479]: View Report
+              - generic [ref=f79e480]: 
+          - button " Year-End Tax Filing Reports Generate year-end tax filing reports required for regulatory submissions and audits. View Report " [ref=f79e481] [cursor=pointer]:
+            - generic [ref=f79e482]: 
+            - heading "Year-End Tax Filing Reports" [level=3] [ref=f79e485]
+            - paragraph [ref=f79e486]: Generate year-end tax filing reports required for regulatory submissions and audits.
+            - generic [ref=f79e487]:
+              - generic [ref=f79e488]: View Report
+              - generic [ref=f79e489]: 
+    - contentinfo [ref=f79e160]:
+      - generic [ref=f79e162]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f79e163] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f79e228] [cursor=pointer]:
+    - generic [ref=f79e230]: 
+    - generic [ref=f79e231]: "1"

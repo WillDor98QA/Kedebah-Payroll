@@ -1,0 +1,239 @@
+- generic [ref=f32e1]:
+  - generic [ref=f32e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f32e6]:
+      - generic [ref=f32e7]:
+        - generic [ref=f32e8]:
+          - link [ref=f32e169] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f32e170]
+          - generic [ref=f32e13]:
+            - textbox "Search anything here ..." [ref=f32e14]
+            - link "" [ref=f32e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f32e17]:
+          - text: 
+          - listitem [ref=f32e18]:
+            - link "" [ref=f32e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f32e21]:
+            - link "" [ref=f32e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f32e24]:
+            - link "" [ref=f32e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f32e27]:
+            - link "" [ref=f32e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f32e30]:
+            - button "" [ref=f32e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f32e33]:
+            - link "PM" [ref=f32e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f32e37]:
+      - navigation [ref=f32e40]:
+        - list [ref=f32e41]:
+          - listitem [ref=f32e42]:
+            - link " Dashboard" [ref=f32e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f32e44]: 
+              - generic [ref=f32e45]: Dashboard
+          - listitem [ref=f32e46]:
+            - generic [ref=f32e47]:
+              - link " Employees" [ref=f32e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f32e49]: 
+                - generic [ref=f32e50]: Employees
+              - button "Toggle submenu" [ref=f32e51] [cursor=pointer]:
+                - generic [ref=f32e52]: 
+          - listitem [ref=f32e53]:
+            - link " Run Payroll" [ref=f32e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f32e55]: 
+              - generic [ref=f32e56]: Run Payroll
+          - listitem [ref=f32e57]:
+            - generic [ref=f32e58]:
+              - link " Taxes & Forms" [ref=f32e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f32e60]: 
+                - generic [ref=f32e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f32e62] [cursor=pointer]:
+                - generic [ref=f32e63]: 
+          - listitem [ref=f32e64]:
+            - link " Reports" [ref=f32e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f32e66]: 
+              - generic [ref=f32e67]: Reports
+          - listitem [ref=f32e68]:
+            - link " Settings" [ref=f32e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f32e70]: 
+              - generic [ref=f32e71]: Settings
+    - generic [ref=f32e392]:
+      - button " Back to pay runs" [ref=f32e394] [cursor=pointer]:
+        - generic [ref=f32e395]: 
+        - text: Back to pay runs
+      - generic [ref=f32e399]:
+        - generic [ref=f32e400]:
+          - heading "Add Off-Cycle Details" [level=1] [ref=f32e401]
+          - generic [ref=f32e402]:
+            - generic [ref=f32e403]:
+              - strong [ref=f32e404]: "Pay run:"
+              - text: ZZQA PAYE Band-Edge Test
+            - generic [ref=f32e405]:
+              - strong [ref=f32e406]: "Pay date:"
+              - text: 2026-09-09
+          - generic [ref=f32e407]:
+            - generic [ref=f32e408]: "Benefits: No"
+            - generic [ref=f32e409]: "Deductions: No"
+            - generic [ref=f32e410]: "Regular salary: No"
+        - generic [ref=f32e411]:
+          - button " Add Employee" [active] [ref=f32e412] [cursor=pointer]:
+            - generic [ref=f32e413]: 
+            - text: Add Employee
+          - button " Save & calculate" [disabled] [ref=f32e414] [cursor=pointer]:
+            - generic [ref=f32e415]: 
+            - text: Save & calculate
+          - button " Continue to Payroll" [disabled] [ref=f32e416] [cursor=pointer]:
+            - generic [ref=f32e417]: 
+            - text: Continue to Payroll
+      - generic [ref=f32e419]:
+        - generic [ref=f32e420]: 
+        - heading "No Employees Added" [level=3] [ref=f32e422]
+        - paragraph [ref=f32e423]: Add employees to this off-cycle payroll run to continue.
+        - button " Add Employee" [ref=f32e424] [cursor=pointer]:
+          - generic [ref=f32e425]: 
+          - text: Add Employee
+    - contentinfo [ref=f32e160]:
+      - generic [ref=f32e162]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f32e163] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "1 compliance alert(s) — open list" [ref=f32e165] [cursor=pointer]:
+    - generic [ref=f32e167]: 
+    - generic [ref=f32e168]: "1"
+  - generic [ref=f32e427]:
+    - generic [ref=f32e428]:
+      - generic [ref=f32e429]:
+        - generic [ref=f32e430]: 
+        - generic [ref=f32e432]:
+          - heading "Add Employees" [level=3] [ref=f32e433]
+          - paragraph [ref=f32e434]: Pick employees to add to this off-cycle run. Adjustments can be configured after they're added.
+      - button "" [ref=f32e435] [cursor=pointer]
+    - generic [ref=f32e438]:
+      - generic [ref=f32e439]:
+        - generic [ref=f32e440]:
+          - generic [ref=f32e441]:
+            - generic [ref=f32e442]:
+              - generic [ref=f32e443]: 5 results
+              - button " Filters " [ref=f32e447] [cursor=pointer]:
+                - generic [ref=f32e448]: 
+                - text: Filters
+                - generic [ref=f32e449]: 
+            - generic [ref=f32e451]:
+              - generic [ref=f32e452] [cursor=pointer]:
+                - checkbox "Allow incomplete" [ref=f32e453]
+                - text: Allow incomplete
+              - button "Select all ready" [ref=f32e454] [cursor=pointer]
+          - generic [ref=f32e456]:
+            - generic [ref=f32e457]:
+              - generic [ref=f32e458]:
+                - generic [ref=f32e459]: Departments
+                - button [ref=f32e462] [cursor=pointer]:
+                  - generic [ref=f32e463]: All Departments
+                  - generic [aria-hidden] [ref=f32e464]: 
+                - button "Clear Departments" [ref=f32e465] [cursor=pointer]:
+                  - generic [ref=f32e466]: 
+              - generic [ref=f32e467]:
+                - generic [ref=f32e468]: Readiness
+                - button [ref=f32e471] [cursor=pointer]:
+                  - generic [ref=f32e472]: All Readiness
+                  - generic [aria-hidden] [ref=f32e473]: 
+                - button "Clear Readiness" [ref=f32e474] [cursor=pointer]:
+                  - generic [ref=f32e475]: 
+            - generic [ref=f32e477]:
+              - generic [aria-hidden]:
+                - generic: 
+              - textbox "Search by name, code, or department…" [ref=f32e478]
+        - table [ref=f32e482]:
+          - rowgroup [ref=f32e489]:
+            - row [ref=f32e490]:
+              - columnheader [ref=f32e491]
+              - columnheader "Employee" [ref=f32e492]
+              - columnheader "Department" [ref=f32e495]
+              - columnheader "Salary" [ref=f32e498]
+              - columnheader "Readiness" [ref=f32e501]
+          - rowgroup [ref=f32e504]:
+            - row [ref=f32e505]:
+              - cell [ref=f32e506]:
+                - checkbox [disabled] [ref=f32e508]
+              - 'cell "Staff #5" [ref=f32e509]':
+                - 'generic "Staff #5" [ref=f32e512]'
+              - cell "—" [ref=f32e513]
+              - cell "—" [ref=f32e515]
+              - cell "Incomplete" [ref=f32e517]
+            - row [ref=f32e522]:
+              - cell [ref=f32e523]:
+                - checkbox [disabled] [ref=f32e525]
+              - cell "Broni Danso EMP-1" [ref=f32e526]:
+                - generic [ref=f32e528]:
+                  - generic "Broni Danso" [ref=f32e529]
+                  - generic "EMP-1" [ref=f32e531]
+              - cell "—" [ref=f32e532]
+              - cell "—" [ref=f32e534]
+              - cell "Incomplete" [ref=f32e536]
+            - row [ref=f32e541]:
+              - cell [ref=f32e542]:
+                - checkbox [ref=f32e544] [cursor=pointer]
+              - cell "TaShya Xavier Avila Cabrera tesyID22" [ref=f32e545]:
+                - generic [ref=f32e547]:
+                  - generic "TaShya Xavier Avila Cabrera" [ref=f32e548]
+                  - generic "tesyID22" [ref=f32e550]
+              - cell "—" [ref=f32e551]
+              - cell "—" [ref=f32e553]
+              - cell "Ready" [ref=f32e555]
+            - row [ref=f32e560]:
+              - cell [ref=f32e561]:
+                - checkbox [ref=f32e563] [cursor=pointer]
+              - cell "ZZQA AlphaOne ZZQA-001" [ref=f32e564]:
+                - generic [ref=f32e566]:
+                  - generic "ZZQA AlphaOne" [ref=f32e567]
+                  - generic "ZZQA-001" [ref=f32e569]
+              - cell "—" [ref=f32e570]
+              - cell "—" [ref=f32e572]
+              - cell "Ready" [ref=f32e574]
+            - row [ref=f32e579]:
+              - cell [ref=f32e580]:
+                - checkbox [ref=f32e582] [cursor=pointer]
+              - cell "ZZQA HighEarner ZZQA-HI1" [ref=f32e583]:
+                - generic [ref=f32e585]:
+                  - generic "ZZQA HighEarner" [ref=f32e586]
+                  - generic "ZZQA-HI1" [ref=f32e588]
+              - cell "—" [ref=f32e589]
+              - cell "—" [ref=f32e591]
+              - cell "Ready" [ref=f32e593]
+      - generic [ref=f32e598]:
+        - generic [ref=f32e599]:
+          - generic [ref=f32e600]:
+            - generic [ref=f32e601]: Rows per page
+            - button [ref=f32e604] [cursor=pointer]:
+              - generic [ref=f32e605]: "10"
+              - generic [aria-hidden] [ref=f32e606]: 
+          - generic [ref=f32e607]: Showing 1-5 of 5 entries
+        - generic [ref=f32e608]:
+          - generic [ref=f32e609]: Page 1 of 1
+          - generic [ref=f32e610]:
+            - button "" [disabled] [ref=f32e611] [cursor=pointer]
+            - button "1" [ref=f32e613] [cursor=pointer]
+            - button "" [disabled] [ref=f32e614] [cursor=pointer]
+    - generic [ref=f32e616]:
+      - generic [ref=f32e617]: 0 selected
+      - generic [ref=f32e618]:
+        - button "Cancel" [ref=f32e619] [cursor=pointer]
+        - button " Add selected" [disabled] [ref=f32e620] [cursor=pointer]:
+          - generic [ref=f32e621]: 
+          - text: Add selected

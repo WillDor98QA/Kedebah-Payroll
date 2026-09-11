@@ -1,10 +1,11 @@
 {
   "config": {
     "argv": [
-      "/opt/homebrew/Cellar/node/23.5.0/bin/node",
+      "/usr/local/bin/node",
       "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/node_modules/.bin/playwright",
       "test",
-      "tests/pay-groups",
+      "--project=browser",
+      "tests/browser/beta/beta-reports-and-session.browser.spec.ts",
       "--list"
     ],
     "configFile": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/playwright.config.ts",
@@ -69,13 +70,42 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {},
+        "id": "browser",
+        "name": "browser",
+        "testDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/browser/**/*.browser.spec.ts"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/evidence/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "browser-mobile",
+        "name": "browser-mobile",
+        "testDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/browser/**/*.mobile.spec.ts"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/evidence/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
         "id": "chromium",
         "name": "chromium",
         "testDir": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests",
         "testIgnore": [
           "**/unit/**",
           "**/*.live.spec.ts",
-          "**/*.cases.spec.ts"
+          "**/*.cases.spec.ts",
+          "**/browser/**"
         ],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -169,28 +199,279 @@
     "workers": 4,
     "webServer": null
   },
-  "suites": [],
-  "errors": [
+  "suites": [
     {
-      "message": "SyntaxError: /Users/user/Projects/Kedebah Payroll/qa-workspace/automation/helpers/tc-registry.ts: Unexpected keyword 'const'. (298:0)\n\n  296 |\n  297 | // ── shared impl helpers (use discovered contracts) ──────────────────────────\n> 298 | const loanBody = (staff: number) => ({ staff_id: staff, principal_amount: 6000, term_months: 6, reference_rate_source: 'custom', custom_reference_rate: 0, interest_rate_annual: 0, start_date: '2026-02-01', per_period_repayment: 1000, auto_stop_when_repaid: true, bik_exemption_eligible: false, description: 'ZZ-QA Loan' });\n      | ^\n  299 |\n  300 | // Validation-alert verification against the engine's persisted alert ledger (/tax-alerts).\n  301 | // Every alert here was raised by the live engine on a real processed run (genuine evidence, no crafting).",
-      "stack": "SyntaxError: /Users/user/Projects/Kedebah Payroll/qa-workspace/automation/helpers/tc-registry.ts: Unexpected keyword 'const'. (298:0)\n\n  296 |\n  297 | // ── shared impl helpers (use discovered contracts) ──────────────────────────\n> 298 | const loanBody = (staff: number) => ({ staff_id: staff, principal_amount: 6000, term_months: 6, reference_rate_source: 'custom', custom_reference_rate: 0, interest_rate_annual: 0, start_date: '2026-02-01', per_period_repayment: 1000, auto_stop_when_repaid: true, bik_exemption_eligible: false, description: 'ZZ-QA Loan' });\n      | ^\n  299 |\n  300 | // Validation-alert verification against the engine's persisted alert ledger (/tax-alerts).\n  301 | // Every alert here was raised by the live engine on a real processed run (genuine evidence, no crafting).",
-      "location": {
-        "file": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests/pay-groups/pay-groups.cases.spec.ts",
-        "line": 298,
-        "column": 0
-      },
-      "snippet": "   at pay-groups/pay-groups.cases.spec.ts:298\n\n"
-    },
-    {
-      "message": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments.",
-      "stack": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."
+      "title": "browser/beta/beta-reports-and-session.browser.spec.ts",
+      "file": "browser/beta/beta-reports-and-session.browser.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "BETA · Reports leftovers + session",
+          "file": "browser/beta/beta-reports-and-session.browser.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-BETA-RPT-COMPHIST-002 — Compensation Change History captures a Salary Adjustment with full lineage",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests/browser/beta/beta-reports-and-session.browser.spec.ts",
+                        "line": 24,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "browser",
+                  "projectName": "browser",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "2ef5dba90cf6712f6a4b-8670135cf43f5856f35f",
+              "file": "browser/beta/beta-reports-and-session.browser.spec.ts",
+              "line": 26,
+              "column": 3
+            },
+            {
+              "title": "TC-BETA-RPT-DATERANGE-NEG-001 — a reversed date range is rejected before any query fires",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests/browser/beta/beta-reports-and-session.browser.spec.ts",
+                        "line": 24,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "browser",
+                  "projectName": "browser",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "2ef5dba90cf6712f6a4b-d3745c1b943a2384b556",
+              "file": "browser/beta/beta-reports-and-session.browser.spec.ts",
+              "line": 40,
+              "column": 3
+            },
+            {
+              "title": "TC-BETA-RPT-LEAVE-IMPACT-001 / -ATT-IMPACT-001 — both impact reports render with their schema and a clean empty state",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests/browser/beta/beta-reports-and-session.browser.spec.ts",
+                        "line": 24,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "browser",
+                  "projectName": "browser",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "2ef5dba90cf6712f6a4b-a0a874c9d3a76a49e1b8",
+              "file": "browser/beta/beta-reports-and-session.browser.spec.ts",
+              "line": 55,
+              "column": 3
+            },
+            {
+              "title": "TC-BETA-AI-CHAT-001 — the \"Payroll Chat Assistant\" makes a real request when a message is sent [FAILS today: BETA-F-045]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests/browser/beta/beta-reports-and-session.browser.spec.ts",
+                        "line": 24,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "browser",
+                  "projectName": "browser",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "2ef5dba90cf6712f6a4b-45e15a73f6060a204283",
+              "file": "browser/beta/beta-reports-and-session.browser.spec.ts",
+              "line": 74,
+              "column": 3
+            },
+            {
+              "title": "TC-BETA-PRQ009-PENALTIES-001 — the Penalties page renders its four buckets and table schema",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests/browser/beta/beta-reports-and-session.browser.spec.ts",
+                        "line": 24,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "browser",
+                  "projectName": "browser",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "2ef5dba90cf6712f6a4b-4e9d03c68b77686c8d97",
+              "file": "browser/beta/beta-reports-and-session.browser.spec.ts",
+              "line": 88,
+              "column": 3
+            },
+            {
+              "title": "TC-BETA-SEC-SESSION-SWITCH-001 — switching enterprise user resets the payroll session [BETA-F-046]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests/browser/beta/beta-reports-and-session.browser.spec.ts",
+                        "line": 24,
+                        "column": 8
+                      }
+                    },
+                    {
+                      "type": "fixme",
+                      "location": {
+                        "file": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests/browser/beta/beta-reports-and-session.browser.spec.ts",
+                        "line": 113,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "browser",
+                  "projectName": "browser",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "2ef5dba90cf6712f6a4b-0416523654b1e0a93be8",
+              "file": "browser/beta/beta-reports-and-session.browser.spec.ts",
+              "line": 113,
+              "column": 8
+            },
+            {
+              "title": "TC-BETA-EMPEDIT-SALARY-002 — the profile \"Base salary\" field persists [BETA-F-041]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests/browser/beta/beta-reports-and-session.browser.spec.ts",
+                        "line": 24,
+                        "column": 8
+                      }
+                    },
+                    {
+                      "type": "fixme",
+                      "location": {
+                        "file": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests/browser/beta/beta-reports-and-session.browser.spec.ts",
+                        "line": 122,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "browser",
+                  "projectName": "browser",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "2ef5dba90cf6712f6a4b-b50ac6235a864a0cdf2a",
+              "file": "browser/beta/beta-reports-and-session.browser.spec.ts",
+              "line": 122,
+              "column": 8
+            },
+            {
+              "title": "TC-BETA-RPT-COMPHIST-PII-001 — a reports-only persona is either blocked or scoped on Compensation Change History",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "/Users/user/Projects/Kedebah Payroll/qa-workspace/automation/tests/browser/beta/beta-reports-and-session.browser.spec.ts",
+                        "line": 24,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "browser",
+                  "projectName": "browser",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "2ef5dba90cf6712f6a4b-fd1a4914c127119d9252",
+              "file": "browser/beta/beta-reports-and-session.browser.spec.ts",
+              "line": 124,
+              "column": 3
+            }
+          ]
+        }
+      ]
     }
   ],
+  "errors": [],
   "stats": {
-    "startTime": "2026-06-30T04:53:11.468Z",
-    "duration": 83.85900000000004,
+    "startTime": "2026-09-10T11:21:06.884Z",
+    "duration": 205.40899999999993,
     "expected": 0,
-    "skipped": 0,
+    "skipped": 8,
     "unexpected": 0,
     "flaky": 0
   }

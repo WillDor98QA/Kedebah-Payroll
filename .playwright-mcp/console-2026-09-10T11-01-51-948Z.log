@@ -1,0 +1,16 @@
+[    8726ms] [WARNING] Echo/Reverb not initialized: Missing VITE_REVERB_APP_KEY or VITE_REVERB_HOST @ https://v2.kedebahlite.com/build/assets/app-CuEKjsQq.js:8
+[   31178ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://v2.kedebahlite.com/clients/sign-in:0
+[   68958ms] [ERROR] Failed to load resource: the server responded with a status of 409 () @ https://v2.kedebahlite.com/R-4833-O45/clients/select-module:0
+[  187941ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff2?t=1708865856766 @ https://v2payroll.kedebahlite.com/?auth=MMTGyYRbVOqGieSgJPmWVyU6fvLzhA0v5yQSN9KjXKQlapGy1py8vK0siSoymlqf:0
+[  187942ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/?auth=MMTGyYRbVOqGieSgJPmWVyU6fvLzhA0v5yQSN9KjXKQlapGy1py8vK0siSoymlqf:0
+[  189011ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff?t=1708865856766 @ https://v2payroll.kedebahlite.com/?auth=MMTGyYRbVOqGieSgJPmWVyU6fvLzhA0v5yQSN9KjXKQlapGy1py8vK0siSoymlqf:0
+[  189011ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/?auth=MMTGyYRbVOqGieSgJPmWVyU6fvLzhA0v5yQSN9KjXKQlapGy1py8vK0siSoymlqf:0
+[  190081ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.ttf?t=1708865856766 @ https://v2payroll.kedebahlite.com/?auth=MMTGyYRbVOqGieSgJPmWVyU6fvLzhA0v5yQSN9KjXKQlapGy1py8vK0siSoymlqf:0
+[  190081ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/?auth=MMTGyYRbVOqGieSgJPmWVyU6fvLzhA0v5yQSN9KjXKQlapGy1py8vK0siSoymlqf:0
+[  205045ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://v2payroll.kedebahlite.com/api/v1/payrollApi/user:0
+[  215190ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff2?t=1708865856766 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88
+[  215190ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88
+[  215190ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.woff?t=1708865856766 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88
+[  215190ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88
+[  215190ms] [WARNING] Failed to decode downloaded font: https://v2payroll.kedebahlite.com/build/icon-fonts/RemixIcons/fonts/remixicon.ttf?t=1708865856766 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88
+[  215190ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://v2payroll.kedebahlite.com/build/assets/main-B7w2q8Ph.js:88

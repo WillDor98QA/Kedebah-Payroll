@@ -1,0 +1,162 @@
+- generic [ref=f108e1]:
+  - generic [ref=f108e5]:
+    - region "Notifications alt+T":
+      - list
+    - banner [ref=f108e6]:
+      - generic [ref=f108e7]:
+        - generic [ref=f108e8]:
+          - link [ref=f108e128] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Glenn and Co logo" [ref=f108e129]
+          - generic [ref=f108e13]:
+            - textbox "Search anything here ..." [ref=f108e14]
+            - link "" [ref=f108e15] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - list [ref=f108e17]:
+          - text: 
+          - listitem [ref=f108e18]:
+            - link "" [ref=f108e19] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f108e21]:
+            - link "" [ref=f108e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f108e24]:
+            - link "" [ref=f108e25] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f108e27]:
+            - link "" [ref=f108e28] [cursor=pointer]:
+              - /url: /chat
+          - listitem [ref=f108e30]:
+            - button "" [ref=f108e31] [cursor=pointer]
+            - text: 
+          - listitem [ref=f108e33]:
+            - link "PM" [ref=f108e34] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text:   
+    - complementary [ref=f108e37]:
+      - navigation [ref=f108e40]:
+        - list [ref=f108e41]:
+          - listitem [ref=f108e42]:
+            - link " Dashboard" [ref=f108e43] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=f108e44]: 
+              - generic [ref=f108e45]: Dashboard
+          - listitem [ref=f108e46]:
+            - generic [ref=f108e47]:
+              - link " Employees" [ref=f108e48] [cursor=pointer]:
+                - /url: /employees
+                - generic [ref=f108e49]: 
+                - generic [ref=f108e50]: Employees
+              - button "Toggle submenu" [ref=f108e51] [cursor=pointer]:
+                - generic [ref=f108e52]: 
+          - listitem [ref=f108e53]:
+            - link " Run Payroll" [ref=f108e54] [cursor=pointer]:
+              - /url: /payroll
+              - generic [ref=f108e55]: 
+              - generic [ref=f108e56]: Run Payroll
+          - listitem [ref=f108e57]:
+            - generic [ref=f108e58]:
+              - link " Taxes & Forms" [ref=f108e59] [cursor=pointer]:
+                - /url: /taxes
+                - generic [ref=f108e60]: 
+                - generic [ref=f108e61]: Taxes & Forms
+              - button "Toggle submenu" [ref=f108e62] [cursor=pointer]:
+                - generic [ref=f108e63]: 
+          - listitem [ref=f108e64]:
+            - link " Reports" [ref=f108e65] [cursor=pointer]:
+              - /url: /reports
+              - generic [ref=f108e66]: 
+              - generic [ref=f108e67]: Reports
+          - listitem [ref=f108e68]:
+            - link " Settings" [ref=f108e69] [cursor=pointer]:
+              - /url: /settings
+              - generic [ref=f108e70]: 
+              - generic [ref=f108e71]: Settings
+    - generic [ref=f108e74]:
+      - generic [ref=f108e76]:
+        - link " Back to Approval Workflows" [ref=f108e78] [cursor=pointer]:
+          - /url: /settings/approval-workflow
+          - generic [ref=f108e79]: 
+          - text: Back to Approval Workflows
+        - generic [ref=f108e81]:
+          - heading "Edit Approval Workflow" [level=1] [ref=f108e82]
+          - paragraph [ref=f108e83]: Set up the approval process for payroll runs
+      - generic [ref=f108e130]:
+        - generic [ref=f108e132]:
+          - generic [ref=f108e134]:
+            - button "1" [ref=f108e135] [cursor=pointer]
+            - generic [ref=f108e136]: Basics
+          - generic [ref=f108e140]:
+            - button "2" [ref=f108e141] [cursor=pointer]
+            - generic [ref=f108e142]: Stages
+          - generic [ref=f108e146]:
+            - button "3" [ref=f108e147] [cursor=pointer]
+            - generic [ref=f108e148]: Approvers
+          - generic [ref=f108e152]:
+            - button "4" [disabled] [ref=f108e153] [cursor=pointer]
+            - generic [ref=f108e154]: Summary
+        - generic [ref=f108e156]:
+          - generic [ref=f108e200]:
+            - generic [ref=f108e201]:
+              - generic [ref=f108e202]: "03"
+              - heading "Assign Approvers" [level=3] [ref=f108e203]
+            - paragraph [ref=f108e204]: Assign approvers to each stage. Choose User, Role, Position, or Department.
+            - generic [ref=f108e205]:
+              - generic [ref=f108e206]:
+                - generic [ref=f108e207]: ZZQA Manager Review
+                - generic [ref=f108e209]:
+                  - generic [ref=f108e210]: Approver Type *
+                  - button [ref=f108e213] [cursor=pointer]:
+                    - generic [ref=f108e214]: User
+                    - generic [aria-hidden] [ref=f108e215]: 
+                - generic [ref=f108e216]:
+                  - generic [ref=f108e217]: Select User *
+                  - generic [ref=f108e218]:
+                    - generic [ref=f108e219]: user
+                    - button "ZZQA Manager Persona Remove Clear all" [ref=f108e221] [cursor=pointer]:
+                      - generic [ref=f108e223]:
+                        - generic [ref=f108e224]: ZZQA Manager Persona
+                        - button "Remove" [ref=f108e225]:
+                          - generic [ref=f108e226]: 
+                      - generic [ref=f108e227]:
+                        - button "Clear all" [ref=f108e228]:
+                          - generic [ref=f108e229]: 
+                        - generic [aria-hidden] [ref=f108e230]: 
+                  - paragraph [ref=f108e231]: 1 selected
+              - generic [ref=f108e232]:
+                - generic [ref=f108e233]: ZZQA Admin Signoff
+                - generic [ref=f108e235]:
+                  - generic [ref=f108e236]: Approver Type *
+                  - button [ref=f108e239] [cursor=pointer]:
+                    - generic [ref=f108e240]: User
+                    - generic [aria-hidden] [ref=f108e241]: 
+                - generic [ref=f108e242]:
+                  - generic [ref=f108e243]: Select User *
+                  - generic [ref=f108e244]:
+                    - generic [ref=f108e245]: user
+                    - button "ZZQA Admin Persona Remove Clear all" [ref=f108e247] [cursor=pointer]:
+                      - generic [ref=f108e249]:
+                        - generic [ref=f108e250]: ZZQA Admin Persona
+                        - button "Remove" [ref=f108e251]:
+                          - generic [ref=f108e252]: 
+                      - generic [ref=f108e253]:
+                        - button "Clear all" [ref=f108e254]:
+                          - generic [ref=f108e255]: 
+                        - generic [aria-hidden] [ref=f108e256]: 
+                  - paragraph [ref=f108e257]: 1 selected
+          - generic [ref=f108e195]:
+            - button "Cancel" [ref=f108e196] [cursor=pointer]
+            - generic [ref=f108e197]:
+              - button "Previous" [ref=f108e198] [cursor=pointer]
+              - button "Next" [active] [ref=f108e199] [cursor=pointer]
+    - contentinfo [ref=f108e119]:
+      - generic [ref=f108e121]:
+        - text: Copyright © 2026
+        - link "Payroll" [ref=f108e122] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: . All rights reserved.
+  - button "Scroll to top" [ref=f108e258] [cursor=pointer]:
+    - generic [aria-hidden] [ref=f108e259]: 
+  - button "1 compliance alert(s) — open list" [ref=f108e124] [cursor=pointer]:
+    - generic [ref=f108e126]: 
+    - generic [ref=f108e127]: "1"
