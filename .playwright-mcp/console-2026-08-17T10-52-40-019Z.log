@@ -1,2 +1,0 @@
-[    4943ms] [WARNING] Echo/Reverb not initialized: Missing VITE_REVERB_APP_KEY or VITE_REVERB_HOST @ https://kedebah.com/build/assets/app-B_BYxOYT.js:8
-[    5305ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://kedebah.com/clients/sign-in:0

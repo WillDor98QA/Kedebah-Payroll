@@ -1,0 +1,12 @@
+# Playwright MCP scratch output — screenshots, page snapshots, console/network logs.
+# These routinely capture live session tokens, typed passwords, and other secrets. Never commit.
+.playwright-mcp/
+
+# Environment files with real credentials.
+.env
+*.env
+!*.env.example
+
+# OS junk
+.DS_Store
+**/.DS_Store

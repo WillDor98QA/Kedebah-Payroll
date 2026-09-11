@@ -1,6 +1,0 @@
-- generic [ref=f1e270]:
-  - generic [ref=f1e271]: "419"
-  - heading "Session Expired" [level=2] [ref=f1e272]
-  - paragraph [ref=f1e273]: Your session has expired. Please refresh the page and try again.
-  - link "Go to Home" [ref=f1e275] [cursor=pointer]:
-    - /url: https://sbxkedebah-v2.npontu.com/

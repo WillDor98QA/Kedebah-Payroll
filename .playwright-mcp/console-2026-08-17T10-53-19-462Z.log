@@ -1,2 +1,0 @@
-[   10623ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://sbxkedebah-v2.npontu.com/clients/sign-in:0
-[   25203ms] [WARNING] WebSocket connection to 'wss://sbx-notify.kedebahlite.com:4444/app/wwypulxmt0gisyx9bav4?protocol=7&client=js&version=8.4.0&flash=false' failed: WebSocket is closed before the connection is established. @ https://sbxkedebah-v2.npontu.com/build/assets/app-BQac9LSS.js:7
